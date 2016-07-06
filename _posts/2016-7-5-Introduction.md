@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: A Community's of One's Own
 ---
 
