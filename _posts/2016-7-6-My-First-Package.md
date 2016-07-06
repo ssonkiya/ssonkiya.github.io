@@ -15,7 +15,7 @@ by Montoya and Hayes (2015) to multiple mediators. Along with an estimate of the
 effect(s), MEMORE generates confidence intervals for inference about the indirect effect(s) using
 bootstrapping approach.
 
-I managed to get the STATA code to work eventually, but in the meantime I decided to tackle it with R. I also wanted the chance to keep to continue practicing using R Markdown instead of R Scripts. With R Markdown, I could not only write the function equivalent to the MEMORE macro but also include an explanation of the function in the same document. You can see my original report [here](/files/MEMORE.pdf). 
+I managed to get the STATA code to work eventually, but in the meantime I decided to tackle it with R. I also wanted the chance to keep to continue practicing using R Markdown instead of R Scripts. With R Markdown, I could not only write the function equivalent to the MEMORE macro but also include an explanation of the function in the same document. You can see my original report [here](http://robinsones.github.io/files/MEMORE.pdf). 
 
 This did earn me some praise from my difficult-to-please German professor:
 
