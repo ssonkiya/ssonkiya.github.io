@@ -11,7 +11,7 @@ The downside of being at a stand-alone business school was that I didn’t have 
 
 I was fortune to attend Rice University and take classes from and designed by Hadley Wickham, perhaps the most prominent developer of packages for R (he has even been referred to as [the man who revolutionaized R ](http://priceonomics.com/hadley-wickham-the-man-who-revolutionized-r/). I didn't fully appreciate the amazing opportunity I was getting at that time, even though my brother Dave was insanely jealous I had personally knew the great Hadley Wickham. Now Dave has far surpassed me, having:
 
-* [Built packages](https://github.com/dgrtwo/broom) that are becoming a core part of the what Hadley would like us to call "the tidy-verse" (instead of the "Hadley verse")
+* [Built a package](https://github.com/dgrtwo/broom) that is becoming a core part of the what Hadley would like us to call "the tidy-verse" (instead of the "Hadley verse")
 * Become one of the relatively small number of people Hadley follows on Twitter (and also retweets a lot)
 * Had cocktails made for him by Hadley at the rOpenSci Unconference
 
