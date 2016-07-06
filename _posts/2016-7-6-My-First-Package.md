@@ -19,4 +19,4 @@ I managed to get the STATA code to work eventually, but in the meantime I decide
 
 This did earn me some praise from my difficult-to-please German professor:
 
-![](http://robinsones.github.io/images/Feedback_Excellent.png)
+![](http://robinsones.github.io/images/Excellent_Feedback.png)
