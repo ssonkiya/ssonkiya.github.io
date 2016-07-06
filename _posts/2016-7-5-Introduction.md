@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: A Community's of One's Own
 ---
 
