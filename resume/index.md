@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Resume
-tags: [about]
+tags: [resume]
 comments: false
 ---
 This will be a resume soon!
