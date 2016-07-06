@@ -4,4 +4,4 @@ title: Resume
 tags: [resume]
 comments: false
 ---
-This will be a resume soon!
+[My resume](/files/Emily_Robinson_Resume.pdf)
