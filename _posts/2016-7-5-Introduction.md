@@ -2,6 +2,7 @@
 layout: single
 title: A Community's of One's Own
 ---
+TRYING
 
 I learned a lot in my two years at INSEAD getting a master’s in Organizational Behavior. I believe that many of the skills and knowledge I gained there will be beneficial as a data scientist, from defining a problem to carrying out a thoughtful analysis to communicating to a range of audiences. But one skill I wasn't developing was working in an industry-style coding ecosystem.
 
