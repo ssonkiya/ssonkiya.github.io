@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About Me
+layout: single
+title: Resume
 tags: [about]
 comments: false
 ---
