@@ -1,3 +1,4 @@
+## A Story of Frustration
 A summary of my experience with STATA in graduate school:
 * Yelling at the computer “I know how to do this in R!" and "This is better/easier/prettier in R!"
 * Googling my problems and being directed to [old](http://www.stata.com/statalist/archive/2010-04/msg01673.html) [listserv](http://www.stata.com/statalist/archive/2009-04/msg00976.html) [posts](http://www.stata.com/statalist/archive/2007-09/msg00099.html) insead of the [beautiful](http://stackoverflow.com/questions/20987295/rename-multiple-columns-by-names) [Stack Overflow](http://stackoverflow.com/questions/12357592/efficient-multiplication-of-columns-in-a-data-frame) [answers](http://stackoverflow.com/questions/4203442/for-loop-vs-while-loop-in-r) I had been spoiled with when using R. 
@@ -15,8 +16,12 @@ by Montoya and Hayes (2015) to multiple mediators. Along with an estimate of the
 effect(s), MEMORE generates confidence intervals for inference about the indirect effect(s) using
 bootstrapping approach.
 
-I managed to get the STATA code to work eventually, but in the meantime I decided to tackle it with R. I also wanted the chance to keep to continue practicing using R Markdown instead of R Scripts. With R Markdown, I could not only write the function equivalent to the MEMORE macro but also include an explanation of the function in the same document. You can see my original report [here](http://robinsones.github.io/files/MEMORE.pdf). 
+I managed to get the STATA code to work eventually, but in the meantime I decided to tackle it with R. I also wanted the chance to keep to continue practicing using R Markdown instead of R Scripts. With R Markdown, I could not only write the function equivalent to the MEMORE macro but also include an explanation of the function in the same document. You can see my original report [here](http://robinsones.github.io/files/MEMORE.pdf). Using a combination of the [documentation of the function](http://afhayes.com/public/memore.pdf) and [the accompanying paper](http://psycnet.apa.org/psycinfo/2016-32270-001/), I replicated the basic function and including the options for setting number of bootstrap represetitions, confidence interval (CI) size, and which bootstrap CI would be calculated. 
 
 This did earn me some praise from my difficult-to-please German professor:
 
 ![](http://robinsones.github.io/images/Excellent_Feedback.png)
+
+I also created a [GitHub repository](https://github.com/robinsones/R-MEMORE) to store my R Markdown document. But from March until a week ago I had pretty much left it there. 
+
+## Creating a package
