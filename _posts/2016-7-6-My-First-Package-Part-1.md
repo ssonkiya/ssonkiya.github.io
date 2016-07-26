@@ -1,7 +1,8 @@
 A summary of my experience with STATA in graduate school:
-* Googling my problems and being directed to [old](http://www.stata.com/statalist/archive/2010-04/msg01673.html) [listserv](http://www.stata.com/statalist/archive/2009-04/msg00976.html) [posts](http://www.stata.com/statalist/archive/2007-09/msg00099.html) insead of the [beautiful](http://stackoverflow.com/questions/20987295/rename-multiple-columns-by-names) [Stack Overflow](http://stackoverflow.com/questions/12357592/efficient-multiplication-of-columns-in-a-data-frame) [answers](http://stackoverflow.com/questions/4203442/for-loop-vs-while-loop-in-r) I had been spoiled with when using R. 
-* Wishing there was a way to create reproducible documents with code, output, and explanations as I did with R Markdown and Jupyter Notebooks
-* Yelling at the computer “I know how to do this in R!" and "This is better/easier/prettier in R!"
+
+* Googling my problems and being directed to [old](http://www.stata.com/statalist/archive/2010-04/msg01673.html) [listserv](http://www.stata.com/statalist/archive/2009-04/msg00976.html) [posts](http://www.stata.com/statalist/archive/2007-09/msg00099.html) insead of the [beautiful](http://stackoverflow.com/questions/20987295/rename-multiple-columns-by-names) [Stack Overflow](http://stackoverflow.com/questions/12357592/efficient-multiplication-of-columns-in-a-data-frame) [answers](http://stackoverflow.com/questions/4203442/for-loop-vs-while-loop-in-r) I had been spoiled with when using R.   
+* Wishing there was a way to create reproducible documents with code, output, and explanations as I did with R Markdown and Jupyter Notebooks  
+* Yelling at the computer “I know how to do this in R!" and "This is better/easier/prettier in R!"  
 
 But STATA was the language of INSEAD's analytical classes, and so STATA was the language I would use. Until I finally reached a breaking point while trying to replicate the [MEMORE](http://afhayes.com/spss-sas-and-mplus-macros-and-code.html) macro in STATA for a spontoneous class assignment by a teacher who had not yet tried to do so himself.
 
