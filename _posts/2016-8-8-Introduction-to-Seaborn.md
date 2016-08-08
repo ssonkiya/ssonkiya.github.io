@@ -26,7 +26,7 @@ Back in February, Jeff Leek, an Associate Professor of Biostatistics and Oncolog
 
 I bring this up not only to illustrate some family resemblance, but also to set up a contrast to seaborn versus matplotlib. While Base R graphics and ggplot2 require completely different syntax, seaborn is *based on* matplotlib, and so starting to use seaborn is as easy as importing it. 
 
-### Introduction to Seaborn
+### The Advantages of Seaborn
 
 [Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some great documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on that website can generally be found on the Stack Overflow page that is your first google result. 
 
