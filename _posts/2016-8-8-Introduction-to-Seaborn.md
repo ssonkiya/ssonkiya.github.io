@@ -1,20 +1,22 @@
 ### The Bright Blue Horror
 
-Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's great set of R packages for data science. One of these is ggplot2, a data visualizaiton package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib:
+Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's great set of R packages for data science. One of these is ggplot2, a data visualizaiton package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib graph:
 
 <p align="center">
   <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/blog_post_ugly_plot.png" alt="Sublime's custom image"/>
 </p>
 
-I promptly sent my brother the following texts: 
+I hated the color, the tick marks on all four sides of the plot, the white background. I promptly sent my brother the following texts: 
 
 <p align="center">
   <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/Dave-test.png" alt="Sublime's custom image"/>
 </p>
 
-Fortunately, he wrote back quickly suggesting I try Seaborn, and my bootcamp experience was saved. Six weeks later, I've become known in Metis as a seaborn evangelicalist. Not a plot on presentation days goes by without me marking down if it uses base matplotlib aesthetics. I then follow up with those people, asking I ask them why they don't use seaborn, usually followed by, “Is it to make me sad?"
+Fortunately, he wrote back quickly suggesting I try Seaborn, and my bootcamp experience was saved. Six weeks later, I've become known in my Metis cohort as a seaborn evangelicalist. On presentation days at Metis, not a plot goes by without me marking down if it uses base matplotlib aesthetics. I then follow up afterwards, asking those presentors why they don't use seaborn. Usually this is followed by, “Is it to make me sad?"
 
-### The Great ggplot2 Versus Base R Wars
+SOMETHING ABOUT NOT FIRST RODEO
+
+### The Great ggplot2 Versus Base R War
 
 <p align="center">
   <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/joker_pic.png" alt="Sublime's custom image"/>
@@ -26,11 +28,35 @@ I bring this up not only to illustrate that strong opinions about plotting seems
 
 ### Introduction to Seaborn
 
-[Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some great documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on this website can generally be found on the Stack Overflow page that is your first result when you google the question. 
+[Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some great documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on that website can generally be found on the Stack Overflow page that is your first google result. 
 
+To get started with seaborn, you're going to need to install it in the terminal with either `pip install seaborn` or `conda install seaborn`. Then at the top of your python file, simply run `import seaborn as sns`.
 
+#### Better Default Aesthetics
 
+One of the biggest advantages of Seaborn is that its default aesthetics are much more visually appealing than matplotlib. If I import seaborn at the top of my python file and re-run the same exact commands that generated this post's earlier plot, I now get this: 
 
+<p align="center">
+  <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/blog_post_pretty_plot.png" alt="Sublime's custom image"/>
+</p>
+
+That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with deault matplotlib aesthetics. When I asked him why he didn't use seaborn, he said "It's on my list of things to learn, I just haven't gotten around to it."
+But this isn't a valid excuse! All you need to do to start beneitting from seaborn is import it. There is a lot more functionality you can add that, but just this already ofers an exponential improvement. 
+
+#### Changing Plot Aesthetics
+
+If you want to change either the background or the colors of all your graphs, you can do so easily with two commands: `sns.set_style` and `sns.set_palette`. 
+
+- `sns.set_style` takes one of five arguments: `white`, `dark`, `whitegrid`, `darkgrid`, and `ticks`. These are the five options for the background of your plot; the default one is darkgrid. Play around and see what you like best!
+
+- `sns.set_palette` will change the color palette. Use `sns.palplot` to print out a set of colors before you change your default colors to them. For example, try `sns.palplot(sns.light_palette("green"))`. If you decide you like those colors, run `sns.set_palette(sns.light_palette("green"))` to change your graphs. Check out a great set of possible color palettes [here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html). It also gives a great tip on how you can divide color palettes into three different categories, and which one is appropriate for which type of data: 
+  - **Qualitative color palettes**, where you want to distinguish between distinct data that doesn't have an ordering. These color palettes are just a variety of different colors. 
+  - **Sequential color palettes**, where your data range goes from relatively uninteresting or low values to relatively interesting of high values. These color palettes go from light to dark or dark to light in one color or similar colors. 
+  - **Diverging color palettes*, where . These color palettes are dark at the end and light in the middle, with a different color for each side. 
+
+#### Seaborn-Specific Plots 
+
+- faceting
 
 
 
