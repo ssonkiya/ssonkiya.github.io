@@ -1,6 +1,6 @@
 ### The Bright Blue Horror
 
-Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's great set of R packages for data science. One of these is ggplot2, a data visualizaiton package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib graph:
+Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's great set of R packages for data science. One of these is ggplot2, a data visualization package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib graph:
 
 <p align="center">
   <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/blog_post_ugly_plot.png" alt="Matplotlib Default"/>
@@ -12,7 +12,7 @@ I was **horrified**. I hated the color, the tick marks on all four sides of the 
   <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/Dave-test.png" alt="Text"/>
 </p>
 
-Fortunately, he wrote back quickly suggesting I try Seaborn, and my bootcamp experience was saved. Six weeks later, I've become known in my Metis cohort as a seaborn evangelicalist. On presentation days at Metis, not a plot goes by without me marking down if it has base matplotlib aesthetics. I then follow up with the presenters afterwards, asking them why they don't use seaborn. Usually this is followed by, “Is it to make me sad?" 
+Fortunately, he wrote back quickly suggesting I try seaborn, and my boot camp experience was saved. Six weeks later, I've become known in my Metis cohort as a seaborn evangelicalist. On presentation days at Metis, not a plot goes by without me marking down if it has base matplotlib aesthetics. I then follow up with the presenters afterwards, asking them why they don't use seaborn. Usually this is followed by, “Is it to make me sad?" 
 
 These strong opinions on plotting actually follow a family tradition. Back in February, my brother David Robinson, a data scientist at Stack Overflow, became part of a flare-up in a long-running debate on ggplot2 versus base R graphics. 
 
@@ -34,14 +34,14 @@ To get started with seaborn, you're going to need to install it in the terminal 
 
 #### Better Default Aesthetics
 
-One of the biggest advantages of Seaborn is that its default aesthetics are much more visually appealing than matplotlib. If I import seaborn at the top of my python file and re-run the same exact commands that generated this post's earlier plot, I now get this: 
+One of the biggest advantages of seaborn is that its default aesthetics are much more visually appealing than matplotlib. If I import seaborn at the top of my python file and re-run the same exact commands that generated this post's earlier plot, I now get this: 
 
 <p align="center">
   <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/blog_post_pretty_plot.png" alt="Nice Plot"/>
 </p>
 
-That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with deault matplotlib aesthetics. When I asked him why he didn't use seaborn, he said "It's on my list of things to learn, I just haven't gotten around to it."
-But this isn't a valid excuse! All you need to do to start beneitting from seaborn is import it. There is a lot more functionality you can add that, but just this already ofers an exponential improvement. 
+That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with default matplotlib aesthetics. When I asked him why he didn't use seaborn, he said "It's on my list of things to learn, I just haven't gotten around to it."
+But this isn't a valid excuse! All you need to do to start benefitting from seaborn is import it. There is a lot more functionality you can add that, but just this already ofers an exponential improvement. 
 
 #### Easily Customizable Aesthetics
 
@@ -49,7 +49,7 @@ If you want to change either the background or the colors of all your graphs, yo
 
 - `sns.set_style` takes one of five arguments: `white`, `dark`, `whitegrid`, `darkgrid`, and `ticks`. These are the five options for the background of your plot; the default one is darkgrid. Play around and see what you like best!
 
-- `sns.set_palette` will change the color palette. Use `sns.palplot` to print out a set of colors before you change your default colors to them. For example, try `sns.palplot(sns.light_palette("green"))`. If you decide you like those colors, run `sns.set_palette(sns.light_palette("green"))` to change your graphs. Check out a great set of possible color palettes [here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html). It also gives a great tip on how you can divide color palettes into three different categories, and which one is appropriate for which type of data: 
+- `sns.set_palette` will change the color palette. Use `sns.palplot` to print out a set of colors before you change your default colors to them. For example, try `sns.palplot(sns.light_palette("green"))`. If you decide you like those colors, run `sns.set_palette(sns.light_palette("green"))` to change your graphs. Check out a great set of possible color palettes [here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html). This page also gives a great tip on how you can divide color palettes into three different categories, and which one is appropriate for which type of data: 
   - **Qualitative color palettes**, where you want to distinguish between distinct data that doesn't have an ordering. These color palettes are just a variety of different colors. 
 <p align="center">
 <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/qualitative_color_palette.png" alt="Qualitative Color"/>
@@ -65,7 +65,7 @@ If you want to change either the background or the colors of all your graphs, yo
 
 #### Seaborn-Specific Plots 
 
-The other great advantage of Seaborn is that Seaborn has some built-in plots that matplotlib does not. Most of these can be done by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). 
+The other great advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can be done by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). 
 
 What I love about seaborn is that making plots generally match your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you run `sns.barplot(x = "day", y = "total_bill", data = tips)`. Meanwhile, in matplotlib you actually have to create a new dataset with your means (and standard deviations if you want confidence intervals). Matplotlib also won't accept categorical variables as the variable for the x-axis, so you have to first make the bar chart with numbers as the x-axis, then change the tick-marks on the x-axis back to your original categories. 
 
@@ -81,6 +81,6 @@ This is far from an unusual case. While seaborn certainly does not have it's own
 
 I think every python programmer can benefit from using seaborn for visualizations. The advantage of matplotlib is that you can do essentially anything you want with it by building a plot piece-by-piece. Seaborn doesn't take away any of that, but rather adds some nice default aesthetics and built-in plots that complement the complicated matplotlib code you may already be writing. 
 
-As someone who started off using Seaborn right away and has been using it for less than two months, I'm far from an expert on Seaborn or matplotlib. But I hoped this post would be helpful for new Python users or reluctant Seaborn adapters for the great advantages I see in Seaborn. 
+As someone who started off using seaborn right away and has been using it for less than two months, I'm far from an expert on seaborn or matplotlib. But I hoped this post would be helpful for new Python users or reluctant seaborn adapters for the great advantages I see in Seaborn. 
 
 
