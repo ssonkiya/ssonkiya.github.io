@@ -67,13 +67,30 @@ If you want to change either the background or the colors of all your graphs, yo
 
 The other great advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can be done by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). 
 
-What I love about seaborn is that making plots generally match your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you run `sns.barplot(x = "day", y = "total_bill", data = tips)`. Meanwhile, in matplotlib you actually have to create a new dataset with your means (and standard deviations if you want confidence intervals). Matplotlib also won't accept categorical variables as the variable for the x-axis, so you have to first make the bar chart with numbers as the x-axis, then change the tick-marks on the x-axis back to your original categories. 
+What I love about seaborn is that making plots generally match your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you can make a bar chart using the tips dataset from seaborn (`tips = sns.load_dataset("tips")`):
+```
+barplot = sns.barplot(x = "day", y = "total_bill", data = tips, order = ["Thur", "Fri", "Sat", "Sun"])
+barplot.set(xlabel = "Day", ylabel = "Average Total Bill", title = "Total Bill by Day")
+```
+
+<p align="center">
+<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/pretty_bar_chart.png" alt="Sequential Color"/>
+</p>
+
+Meanwhile, in matplotlib you actually have to create a new dataset with your means (and standard deviations if you want confidence intervals). Matplotlib also won't accept categorical variables as the variable for the x-axis, so you have to first make the bar chart with numbers as the x-axis, then change the tick-marks on the x-axis back to your original categories. Here's the code for doing it in matplotlib, which doesn't even include re-ordering the x-axis:
 
 ```
 total_bill_by_day = tips.groupby("day").mean()
 plt.bar([1, 2, 3, 4], total_bill_by_day["total_bill"], align = "center")
 plt.xticks([1, 2, 3, 4], total_bill_by_day.index)
+plt.xlabel("Day")
+plt.ylabel("Average Total Bill")
+plt.title("Total Bill by Day")
 ```
+
+<p align="center">
+<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/ugly_bar_chart.png" alt="Sequential Color"/>
+</p>
 
 This is far from an unusual case. While seaborn certainly does not have it's own plots for everything, it has a lot of the ones you'd typically use for exploratory purposes. 
 
