@@ -51,12 +51,20 @@ If you want to change either the background or the colors of all your graphs, yo
 
 - `sns.set_palette` will change the color palette. Use `sns.palplot` to print out a set of colors before you change your default colors to them. For example, try `sns.palplot(sns.light_palette("green"))`. If you decide you like those colors, run `sns.set_palette(sns.light_palette("green"))` to change your graphs. Check out a great set of possible color palettes [here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html). It also gives a great tip on how you can divide color palettes into three different categories, and which one is appropriate for which type of data: 
   - **Qualitative color palettes**, where you want to distinguish between distinct data that doesn't have an ordering. These color palettes are just a variety of different colors. 
+<p align="center">
+<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/qualitative_color_palette.png" alt="Sublime's custom image"/>
+</p>
   - **Sequential color palettes**, where your data range goes from relatively uninteresting or low values to relatively interesting of high values. These color palettes go from light to dark or dark to light in one color or similar colors. 
-  - **Diverging color palettes*, where . These color palettes are dark at the end and light in the middle, with a different color for each side. 
+<p align="center">
+<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/sequential_color_palette.png" alt="Sublime's custom image"/>
+</p>
+  - **Diverging color palettes**, where the interesting points are on either end and you want to under-emphasize the middle points. These color palettes are dark at the end and light in the middle, with a different color for each side. 
+<p align="center">
+<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/divergent_color_palette.png" alt="Sublime's custom image"/>
+</p>
 
 #### Seaborn-Specific Plots 
 
-- faceting
 
 
 
