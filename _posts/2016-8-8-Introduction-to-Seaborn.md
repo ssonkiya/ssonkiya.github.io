@@ -43,7 +43,7 @@ One of the biggest advantages of Seaborn is that its default aesthetics are much
 That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with deault matplotlib aesthetics. When I asked him why he didn't use seaborn, he said "It's on my list of things to learn, I just haven't gotten around to it."
 But this isn't a valid excuse! All you need to do to start beneitting from seaborn is import it. There is a lot more functionality you can add that, but just this already ofers an exponential improvement. 
 
-#### Changing Plot Aesthetics
+#### Easily Customizable Aesthetics
 
 If you want to change either the background or the colors of all your graphs, you can do so easily with two commands: `sns.set_style` and `sns.set_palette`. 
 
