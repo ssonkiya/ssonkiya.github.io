@@ -67,7 +67,7 @@ barplot.set(xlabel = "Day", ylabel = "Average Total Bill", title = "Total Bill b
 
 ![](http://robinsones.github.io/images/pretty_bar_chart.png)
 
-Meanwhile, in matplotlib you actually have to create a new dataset with your means (and standard deviations if you want confidence intervals). Matplotlib also won't accept categorical variables as the variable for the x-axis, so you have to first make the bar chart with numbers as the x-axis, then change the tick-marks on the x-axis back to your original categories. Here's the code for doing it in matplotlib, which doesn't even include re-ordering the x-axis or the confidence intervals:
+Meanwhile, in matplotlib you actually have to create a new dataset with your means (and standard deviations if you want confidence intervals). Matplotlib also won't accept categorical variables as the variable for the x-axis, so you have to first make the bar chart with numbers as the x-axis, then change the tick-marks on the x-axis back to your original categories. You also have to write three lines instead of one for changing the x-label, y-label, and title. Here's the code for making the graph in matplotlib, which doesn't even include re-ordering the x-axis or the confidence intervals:
 
 ```
 total_bill_by_day = tips.groupby("day").mean()
