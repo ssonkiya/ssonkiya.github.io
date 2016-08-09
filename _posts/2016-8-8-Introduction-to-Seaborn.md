@@ -84,7 +84,7 @@ This is far from an unusual case. While seaborn certainly does not have it's own
 
 ### Final Verdict
 
-I think every python programmer can benefit from using seaborn for visualizations. The advantage of matplotlib is that you can do essentially anything you want with it by building a plot piece-by-piece. You certainly can make [beautiful, professional plots](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) in matplotlib. Seaborn doesn't take away any of that, but rather adds some nice default aesthetics and built-in plots that complement the complicated matplotlib code you may already be writing. 
+I think every python programmer can benefit from using seaborn for visualizations. The advantage of matplotlib is that you can do essentially anything you want with it by building a plot piece-by-piece. You certainly can make [beautiful, professional plots](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) in matplotlib. Seaborn doesn't take away any of that, but rather adds some nice default aesthetics and built-in plots that complement and sometimes replace the complicated matplotlib code you may already be writing. 
 
 As someone who started off using seaborn right away and has been using it for less than two months, I'm far from an expert on seaborn or matplotlib. But I hoped this post would be helpful for new Python users or reluctant seaborn adapters for the great advantages I see in Seaborn. 
 
