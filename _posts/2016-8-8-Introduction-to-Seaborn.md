@@ -3,13 +3,13 @@
 Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's great set of R packages for data science. One of these is ggplot2, a data visualization package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib graph:
 
 <p align="center">
-  <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/blog_post_ugly_plot.png" alt="Matplotlib Default"/>
+  <img src="https://github.com/robinsones/robinsones.github.io/blob/master/images/blog_post_ugly_plot.png" alt="Matplotlib Default"/>
 </p>
 
 I was **horrified**. I hated the color, the tick marks on all four sides of the plot, the white background. I promptly sent my brother the following texts: 
 
 <p align="center">
-  <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/Dave-test.png" alt="Text"/>
+  <img src="https://github.com/robinsones/robinsones.github.io/blob/master/images/Dave-test.png" alt="Text"/>
 </p>
 
 Fortunately, he wrote back quickly suggesting I try seaborn, and my boot camp experience was saved. Six weeks later, I've become known in my Metis cohort as a seaborn evangelist. On presentation days at Metis, not a plot goes by without me marking down if it has base matplotlib aesthetics. I then follow up with the presenters afterwards, asking them why they don't use seaborn. Usually this is followed by, “Is it to make me sad?" 
