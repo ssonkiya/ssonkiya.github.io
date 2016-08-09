@@ -20,20 +20,19 @@ Back in February, Jeff Leek, an Associate Professor of Biostatistics and Oncolog
 
 I bring this up not only to illustrate some family resemblance, but also to set up a contrast to seaborn versus matplotlib. While Base R graphics and ggplot2 require completely different syntax, seaborn is *based on* matplotlib, and so starting to use seaborn is as easy as importing it. 
 
-### The Advantages of Seaborn
+### Advantages of Seaborn: Better Aesthetics and Built-In Plots
 
 [Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some great documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on that website can generally be found on the Stack Overflow page that is your first google result. 
 
 To get started with seaborn, you're going to need to install it in the terminal with either `pip install seaborn` or `conda install seaborn`. Then at the top of your python file, simply run `import seaborn as sns`.
 
-#### Better Default Aesthetics
+#### Nicer Default Aesthetics
 
 One of the biggest advantages of seaborn is that its default aesthetics are much more visually appealing than matplotlib. If I import seaborn at the top of my python file and re-run the same exact commands that generated this post's earlier plot, I now get this: 
 
 ![](http://robinsones.github.io/images/blog_post_pretty_plot.png)
 
-That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with default matplotlib aesthetics. When I asked him why he didn't use seaborn, he said "It's on my list of things to learn, I just haven't gotten around to it."
-But this isn't a valid excuse! All you need to do to start benefitting from seaborn is import it. There is a lot more functionality you can add that, but just this already ofers an exponential improvement. 
+That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with default matplotlib aesthetics. There is a lot more functionality you can add that, but just this already offers an exponential improvement. 
 
 #### Easily Customizable Aesthetics
 
@@ -54,9 +53,9 @@ If you want to change either the background or the colors of all your graphs, yo
 
 ![](http://robinsones.github.io/images/divergent_color_palette.png)
 
-#### Seaborn-Specific Plots 
+#### Statistically-Minded Plots 
 
-The other great advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can be done by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). 
+The other great advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can eventually be replicated by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). These two plots are two examples of those that take much longer to create with matplotlib; the regression plot does a regression line, confidence interval, and a scatter plot!
 
 Making plots in seaborn also generally match your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you can run the following code (having loaded the tips dataset with `tips = sns.load_dataset("tips")`):
 
@@ -71,7 +70,7 @@ Meanwhile, in matplotlib you actually have to create a new dataset with your mea
 
 ```
 total_bill_by_day = tips.groupby("day").mean()
-plt.bar([1, 2, 3, 4], total_bill_by_day["total_bill"], align = "center")
+ax = plt.bar([1, 2, 3, 4], total_bill_by_day["total_bill"], align = "center")
 plt.xticks([1, 2, 3, 4], total_bill_by_day.index)
 plt.xlabel("Day")
 plt.ylabel("Average Total Bill")
