@@ -6,9 +6,7 @@ Coming into Metis, I knew one of the hardest parts would be switching from R to 
 
 I was **horrified**. I hated the color, the tick marks on all four sides of the plot, the white background. I promptly sent my brother the following texts: 
 
-<p align="center">
-  <img src="http://robinsones.github.io/images/Dave-test.png" alt="Text"/>
-</p>
+![](http://robinsones.github.io/images/Dave-test.png)
 
 Fortunately, he wrote back quickly suggesting I try seaborn, and my boot camp experience was saved. Six weeks later, I've become known in my Metis cohort as a seaborn evangelist. On presentation days at Metis, not a plot goes by without me marking down if it has base matplotlib aesthetics. I then follow up with the presenters afterwards, asking them why they don't use seaborn. Usually this is followed by, “Is it to make me sad?" 
 
@@ -16,9 +14,7 @@ These strong opinions on plotting actually follow a family tradition. Back in Fe
 
 ### The Great ggplot2 Versus Base R War
 
-<p align="center">
-  <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/joker_pic.png" alt="Joker Picture"/>
-</p>
+![](http://robinsones.github.io/images/joker_pic.png)
 
 Back in February, Jeff Leek, an Associate Professor of Biostatistics and Oncology at John Hopkins and co-director of the popular John Hopkins specialization in data science on cousera, made a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David, one of the people Jeff Leek had called out for giving him grief about not using ggplot2, followed up with a post of his own on [why he uses ggplot2]((http://varianceexplained.org/r/why-I-use-ggplot2/). Another data scientist, Nathan Yau, joined in a month later with an [extensive post](https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) comparing ggplot2 and R base graphics for a variety of plots. Ben Casselman of FiveThirtyEight joined the fray in a ["tweetstorm"](https://twitter.com/bencasselman/status/712405057388601344). It settled down after that, but still simmers under the surface, bubbling up in places like the Joint Statistical Meetings this month, where Jeff Leek used the above image in his presentation. 
 
@@ -34,9 +30,7 @@ To get started with seaborn, you're going to need to install it in the terminal 
 
 One of the biggest advantages of seaborn is that its default aesthetics are much more visually appealing than matplotlib. If I import seaborn at the top of my python file and re-run the same exact commands that generated this post's earlier plot, I now get this: 
 
-<p align="center">
-  <img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/blog_post_pretty_plot.png" alt="Nice Plot"/>
-</p>
+![](http://robinsones.github.io/images/blog_post_pretty_plot.png)
 
 That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with default matplotlib aesthetics. When I asked him why he didn't use seaborn, he said "It's on my list of things to learn, I just haven't gotten around to it."
 But this isn't a valid excuse! All you need to do to start benefitting from seaborn is import it. There is a lot more functionality you can add that, but just this already ofers an exponential improvement. 
@@ -49,17 +43,16 @@ If you want to change either the background or the colors of all your graphs, yo
 
 - `sns.set_palette` will change the color palette. Use `sns.palplot` to print out a set of colors before you change your default colors to them. For example, try `sns.palplot(sns.light_palette("green"))`. If you decide you like those colors, run `sns.set_palette(sns.light_palette("green"))` to change your graphs. Check out a great set of possible color palettes [here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html). This page also gives a great tip on how you can divide color palettes into three different categories, and which one is appropriate for which type of data: 
   - **Qualitative color palettes**, where you want to distinguish between distinct data that doesn't have an ordering. These color palettes are just a variety of different colors. 
-<p align="center">
-<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/qualitative_color_palette.png" alt="Qualitative Color"/>
-</p>
+
+![](http://robinsones.github.io/images/qualitative_color_palette.png)
+
   - **Sequential color palettes**, where your data range goes from relatively uninteresting or low values to relatively interesting of high values. These color palettes go from light to dark or dark to light in one color or similar colors. 
-<p align="center">
-<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/sequential_color_palette.png" alt="Sequential Color"/>
-</p>
+
+![](http://robinsones.github.io/images/sequential_color_palette.png)
+
   - **Diverging color palettes**, where the interesting points are on either end and you want to under-emphasize the middle points. These color palettes are dark at the end and light in the middle, with a different color for each side. 
-<p align="center">
-<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/divergent_color_palette.png" alt="Divergent Color"/>
-</p>
+
+![](http://robinsones.github.io/images/divergent_color_palette.png)
 
 #### Seaborn-Specific Plots 
 
