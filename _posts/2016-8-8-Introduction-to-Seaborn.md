@@ -58,7 +58,7 @@ If you want to change either the background or the colors of all your graphs, yo
 
 The other great advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can be done by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). 
 
-What I love about seaborn is that making plots generally match your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you can make a bar chart using the tips dataset (load with `sns.load_dataset("tips")`) from seaborn:
+Making plots in seaborn also generally match your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you can run the following code (having loaded the tips dataset with `sns.load_dataset("tips")`):
 
 ```
 barplot = sns.barplot(x = "day", y = "total_bill", data = tips, order = ["Thur", "Fri", "Sat", "Sun"])
