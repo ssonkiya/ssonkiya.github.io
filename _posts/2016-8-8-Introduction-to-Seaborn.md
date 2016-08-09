@@ -7,7 +7,7 @@ Coming into Metis, I knew one of the hardest parts would be switching from R to 
 I was **horrified**. I hated the color, the tick marks on all four sides of the plot, the white background. I promptly sent my brother the following texts: 
 
 <p align="center">
-  <img src="https://github.com/robinsones/robinsones.github.io/blob/master/images/Dave-test.png" alt="Text"/>
+  <img src="http://robinsones.github.io/images/Dave-test.png" alt="Text"/>
 </p>
 
 Fortunately, he wrote back quickly suggesting I try seaborn, and my boot camp experience was saved. Six weeks later, I've become known in my Metis cohort as a seaborn evangelist. On presentation days at Metis, not a plot goes by without me marking down if it has base matplotlib aesthetics. I then follow up with the presenters afterwards, asking them why they don't use seaborn. Usually this is followed by, “Is it to make me sad?" 
