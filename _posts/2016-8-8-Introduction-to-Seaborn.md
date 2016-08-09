@@ -1,13 +1,3 @@
----
-layout: post
-title: "An Introduction to Seaborn"
-description: "Enhancing visualization in Python with seaborn"
-category: python
-tags: [python, visualization, seaborn]
-comments: true
----
-
-
 ### The Bright Blue Horror
 
 Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's great set of R packages for data science. One of these is ggplot2, a data visualization package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib graph:
