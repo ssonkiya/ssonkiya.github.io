@@ -64,9 +64,7 @@ barplot = sns.barplot(x = "day", y = "total_bill", data = tips, order = ["Thur",
 barplot.set(xlabel = "Day", ylabel = "Average Total Bill", title = "Total Bill by Day")
 ```
 
-<p align="center">
-<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/pretty_bar_chart.png" alt="Sequential Color"/>
-</p>
+![](http://robinsones.github.io/images/pretty_bar_chart.png)
 
 Meanwhile, in matplotlib you actually have to create a new dataset with your means (and standard deviations if you want confidence intervals). Matplotlib also won't accept categorical variables as the variable for the x-axis, so you have to first make the bar chart with numbers as the x-axis, then change the tick-marks on the x-axis back to your original categories. Here's the code for doing it in matplotlib, which doesn't even include re-ordering the x-axis:
 
@@ -79,9 +77,7 @@ plt.ylabel("Average Total Bill")
 plt.title("Total Bill by Day")
 ```
 
-<p align="center">
-<img src="https://github.com/robinsones/robinsones.github.io/blob/draft-post-3/images/ugly_bar_chart.png" alt="Sequential Color"/>
-</p>
+![](http://robinsones.github.io/images/ugly_bar_chart.png)
 
 This is far from an unusual case. While seaborn certainly does not have it's own plots for everything, it has a lot of the ones you'd typically use for exploratory purposes. 
 
