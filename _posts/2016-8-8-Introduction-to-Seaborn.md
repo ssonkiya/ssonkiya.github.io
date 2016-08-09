@@ -2,9 +2,7 @@
 
 Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's great set of R packages for data science. One of these is ggplot2, a data visualization package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib graph:
 
-<p align="center">
-  <img src="https://github.com/robinsones/robinsones.github.io/blob/master/images/blog_post_ugly_plot.png" alt="Matplotlib Default"/>
-</p>
+![](http://robinsones.github.io/images/blog_post_ugly_plot.png)
 
 I was **horrified**. I hated the color, the tick marks on all four sides of the plot, the white background. I promptly sent my brother the following texts: 
 
