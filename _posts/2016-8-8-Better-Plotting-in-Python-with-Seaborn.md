@@ -24,7 +24,7 @@ I bring this up not only to illustrate some family resemblance, but also to set 
 
 [Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some very helpful documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on that website can generally be found on the Stack Overflow page that is your first google result. 
 
-To get started with seaborn, you're going to need to install it in the terminal with either `pip install seaborn` or `conda install seaborn`. Then at the top of your python file, simply include `import seaborn as sns`.
+To get started with seaborn, you're going to need to install it in the terminal with either `pip install seaborn` or `conda install seaborn`. Then simply include `import seaborn as sns` at the top of your python file, .
 
 #### Nicer Default Aesthetics
 
