@@ -35,4 +35,10 @@ I had bookmarked [Hilary Parker's blog post](https://hilaryparker.com/2014/04/29
 
 Since her post, Hadley had released a [book](http://r-pkgs.had.co.nz) on writing packages in R. I started reading the first chapter, but I quickly realized I would only really retain and understand writing packages if I did it myself. So I decided to finally turn the MEMORE R Markdown document into a real, easily useable package. 
 
-Writing a package is appealing to me for a few reasons. First, I believe it will help me better understand 
+Turning this function into a package offers a few benefits:
+
+* **Better Understanding of Packages**: When I want to understand what a function does or what parameters it accepts, I usually look at the documentation. But sometimes I want look at the implementation of the function. For a package with many files and folders (e.g. [ggplot2](https://github.com/hadley/ggplot2)), this can quickly become overwhelming. Going through the steps of writing my own package should help me understand the importance of each component and the overall organization. 
+
+* **Contributing to Open-Source**: Unlike STATA, SPSS, or SAS, R is a free, open-source software. Without the many people who volunteer their time to create new packages, fix bugs, and answer questions for no financial compensation, R could not hope to compete with those softwares. The people I know in the R community have been very welcoming, and I hope to meet more by attending conferences such as [rstudio::conf](https://www.rstudio.com/conference/) and [useR!](http://user2016.org).While I hope eventually to write packages that beyond just one statistical HELP DATA SCIENCE METHODOLOGY, I wanted to start small, with a package that includes just one funciton. I'm not sure anyone will ever use it, but LEARNING IS KEY. 
+
+ 
