@@ -31,7 +31,7 @@ This did earn me some praise from my difficult-to-please German professor:
 
 I also created a [GitHub repository](https://github.com/robinsones/R-MEMORE) to store my R Markdown document. But since March I had pretty much left it there. 
 
-## Creating a package
+## Motivation
 
 I had bookmarked [Hilary Parker's blog post](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/) on writing R packages months ago, but never got around to doing anything with it. I appreciated how straightforward and simple she made the process seem (and of course that she used an example with cats). 
 
