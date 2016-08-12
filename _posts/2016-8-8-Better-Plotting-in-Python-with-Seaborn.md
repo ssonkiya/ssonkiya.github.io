@@ -32,7 +32,7 @@ One of the biggest advantages of seaborn is that its default aesthetics are much
 
 ![](http://robinsones.github.io/images/blog_post_pretty_plot.png)
 
-That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with default matplotlib aesthetics. Seaborn has much more to it besides these default aesthetics, but this feature already offers an exponential improvement. 
+That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with default matplotlib aesthetics. When I asked him why he didn't use seaborn, he said "It's on my list of things to learn, I just haven't gotten around to it." But this isn't a valid excuse! All you need to do to start benefitting from seaborn is import it. Seaborn has much more to it besides these default aesthetics, but this feature already offers an exponential improvement. 
 
 #### Easily Customizable Aesthetics
 
