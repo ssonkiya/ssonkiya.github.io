@@ -1,6 +1,6 @@
 ### The Bright Blue Horror
 
-Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's great set of R packages for data science. One of these is ggplot2, a data visualization package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib graph:
+Coming into Metis, I knew one of the hardest parts would be switching from R to Python. Beyond simply having much more experience in R, I had come to rely on Hadley Wickham's fantastic set of R packages for data science. One of these is ggplot2, a data visualization package. While there is a version of [ggplot2 for python](http://ggplot.yhathq.com), I decided to learn the main plotting system in Python, matplotlib. Then I actually created and saw my first matplotlib graph:
 
 ![center](http://robinsones.github.io/images/blog_post_ugly_plot.png)
 
@@ -16,15 +16,15 @@ These strong opinions on plotting actually follow a family tradition. Back in Fe
 
 ![](http://robinsones.github.io/images/joker_pic.png)
 
-Back in February, Jeff Leek, an Associate Professor of Biostatistics and Oncology at John Hopkins and co-director of the popular John Hopkins specialization in data science on cousera, made a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David, one of the people Jeff Leek had called out for giving him grief about not using ggplot2, followed up with a post of his own on [why he uses ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/). Another data scientist, Nathan Yau, joined in a month later with an [extensive post](https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) comparing ggplot2 and R base graphics for a variety of plots. Ben Casselman of FiveThirtyEight joined the fray in a ["tweetstorm"](https://twitter.com/bencasselman/status/712405057388601344). It settled down after that, but still simmers under the surface, bubbling up in places like the Joint Statistical Meetings this month, where Jeff Leek used the above image in his presentation. 
+Back in February, Jeff Leek, an Associate Professor of Biostatistics and Oncology at John Hopkins and co-director of the popular John Hopkins specialization in data science on Coursera, made a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David, one of the people Jeff Leek had called out for giving him grief about not using ggplot2, followed up with a post of his own on [why he uses ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/). Another data scientist, Nathan Yau, joined in a month later with an [extensive post](https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) comparing ggplot2 and R base graphics for a variety of plots. Ben Casselman of FiveThirtyEight joined the fray in a ["tweetstorm"](https://twitter.com/bencasselman/status/712405057388601344). It settled down after that, but still simmers under the surface, bubbling up in places like the Joint Statistical Meetings this month, where Jeff Leek used the above image in his presentation. 
 
 I bring this up not only to illustrate some family resemblance, but also to set up a contrast to seaborn versus matplotlib. While Base R graphics and ggplot2 require completely different syntax, seaborn is *based on* matplotlib, and so starting to use seaborn is as easy as importing it. 
 
 ### Advantages of Seaborn: Better Aesthetics and Built-In Plots
 
-[Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some great documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on that website can generally be found on the Stack Overflow page that is your first google result. 
+[Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some very helpful documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on that website can generally be found on the Stack Overflow page that is your first google result. 
 
-To get started with seaborn, you're going to need to install it in the terminal with either `pip install seaborn` or `conda install seaborn`. Then at the top of your python file, simply run `import seaborn as sns`.
+To get started with seaborn, you're going to need to install it in the terminal with either `pip install seaborn` or `conda install seaborn`. Then at the top of your python file, simply include `import seaborn as sns`.
 
 #### Nicer Default Aesthetics
 
@@ -32,7 +32,7 @@ One of the biggest advantages of seaborn is that its default aesthetics are much
 
 ![](http://robinsones.github.io/images/blog_post_pretty_plot.png)
 
-That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with default matplotlib aesthetics. There is a lot more functionality you can add that, but just this already offers an exponential improvement. 
+That's right: you can run **the exact same code** you've already written and get prettier plots, no extra code or new syntax required. Recently I was horrified when a more senior data scientist, and much better Python programmer, presented with default matplotlib aesthetics. Seaborn has much more to it besides these default aesthetics, but this feature already offers an exponential improvement. 
 
 #### Easily Customizable Aesthetics
 
@@ -40,7 +40,7 @@ If you want to change either the background or the colors of all your graphs, yo
 
 - `sns.set_style` takes one of five arguments: `white`, `dark`, `whitegrid`, `darkgrid`, and `ticks`. These are the five options for the background of your plot; the default one is darkgrid. Play around and see what you like best!
 
-- `sns.set_palette` will change the color palette. Use `sns.palplot` to print out a set of colors before you change your default colors to them. For example, try `sns.palplot(sns.light_palette("green"))`. If you decide you like those colors, run `sns.set_palette(sns.light_palette("green"))` to change your graphs. Check out a great set of possible color palettes [here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html). This page also gives a great tip on how you can divide color palettes into three different categories, and which one is appropriate for which type of data: 
+- `sns.set_palette` will change the color palette. Use `sns.palplot` to print out a set of colors before you change your default colors to them. For example, try `sns.palplot(sns.light_palette("green"))`. If you decide you like those colors, run `sns.set_palette(sns.light_palette("green"))` to change your graphs. Check out an extensive set of possible color palettes [here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html). This page also gives a great tip on how you can divide color palettes into three different categories, and which one is appropriate for which type of data: 
   - **Qualitative color palettes**, where you want to distinguish between distinct data that doesn't have an ordering. These color palettes are just a variety of different colors. 
 
 ![](http://robinsones.github.io/images/qualitative_color_palette.png)
@@ -55,9 +55,9 @@ If you want to change either the background or the colors of all your graphs, yo
 
 #### Statistically-Minded Plots 
 
-The other great advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can eventually be replicated by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). These two plots are two examples of those that take much longer to create with matplotlib; the regression plot does a regression line, confidence interval, and a scatter plot!
+The other big advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can eventually be replicated by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). These two plots are two examples of those that take much longer to create with matplotlib; the regression plot does a regression line, confidence interval, and a scatter plot!
 
-Making plots in seaborn also generally match your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you can run the following code (having loaded the tips dataset with `tips = sns.load_dataset("tips")`):
+Making plots in seaborn also generally matches your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you can run the following code (having loaded the tips dataset with `tips = sns.load_dataset("tips")`):
 
 ```
 barplot = sns.barplot(x = "day", y = "total_bill", data = tips, order = ["Thur", "Fri", "Sat", "Sun"])
@@ -79,7 +79,7 @@ plt.title("Total Bill by Day")
 
 ![](http://robinsones.github.io/images/ugly_bar_chart.png)
 
-This is far from an unusual case. While seaborn certainly does not have it's own plots for everything, it has a lot of the ones you'd typically use for exploratory purposes. 
+This is far from an unusual case. While seaborn certainly does not have its own plots for everything, it has a lot of the ones you'd typically use for exploratory purposes. 
 
 ### Final Verdict
 
