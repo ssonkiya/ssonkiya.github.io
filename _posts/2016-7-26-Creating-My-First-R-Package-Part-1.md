@@ -6,24 +6,24 @@ As this discrepancy suggests, the social sciences are often lagging behind in te
 
 While a few INSEAD students and research assistants use Python, R, MATLAB, or other languages, all the courses I took used STATA. Here's summary of my experience with STATA:
 
-* Googling my problems and being directed to [old](http://www.stata.com/statalist/archive/2010-04/msg01673.html) [listserv](http://www.stata.com/statalist/archive/2009-04/msg00976.html) [posts](http://www.stata.com/statalist/archive/2007-09/msg00099.html) insead of the [beautiful](http://stackoverflow.com/questions/20987295/rename-multiple-columns-by-names) [Stack Overflow](http://stackoverflow.com/questions/12357592/efficient-multiplication-of-columns-in-a-data-frame) [answers](http://stackoverflow.com/questions/4203442/for-loop-vs-while-loop-in-r) I had been spoiled with when using R.   
+* Googling my problems and being directed to [old](http://www.stata.com/statalist/archive/2010-04/msg01673.html) [listserv](http://www.stata.com/statalist/archive/2009-04/msg00976.html) [posts](http://www.stata.com/statalist/archive/2007-09/msg00099.html) instead of the [beautiful](http://stackoverflow.com/questions/20987295/rename-multiple-columns-by-names) [Stack Overflow](http://stackoverflow.com/questions/12357592/efficient-multiplication-of-columns-in-a-data-frame) [answers](http://stackoverflow.com/questions/4203442/for-loop-vs-while-loop-in-r) I had been spoiled with when using R.   
 * Wishing there was a way to create reproducible documents with code, output, and explanations as I did with R Markdown and Jupyter Notebooks  
 * Yelling at the computer “I know how to do this in R!" and "This is better/easier/prettier in R!"  
 
-But STATA was the language of INSEAD's analytical classes, and so STATA was the language I would use. Until I finally reached a breaking point while trying to replicate the [MEMORE](http://afhayes.com/spss-sas-and-mplus-macros-and-code.html) macro in STATA for a spontoneous class assignment by a teacher who had not yet tried to do so himself.
+But STATA was the language of INSEAD's analytical classes, and so STATA was the language I would use. Until I finally reached a breaking point while trying to replicate the [MEMORE](http://afhayes.com/spss-sas-and-mplus-macros-and-code.html) macro in STATA for a spontaneous class assignment by a teacher who had not yet tried to do so himself.
 
 ## The MEMORE function
 MEMORE stands for "MEdiation and MOderation in REpeated-measures designs" and is a macro for SPSS and SAS created by Montoya and Hayes. As they describe: 
 
 > It estimates the total, direct, and indirect effects of X on Y through one or more mediators
-M in the two-condition or two-occasion within-subjects/repeated measures design. In a pathanalytic
+M in the two-condition or two-occasion within-subjects/repeated measures design. In a path analytic
 form using OLS regression as illustrated in Montoya and Hayes (2015), it implements the
 method described by Judd, Kenny, and McClelland (2001, Psychological Methods) and extended
 by Montoya and Hayes (2015) to multiple mediators. Along with an estimate of the indirect
 effect(s), MEMORE generates confidence intervals for inference about the indirect effect(s) using
 bootstrapping approach.
 
-I managed to get the STATA code to work eventually, but in the meantime I decided to tackle it with R. I also wanted the chance to keep to continue practicing using R Markdown instead of R Scripts. With R Markdown, I could not only write a function equivalent to the MEMORE macro but also include an explanation of the function in the same document. You can see my original report [here](http://robinsones.github.io/files/MEMORE.pdf). Using a combination of the [documentation of the function](http://afhayes.com/public/memore.pdf) and [the accompanying paper](http://psycnet.apa.org/psycinfo/2016-32270-001/), I replicated the basic function and included the options for setting number of bootstrap represetitions, confidence interval (CI) size, and which bootstrap CI would be calculated. 
+I managed to get the STATA code to work eventually, but in the meantime I decided to tackle it with R. I also wanted the chance to keep to continue practicing using R Markdown instead of R Scripts. With R Markdown, I could not only write a function equivalent to the MEMORE macro but also include an explanation of the function in the same document. You can see my original report [here](http://robinsones.github.io/files/MEMORE.pdf). Using a combination of the [documentation of the function](http://afhayes.com/public/memore.pdf) and [the accompanying paper](http://psycnet.apa.org/psycinfo/2016-32270-001/), I replicated the basic function and included the options for setting number of bootstrap repetitions, confidence interval (CI) size, and which bootstrap CI would be calculated. 
 
 This did earn me some praise from my difficult-to-please German professor:
 
@@ -45,5 +45,5 @@ Turning this function into a package offers a few benefits:
 
 ## To Be Continued
 
-Trying to write my first R program while in the middle of a data science bootcamp based in Python is not easy. Any time I could set aside for it could also be spent working on my boot camp projects or trying to consoldiate what we learned that day or week. I'm still optimistic that I'll get it done before the boot camp ends in mid-September, but even if not, I'll write follow-up blog post where I document the process of creating an R package. 
+Trying to write my first R program while in the middle of a data science boot camp based in Python is not easy. Any time I could set aside for it could also be spent working on my boot camp projects or trying to consolidate what we learned that day or week. I'm still optimistic that I'll get it done before the boot camp ends in mid-September, but even if not, I'll write follow-up blog post where I document the process of creating an R package. 
  
