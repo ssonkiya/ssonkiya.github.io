@@ -1,9 +1,5 @@
----
-layout: single
-title: A Community's of One's Own
----
-
 ## Dropbox for sharing code
+
 I learned a lot in my two years at INSEAD getting a master’s in Organizational Behavior. I believe that many of the skills and knowledge I gained there will be beneficial as a data scientist, from defining a problem to carrying out a thoughtful analysis to communicating to a range of audiences. But one skill I wasn't developing was working in an industry-style coding ecosystem.
 
 This hit home one day this spring. In one of my classes, we had been writing code in STATA. The professor wanted us to be able to see the code the other students had written, so naturally, he suggested we do it through a shared dropbox folder. I don’t think he had ever heard of Github, let alone tried to use it. 
