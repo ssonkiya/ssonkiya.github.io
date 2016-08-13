@@ -24,7 +24,7 @@ I bring this up not only to illustrate some family resemblance, but also to set 
 
 [Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some very helpful documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on that website can generally be found on the Stack Overflow page that is your first google result. 
 
-To get started with seaborn, you're going to need to install it in the terminal with either `pip install seaborn` or `conda install seaborn`. Then simply include `import seaborn as sns` at the top of your python file, .
+To get started with seaborn, you're going to need to install it in the terminal with either `pip install seaborn` or `conda install seaborn`. Then simply include `import seaborn as sns` at the top of your python file.
 
 #### Nicer Default Aesthetics
 
@@ -45,7 +45,7 @@ If you want to change either the background or the colors of all your graphs, yo
 
 ![](http://robinsones.github.io/images/qualitative_color_palette.png)
 
-  - **Sequential color palettes**, where your data range goes from relatively uninteresting or low values to relatively interesting of high values. These color palettes go from light to dark or dark to light in one color or similar colors. 
+  - **Sequential color palettes**, where your data range goes from relatively uninteresting or low values to relatively interesting or high values. These color palettes go from light to dark or dark to light in one color or similar colors. 
 
 ![](http://robinsones.github.io/images/sequential_color_palette.png)
 
@@ -55,7 +55,7 @@ If you want to change either the background or the colors of all your graphs, yo
 
 #### Statistically-Minded Plots 
 
-The other big advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can eventually be replicated by hacking away at matplotlib, but they're not built in and require much more code. These include [facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html). These two plots are two examples of those that take much longer to create with matplotlib; the regression plot does a regression line, confidence interval, and a scatter plot!
+The other big advantage of seaborn is that seaborn has some built-in plots that matplotlib does not. Most of these can eventually be replicated by hacking away at matplotlib, but they're not built in and require much more code. [Facet plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.FacetGrid.html) and [regression plots](https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.regplot.html) are just two examples of those that take much longer to create with matplotlib; the regression plot does a regression line, confidence interval, and a scatter plot, all with one short function: `sns.regplot(x="total_bill", y="tip", data=tips)`!
 
 Making plots in seaborn also generally matches your intuition for what the syntax would be. For example, to make a barchart with confidence intervals, you can run the following code (having loaded the tips dataset with `tips = sns.load_dataset("tips")`):
 
