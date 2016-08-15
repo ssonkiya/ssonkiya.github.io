@@ -1,4 +1,4 @@
-## Dropbox for sharing code
+## Dropbox for Sharing Code
 
 I learned a lot in my two years at INSEAD getting a master’s in Organizational Behavior. Many of the skills and knowledge I gained there will be beneficial as a data scientist, from defining a problem to carrying out a thoughtful analysis to communicating to a range of audiences. But one skill I wasn't developing was working in an industry-level coding environment.
 
@@ -14,7 +14,7 @@ Taking course designed by Hadley means that I've been programming in R for almos
 
 The same could not be said for Python. I took some [online courses](https://www.datacamp.com/courses/intro-to-python-for-data-science), but mostly I just continued using R. I decided what I needed was an immersive experience where I could work with Python while learning machine learning, web scraping, D3, cloud computing, and more. Coding bootcamps have proliferated over the last few years, with [whole websites](https://www.coursereport.com) dedicated to helping people chose one.  [Metis's](http://www.thisismetis.com) data science bootcamp is a 12-week program that helps students transition into a career as a data scientist, and it seemed like the perfect environment for me.
 
-## Metis so far
+## Metis So Far
 
 Well, it's one week and one day in, and so far it's been a great experience. The group of 25 students is amazingly diverse. Experience ranges from one year out of school to 15 or even 20 years in industry. Some people have mathematics or computer science degrees, a few have PhDs, while others learned to code mostly on their own. Each day we start off with 45 minutes of pair programming. We're randomly assigned to a different person each day, so one day I can be guiding someone through accessing elements of a pandas dataframe and the other day learning the tricks of Jupyter notebook.   
 
