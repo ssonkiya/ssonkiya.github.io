@@ -1,6 +1,6 @@
 ## STATA vs R 
 
-As I mentioned in my [previous post](https://robinsones.github.io/Introduction/), I was fortunate to enter graduate school with a few years of programming experience in R. I learned R exclusively through my Statistics classes; while I took the graduate-level psychology statistics course at Rice and was a research assistant in multiple departments, all used SPSS.  
+As I mentioned in my [previous post](https://robinsones.github.io/From-Social-Scientist-to-Data-Scientist/), I was fortunate to enter graduate school with a few years of programming experience in R. I learned R exclusively through my Statistics classes; while I took the graduate-level psychology statistics course at Rice and was a research assistant in multiple departments, all used SPSS.  
 
 As this discrepancy suggests, the social sciences are often lagging behind in teaching and using open-source software. Fortunately, there is some effort to change this. The PhD director at INSEAD recently sent out an email expressing his delight that students were becoming increasingly interested in learning how to do computer programming. He announced that new students in future years would be asked to spend their summer before joining INSEAD learning basic programming, although it would not become an admission requirement.
 
