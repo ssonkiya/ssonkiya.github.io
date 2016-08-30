@@ -8,7 +8,7 @@ Some in the media have admitted that they, and the media more generally, don't k
 
 ![center](http://robinsones.github.io/images/Trump_media_tweet.png)
 
-So far, this discussion of the media and Trump has mostly been anecdotal. I was interested in quantitatively examining how the media covered Trump since the start of his campaign until now. For my initial exploration, I have focused only on the NYTimes and extracting the topics of their articles covering Trump.
+So far, this discussion of the media and Trump has mostly been anecdotal. I was interested in quantitatively examining how the media covered Trump since the start of his campaign until now. For my initial exploration, I have focused only on the NYTimes and extracting the topics of their articles covering Trump. You can find all of my code and my presentation to Metis on [my github repo](https://github.com/robinsones/NYTimes-and-Trump).
 
 ## Creating the dataset
 
