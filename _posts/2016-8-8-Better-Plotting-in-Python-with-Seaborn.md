@@ -10,16 +10,6 @@ I was **horrified**. I hated the color, the tick marks on all four sides of the 
 
 Fortunately, he wrote back quickly suggesting I try seaborn, and my boot camp experience was saved. Six weeks later, I've become known in my Metis cohort as a seaborn evangelist. On presentation days at Metis, not a plot goes by without me marking down if it has base matplotlib aesthetics. I then follow up with the presenters afterwards, asking them why they don't use seaborn. Usually this is followed by, “Is it to make me sad?" 
 
-These strong opinions on plotting actually follow a family tradition. Back in February, my brother David Robinson, a data scientist at Stack Overflow, became part of a flare-up in a long-running debate on ggplot2 versus base R graphics. 
-
-## The Great ggplot2 Versus Base R War
-
-![](http://robinsones.github.io/images/joker_pic.png)
-
-Back in February, Jeff Leek, an Associate Professor of Biostatistics and Oncology at John Hopkins and co-director of the popular John Hopkins specialization in data science on Coursera, made a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David, one of the people Jeff Leek had called out for giving him grief about not using ggplot2, followed up with a post of his own on [why he uses ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/). Another data scientist, Nathan Yau, joined in a month later with an [extensive post](https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) comparing ggplot2 and R base graphics for a variety of plots. Ben Casselman of FiveThirtyEight joined the fray in a ["tweetstorm"](https://twitter.com/bencasselman/status/712405057388601344). It settled down after that, but still simmers under the surface, bubbling up in places like the Joint Statistical Meetings this month, where Jeff Leek used the above image in his presentation. 
-
-I bring this up not only to illustrate some family resemblance, but also to set up a contrast to seaborn versus matplotlib. While Base R graphics and ggplot2 require completely different syntax, seaborn is *based on* matplotlib, and so starting to use seaborn is as easy as importing it. 
-
 ## Advantages of Seaborn: Better Aesthetics and Built-In Plots
 
 [Seaborn](https://stanford.edu/~mwaskom/software/seaborn/) is a data visualization library in Python based on matplotlib. The seaborn website has some very helpful documentation, including a [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html). And like the rest of your programming questions, anything you can't find on that website can generally be found on the Stack Overflow page that is your first google result. 
@@ -80,6 +70,16 @@ plt.title("Total Bill by Day")
 ![](http://robinsones.github.io/images/ugly_bar_chart.png)
 
 This is far from an unusual case. While seaborn certainly does not have its own plots for everything, it has a lot of the ones you'd typically use for exploratory purposes. 
+
+## The Great ggplot2 Versus Base R War
+
+![](http://robinsones.github.io/images/joker_pic.png)
+
+My strong opinions on plotting expressed here actually follow a family tradition. Back in February, my brother David Robinson, a data scientist at Stack Overflow, became part of a flare-up in a long-running debate on ggplot2 versus base R graphics.  
+
+Jeff Leek, an Associate Professor of Biostatistics and Oncology at John Hopkins and co-director of the popular John Hopkins specialization in data science on Coursera, had written a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David followed up with a post of his own on [why he uses ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/). Soon others [joined]((https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) the [fray]((https://twitter.com/bencasselman/status/712405057388601344). While it settled down after a month, the battle still simmers under the surface, bubbling up in places like the Joint Statistical Meetings this month, where Jeff Leek used the above image in his presentation. 
+
+I bring this up not only to illustrate some family resemblance, but also to set up a contrast to seaborn versus matplotlib. While Base R graphics and ggplot2 require completely different syntax, seaborn is *based on* matplotlib, and so starting to use seaborn is as easy as importing it. 
 
 ## Final Verdict
 
