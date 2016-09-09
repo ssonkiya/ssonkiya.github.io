@@ -75,7 +75,7 @@ This is far from an unusual case. While seaborn certainly does not have its own 
 
 I come from a family tradition of caring too much about plotting frameworks. Earlier this year, my brother David Robinson, a data scientist at Stack Overflow, became part of a flare-up in a long-running debate on ggplot2 versus base R graphics.  
 
-In February, JHU professor [Jeff Leek](http://jtleek.com) wrote a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David followed up with a post of his own on [why he uses ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/). Soon others [joined]((https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) the [fray](https://twitter.com/bencasselman/status/712405057388601344). While it settled down after a month, the battle still simmers under the surface:
+In February, JHU professor [Jeff Leek](http://jtleek.com) wrote a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David followed up with a post of his own on [why he uses ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/). Soon others [joined](https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) the [fray](https://twitter.com/bencasselman/status/712405057388601344). While it settled down after a month, the battle still simmers under the surface:
 
 ![](http://robinsones.github.io/images/joker_pic.png)
 
