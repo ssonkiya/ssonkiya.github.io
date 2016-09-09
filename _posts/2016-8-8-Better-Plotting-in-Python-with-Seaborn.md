@@ -79,7 +79,7 @@ In February, JHU professor [Jeff Leek](http://jtleek.com) wrote a blog post enti
 
 ![](http://robinsones.github.io/images/joker_pic.png)
 
-I bring this up not only to illustrate some family resemblance, but also to set up a contrast to seaborn versus matplotlib. While Base R graphics and ggplot2 require completely different syntax, seaborn is *based on* matplotlib, and so starting to use seaborn is as easy as importing it. 
+I bring this up not only to illustrate some family resemblance, but also to set up a contrast to the seaborn/matplotlib decision. While Base R graphics and ggplot2 require completely different syntax, seaborn is *based on* matplotlib, and so starting to use seaborn is as easy as importing it. 
 
 I think every python programmer can benefit from using seaborn for visualizations. The advantage of matplotlib is that you can do essentially anything you want with it by building a plot piece-by-piece. You certainly can make [beautiful, professional plots](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) in matplotlib. Seaborn doesn't take away any of that, but rather adds some nice default aesthetics and built-in plots that complement and sometimes replace the complicated matplotlib code you may already be writing. 
 
