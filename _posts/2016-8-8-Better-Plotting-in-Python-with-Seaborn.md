@@ -73,11 +73,12 @@ This is far from an unusual case. While seaborn certainly does not have its own 
 
 ## The Great ggplot2 Versus Base R War
 
-![](http://robinsones.github.io/images/joker_pic.png)
-
 My strong opinions on plotting expressed here actually follow a family tradition. Back in February, my brother David Robinson, a data scientist at Stack Overflow, became part of a flare-up in a long-running debate on ggplot2 versus base R graphics.  
 
-Jeff Leek, an Associate Professor of Biostatistics and Oncology at John Hopkins and co-director of the popular John Hopkins specialization in data science on Coursera, had written a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David followed up with a post of his own on [why he uses ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/). Soon others [joined]((https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) the [fray]((https://twitter.com/bencasselman/status/712405057388601344). While it settled down after a month, the battle still simmers under the surface, bubbling up in places like the Joint Statistical Meetings this month, where Jeff Leek used the above image in his presentation. 
+Jeff Leek, an Associate Professor of Biostatistics and Oncology at John Hopkins and co-director of the popular John Hopkins specialization in data science on Coursera, had written a blog post entitled ["Why I don't use ggplot2"](http://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/). The post wasn't even out two days before David followed up with a post of his own on [why he uses ggplot2](http://varianceexplained.org/r/why-I-use-ggplot2/). Soon others [joined]((https://flowingdata.com/2016/03/22/comparing-ggplot2-and-r-base-graphics/) the [fray]((https://twitter.com/bencasselman/status/712405057388601344). While it settled down after a month, the battle still simmers under the surface, bubbling up in places like the Joint Statistical Meetings this month, where Jeff Leek used the following image in his presentation:
+
+![](http://robinsones.github.io/images/joker_pic.png)
+
 
 I bring this up not only to illustrate some family resemblance, but also to set up a contrast to seaborn versus matplotlib. While Base R graphics and ggplot2 require completely different syntax, seaborn is *based on* matplotlib, and so starting to use seaborn is as easy as importing it. 
 
