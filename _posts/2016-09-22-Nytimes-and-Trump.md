@@ -35,11 +35,11 @@ Once I had my transformed articles, I could then use Non-negative Matrix Factori
 What do I mean by whether topics were interpretable? Well, topics don't come labels; rather, you have to interpret for yourself what each topic means. I did this by looking at the top 20 words for each topic. For example, what would you call this topic? 
 
 ```
-Topic #3:
-tax income returns taxes rate plan percent trillion release rates economic deductions revenue pay cuts federal lower business care corporate
+Topic #16:
+khan khizr khans mccain ghazala captain family muslim son humayun iraq sacrifice sen killed soldier army parents gold star capt
 ```
 
-I decided to call it "Economy." 
+Seeing words like "khan," "son," "soldier," and "muslim," I decided to call it "Khan Family." This topic appears to be about (Donald Trump's confrontations)[http://www.nytimes.com/2016/08/01/us/politics/khizr-khan-ghazala-donald-trump-muslim-soldier.html] with Khizr and Ghazala Khan, the parents of a Muslim American soldier killed in Iraq who criticized Donald Trump at the DNC. 
 
 One issue I ran into here was that there were multiple topics that I would consider to be about fundamentally the same thing. For example, look at these topics: 
 
@@ -62,5 +62,20 @@ In my case, I decided to consider an article was about a topic if the article-to
 
 ## Visualizing Coverage over Time
 
+After my first attempt to graph all of the topics on the same time-series plot looked like something out of a nightmare, I realized I needed to limit my graphs to only a few topics at a time. One way to do this was to group topics into a few categories and create a plot for each one. Here's one for all the topics I considered to be policy issues. 
+
+![center](http://robinsones.github.io/images/Policy_Articles.png)
+
+You can see that foreign policy has been the one generally covered the most (possibly because of Trump's frequent mentions of Putin), and police had a big spike in July when the Dallas shooting happened. 
+
 ## Pitfalls of Topic Modeling
 
+Take a look at the following graph. Notice anything strange about it? 
+
+![center](http://robinsones.github.io/images/Various_Topics.png)
+
+Take a look at the Khan family topic between April and June 2016. The points are non-zero, meaning there were articles about that topic in those months. But this was before the incidient even happened! 
+
+I took a closer look at these articles and found they were about [Donald Trump and Sadiq Khan](http://www.nytimes.com/2016/05/11/world/europe/sadiq-khan-london-donald-trump.html), London's newly elected Muslim mayor. The problem was that while certainly all top words in the topic, such as capt or star, weren't in these articles, a few of the most unique ones (khan, muslim) were. In fact, if I was to assign a topic to this article, that topic would still be the best fit. 
+
+Normally it's not "impossible" for a topic to be present in an document and so you can't see these types of limitations. But this is a good illustration of the limitations of interpreting a topic.
