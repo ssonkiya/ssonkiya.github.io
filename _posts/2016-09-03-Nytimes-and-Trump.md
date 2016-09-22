@@ -30,4 +30,30 @@ There are a few tricks to using tfidfvectorizer. The first is to remove a list o
 
 Once I had my transformed articles, I could then use Non-negative Matrix Factorization (NMF) to extract the topics of articles. LDA is the more common method for topic modeling but can't be used with tf-idf. When using NMF you have to pick a number of topics to extract. There's no "right" answer for how many or a statistic you can use to help you chose. In my case, I iterated though multiple different numbers and settled on 30. This was the tipping point where all the topics were interpretable but any further topics were not. 
 
+## Interpreting Topics
 
+What do I mean by whether topics were interpretable? Well, topics don't come labels; rather, you have to interpret for yourself what each topic means. I did this by looking at the top 20 words for each topic. For example, what would you call this topic? 
+
+```
+Topic #3:
+tax income returns taxes rate plan percent trillion release rates economic deductions revenue pay cuts federal lower business care corporate
+```
+
+I decided to call it "Economy." 
+
+One issue I ran into here was that there were multiple topics that I would consider to be about fundamentally the same thing. For example, look at these topics: 
+
+```
+Topic #1:
+cruz rubio ted kasich conservative texas marco primary south debate roe iowa establishment carolina wisconsin values saturday conservatives vote indiana
+Topic #7:
+delegates kasich delegate win vote tuesday nomination winner ohio rules 237 majority michigan indiana district california rubio dakota districts winning
+Topic #17:
+carson ben fiorina candidates debate carly percent muslim neurosurgeon choice huckabee christians religious conservative iowa retired faith jeb second survey
+```
+
+These all looked to me to be about the Republican primary, as were two other topics. But if I reduced the number of topics from 30 to, say, 26 when I did my NMF, these "extra" republican primary topics didn't simply merge into one. Instead, I lost other interpretable topics that I wanted to keep. As I mentioned above, when I had a larger number of topics, I wasn't able to see from the top words in a topic what the common thread was. 
+
+## Working with NMF 
+
+I now had a matrix where each row was an article, each column was a topic, and the value was how prevelant that topic was in that article. Unlike LDA, the columns in a row do not add up to 1, and so you can't interpret a value as the "proportion" of a topic in a given article.   
