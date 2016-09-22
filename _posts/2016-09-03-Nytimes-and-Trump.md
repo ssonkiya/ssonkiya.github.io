@@ -56,4 +56,11 @@ These all looked to me to be about the Republican primary, as were two other top
 
 ## Working with NMF 
 
-I now had a matrix where each row was an article, each column was a topic, and the value was how prevelant that topic was in that article. Unlike LDA, the columns in a row do not add up to 1, and so you can't interpret a value as the "proportion" of a topic in a given article.   
+I now had a matrix where each row was an article, each column was a topic, and the value was how prevelant that topic was in that article. Unlike LDA, while each value is between 0 and 1, the columns in a row do not add up to 1, and so you can't interpret a value as the "proportion" of a topic in a given article. Each document can, and usually is, associated with more than one topic. For example, an article about the economic policies of the republican primary contenders would probably be related to both the "economy" and some of the "republican primary" topics. Because of that, it's generally not appropriate to assign each document to a single topic, say by picking the topic with the highest value. 
+
+In my case, I decided to consider an article was about a topic if the article-topic entry had a non-zero value, transforming my matrix so that any non-zero value became 1. This certainly has some disadvantages, but it was appropriate for my interest in understanding if/when a topic was covered at all by the NYTimes. 
+
+## Visualizing Coverage over Time
+
+## Pitfalls of Topic Modeling
+
