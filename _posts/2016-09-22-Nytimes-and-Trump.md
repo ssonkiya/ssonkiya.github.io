@@ -10,9 +10,7 @@ But so far this discussion of the media and Trump has mostly been anecdotal. I w
 
 The NYtimes has a pretty [user-friendly API](https://developer.nytimes.com). You simply need to request an API key and then you can get started gathering articles. I collected all the articles about Donald Trump between the start of his campaign (June 16, 2015) until now, but I then faced the main limitation of the NYTimes API: it doesn’t return the full-text of the articles. For this, I turned to the [newspaper package for Python](https://github.com/codelucas/newspaper). The newspaper package takes a url and then returns information about the article, including the authors and full text. The package also includes some natural language processing and can give you a summary and keywords list for each article.
 
-I fed the urls returned by the NYTimes API into newspaper’s functions and quickly had the full text of some of the articles. I say some, because the NYTimes API actually returns a lot of dead links, which I decided to ignore. In the end I had about 2,200 news articles on Trump.
-
-The next step was to limit my articles to those that were primarily about Trump. Because the API returned any article that simply had “Donald Trump” in it, I had a lot of irrelevant articles that were not actually about Trump and would have biased the analysis. I used the previously mentioned keywords function in the newspaper package to find the keywords for every article, selecting only those articles that had “Donald” or “Trump” as a keyword.
+I also had to limit my articles to those that were primarily about Trump. Because the API returned any article that simply had “Donald Trump” in it, I had a lot of irrelevant articles that were not actually about Trump and would have biased the analysis. I used the previously mentioned keywords function in the newspaper package to find the keywords for every article, selecting only those articles that had “Donald” or “Trump” as a keyword. My final dataset for analysis was about 2,200 full-text news articles primarily on Trump.
 
 ## Topic Modeling
 
@@ -31,9 +29,9 @@ Topic #16:
 khan khizr khans mccain ghazala captain family muslim son humayun iraq sacrifice sen killed soldier army parents gold star capt
 ```
 
-Seeing words like "khan," "son," "soldier," and "muslim," I decided to call it "Khan Family." This topic appears to be about (Donald Trump's confrontations)[http://www.nytimes.com/2016/08/01/us/politics/khizr-khan-ghazala-donald-trump-muslim-soldier.html] with Khizr and Ghazala Khan, the parents of a Muslim American soldier killed in Iraq who criticized Donald Trump at the DNC. 
+Seeing words like "khan," "son," "soldier," and "muslim," this topic appears to be about (Donald Trump's confrontations)[http://www.nytimes.com/2016/08/01/us/politics/khizr-khan-ghazala-donald-trump-muslim-soldier.html] with Khizr and Ghazala Khan, the parents of a Muslim American soldier killed in Iraq who criticized Donald Trump at the DNC. Therefore, I decided to call it the "Khan Family" topic.  
 
-One issue I ran into here was that there were multiple topics that I would consider to be about fundamentally the same thing. For example, look at these topics: 
+One issue I ran into in naming topics was that there were multiple topics that I would consider to be about fundamentally the same thing. For example, look at these topics: 
 
 ```
 Topic #1:
@@ -44,13 +42,13 @@ Topic #17:
 carson ben fiorina candidates debate carly percent muslim neurosurgeon choice huckabee christians religious conservative iowa retired faith jeb second survey
 ```
 
-These all looked to me to be about the Republican primary, as were two other topics. But if I reduced the number of topics from 30 to, say, 26 when I did my NMF, these "extra" republican primary topics didn't simply merge into one. Instead, I lost other interpretable topics that I wanted to keep. As I mentioned above, when I had a larger number of topics, I wasn't able to see from the top words in a topic what the common thread was. 
+These all looked to me to be about the Republican primary. But if I reduced the number of topics from 30 to, say, 28 when I did my NMF, these "extra" republican primary topics didn't simply merge into one. Instead, I lost other interpretable topics that I wanted to keep. Therefore, I decided to keep all 30 topics and simply call them "Republican Primary 1," "Republican Primary 2," etc. 
 
 ## Working with NMF 
 
-I now had a matrix where each row was an article, each column was a topic, and the value was how prevelant that topic was in that article. Unlike LDA, while each value is between 0 and 1, the columns in a row do not add up to 1, and so you can't interpret a value as the "proportion" of a topic in a given article. Each document can, and usually is, associated with more than one topic. For example, an article about the economic policies of the republican primary contenders would probably be related to both the "economy" and some of the "republican primary" topics. Because of that, it's generally not appropriate to assign each document to a single topic, say by picking the topic with the highest value. 
+I now had a matrix where each row was an article, each column was a topic, and the value was how prevalent that topic was in that article. While each value is between 0 and 1, unlike LDA the columns in a row do not add up to 1, and so you can't interpret a value as the "proportion" of a topic in a given article. Each document also can be, and usually is, associated with more than one topic. For example, an article about the economic policies of the republican primary contenders would probably be related to both the "economy" and "republican primary" topics. Because of that, it's generally not appropriate to assign each document to a single topic (e.g. by picking the topic with the highest value). 
 
-In my case, I decided to consider an article was about a topic if the article-topic entry had a non-zero value, transforming my matrix so that any non-zero value became 1. This certainly has some disadvantages, but it was appropriate for my interest in understanding if/when a topic was covered at all by the NYTimes. 
+In my case, I decided to consider an article was about a topic if the article-topic entry had a non-zero value. I thus transformed my matrix so that any non-zero value became 1. This certainly has some disadvantages, but it was appropriate for my interest in understanding when a topic was covered at all by the NYTimes. 
 
 ## Visualizing Coverage over Time
 
@@ -66,8 +64,8 @@ Take a look at the following graph. Notice anything strange about it?
 
 ![center](http://robinsones.github.io/images/Various_Topics.png)
 
-Take a look at the Khan family topic between April and June 2016. The points are non-zero, meaning there were articles about that topic in those months. But this was before the incidient even happened! 
+Take a look at the Khan family topic in May and June 2016. The points are non-zero, meaning there were articles about that topic in those months. But this was before the incident even happened! 
 
-I took a closer look at these articles and found they were about [Donald Trump and Sadiq Khan](http://www.nytimes.com/2016/05/11/world/europe/sadiq-khan-london-donald-trump.html), London's newly elected Muslim mayor. The problem was that while certainly all top words in the topic, such as capt or star, weren't in these articles, a few of the most unique ones (khan, muslim) were. In fact, if I was to assign a topic to this article, that topic would still be the best fit. 
+I took a closer look at these articles and found they were about [Donald Trump and Sadiq Khan](http://www.nytimes.com/2016/05/11/world/europe/sadiq-khan-london-donald-trump.html), London's newly elected Muslim mayor. The problem was that while certainly all top words in the topic, such as "sacrifice" or "star," weren't in these articles, a few of the most unique ones (khan, muslim) were. In fact, if I was to assign a topic to this article, that topic would still be the best fit. 
 
 Normally it's not "impossible" for a topic to be present in an document and so you can't see these types of limitations. But this is a good illustration of the limitations of interpreting a topic.
