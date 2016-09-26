@@ -69,3 +69,9 @@ Take a look at the Khan family topic in May and June 2016. The points are non-ze
 I took a closer look at these articles and found they were about [Donald Trump and Sadiq Khan](http://www.nytimes.com/2016/05/11/world/europe/sadiq-khan-london-donald-trump.html), London's newly elected Muslim mayor. The problem was that while certainly all top words in the topic, such as "sacrifice" or "star," weren't in these articles, a few of the most unique ones (khan, muslim) were. In fact, if I was to assign a topic to this article, that topic would still be the best fit. 
 
 Normally it's not "impossible" for a topic to be present in an document and so you can't see these types of limitations. But this is a good illustration of the limitations of interpreting a topic.
+
+## Next Time
+
+One of the benefits of attending Metis is that the last three weeks of Metis are devoted to working on a project of entirely your own choosing. You can check out some of the projects [here](http://varianceexplained.org); they range from an application that uses computer vision to read wine labels to predicting the length of an NFL runningback's career. While our previous projects are all presented just to the other Metis students and the instructors, we present our final projects on a "Career Day" to about 25-30 employers. 
+
+For my final project, I created an application that helps data science freelancers find the freelance jobs that best fit their preferences and skills. You can check out the application [here](https://robinsones.shinyapps.io/Job_Shiny_App/). All of my code for the [project](https://github.com/robinsones/Data-Science-Freelancers) and the [application](https://github.com/robinsones/Freelancer-Shiny-App) is on github. My next blog post will document how my project evolved and some of the exploratory work I did before creating the application. 
