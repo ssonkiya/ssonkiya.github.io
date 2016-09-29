@@ -4,11 +4,11 @@ When Donald Trump first entered the Republican presidential primary on June 16, 
 
 ![center](http://robinsones.github.io/images/Trump_media_tweet.png)
 
-But so far this discussion of the media and Trump has mostly been anecdotal. I was interested in quantitatively examining how the media has covered Trump since the start of his campaign until now. For my initial exploration, I focused on extracting the topics of the NYTimes' articles covering Trump. You can find all of my code and my presentation to Metis on [my github repo](https://github.com/robinsones/NYTimes-and-Trump).
+But so far this discussion of the media and Trump has mostly been anecdotal. I was interested in quantitatively examining how the media has covered Trump since the start of his campaign until now. For my initial exploration, I focused on extracting the topics of the New York Times' articles covering Trump. You can find all of my code and my presentation to Metis on [my github repo](https://github.com/robinsones/NYTimes-and-Trump).
 
 ## Creating the dataset
 
-The NYtimes has a pretty [user-friendly API](https://developer.nytimes.com). You simply need to request an API key and then you can get started gathering articles. I collected all the articles about Donald Trump between the start of his campaign (June 16, 2015) until now, but I then faced the main limitation of the NYTimes API: it doesn’t return the full-text of the articles. For this, I turned to the [newspaper package for Python](https://github.com/codelucas/newspaper). The newspaper package takes a url and then returns information about the article, including the authors and full text. The package also includes some natural language processing and can give you a summary and keywords list for each article.
+The Times has a pretty [user-friendly API](https://developer.nytimes.com). You simply need to request an API key and then you can get started gathering articles. I collected all the articles about Donald Trump between the start of his campaign (June 16, 2015) until now, but I then faced the main limitation of the Times API: it doesn’t return the full-text of the articles. For this, I turned to the [newspaper package for Python](https://github.com/codelucas/newspaper). The newspaper package takes a url and then returns information about the article, including the authors and full text. The package also includes some natural language processing and can give you a summary and keywords list for each article.
 
 I also had to limit my articles to those that were primarily about Trump. Because the API returned any article that simply had “Donald Trump” in it, I had a lot of irrelevant articles that were not actually about Trump and would have biased the analysis. I used the previously mentioned keywords function in the newspaper package to find the keywords for every article, selecting only those articles that had “Donald” or “Trump” as a keyword. My final dataset for analysis was about 2,200 full-text news articles primarily on Trump.
 
@@ -48,7 +48,7 @@ These all looked to me to be about the Republican primary. But if I reduced the 
 
 I now had a matrix where each row was an article, each column was a topic, and the value was how prevalent that topic was in that article. While each value is between 0 and 1, unlike LDA the columns in a row do not add up to 1, and so you can't interpret a value as the "proportion" of a topic in a given article. Each document also can be, and usually is, associated with more than one topic. For example, an article about the economic policies of the republican primary contenders would probably be related to both the "economy" and "republican primary" topics. Because of that, it's generally not appropriate to assign each document to a single topic (e.g. by picking the topic with the highest value). 
 
-In my case, I decided to consider an article was about a topic if the article-topic entry had a non-zero value. I thus transformed my matrix so that any non-zero value became 1. This certainly has some disadvantages, but it was appropriate for my interest in understanding when a topic was covered at all by the NYTimes. 
+In my case, I decided to consider an article was about a topic if the article-topic entry had a non-zero value. I thus transformed my matrix so that any non-zero value became 1. This certainly has some disadvantages, but it was appropriate for my interest in understanding when a topic was covered at all by the Times. 
 
 ## Visualizing Coverage over Time
 
