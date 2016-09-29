@@ -70,6 +70,12 @@ I took a closer look at these articles and found they were about [Donald Trump a
 
 Normally it's not "impossible" for a topic to be present in an document and so you can't see these types of limitations. But this is a good illustration of the limitations of interpreting a topic.
 
+## Conclusions
+
+Because this was an exploratory analysis, I didn’t start out with a specific hypothesis I wanted to test. For example, I could have instead used sentiment analysis to test if Times’ articles about Trump used more negative words than those about Clinton. I also don’t have a final number at the end that tells me how “good” my analysis is, as I did in [one of my other projects](https://github.com/robinsones/Predicting-Sucess-on-DonorsChoose) where I evaluted the accuracy of my predictions using AUC.
+
+Instead, I'm only able to conclude with some general impressions I gained from the topic modeling. The first is that none of the topics were particularly surprising; you can see the full list in my [jupyter notebook](https://github.com/robinsones/NYTimes-and-Trump/blob/master/Trump_NYTimes_Analysis.ipynb). The most commonly covered ones were topics about the Republican primary and polls (“percent”, “poll”, “points”, “survey”). I did find it interesting that two controversial incidents, the Trump University lawsuit and the Khan family conflict, were prominent enough to get their own topics. 
+
 ## Next Time
 
 One of the benefits of attending Metis is that the last three weeks of Metis are devoted to working on a project of entirely your own choosing. You can check out some of the projects [here](http://varianceexplained.org); they range from an application that uses computer vision to read wine labels to predicting the length of an NFL runningback's career. While our previous projects are all presented just to the other Metis students and the instructors, we present our final projects on a "Career Day" to about 25-30 employers. 
