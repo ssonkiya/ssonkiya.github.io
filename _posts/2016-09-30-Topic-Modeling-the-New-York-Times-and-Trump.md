@@ -48,7 +48,7 @@ These all looked to me to be about the Republican primary. But if I reduced the 
 
 I now had a matrix where each row was an article, each column was a topic, and the value was how prevalent that topic was in that article. While each value is between 0 and 1, unlike LDA the columns in a row do not add up to 1, and so you can't interpret a value as the "proportion" of a topic in a given article. Each document also can be, and usually is, associated with more than one topic. For example, an article about the economic policies of the republican primary contenders would probably be related to both the "economy" and "republican primary" topics. Because of that, it's generally not appropriate to assign each document to a single topic (e.g. by picking the topic with the highest value). 
 
-In my case, I decided to consider an article was about a topic if the article-topic entry had a non-zero value. I thus transformed my matrix so that any non-zero value became 1. This certainly has some disadvantages, but it was appropriate for my interest in understanding when a topic was covered at all by the Times. 
+In my case, I decided to consider an article was about a topic if the article-topic entry wasn't zero. I thus transformed my matrix so that anything that wasn't zero became 1. This certainly has some disadvantages, but it was appropriate for my interest in understanding when a topic was covered at all by the Times. 
 
 ## Visualizing Coverage over Time
 
