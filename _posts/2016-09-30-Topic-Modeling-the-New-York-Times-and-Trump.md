@@ -4,7 +4,7 @@ When Donald Trump first entered the Republican presidential primary on June 16, 
 
 ![center](http://robinsones.github.io/images/Trump_media_tweet.png)
 
-But so far this discussion of the media and Trump has mostly been anecdotal. I was interested in quantitatively examining how the media has covered Trump since the start of his campaign until now. For my initial exploration, I focused on extracting the topics of the New York Times' articles covering Trump. You can find all of my code and my presentation to Metis on [my github repo](https://github.com/robinsones/NYTimes-and-Trump).
+I was interested in quantitatively examining how the media has covered Trump from the start of his campaign until now. For my initial exploration, I focused on extracting the topics of the New York Times' articles covering Trump. You can find all of my code and my presentation to Metis on [my github repo](https://github.com/robinsones/NYTimes-and-Trump).
 
 ## Creating the dataset
 
@@ -14,22 +14,22 @@ I also had to limit my articles to those that were primarily about Trump. Becaus
 
 ## Topic Modeling
 
-To extract the topics of articles, I first had to transform each article into a word vector. I did this using tf-idf, short for "term frequency-inverse document frequency." Tf-idf is a statistic for each word in an article that increases with the number of times a word appears in that article while being offset by how frequently that word appears across the entire set of documents. Using tfidfvectorizer from scikit-learn to transform the corpus of documents, I got a matrix where each row is an article and each column is a word that has appeared in the corpus. Tf-idf is useful for when all your documents are about the same broad subject and likely to have a lot of words in common. 
+To extract the topics of articles, I first had to transform each article into a word vector. I did this using tf-idf, short for "term frequency-inverse document frequency." Tf-idf is a statistic for each word in an article that increases with the number of times a word appears in that article while being offset by how frequently that word appears across the entire set of documents. Using tfidfvectorizer from scikit-learn to transform the corpus of documents, I created a matrix where each row is an article and each column is a word that has appeared in the corpus. Tf-idf is useful for when all your documents are about the same broad subject and likely to have a lot of words in common. 
 
-There are a few tricks to using tfidfvectorizer. The first is to remove a list of "stop words," or common terms such as "it" and "they" that are not informative about the content of a document. There is a built-in list of stopwords in sklearn, but I added my own words to this list after I ran my first topic model and found a lot of irrelevant words (such as "mrs" and "nytimes"). The second is to set a minimum and maximum document argument. These exclude words that appear in more documents that your maximum number or that appear in fewer documents than your minimum. This avoids words that are so rare or so common that they are unlikely to be meaningful for understanding what a specific article is about.
+There are a few tricks to using tfidfvectorizer. The first is to remove a list of "stop words," or common terms such as "it" and "they" that are not informative about the content of a document. There is a built-in list of stopwords in sklearn, but I added my own words to this list after I ran my first topic model and found a lot of irrelevant words (such as "mrs" and "nytimes"). The second is to set a minimum and maximum document argument. These exclude words that appear in more documents than your maximum number or that appear in fewer documents than your minimum. This avoids words that are so rare or so common that they are unlikely to be meaningful for understanding what a specific article is about.
 
-Once I had my transformed articles, I could then use Non-negative Matrix Factorization (NMF) to extract the topics of articles. LDA is the more common method for topic modeling but can't be used with tf-idf. When using NMF you have to pick a number of topics to extract. There's no "right" answer for how many or a statistic you can use to help you chose. In my case, I iterated though multiple different numbers and settled on 30. This was the tipping point where all the topics were interpretable but any further topics were not. 
+Once I had my transformed articles, I could then use Non-negative Matrix Factorization (NMF) to extract the topics of articles. LDA is the more common method for topic modeling but can't be used with tf-idf. When using NMF you have to pick a number of topics to extract. There's no "right" answer for how many or a statistic you can use to help you choose. In my case, I iterated though multiple different numbers and settled on 30. This was the tipping point where all the topics were interpretable but any further topics were not. 
 
 ## Interpreting Topics
 
-What do I mean by whether topics were interpretable? Well, topics don't come labels; rather, you have to interpret for yourself what each topic means. I did this by looking at the top 20 words for each topic. For example, what would you call this topic? 
+What do I mean by whether topics were interpretable? Well, topics don't come with labels; rather, you have to interpret for yourself what each topic means. I did this by looking at the top 20 words for each topic. For example, what would you call this topic? 
 
 ```
 Topic #16:
 khan khizr khans mccain ghazala captain family muslim son humayun iraq sacrifice sen killed soldier army parents gold star capt
 ```
 
-Seeing words like "khan," "son," "soldier," and "muslim," this topic appears to be about (Donald Trump's confrontations)[http://www.nytimes.com/2016/08/01/us/politics/khizr-khan-ghazala-donald-trump-muslim-soldier.html] with Khizr and Ghazala Khan, the parents of a Muslim American soldier killed in Iraq who criticized Donald Trump at the DNC. Therefore, I decided to call it the "Khan Family" topic.  
+Seeing words like "khan," "son," "soldier," and "muslim," this topic appears to be about [Donald Trump's confrontations](http://www.nytimes.com/2016/08/01/us/politics/khizr-khan-ghazala-donald-trump-muslim-soldier.html) with Khizr and Ghazala Khan, the parents of a Muslim American soldier killed in Iraq who criticized Donald Trump at the DNC. Therefore, I decided to call it the "Khan Family" topic.  
 
 One issue I ran into in naming topics was that there were multiple topics that I would consider to be about fundamentally the same thing. For example, look at these topics: 
 
@@ -68,16 +68,16 @@ Take a look at the Khan family topic in May and June 2016. The points are non-ze
 
 I took a closer look at these articles and found they were about [Donald Trump and Sadiq Khan](http://www.nytimes.com/2016/05/11/world/europe/sadiq-khan-london-donald-trump.html), London's newly elected Muslim mayor. The problem was that while certainly all top words in the topic, such as "sacrifice" or "star," weren't in these articles, a few of the most unique ones (khan, muslim) were. In fact, if I was to assign a topic to this article, that topic would still be the best fit. 
 
-Normally it's not "impossible" for a topic to be present in an document and so you can't see these types of limitations. But this is a good illustration of the limitations of interpreting a topic.
+Normally it's not "impossible" for a topic to be present in a document and so you can't see these types of limitations. But this is a good illustration of the limitations of interpreting a topic.
 
 ## Conclusions
 
-Because this was an exploratory analysis, I didn’t start out with a specific hypothesis I wanted to test. For example, I could have instead used sentiment analysis to test if Times’ articles about Trump used more negative words than those about Clinton. I also don’t have a final number at the end that tells me how “good” my analysis is, as I did in [one of my other projects](https://github.com/robinsones/Predicting-Sucess-on-DonorsChoose) where I evaluted the accuracy of my predictions using AUC.
+Because this was an exploratory analysis, I didn’t start out with a specific hypothesis I wanted to test. For example, I could have instead used sentiment analysis to test if Times’ articles about Trump used more negative words than those about Clinton. I also don’t have a final number at the end that tells me how “good” my analysis is, as I did in [one of my other projects](https://github.com/robinsones/Predicting-Sucess-on-DonorsChoose) where I evaluated the accuracy of my predictions using AUC.
 
-Instead, I'm only able to conclude with some general impressions I gained from the topic modeling. The first is that none of the topics were particularly surprising; you can see the full list in my [jupyter notebook](https://github.com/robinsones/NYTimes-and-Trump/blob/master/Trump_NYTimes_Analysis.ipynb). The most commonly covered ones were topics about the Republican primary and polls (“percent”, “poll”, “points”, “survey”). I did find it interesting that two controversial incidents, the Trump University lawsuit and the Khan family conflict, were prominent enough to get their own topics. 
+Instead, I'm only able to conclude with some general impressions I gained from the topic modeling. The first is that none of the topics were particularly surprising; you can see the full list in my [jupyter notebook](https://github.com/robinsones/NYTimes-and-Trump/blob/master/Trump_NYTimes_Analysis.ipynb). The most commonly covered topics were about the Republican primary and polls (“percent”, “poll”, “points”, “survey”). I did find it interesting that two controversial incidents, the Trump University lawsuit and the Khan family conflict, were prominent enough to get their own topics. 
 
 ## Next Time
 
-One of the benefits of attending Metis is that the last three weeks of Metis are devoted to working on a project of entirely your own choosing. You can check out some of the projects [here](http://varianceexplained.org/career/metis-students/); they range from an application that uses computer vision to read wine labels to predicting the length of an NFL runningback's career. While our previous projects are all presented just to the other Metis students and the instructors, we present our final projects on a "Career Day" to about 25 employers. 
+One of the benefits of attending Metis is that the last three weeks of Metis are devoted to working on a project entirely of your own choosing. You can check out some of the projects [here](http://varianceexplained.org/career/metis-students/); they range from an application that uses computer vision to read wine labels to predicting the length of an NFL runningback's career. While our previous projects are presented just to the other Metis students and the instructors, we present our final projects on a "Career Day" to about 25 employers. 
 
 For my final project, I created an application that helps data science freelancers find the freelance jobs that best fit their preferences and skills. You can check out the application [here](https://robinsones.shinyapps.io/Job_Shiny_App/). All of my code for the [project](https://github.com/robinsones/Data-Science-Freelancers) and the [application](https://github.com/robinsones/Freelancer-Shiny-App) is on github. My next blog post will document how my project evolved and some of the exploratory work I did before creating the application. 
