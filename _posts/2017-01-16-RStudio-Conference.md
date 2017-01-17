@@ -1,4 +1,4 @@
-Last week I got to spend four amazing days in Orlando at the first ever [rstudio::conf](https://www.rstudio.com/conference/). In this post, I share some of what I learned from the conference along with my personal experience. Since it's a long post,  I’ve divided it up into sections to make it easier to navigate if you’re just interested in part of the post:
+Last week I spent four amazing days in Orlando at the first ever [rstudio::conf](https://www.rstudio.com/conference/). In this post, I share some of what I learned from the conference along with my personal experience. Since it's a long post,  I’ve divided it up into sections to make it easier to navigate if you’re just interested in part of the post:
 
 * Some Notes on Diversity 
 * Helpful Links Related to the Conference
@@ -36,7 +36,30 @@ One person I was especially excited to meet was Julia Silge, who works with my b
 
 ## Training Days
 
+There were three training day workshops available: Master R Developer with Hadley Wickahm, Intermediate Shiny with Joe Cheng, and Master the Tidyverse with Garrett Grolemund. The Tidyverse workshop was more basic, and while I definitely want to learn more Shiny, I decided to take the Master R Developer workshop. I've been meaning to learn more about making packages, the focus of the second day, and I always enjoy getting the chance to learn from Hadley again: 
 
-## Extra
+(link to tweet about learning from Hadley)
 
-They released their [findings from a demographic survey taken at UseR](https://forwards.github.io/blog/2017/01/13/mapping-users/), the major conference for r users. 
+## Some Packages, Tools, and Functions I Learned
+* **Assertr's verify function**: The verify function is meant for use in a data analysis pipeline. It raises an error if the logical within the function is false and just returns the data if True. This is a great way to add some assumption checks in your data pipelines. Here's an example:
+
+```
+mtcars %>% 
+  verify(nrow(.) == 32) %>%
+  filter(cyl == 6)
+```
+
+This simply returns the data frame of all cars with 6 cylinders, as expected, because `mtcars` does indeed have 32 rows. If, however, we had put the wrong number of rows in (e.g. `verify(nrow(.) == 24)`, we would have gotten no data, with this error instead: `Error in verify(., nrow(.) == 23) : verification failed! (1 failure)`. 
+
+* **Profvis**: This is a tool to visualize how long each part of your code is taking to run. This is a great way to figure out how to speed up your code, as often your intuition of what is taking the most time does not match reality. To use it, all you have to do is wrap your code in the profvis function, like so: `profvis({ my_function })`. A new pane will then pop up in RStudio that shows how long each line takes to run and even what functions each calls. Learn more on the RStudio [Profvis page](https://rstudio.github.io/profvis/). 
+
+* **Abbreviating arguments**: You can abbreviate arguments within functions. So instead of writing `mean(c(10, 5, NA), na.rm = TRUE`), you can simply right `mean(c(10, 5, NA), n = T)`. 
+
+* **Listviewer**: One of the hardest parts about working with nested lists is trying to figure out what the heck is in them. The `jsonedit` function from listviewer allows you to see the layers of a list and even search through them. Here's what it looks like when I run it with got_chars, a list from Jenny Bryan's great [repurrrsive package](https://github.com/jennybc/repurrrsive):
+
+(Screenshot here) 
+
+## Keyboard Shortcuts
+
+
+
