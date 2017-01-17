@@ -1,18 +1,6 @@
-Last week I spent four amazing days in Orlando at the first ever [rstudio::conf](https://www.rstudio.com/conference/). In this post, I share some of what I learned from the conference along with my personal experience. Since it's a long post,  I’ve divided it up into sections to make it easier to navigate if you’re just interested in part of the post:
+Last week I spent four amazing days in Orlando at the first ever [rstudio::conf](https://www.rstudio.com/conference/). I learned a ton, met some really cool people and connected with those I hadn't seen in a while, and came out feeling ready to take on the world. I learned so much in fact that I've divided this post into two parts. This first one shares my personal experience and some more general learnings, while the second one has quick, bullet-pointed lists on writing functions, some packages, tools, and functions I learned, and general tips and tricks from Hadley. (include link here). My next post will be on writing my first R package and will include a lot of the tips I learned from Hadley in the second day of the Master R Developer workshop. 
 
-* Some Notes on Diversity 
-* Helpful Links Related to the Conference
-* Training Days
-* Functional Programming
-* Writing Packages
-* Hadley's Tips and Tricks
-* Some Packages, Tools, and Functions I learned 
-* Tips and Tricks from the Tutorials 
-* Keyboard Shortcuts 
-* Personal Notes
-* In the Future
-
-## Some Notes on Diversity
+## Diversity and Inclusion in R
 First, I want to thank RStudio for providing the diversity scholarship that enabled me to attend the conference at all. When I applied for the scholarship, I was just finishing up [Metis](http://www.thisismetis.com/data-science-bootcamps) and about to start my job search. Without a company to pay for my ticket and not knowing when I would start earning a salary again, I could not have covered the $1000+ for the conference ticket and travel. 
 
 The scholarship covered not only the cost of the conference, the Harry Potter World social event, and a small amount of travel money, but also, to my surprise, a ticket for the training days. The training days cost $1,300, so even though I'm now at Etsy, which has some conference funding available, I do not think there's any other way I would have been able to attend this. 
@@ -43,7 +31,4 @@ There were three training day workshops available: Master R Developer with Hadle
 The first day had some material I'd heard already in meetups Hadley has done, but it's always helpful to get a refresher. Other material, such as those on Object-Oriented Programming and S3 classes, were new. The second day on packages was entirely new to me and a great way to help overcome inertia and finally start writing packages. 
 
 There were about 70 people in the Master R Developer workshop. Hadley ran a pretty interactive workshop, with lots of exercises to work on yourself or with your neighbor. This was a great way to try out what you'd just learn, figure out what you didn't understand, and get help from the couple of TAs if needed. 
-
-
-
 
