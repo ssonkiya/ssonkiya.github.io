@@ -1,15 +1,7 @@
-This is the second part of my posts on the rstudio::conf. If you're interested in more general thoughts on the conference and some personal notes, check out the first post(LINK). This post is to gather, as succintly and organized as possible, the practical and technical things I learned at the conference that will hopefully also be useful to others.  
+This is the second part of my posts on the rstudio::conf. If you're interested in more general thoughts on the conference and some personal notes, check out the first post(LINK). This post is to gather, as succintly and organized as possible, the practical and technical things I learned at the conference that will hopefully also be useful to others. While I did a whole training day on writing R Packages, I haven't included most of what I've learned here. Instead, I'll be integrating it into my post on writing my first R package. 
 
 ## Some Packages, Tools, and Functions I Learned
-* **Assertr's verify function**: The verify function is meant for use in a data analysis pipeline. It raises an error if the logical within the function is false and just returns the data if True. This is a great way to add some assumption checks in your data pipelines. Here's an example:
-
-```
-mtcars %>% 
-  verify(nrow(.) == 32) %>%
-  filter(cyl == 6)
-```
- 
-* This simply returns the data frame of all cars with 6 cylinders, as expected, because `mtcars` does indeed have 32 rows. If, however, we had put the wrong number of rows in (e.g. `verify(nrow(.) == 24)`, we would have gotten no data, with this error instead: `Error in verify(., nrow(.) == 23) : verification failed! (1 failure)`. 
+* **Assertr's verify function**: The verify function is meant for use in a data analysis pipeline. It raises an error if the logical within the function is false and just returns the data if True. This is a great way to add some assumption checks in your data pipelines. For example,  `mtcars %>% verify(nrow(.) == 32) %>% filter(cyl == 6)` simply returns the data frame of all cars with 6 cylinders, as expected, because `mtcars` does indeed have 32 rows. If, however, we had put the wrong number of rows in (e.g. `verify(nrow(.) == 24)`, we would have gotten no data, with this error instead: `Error in verify(., nrow(.) == 23) : verification failed! (1 failure)`. 
 
 * **Profvis**: This is a tool to visualize how long each part of your code is taking to run. This is a great way to figure out how to speed up your code, as often your intuition of what is taking the most time does not match reality. To use it, all you have to do is wrap your code in the profvis function, like so: `profvis({ my_function })`. A new pane will then pop up in RStudio that shows how long each line takes to run and even what functions each calls. Learn more on the RStudio [Profvis page](https://rstudio.github.io/profvis/). 
 
@@ -26,6 +18,27 @@ mtcars %>%
 * Hit tab after you start typing to get all functions that start with those letters. Cmd/Ctrl + up arrow instead gives you the commands you've typed
 * Alt + shift + k for all keyboard shortcuts
 
+## Writing Functions
+
+* When writing a function, the last thing you should do is start writing a function. You should always start by figuring out how to solve problems with specific x and y and then generalize. 
+* It's better to do little steps and check after each one. That way you don't end up going a long way, realize you did something wrong, and have to backtrack hours of work.  
+* It's time to write a function when you copy and paste three times. Copying and pasting too much is bad because it increases the possibility for error and clutters up your code. 
+* A function is "pure" if its output only depends on its input and it makes no changes to state of the world (such as resetting options).
+* Try to make functions "purer" by having it do one thing. You can put the other things in a different function. 
+* Properties of a good function 
+  - It does one thing (avoids side effects)
+  - The output is consistent, meaning it always returns the same type of object (e.g. dataframe, character vector, etc.)
+  - It fails fast
+  - It has a good name
+  - It works
+* Your function should be understandable. This is about being correct in the future. Often what you want to do is going to change over time, and if you can't understand how a function works, your chances of making a change correctly is smaller. If you try to make your function too clever, you'll probably end up like this 
+
+(picture of Hadley's tweet) 
+
+* Writing good error messages is really hard, because relies on you having good mental model of someone else's flawed mental model of your function. 
+* Only ever use return for special cases. If a function can return early, should use explicit return call. Otherwise return just adds verbosity for no real reason. You want to save return as a call out to mean this is special case. 
+* Don't write functions that both compute something and then do something with it. For example, the `summary` function for a linear model both computes and prints the p-value
+
 ## Hadley's General Tips and Tricks
 
 * Reading rcode broadly is useful, as it can help expand your R vocabulary. 
@@ -37,7 +50,7 @@ options(warnPartialMatchArgs = TRUE, warnPartialMatchDollar = TRUE, warnPartialM
 
 * Don't proactively worry about performance of your code, but whether it's clear. Don't try to read your code and think whether it will be fast or slow. Your intuition is terrible  just run it! You can also use `profvis` to help. 
 * It's very easy to make code faster by making it incorrect. One of the reasons to write tests!
-* Restart R a few times a day and never restore or save your .RData. This will help the reproducibility of your code. 
+* Restart R a few times a day and never restore or save your .RData. This will help the reproducibility of your code and also if your coworkers do something like redefine `+` (yes, you can do that in R).
 * Don't use comments to see what/how your code is doing, use it to describe why. Otherwise, you have to remember to change comments when you change your code. You really don't want to end up with your code doing one thing and your comment saying you're doing something else.
 * You can be too verbose in your code because don't have enough r vocabulary. For example: 
     - if `(x == TRUE)` is the same as `if(x)`
