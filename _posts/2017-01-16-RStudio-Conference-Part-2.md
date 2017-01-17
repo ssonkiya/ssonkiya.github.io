@@ -1,8 +1,8 @@
 This is the second part of my posts on the rstudio::conf. If you're interested in more general thoughts on the conference and some personal notes, check out the first post(LINK). This post is to gather, as succintly and organized as possible, the practical and technical things I learned at the conference that will hopefully also be useful to others. While I did a whole training day on writing R Packages, I haven't included most of what I've learned here. Instead, I'll be integrating it into my post on writing my first R package. 
 
 ## Other Conference Write-Ups
+* Sharon Machlis's [tips and takeaways](http://www.computerworld.com/article/3157004/data-analytics/best-tips-and-takeaways-from-rstudio-conference.html), which is in a bullet-point and short paragraph format. This is a great complement to this list, since hers are from the conference talks and most of mine are from the training days with Hadley
 * Stephen Turner's [recap](http://www.gettinggeneticsdone.com/2017/01/rstudio-conference-2017-recap.html), with nice short summaries of some of the talks
-* Sharon Machlis's [tips and takeaways](http://www.computerworld.com/article/3157004/data-analytics/best-tips-and-takeaways-from-rstudio-conference.html), which is in a bullet-point and short paragraph format
 * Simon Jackson's [takeaways](https://drsimonj.svbtle.com/opinions-and-challenges-at-rstudio-conf) from the conference, organized around the opinions and challenges about data science processes in the R community. This organizational schema was inspired by Hilary Parker's great talk on [Opinionated Analysis Development](http://www.slideshare.net/hilaryparker/opinionated-analysis-development))
 
 ## Some Packages, Tools, and Functions I Learned
@@ -17,6 +17,7 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
 * **Listviewer**: One of the hardest parts about working with nested lists is trying to figure out what the heck is in them. The `jsonedit` function from listviewer allows you to see the layers of a list and even search through them. Here's what it looks like when I run it with got_chars, a list from Jenny Bryan's great [repurrrsive package](https://github.com/jennybc/repurrrsive):
 
 ![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Listviewer.png)
+
 ## Keyboard Shortcuts
 
 * Hit tab after you start typing to get all functions that start with those letters. Cmd/Ctrl + up arrow instead gives you the commands you've typed
