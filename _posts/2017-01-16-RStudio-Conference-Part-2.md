@@ -2,9 +2,8 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
 
 ## Other Conference Write-Ups
 * Stephen Turner's [recap](http://www.gettinggeneticsdone.com/2017/01/rstudio-conference-2017-recap.html), with nice short summaries of some of the talks
-* Sharon Machlis's [tips and takeaways](http://www.computerworld.com/article/3157004/data-analytics/best-tips-and-takeaways-from-rstudio-conference.html), which is in a similar bullet-point and short paragraph format
+* Sharon Machlis's [tips and takeaways](http://www.computerworld.com/article/3157004/data-analytics/best-tips-and-takeaways-from-rstudio-conference.html), which is in a bullet-point and short paragraph format
 * Simon Jackson's [takeaways](https://drsimonj.svbtle.com/opinions-and-challenges-at-rstudio-conf) from the conference, organized around the opinions and challenges about data science processes in the R community. This organizational schema was inspired by Hilary Parker's great talk on [Opinionated Analysis Development](http://www.slideshare.net/hilaryparker/opinionated-analysis-development))
-
 
 ## Some Packages, Tools, and Functions I Learned
 * **Assertr's verify function**: The verify function is meant for use in a data analysis pipeline. It raises an error if the logical within the function is false and just returns the data if True. This is a great way to add some assumption checks in your data pipelines. For example,  `mtcars %>% verify(nrow(.) == 32) %>% filter(cyl == 6)` simply returns the data frame of all cars with 6 cylinders, as expected, because `mtcars` does indeed have 32 rows. If, however, we had put the wrong number of rows in (e.g. `verify(nrow(.) == 24)`, we would have gotten no data, with this error instead: `Error in verify(., nrow(.) == 23) : verification failed! (1 failure)`. 
@@ -17,8 +16,7 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
 
 * **Listviewer**: One of the hardest parts about working with nested lists is trying to figure out what the heck is in them. The `jsonedit` function from listviewer allows you to see the layers of a list and even search through them. Here's what it looks like when I run it with got_chars, a list from Jenny Bryan's great [repurrrsive package](https://github.com/jennybc/repurrrsive):
 
-(Screenshot here) 
-
+![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Listviewer.png)
 ## Keyboard Shortcuts
 
 * Hit tab after you start typing to get all functions that start with those letters. Cmd/Ctrl + up arrow instead gives you the commands you've typed
@@ -39,13 +37,13 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
   - It works
 * Your function should be understandable. This is about being correct in the future. Often what you want to do is going to change over time, and if you can't understand how a function works, your chances of making a change correctly is smaller. If you try to make your function too clever, you'll probably end up like this 
 
-(picture of Hadley's tweet) 
+![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Clever_programming.png)
 
 * Writing good error messages is really hard, because relies on you having good mental model of someone else's flawed mental model of your function. 
 * Only ever use return for special cases. If a function can return early, should use explicit return call. Otherwise return just adds verbosity for no real reason. You want to save return as a call out to mean this is special case. 
 * Don't write functions that both compute something and then do something with it. For example, the `summary` function for a linear model both computes and prints the p-value
 
-## Hadley's General Tips and Tricks
+## General Tips and Tricks
 
 * Reading rcode broadly is useful, as it can help expand your R vocabulary. 
 * Haldey sets these options in R, to avoid the pitfalls of R's "helpful" partial name matching
@@ -54,10 +52,14 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
 options(warnPartialMatchArgs = TRUE, warnPartialMatchDollar = TRUE, warnPartialMatchAttr = TRUE)
 ```
 
-* Don't proactively worry about performance of your code, but whether it's clear. Don't try to read your code and think whether it will be fast or slow. Your intuition is terrible  just run it! You can also use `profvis` to help. 
+* Most of the time the bottleneck is thinking speed, not computational speed
+* Don't proactively worry about performance of your code, but about whether it's clear. Don't try to read your code and think whether it will be fast or slow. Your intuition is terrible  just run it! You can also use `profvis` to help. 
 * It's very easy to make code faster by making it incorrect. One of the reasons to write tests!
 * Restart R a few times a day and never restore or save your .RData. This will help the reproducibility of your code and also if your coworkers do something like redefine `+` (yes, you can do that in R).
 * Don't use comments to see what/how your code is doing, use it to describe why. Otherwise, you have to remember to change comments when you change your code. You really don't want to end up with your code doing one thing and your comment saying you're doing something else.
 * You can be too verbose in your code because don't have enough r vocabulary. For example: 
     - if `(x == TRUE)` is the same as `if(x)`
     - `y == "a" | y == "b" | y == "c"` is the same as `y %in% c("a", "b", “c”)`
+* Bob Rudis' five rules for using pipes. P.S. This was probably the most elaborate and fun slideshow. Definitely [check it out](https://github.com/hrbrmstr/rstudioconf2017#readme)!
+
+![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Rules_of_pipe.png)
