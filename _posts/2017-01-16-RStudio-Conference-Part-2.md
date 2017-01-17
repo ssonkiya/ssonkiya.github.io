@@ -1,7 +1,7 @@
 This is the second part of my posts on the rstudio::conf. If you're interested in more general thoughts on the conference and some personal notes, check out the first post(LINK). This post is to gather, as succintly and organized as possible, the practical and technical things I learned at the conference that will hopefully also be useful to others. While I did a whole training day on writing R Packages, I haven't included most of what I've learned here. Instead, I'll be integrating it into my post on writing my first R package. 
 
 ## Other Conference Write-Ups
-* Stephen Turner's [recap](http://www.gettinggeneticsdone.com/2017/01/rstudio-conference-2017-recap.html)
+* Stephen Turner's [recap](http://www.gettinggeneticsdone.com/2017/01/rstudio-conference-2017-recap.html), with nice short summaries of some of the talks
 * Sharon Machlis's [tips and takeaways](http://www.computerworld.com/article/3157004/data-analytics/best-tips-and-takeaways-from-rstudio-conference.html), which is in a similar bullet-point and short paragraph format
 * Simon Jackson's [takeaways](https://drsimonj.svbtle.com/opinions-and-challenges-at-rstudio-conf) from the conference, organized around the opinions and challenges about data science processes in the R community. This organizational schema was inspired by Hilary Parker's great talk on [Opinionated Analysis Development](http://www.slideshare.net/hilaryparker/opinionated-analysis-development))
 
