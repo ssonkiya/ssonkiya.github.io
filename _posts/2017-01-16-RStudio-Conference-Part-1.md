@@ -1,4 +1,4 @@
-Last week I spent four amazing days in Orlando at the first ever [rstudio::conf](https://www.rstudio.com/conference/). I learned a ton, met some really cool people and connected with those I hadn't seen in a while, and came out feeling ready to take on the world. I learned so much in fact that I've divided this post into two parts. This first one shares my personal experience and some more general learnings, while the second one has quick, bullet-pointed lists on writing functions, some packages, tools, and functions I learned, and general tips and tricks from Hadley (include link here). I also learned a lot about writing packages on the second day of Hadley's Master R Developer workshop, which will be included in my next post on writing my first package.
+Last week I spent four amazing days in Orlando at the first ever [rstudio::conf](https://www.rstudio.com/conference/). I learned a ton, met some really cool people, connected with those I hadn't seen in a while, and came out feeling ready to take on the world. I've divided this post into two parts. This first one shares my personal experience and some more general learnings, while the second one has quick, bullet-pointed lists on writing functions, some packages, tools, and functions I learned, and general tips and tricks from Hadley (include link here). I also learned a lot about writing packages on the second day of Hadley's Master R Developer workshop, which will be included in my next post on writing my first package.
 
 You can find most of the slides from the conference [here](https://github.com/kbroman/RStudioConf2017Slides), organized by Karl Broman (who was greatly missed). RStudio will also be posting video from most (all?) of the talks, which I'll add here when they're available. 
 
@@ -21,10 +21,18 @@ Julia only started using R about a year and a half ago, but she already has a gr
 
 ## Training Days
 
-There were three training day workshops available: Master R Developer with Hadley Wickahm, Intermediate Shiny with Joe Cheng, and Master the Tidyverse with Garrett Grolemund. The Tidyverse workshop was more basic, and while I definitely want to learn more Shiny, I decided to take the Master R Developer workshop. I've been meaning to learn more about making packages, the focus of the second day, and I always enjoy getting the chance to learn from Hadley again: 
+There were three training day workshops available: Master R Developer with Hadley Wickham, Intermediate Shiny with Joe Cheng, and Master the Tidyverse with Garrett Grolemund. The Tidyverse workshop was more basic, and while I definitely want to learn more Shiny, I decided to take the Master R Developer workshop. I've been meaning to learn more about making packages, the focus of the second day, and I always enjoy getting the chance to learn from Hadley again: 
 
 ![center](https://github.com/robinsones/robinsones.github.io/blob/master/images/Hadley_learning.png)
+
 The first day had some material I'd heard already in meetups Hadley has done, but it's always helpful to get a refresher. Other material, such as those on Object-Oriented Programming and S3 classes, were new. The second day on packages was entirely new to me and a great way to help overcome inertia and finally start writing packages. 
 
 There were about 70 people in the Master R Developer workshop. Hadley ran a pretty interactive workshop, with lots of exercises to work on yourself or with your neighbor. This was a great way to try out what you'd just learn, figure out what you didn't understand, and get help from the couple of TAs if needed. 
+
+A good amount of the information he covered is available in two of his free online books, [Advanced R](http://adv-r.had.co.nz/) and [R Packages](http://r-pkgs.had.co.nz/). But I personally prefer learning programming from a lecture and interactive exercises to reading a book, and going to the training days also forced me to work on the material, rather than putting it off for some day. Moreover, going in person allows you to ask questions (and learn from others' questions). Hadley also made some off-the-cuff remarks that, because of his long experience with R, were very helpful. Finally, the workshop was just plain enjoyable, and a great way to spend two days. 
+
+## Conference Talks
+
+## Social 
+
 
