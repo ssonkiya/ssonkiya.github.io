@@ -9,7 +9,7 @@ The availability of diversity scholarships for women, LGBT+, and underrepresente
 
 I loved meeting up with awesome RLadies at conference, including Jenny Bryan, Charlotte Wickham, Hilary Parker, and these cool graduate students from Vanderbuilt: 
 
-(link to tweet with t-shirts)
+![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Harry_Potter_Shirts.png)
 
 One person I was especially excited to meet was Julia Silge, who works with my brother at StackOverflow. I'd been following her on Twitter for a while but we'd never met in person. In fact, this conference was only the second time she met Dave in person, even though he hired her for StackOverflow and developed the tidy text package together! She's very inspirational to me: she only started using R about a year and a half ago, and she already has a great and active blog, a popular package, and a new career as a Data Scientist. While her strong previous scientific training certainly helped her, she's a great example of how you don't necessariliy need a statistics or computer science degree to become a data scientist. 
 
