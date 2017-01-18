@@ -41,6 +41,14 @@ After a quick introduction to my brother, who was running around talking to othe
 
 ## Harry Potter World
 
+I’d be remiss if I didn’t mention the amazing night at Harry Potter world, where we had all of Hogsmeades to ourselves, as RStudio had rented out the park for the evening. Hillary Parker took some [beautiful pictures](https://photos.google.com/share/AF1QipOe6Ypp_WLkOcBJQzxXhOY2RNelv8w57eR285pZuDvBxedg1liRCvaijNJsqgLeWw?key=WFNTVUNyRnlsOTlaVkpqS1pibFFhUE82MlVBTnVB) on her DSLR that captured the mood: 
+
+![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/HP_image1.JPG)
+
+It was a bit bizarre to go on a roller coaster that had more staff members than riders, but I definitely didn’t miss the lines. I was even picked to get a free wand from Ollivander's, which you can use to interact with the shop windows. But again, whether exploring Hogwarts, enjoying a butter beer, or grabbing the front row of a ride, the experience was made all the richer for the people I got to enjoy it with: 
+
+![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Group_HP_pic.JPG)
+
 
 ## Wrap-Up
 
