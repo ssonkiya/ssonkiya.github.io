@@ -34,7 +34,8 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
   - It works
 * Your function should be understandable. This is about being correct in the future. Often what you want to do is going to change over time, and if you can't understand how a function works, your chances of making a change correctly is smaller. If you try to make your function too clever, you'll probably end up like this 
 
-![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Clever_programming.png)
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/hadleywickham">@hadleywickham</a> on clever programming solutions<br>Now: &quot;My god I am a total coding genius” <br>3 months later: &quot;I have no idea what this means&quot;</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/819225758367449088">January 11, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * Writing good error messages is really hard, because relies on you having good mental model of someone else's flawed mental model of your function. 
 * Only ever use return for special cases. If a function can return early, should use explicit return call. Otherwise return just adds verbosity for no real reason. You want to save return as a call out to mean this is special case. 
