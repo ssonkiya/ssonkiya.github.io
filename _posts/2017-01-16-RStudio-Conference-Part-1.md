@@ -31,8 +31,19 @@ There were about 70 people in the Master R Developer workshop. Hadley ran a pret
 
 A good amount of the information he covered is available in two of his free online books, [Advanced R](http://adv-r.had.co.nz/) and [R Packages](http://r-pkgs.had.co.nz/). But I personally prefer learning programming from a lecture and interactive exercises to reading a book, and going to the training days also forced me to work on the material, rather than putting it off for some day. Moreover, going in person allows you to ask questions (and learn from others' questions). Hadley also made some off-the-cuff remarks that, because of his long experience with R, were very helpful. Finally, the workshop was just plain enjoyable, and a great way to spend two days. 
 
-## Conference Talks
+## Main Conference 
 
-## Social 
+Outside of the two keynotes and closing panel, the conference had two parallel tracks of talks. This meant I couldn’t get to them all, although I plan to watch a few I missed once the videos are uploaded. It was a great, diverse line-up of speakers. Some of my favorites was Hilary’s talk on [Opinionated Analysis Development](http://www.slideshare.net/hilaryparker/opinionated-analysis-development), Bob Rudis’ on [Writing Readable Code with Pipes](https://github.com/hrbrmstr/rstudioconf2017#readme), Jenny Bryan’s on [List-Columns](https://speakerdeck.com/jennybc/putting-square-pegs-in-round-holes-using-list-cols-in-your-dataframe), and Julia Silge’s on [Tex Mining, the Tidy Way](https://speakerdeck.com/juliasilge/text-mining-the-tidy-way), and Jonathan McPherson on R Notebook Workflow. If you’re very interested, I would suggest watching the videos rather than just reading the slides in order to get the full impact; each talk is only about 20 minutes. I obviously picked up a lot of technical tips and tricks from the content of the talks (see my other post for these), but I could always have watched these later online. What I couldn’t have gotten is a full immersion into the R community. 
+
+To me, getting to meet and talk with new people and non-New York friends was one of the best parts of the conference. I think one story nicely illustrates some of the spontaneous connections that can be formed at these conferences. At lunch one day I met James, a Columbia professor, and we realized we were on the same flight back to New York. He asked how I was getting to the airport, and I told him I was sharing a cab with my brother, whose work was paying for the ride, and asked if he wanted to join us. 
+
+After a quick introduction to my brother, who was running around talking to other people, we all met up again Saturday night to share the cab. He and Dave quickly hit it off, with Dave noticing he seems to know a lot about one of his packages, gganimate. About halfway through the ride, James said “Yeah, a couple months ago I used it to [animate NBA plays”](https://twitter.com/revodavid/status/771747696617160704). At which point, David goes “You’re James Curley, aren’t you?” It turns out Dave had been following James on twitter for a while and meant to find him at the conference. They spent the next few hours as we waited for our delayed flight in animated discussion while I enjoyed playing Super Mario Run. 
+
+## Harry Potter World
 
 
+## Wrap-Up
+
+For those considering going to rstudio::conf next year, I hope this gave you a better idea of what the experience is like. I want to emphasize again how friendly everyone at this conference was, including prominent members of the community. Don’t be shy about introducing yourself after talks or at the lunch table. 
+
+In the final panel of Hadley Wickham, J.J. Allaire, and Joe Cheng, one of them said: “the strength of R is in the human factors. It's possible for those who don’t have a conventional software background to be successful with R.” The R language creators, RStudio, and the many open-source package developers deserve much of the credit for this, but I think the final piece of really making R accessible is the rest of great and friendly community. Whether it’s StackOverflow power-users who enable you to often find the answer to your question in your a google result, or the active bloggers who step you through their code and analysis, or twitter users who share the newest packages and their opinions about doing analysis, XYZ.  
