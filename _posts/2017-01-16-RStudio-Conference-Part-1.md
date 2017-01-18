@@ -12,7 +12,8 @@ The availability of rstudio::conf diversity scholarships for women, LGBT+, and u
 
 I met many kick-ass R Ladies at the conference, including Jenny Bryan, Charlotte Wickham, Hilary Parker, and these awesome graduate students from Vanderbuilt: 
 
-![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Harry_Potter_Shirts.png)
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Coming at you strong from <a href="https://twitter.com/RLadiesNash">@RLadiesNash</a> - excited to kickoff <a href="https://twitter.com/hashtag/rstudioconf?src=hash">#rstudioconf</a> <a href="https://t.co/1DuGzx1w3h">pic.twitter.com/1DuGzx1w3h</a></p>&mdash; Lucy (@LucyStats) <a href="https://twitter.com/LucyStats/status/819909032626503680">January 13, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 One person I was especially excited to meet was Julia Silge, who works with [my brother](varianceexplained.org) Dave at StackOverflow. I'd been following her on Twitter and reading her blog for a while, but we had never met in person. In fact, this conference was only the second time she met Dave in person, even though he hired her as the second Data Scientist at Stack Overflow and developed the tidy text package with her! 
 
