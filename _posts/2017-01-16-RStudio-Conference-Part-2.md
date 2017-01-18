@@ -1,4 +1,4 @@
-This is the second part of my posts on the rstudio::conf. If you're interested in more general thoughts on the conference and some personal notes, check out the first post(LINK). This post is to gather, as succintly and organized as possible, the practical and technical things I learned at the conference that will hopefully also be useful to others. While I did a whole training day on writing R Packages, I haven't included most of what I've learned here. Instead, I'll be integrating it into my post on writing my first R package. 
+This is the second part of my posts on the rstudio::conf. If you're interested in more general thoughts on the conference and some personal notes, check out the first post(LINK). This post is to gather, as succintly and organized as possible, the practical and technical things I learned at the conference. While I did a whole training day on writing R Packages, I haven't included most of what I've learned here. Instead, I'll be integrating it into a future post on writing my first R package. 
 
 ## Other Conference Write-Ups
 * Sharon Machlis's [tips and takeaways](http://www.computerworld.com/article/3157004/data-analytics/best-tips-and-takeaways-from-rstudio-conference.html), which is in a bullet-point and short paragraph format. This is a great complement to this list, since hers are from the conference talks and most of mine are from the training days with Hadley
@@ -18,10 +18,6 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
 
 ![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Listviewer.png)
 
-## Keyboard Shortcuts
-
-* Hit tab after you start typing to get all functions that start with those letters. Cmd/Ctrl + up arrow instead gives you the commands you've typed
-* Alt + shift + k for all keyboard shortcuts
 
 ## Writing Functions
 
@@ -44,6 +40,13 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
 * Only ever use return for special cases. If a function can return early, should use explicit return call. Otherwise return just adds verbosity for no real reason. You want to save return as a call out to mean this is special case. 
 * Don't write functions that both compute something and then do something with it. For example, the `summary` function for a linear model both computes and prints the p-value
 
+## Keyboard Shortcuts
+
+* Hit tab after you start typing to get all functions that start with those letters. Cmd/Ctrl + up arrow instead gives you the commands you've typed
+* Hold alt and drag your cursor to type on multiple lines
+* Alt + shift + k for all keyboard shortcuts
+* And you can [make your own keyboard shortcuts](https://support.rstudio.com/hc/en-us/articles/206382178-Customizing-Keyboard-Shortcuts)
+
 ## General Tips and Tricks
 
 * Reading rcode broadly is useful, as it can help expand your R vocabulary. 
@@ -54,7 +57,8 @@ options(warnPartialMatchArgs = TRUE, warnPartialMatchDollar = TRUE, warnPartialM
 ```
 
 * Most of the time the bottleneck is thinking speed, not computational speed
-* Don't proactively worry about performance of your code, but about whether it's clear. Don't try to read your code and think whether it will be fast or slow. Your intuition is terrible  just run it! You can also use `profvis` to help. 
+* Don't proactively worry about performance of your code, but about whether it's clear. 
+* Don't try to read your code and think whether it will be fast or slow. Your intuition is terrible. Just run it! You can also use `profvis` to help. .
 * It's very easy to make code faster by making it incorrect. One of the reasons to write tests!
 * Restart R a few times a day and never restore or save your .RData. This will help the reproducibility of your code and also if your coworkers do something like redefine `+` (yes, you can do that in R).
 * Don't use comments to see what/how your code is doing, use it to describe why. Otherwise, you have to remember to change comments when you change your code. You really don't want to end up with your code doing one thing and your comment saying you're doing something else.
