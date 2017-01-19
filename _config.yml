@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hooked on Data"
 title_separator          : "-"
 name                     : "Emily Robinson"
-description              : "Data Scientist"
+description              : "Data Analyst"
 url                      : "https://robinsones.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
