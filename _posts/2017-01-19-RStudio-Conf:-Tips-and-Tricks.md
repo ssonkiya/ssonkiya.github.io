@@ -23,7 +23,7 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
   - It does one thing (avoids side effects)
   - The output is consistent, meaning it always returns the same type of object (e.g. dataframe, character vector, etc.)
   - It fails fast
-  - It has a good name
+  - It has a good name: not too long and makes it clear what the function does
   - It works
 * Your function should be understandable. This is about being correct in the future. Often what you want to do is going to change over time, and if you can't understand how a function works, your chances of making a change correctly is smaller. If you try to make your function too clever, you'll probably end up like this 
 
@@ -57,7 +57,7 @@ options(warnPartialMatchArgs = TRUE, warnPartialMatchDollar = TRUE, warnPartialM
 * Restart R a few times a day and never restore or save your .RData. This will help the reproducibility of your code and also if your coworkers do something like redefine `+` (yes, you can do that in R).
 * Don't use comments to see what/how your code is doing, use it to describe why. Otherwise, you have to remember to change comments when you change your code. You really don't want to end up with your code doing one thing and your comment saying you're doing something else.
 * You can be too verbose in your code because don't have enough r vocabulary. For example: 
-    - if `(x == TRUE)` is the same as `if(x)`
+    - `if(x == TRUE)` is the same as `if(x)`
     - `y == "a" | y == "b" | y == "c"` is the same as `y %in% c("a", "b", “c”)`
 * Bob Rudis' five rules for using pipes. P.S. This was probably the most elaborate and fun slideshow. Definitely [check it out](https://github.com/hrbrmstr/rstudioconf2017#readme)!
 
