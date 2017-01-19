@@ -61,9 +61,10 @@ options(warnPartialMatchArgs = TRUE, warnPartialMatchDollar = TRUE, warnPartialM
     - `y == "a" | y == "b" | y == "c"` is the same as `y %in% c("a", "b", “c”)`
 * Bob Rudis' five rules for using pipes. P.S. This was probably the most elaborate and fun slideshow. Definitely [check it out](https://github.com/hrbrmstr/rstudioconf2017#readme)!
 
+![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Rules_of_pipe.png)
+
 ## Other Conference Write-Ups
 * Sharon Machlis's [tips and takeaways](http://www.computerworld.com/article/3157004/data-analytics/best-tips-and-takeaways-from-rstudio-conference.html), which is in a bullet-point and short paragraph format. This is a great complement to this list, since hers are from the conference talks and most of mine are from the training days with Hadley
 * Stephen Turner's [recap](http://www.gettinggeneticsdone.com/2017/01/rstudio-conference-2017-recap.html), with nice short summaries of some of the talks
 * Simon Jackson's [takeaways](https://drsimonj.svbtle.com/opinions-and-challenges-at-rstudio-conf) from the conference, organized around the opinions and challenges about data science processes in the R community. This organizational schema was inspired by Hilary Parker's great talk on [Opinionated Analysis Development](http://www.slideshare.net/hilaryparker/opinionated-analysis-development))
 
-![center](https://github.com/robinsones/robinsones.github.io/blob/rstudioconf-draft-post/images/Rules_of_pipe.png)
