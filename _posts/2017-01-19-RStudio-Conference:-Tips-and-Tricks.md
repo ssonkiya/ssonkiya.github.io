@@ -5,7 +5,7 @@ This is the second part of my posts on the rstudio::conf. If you're interested i
 
 * **Profvis**: This is a tool to visualize how long each part of your code is taking to run. This is a great way to figure out how to speed up your code, as often your intuition of what is taking the most time does not match reality. To use it, all you have to do is wrap your code in the profvis function, like so: `profvis({ my_function })`. A new pane will then pop up in RStudio that shows how long each line takes to run and even what functions each calls. Learn more on the RStudio [Profvis page](https://rstudio.github.io/profvis/). 
 
-* **Abbreviating arguments**: You can abbreviate arguments within functions. So instead of writing `mean(c(10, 5, NA), na.rm = TRUE`), you can simply right `mean(c(10, 5, NA), n = T)`. 
+* **Abbreviating arguments**: You can abbreviate arguments within functions. So instead of writing `mean(c(10, 5, NA), na.rm = TRUE`), you can simply right `mean(c(10, 5, NA), n = T)`. CAUTION: this can go wrong, especially in the case of using T and F as abbreviations for TRUE and FALSE. For example, if for some reason you (or an evil coworker) had put `T <- F` before you run this code, now your output will be `NA`!
 
 * **Listviewer**: One of the hardest parts about working with nested lists is trying to figure out what the heck is in them. The `jsonedit` function from listviewer allows you to see the layers of a list and even search through them. Here's what it looks like when I run it with got_chars, a list from Jenny Bryan's great [repurrrsive package](https://github.com/jennybc/repurrrsive):
 
@@ -55,7 +55,7 @@ options(warnPartialMatchArgs = TRUE, warnPartialMatchDollar = TRUE, warnPartialM
 * Don't try to read your code and think whether it will be fast or slow. Your intuition is terrible. Just run it! You can also use `profvis` to help. 
 * It's very easy to make code faster by making it incorrect. One of the reasons to write tests!
 * Restart R a few times a day and never restore or save your .RData. This will help the reproducibility of your code and also if your coworkers do something like redefine `+` (yes, you can do that in R).
-* Don't use comments to see what/how your code is doing, use it to describe why. Otherwise, you have to remember to change comments when you change your code. You really don't want to end up with your code doing one thing and your comment saying you're doing something else.
+* Don't use comments to say what/how your code is doing, use it to describe why. Otherwise, you have to remember to change comments when you change your code. You really don't want to end up with your code doing one thing and your comment saying you're doing something else.
 * You can be too verbose in your code because don't have enough r vocabulary. For example: 
     - `if(x == TRUE)` is the same as `if(x)`
     - `y == "a" | y == "b" | y == "c"` is the same as `y %in% c("a", "b", “c”)`
