@@ -2,30 +2,27 @@
 
 Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I felt I had something worthwhile to share. 
 
-This is part one of a blog post series about the talk. This first post is targeted to those who are considering giving a meetup or conference talk. The next one will be covering what I went over in my talk. The final one will be distilling more of what I’ve learned by reading A/B Testing papers. 
+This is part one of a blog post series about the talk. This first post is targeted to those who are considering giving a meetup or conference talk. The next one will be covering what I went over in my talk. The final one will be distilling more of what I’ve learned about A/B Testing from my time at Etsy and by reading papers. 
 
 ## Why do a Talk? 
 *Disclaimer*
 
-I want to preface this section by acknowledging that it is more difficult for some people to give talks than others. I live in New York, a major tech city, but for those who live in places where the tech community is smaller, there may not be a meetup for you to speak at or a large audience that you can draw. That being said, there are more of us than you might think; Rladies has chapters in over 50 cities and you may be surprised when you look to see what your community can offer. 
+I want to preface this section by acknowledging that it is more difficult for some people to give talks than others. I live in New York, a major tech city, but for those who live in places where the tech community is smaller, there may not be a meetup for you to speak at or a large audience that you can draw. That being said, there are more of us than you might think; Rladies has chapters in over [40 cities](https://rladies.org) and you may be surprised when you look to see what your community can offer. 
 
-The second constraint is time. 
+The second major constraint is time. 
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Because relying on public code massively discriminates in favour of those who have time to code outside of work?</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/883295260079685634">July 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+MORE NEEDED! 
 
 For those who have caregiving responsibilities or simply want to keep their work mainly limited to the office, doing a talk may not be feasible or appealing.
 
 *Giving Back*
 
-On the other hand, if you’re considering giving a talk but think you don’t have anything to contribute, don’t underestimate yourself!
+On the other hand, if you’re considering giving a talk but think you don’t have anything to contribute, don’t underestimate yourself! You probably have more to offer than you think. The main reason an open source language can thrive is because of a commuity. Certainly one way to give back is contributing code, but you can also give talks or write blog posts. I've benefited a lot from the free resources provided in the R community (such as the great [R for Data Science](http://r4ds.had.co.nz) book by Garrett Grolemund and Hadley Wickaham, the [many](http://www.masalmon.eu) [blogs](http://livefreeordichotomize.com), and of course the whole language and its set of packages). While I haven't made or contributed to a public package (yet!), I believe that this blog and recorded, free talks can help. 
 
-The main reason an open source community and language can thrive is 
-Unpaid work people do
-Giving back to the community
-Certainly one way is contributing code, but also have talks, writing blog posts, books
+*Personal Benefits* 
 
-Benefits
 https://twitter.com/chrisalbon/status/890066076511371264
 way to build a network, get yourself known
 
