@@ -1,5 +1,3 @@
-## Introduction
-
 Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I though I could share what I'd learned about A/B Testing and its challenges. If you'd like to watch it, you can view the recording [here](https://www.youtube.com/watch?v=SF-ryGgLOgQ). The talk starts around 9:00 and ends at 41:30, with the rest being Q&A (I tried to repeat the questions, so you should be able to follow that as well). 
 
 This is part one of a blog post series about the talk. This first post is targeted to those who are considering giving a meetup or conference talk. The next one will be covering what I went over in my talk, and the final one will be distilling more of what I’ve learned about A/B Testing from my time at Etsy and by reading papers. 
@@ -22,7 +20,7 @@ On the other hand, if you’re considering giving a talk but think you don’t h
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Create things useful to other people. <a href="https://t.co/MgptvBTeOz">https://t.co/MgptvBTeOz</a></p>&mdash; Chris Albon (@chrisalbon) <a href="https://twitter.com/chrisalbon/status/890066076511371264">July 26, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Giving a talk is a great way to build your network and start getting known. If your talk is recorded and publicly shared, you'll have a public piece of work available. Can also network after the talk. MORE. 
+Giving a talk is a great way to build your network and start getting known. You'll have a change at the talk MORE. And if your talk is recorded and publicly shared, you'll have a public piece of work available.
 
 ## Giving a Talk 
 
