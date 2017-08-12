@@ -22,10 +22,7 @@ On the other hand, if you’re considering giving a talk but think you don’t h
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Create things useful to other people. <a href="https://t.co/MgptvBTeOz">https://t.co/MgptvBTeOz</a></p>&mdash; Chris Albon (@chrisalbon) <a href="https://twitter.com/chrisalbon/status/890066076511371264">July 26, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-way to build a network, get yourself known
-
-Opportunity 
-was contacted my major at west point, asked to give lecture to faculty, because he had seen the recording of my talk. Going up for a day in the fall. 
+Giving a talk is a great way to build your network and start getting known. If your talk is recorded and publicly shared, you'll have a public piece of work available. Can also network after the talk.  
 
 ## Giving a Talk 
 
@@ -37,11 +34,9 @@ My advice was to think of yourself before taking on this project and ask if you 
 
 *Don’t have text or idea heavy slides*
 
-Having seen multiple paragraphs in size 10 font literally read off of a slide, I thought I was pretty well in the initial version of my talk. But on one slide, even though there were only about 20 words in six nice little boxes, I was trying to cover six points in one go! So I switched to only cover three points and have about four slides for each of them. MORE. 
+Having seen multiple paragraphs in size 10 font literally read off of a slide, I thought I was pretty well in the initial version of my talk. I had no slides with more than a few bullet points and a few of them I had varied up the design. But on one these slides, even though there were only about 20 words in six nice little boxes, I was trying to cover six points in one go! So I switched to only cover three points and have about four slides for each of them. MORE. 
 
-While it’s fine to start out with text-heavy slides as an outline for your talk, cut it down as you go! You want to make sure you’re not using your slides as your speaker notes. 
-
-Also try to vary your slides up as well with memes, gifs, screenshots of tweets, etc. You don’t want to take your audience through 50 slides of bullet points only, even if each only has one idea expressed in a few sentences. 
+While it’s fine to start out with text-heavy slides as an outline for your talk, cut it down as you go! You want to make sure you’re not using your slides as your speaker notes. Also try to vary your slides up as well with memes, gifs, screenshots of tweets, etc. You don’t want to take your audience through 50 slides of bullet points only, even if each one only has a single idea expressed in a few sentences. 
 
 I highly advise you to check out [this deck on slide design](https://speakerdeck.com/mseckington/the-art-of-slide-design) for more tips and examples. 
 
