@@ -22,7 +22,7 @@ On the other hand, if you’re considering giving a talk but think you don’t h
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Create things useful to other people. <a href="https://t.co/MgptvBTeOz">https://t.co/MgptvBTeOz</a></p>&mdash; Chris Albon (@chrisalbon) <a href="https://twitter.com/chrisalbon/status/890066076511371264">July 26, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Giving a talk is a great way to build your network and start getting known. If your talk is recorded and publicly shared, you'll have a public piece of work available. Can also network after the talk.  
+Giving a talk is a great way to build your network and start getting known. If your talk is recorded and publicly shared, you'll have a public piece of work available. Can also network after the talk. MORE. 
 
 ## Giving a Talk 
 
