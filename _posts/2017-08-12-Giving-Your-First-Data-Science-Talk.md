@@ -13,6 +13,7 @@ The second constraint is time.
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Because relying on public code massively discriminates in favour of those who have time to code outside of work?</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/883295260079685634">July 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
 For those who have caregiving responsibilities or simply want to keep their work mainly limited to the office, doing a talk may not be feasible or appealing.
 
 *Giving Back*
