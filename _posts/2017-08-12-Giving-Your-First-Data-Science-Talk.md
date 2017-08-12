@@ -1,6 +1,6 @@
 ## Introduction
 
-	Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I felt I had something worthwhile to share. 
+Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I felt I had something worthwhile to share. 
 
 This is part one of a blog post series about the talk. This first post is targeted to those who are considering giving a meetup or conference talk. The next one will be covering what I went over in my talk. The final one will be distilling more of what I’ve learned by reading A/B Testing papers. 
 
@@ -9,7 +9,11 @@ This is part one of a blog post series about the talk. This first post is target
 
 I want to preface this section by acknowledging that it is more difficult for some people to give talks than others. I live in New York, a major tech city, but for those who live in places where the tech community is smaller, there may not be a meetup for you to speak at or a large audience that you can draw. That being said, there are more of us than you might think; Rladies has chapters in over 50 cities and you may be surprised when you look to see what your community can offer. 
 
-The second constraint is time. [https://twitter.com/hadleywickham/status/883295260079685634]. For those who have caregiving responsibilities or simply want to keep their work mainly limited to the office, doing a talk may not be feasible or appealing.
+The second constraint is time. 
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Because relying on public code massively discriminates in favour of those who have time to code outside of work?</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/883295260079685634">July 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+For those who have caregiving responsibilities or simply want to keep their work mainly limited to the office, doing a talk may not be feasible or appealing.
 
 *Giving Back*
 
@@ -41,14 +45,14 @@ While it’s fine to start out with text-heavy slides as an outline for your tal
 
 Also try to vary your slides up as well with memes, gifs, screenshots of tweets, etc. You don’t want to take your audience through 50 slides of bullet points only, even if each only has one idea expressed in a few sentences. 
 
-I highly advise you to check out this deck on slide design[https://speakerdeck.com/mseckington/the-art-of-slide-design] for more tips and examples. 
+I highly advise you to check out [this deck on slide design](https://speakerdeck.com/mseckington/the-art-of-slide-design) for more tips and examples. 
 
-Practice, practice, practice (and ask for feedback!)
+*Practice, practice, practice (and ask for feedback!)*
 This sounds pretty basic, but it can be easy to procrastinate on preparing the talk and feel just reading over the slides is fine. Fortunately as an Etsy employee I had to submit my slides to our communication and legal teams ahead of time, so I was forced to make my slides early. 
 
 Starting two weeks before my presentation, I practiced with five different people (a few multiple times). Try to get people with different backgrounds: I practiced with fellow and former Etsy analysts, but also with my non-technical (but presentation expert) sister-in-law. Their advice was very helpful in improving the slides and the talk, but I also found that simply giving the talk out loud helped me see where transitions or slides didn’t work. 
 
-Rally your support team. 
+*Rally your support team* 
 While I feel fairly comfortable with public speaking, I’d never done it to an audience this size or on data science. I was also shy about promoting my talk. 
 
 This is where your supporters can come in to help. My manager advertised my talk at work, my brother tweeted about it, and the other NYC rladies organizers promoted it in our slack channel. They all also came to the talk (my brother almost straight off a flight from London!) and gave me some friendly faces in the audience. 
