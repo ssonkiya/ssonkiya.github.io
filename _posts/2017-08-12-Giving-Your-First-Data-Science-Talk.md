@@ -55,6 +55,6 @@ This is where your supporters can come in to help. My manager advertised my talk
 
 And finally, if your nerves start overcoming you before your talk, just remember this classic and sage advice from one of my search engineering partners:  
 
-[https://twitter.com/robinson_es/status/890681844571811842]
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Best advice for reducing nerves before giving a data science talk: &quot;just imagine that your audience uses p-values of .25 for significance&quot;</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/890681844571811842">July 27, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
