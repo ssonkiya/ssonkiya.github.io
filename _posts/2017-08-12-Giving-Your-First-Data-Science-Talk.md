@@ -1,8 +1,8 @@
 ## Introduction
 
-Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I felt I had something worthwhile to share. 
+Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I felt I had something worthwhile to share. If you'd like to watch it you, you can view the recording [here](https://www.youtube.com/watch?v=SF-ryGgLOgQ).The talk starts around 9:00 and ends at 41:30; the rest is Q&A and I tried to repeat the questions, so you should be able to follow that as well. 
 
-This is part one of a blog post series about the talk. This first post is targeted to those who are considering giving a meetup or conference talk. The next one will be covering what I went over in my talk. The final one will be distilling more of what I’ve learned about A/B Testing from my time at Etsy and by reading papers. 
+This is part one of a blog post series about the talk. This first post is targeted to those who are considering giving a meetup or conference talk. The next one will be covering what I went over in my talk, and the final one will be distilling more of what I’ve learned about A/B Testing from my time at Etsy and by reading papers. 
 
 ## Why do a Talk? 
 *Disclaimer*
