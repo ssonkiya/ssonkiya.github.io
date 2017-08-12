@@ -9,7 +9,7 @@ This is part one of a blog post series about the talk. This first post is target
 
 I want to preface this section by acknowledging that it is more difficult for some people to give talks than others. I live in New York, a major tech city, but for those who live in places where the tech community is smaller, there may not be a meetup for you to speak at or a large audience that you can draw. That being said, there are more of us than you might think; Rladies has chapters in over [40 cities](https://rladies.org) and you may be surprised when you look to see what your community can offer. 
 
-The second major constraint is time. For those who have caregiving responsibilities or simply want to keep their work mainly limited to the office, doing a talk may not be feasible or appealing. While I think there are many benefits for yourself and others in doing public work, it should not become a requirement for a fulfilling data science career. 
+Another major constraint is time. For those who have caregiving responsibilities or simply want to keep their work mainly limited to the office, doing a talk may not be feasible or appealing. While I think there are many benefits for yourself and others in doing public work, it should not become a requirement for a fulfilling data science career. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Because relying on public code massively discriminates in favour of those who have time to code outside of work?</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/883295260079685634">July 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
