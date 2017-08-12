@@ -1,6 +1,6 @@
 ## Introduction
 
-Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I though I could share what I'd learned about A/B Testing and its challenges. If you'd like to watch it, you can view the recording [here](https://www.youtube.com/watch?v=SF-ryGgLOgQ).The talk starts around 9:00 and ends at 41:30, with the rest being Q&A (I tried to repeat the questions, so you should be able to follow that as well). 
+Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I though I could share what I'd learned about A/B Testing and its challenges. If you'd like to watch it, you can view the recording [here](https://www.youtube.com/watch?v=SF-ryGgLOgQ). The talk starts around 9:00 and ends at 41:30, with the rest being Q&A (I tried to repeat the questions, so you should be able to follow that as well). 
 
 This is part one of a blog post series about the talk. This first post is targeted to those who are considering giving a meetup or conference talk. The next one will be covering what I went over in my talk, and the final one will be distilling more of what I’ve learned about A/B Testing from my time at Etsy and by reading papers. 
 
@@ -9,13 +9,10 @@ This is part one of a blog post series about the talk. This first post is target
 
 I want to preface this section by acknowledging that it is more difficult for some people to give talks than others. I live in New York, a major tech city, but for those who live in places where the tech community is smaller, there may not be a meetup for you to speak at or a large audience that you can draw. That being said, there are more of us than you might think; Rladies has chapters in over [40 cities](https://rladies.org) and you may be surprised when you look to see what your community can offer. 
 
-The second major constraint is time. 
+The second major constraint is time. For those who have caregiving responsibilities or simply want to keep their work mainly limited to the office, doing a talk may not be feasible or appealing. While I think there are many benefits for yourself and others in doing public work, it should not become a requirement for a fulfilling data science career. 
 
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Because relying on public code massively discriminates in favour of those who have time to code outside of work?</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/883295260079685634">July 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Because relying on public code massively discriminates in favour of those who have time to code outside of work?</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/883295260079685634">July 7, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-MORE NEEDED! 
-
-For those who have caregiving responsibilities or simply want to keep their work mainly limited to the office, doing a talk may not be feasible or appealing.
 
 *Giving Back*
 
@@ -23,7 +20,8 @@ On the other hand, if you’re considering giving a talk but think you don’t h
 
 *Personal Benefits* 
 
-https://twitter.com/chrisalbon/status/890066076511371264
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Create things useful to other people. <a href="https://t.co/MgptvBTeOz">https://t.co/MgptvBTeOz</a></p>&mdash; Chris Albon (@chrisalbon) <a href="https://twitter.com/chrisalbon/status/890066076511371264">July 26, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 way to build a network, get yourself known
 
 Opportunity 
