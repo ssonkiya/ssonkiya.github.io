@@ -30,11 +30,13 @@ was contacted my major at west point, asked to give lecture to faculty, because 
 ## Giving a Talk 
 
 *Target the you of six months (one year, five years) ago*
+
 One of my favorite parts about working at Etsy is the womenby (women and non-binary) in tech group. We have a private slack channel, and the day after my talk, a senior engineer was asking for opinions on an upcoming talk. She wanted to frame the talk as a story about how they built a distributed streaming platform on docker and the mistakes they made, but she worried it would make her and her team look inexperienced and possibly stupid for not anticipating the difficulties. 
 
 My advice was to think of yourself before taking on this project and ask if you would have found it useful then. I would bet most of the time the answer is yes, and that the audience is more similar to you six months ago then you after this experience. 
 
 *Don’t have text or idea heavy slides*
+
 Having seen multiple paragraphs in size 10 font literally read off of a slide, I thought I was pretty well in the initial version of my talk. But on one slide, even though there were only about 20 words in six nice little boxes, I was trying to cover six points in one go! So I switched to only cover three points and have about four slides for each of them. MORE. 
 
 While it’s fine to start out with text-heavy slides as an outline for your talk, cut it down as you go! You want to make sure you’re not using your slides as your speaker notes. 
@@ -44,11 +46,13 @@ Also try to vary your slides up as well with memes, gifs, screenshots of tweets,
 I highly advise you to check out [this deck on slide design](https://speakerdeck.com/mseckington/the-art-of-slide-design) for more tips and examples. 
 
 *Practice, practice, practice (and ask for feedback!)*
+
 This sounds pretty basic, but it can be easy to procrastinate on preparing the talk and feel just reading over the slides is fine. Fortunately as an Etsy employee I had to submit my slides to our communication and legal teams ahead of time, so I was forced to make them early. 
 
 Starting two weeks before my presentation, I practiced with five different people (a few of them multiple times). Try to get people with different backgrounds: I practiced with fellow and former Etsy analysts, but also with my non-technical (but presentation expert) sister-in-law. Their advice was very helpful in improving the slides and the talk, but I also found that simply giving the talk out loud helped me see where transitions or slides didn’t work. 
 
 *Rally your support team* 
+
 While I feel fairly comfortable with public speaking, I’d never done it to an audience this size or on data science. I was also shy about promoting my talk. 
 
 This is where your supporters can come in to help. My manager advertised my talk at work, my brother tweeted about it, and the other NYC rladies organizers promoted it in our slack channel. Many of them also came to the talk (my brother almost straight off a flight from London!), so I had some friendly faces in the audience. 
