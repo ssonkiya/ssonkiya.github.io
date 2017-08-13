@@ -32,7 +32,7 @@ My advice was to think of yourself before taking on this project and ask if you 
 
 *Don’t have text or idea heavy slides*
 
-Having seen multiple paragraphs in size 10 font literally read off of a slide, I thought I was pretty well in the initial version of my talk. I had no slides with more than a few bullet points and a few of them I had varied up the design. But on one these slides, even though there were only about 20 words in six nice little boxes, I was trying to cover six points in one go! So I switched to only cover three points and have about four slides for each of them. MORE. 
+Having seen multiple paragraphs in size 10 font literally read off of a slide, I thought I was doing pretty well in the initial version of my talk. I had no slides with more than a few bullet points and a few of them I had varied up the design. But on one these slides, even though there were only about 20 words in six nice little boxes, I was trying to cover six points in one go! So I switched to only cover three points and have about four slides for each of them. MORE. 
 
 While it’s fine to start out with text-heavy slides as an outline for your talk, cut it down as you go! You want to make sure you’re not using your slides as your speaker notes. Also try to vary your slides up as well with memes, gifs, screenshots of tweets, etc. You don’t want to take your audience through 50 slides of bullet points only, even if each one only has a single idea expressed in a few sentences. 
 
