@@ -1,4 +1,4 @@
-Two weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I though I could share what I'd learned about A/B Testing and its challenges. If you'd like to watch it, you can view the recording [here](https://www.youtube.com/watch?v=SF-ryGgLOgQ). The talk starts around 9:00 and ends at 41:30, with the rest being Q&A (I tried to repeat the questions, so you should be able to follow that as well). 
+A few weeks ago, I gave my first ever data science talk. Jared Lander, organizer of the  [New York Statistical Open Programming meetup](https://www.meetup.com/nyhackr/), had been asking me to speak, and after about six months at Etsy I though I could share what I'd learned about A/B Testing and its challenges. If you'd like to watch it, you can view the recording [here](https://www.youtube.com/watch?v=SF-ryGgLOgQ). The talk starts around 9:00 and ends at 41:30, with the rest being Q&A (I tried to repeat the questions, so you should be able to follow that as well). 
 
 This is part one of a blog post series about the talk. This first post is targeted to those who are considering giving a meetup or conference talk. The next one will be covering what I went over in my talk, and the final one will be distilling more of what I’ve learned about A/B Testing from my time at Etsy and by reading papers. 
 
@@ -53,5 +53,4 @@ This is where your supporters can come in to help. My manager advertised my talk
 And finally, if your nerves start overcoming you before your talk, just remember this classic and sage advice from one of my search engineering partners:  
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Best advice for reducing nerves before giving a data science talk: &quot;just imagine that your audience uses p-values of .25 for significance&quot;</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/890681844571811842">July 27, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
