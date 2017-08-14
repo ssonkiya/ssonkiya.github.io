@@ -20,7 +20,7 @@ On the other hand, if you’re considering giving a talk but think you don’t h
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Create things useful to other people. <a href="https://t.co/MgptvBTeOz">https://t.co/MgptvBTeOz</a></p>&mdash; Chris Albon (@chrisalbon) <a href="https://twitter.com/chrisalbon/status/890066076511371264">July 26, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Giving a talk is a great way to build your network and start getting known. You'll have a change at the talk MORE. And if your talk is recorded and publicly shared, you'll have a public piece of work available.
+Giving a talk is a great way to build your network and raise your data science profile. While you can (and certainly should!) meet new people as an attendee, when you’re the speaker, people will probably come up to you after the talk to continue the discussion. And if your talk is recorded and publicly shared, you'll have a public piece of work available.
 
 ## Giving a Talk 
 
@@ -32,9 +32,9 @@ My advice was to think of yourself before taking on this project and ask if you 
 
 *Don’t have text or idea heavy slides*
 
-Having seen multiple paragraphs in size 10 font literally read off of a slide, I thought I was doing pretty well in the initial version of my talk. I had no slides with more than a few bullet points and in a few of them I had varied up the design. But on one these slides, even though there were only about 20 words in six nice little boxes, I was trying to cover six points in one go! So I switched to only cover three points and have about four slides for each of them. MORE. 
+Having seen multiple paragraphs in size 10 font literally read off of a slide, I thought I was doing pretty well in the initial version of my talk. I had no slides with more than a few bullet points and in a few of them I had varied up the design. But on one these slides, even though there were only about 20 words in six nice little boxes, I was trying to cover six points in one go! 
 
-While it’s fine to start out with text-heavy slides as an outline for your talk, cut it down as you go! You want to make sure you’re not using your slides as your speaker notes. Also try to vary your slides up as well with memes, gifs, screenshots of tweets, etc. You don’t want to take your audience through 50 slides of bullet points only, even if each one only has a single idea expressed in a few sentences. 
+While I had avoided visual overload, I hadn’t thought about the cognitive overload. To solve the issue with my slide, I switched to only cover three points and spread them out over about twelve slides. Although I ended up covering fewer points, no one’s going to remember everything about your talk. Focus on keeping your audience engaged so that they can absorb the points most relevant to them. 
 
 I highly advise you to check out [this deck on slide design](https://speakerdeck.com/mseckington/the-art-of-slide-design) for more tips and examples. 
 
