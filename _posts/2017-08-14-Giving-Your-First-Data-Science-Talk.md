@@ -14,7 +14,7 @@ Another major constraint is time. For those who have caregiving responsibilities
 
 *Giving Back*
 
-On the other hand, if you’re considering giving a talk but think you don’t have anything to contribute, don’t underestimate yourself! You probably have more to offer than you think. The main reason an open source language can thrive is because of the community that contributes to it, usually without being paid. Certainly one way to give back is by contributing code, but you can also give talks or write blog posts. While I haven't made or contributed to a public package (yet!), I believe that this blog and recorded, free talks can help. 
+On the other hand, if you’re considering giving a talk but think you don’t have anything to contribute, don’t underestimate yourself! You probably have more to offer than you think. The main reason an open source language can thrive is because of the community that contributes to it, usually without being paid. Certainly one way to give back is by contributing code, but you can also give talks or write blog posts. While I haven't made or contributed code to a public package (yet!), I believe that this blog and recorded, free talks can help. 
 
 *Personal Benefits* 
 
