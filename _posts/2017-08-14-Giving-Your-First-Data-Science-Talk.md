@@ -28,7 +28,7 @@ Giving a talk is a great way to build your network and raise your data science p
 
 One of my favorite parts about working at Etsy is the womenby (women and non-binary) in tech group. We have a private slack channel, and the day after my talk, a senior engineer was asking for opinions on an upcoming talk. She wanted to frame the talk as a story about how they built a distributed streaming platform on docker and the mistakes they made, but she worried it would make her and her team look inexperienced and possibly stupid for not anticipating the difficulties. 
 
-My advice was to think of yourself before taking on this project and ask if you would have found it useful then. I would bet most of the time the answer is yes, and that the audience is more similar to you six months ago then you after this experience. 
+My advice was to think of yourself before taking on this project and ask if you would have found it useful then. I would bet most of the time the answer is yes, and that the audience is more similar to you six months ago than you after this experience. 
 
 *Don’t have text or idea heavy slides*
 
