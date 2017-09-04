@@ -1,6 +1,6 @@
 A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. While you can find the talk available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), I wanted to share in writing some of the points I covered. I’ve also added a few new points on business challenges that I didn’t have time to cover in the talk. 
 
-The talk and this post are divided into two main sections: statistical challenges and business challenges. One of the statistical challenges I covered, developing a test for differences in Average Converting Browser Value between two groups, is going to be posted on Etsy’s engineering blog, Code as Craft. XYZ. 
+This post has two main sections: statistical challenges and business challenges. One of the statistical challenges I covered in my talk, developing a test for differences in Average Converting Browser Value between two groups, is going to be posted on Etsy’s engineering blog, [Code as Craft](https://codeascraft.com/archive/), so I've left that out of this post. 
 
 Statistical Challenges
 ======
@@ -14,15 +14,20 @@ At Etsy, the analysts work with partner teams, including marketing, seller servi
 
 *Don't Feign Surprise*
 
+To be a successful partner, you need to make sure your team is comfortable asking you questions. One way to almost guarantee that they won't be is if you "feign surprise."
+
 Many Etsy engineers come from the [Recurse Center](https://www.recurse.com) (formerly known as Hacker School), a free, six or twelve week self-directed retreat for programmers. The Recurse Center has a set of social rules (along with a code of conduct) to make the environment productive and supportive for everyone. One of those is no “feigning surprise” when people admit they don’t know something. As they [put it](https://www.recurse.com/manual#sub-sec-social-rules): 
 
 > Feigning surprise has absolutely no social or educational benefit: When people feign surprise, it's usually to make them feel better about themselves and others feel worse. And even when that's not the intention, it's almost always the effect. As you've probably already guessed, this rule is tightly coupled to our belief in the importance of people feeling comfortable saying "I don't know" and "I don't understand."
  
-To be a successful partner, you need to make sure your team is comfortable asking you questions. Don’t make assumptions about what your audience knows; even though you live p-values day in and day out, they don’t. You should lean on the side of always defining terms, which also helps for when people think they know what something means but they actually don’t (common with p-value). 
+You also shouldn't make assumptions about what your audience knows. Even if you live p-values and confidence intervals day in and day out, they don’t. You should lean on the side of always defining terms, which will also help in the case people think they know what something means but they actually don’t (very common with p-values).
 
 *Understand your partner team*
 
-Something that took me a little time – developing empathy. Experiments that fail are hard; Microsoft experiment team sometimes our job is telling them baby is ugly. Can have emotional or financial investment. 
+The microsoft experimentation platform team put it best [when they said](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf): "our job ... is to tell our clients that their new baby is ugly." As they discuss, teams build new features or products because they believe they'll be useful, but most experiments testing those features show they fail to have a positive impact. And as their quote captures, teams are often emotionally invested in their new feature. Not only have they spent a lot of time working on it, but often it was one of them that came up with the idea in the first place. There may also be financial investment, if a company has tied bonuses or performance reviews to experiment success. 
+
+Even though I knew this intellectually, it took me time to develop empathy XYZ. 
+
 Understand your team: their data literacy, their motivations, how often do they check experiments (likely answer: as often as they can) 
 
 *Invest in Education Efforts*
