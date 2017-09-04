@@ -1,4 +1,4 @@
-A few weeks ago, I wrote about[link] my experience giving my first data science talk. While you can find the talk available online[link], I wanted to share in writing some of the points I covered. I’ve also added a few new points on business challenges that I didn’t have time to cover in the talk. 
+A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. While you can find the talk available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), I wanted to share in writing some of the points I covered. I’ve also added a few new points on business challenges that I didn’t have time to cover in the talk. 
 
 The talk and this post are divided into two main sections: statistical challenges and business challenges. One of the statistical challenges I covered, developing a test for differences in Average Converting Browser Value between two groups, is going to be posted on Etsy’s engineering blog, Code as Craft. XYZ. 
 
@@ -14,7 +14,7 @@ At Etsy, the analysts work with partner teams, including marketing, seller servi
 
 *No Feigning Surprise*
 
-Many Etsy engineers come from the Recurse Center[link] (formerly known as Hacker School), a free, six or twelve week self-directed retreat for programmers. The Recurse Center has a set of social rules (along with a code of conduct) to make the environment productive and supportive for everyone. One of those is no “feigning surprise” when people admit they don’t know something. As they put it[https://www.recurse.com/manual#sub-sec-social-rules]: 
+Many Etsy engineers come from the [Recurse Center](https://www.recurse.com) (formerly known as Hacker School), a free, six or twelve week self-directed retreat for programmers. The Recurse Center has a set of social rules (along with a code of conduct) to make the environment productive and supportive for everyone. One of those is no “feigning surprise” when people admit they don’t know something. As they [put it](https://www.recurse.com/manual#sub-sec-social-rules): 
 
 > Feigning surprise has absolutely no social or educational benefit: When people feign surprise, it's usually to make them feel better about themselves and others feel worse. And even when that's not the intention, it's almost always the effect. As you've probably already guessed, this rule is tightly coupled to our belief in the importance of people feeling comfortable saying "I don't know" and "I don't understand."
  
