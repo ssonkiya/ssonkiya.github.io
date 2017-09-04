@@ -7,7 +7,7 @@ Statistical Challenges
 
 *Browser vs Visit: Level of Analysis*
 
-Business Challenges
+Managing Business Challenges
 ======
 
 At Etsy, the analysts work with partner teams, including marketing, seller services, retention and loyalty, and finance, among others. I’ve been working with search since I’ve joined and have worked with three different teams in that time. Right now I work with the ranking team (all engineers) and with the Search Experience team, a more traditional team with engineers (including a lead engineer), Product Managers (PMs), and designers. What we help them with can vary a lot: while I mainly work on experimentation, other analysts create dashboards in Looker, new tables to make data access easier, or a model for estimating lifetime value of a new customer.
@@ -32,11 +32,11 @@ Understand your team: their data literacy, their motivations, how often do they 
 
 *Invest in Education Efforts*
 
-Education efforts can and save you time . Your partner team has domain knowledge and some intuition. Can save you work if they know some stuff themselves.
+While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts<sup>1</sup> understand and make data-driven decisions. First, it can save you time. If the engineer knows they'll need to record the listings that featured a new badge in the variant **and** the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be powered, that's one less question they'll have to ask you.  
 
-At Etsy, we’ve been working on a multi-pronged approach to education. The data engineering team developed an experiment hub, where they’ve gathered information about our various tools. Another analyst and I wrote a general guide to experiments at Etsy, covering XYZ. We also gave an “Edsy,” an internal talk. I’m now experimenting with offering office hours for people to come with general questions about experimentation, such as “what is power?” or “XYZ.” We have a slack channel dedicated to experiment questions, which not only data analysts and engineers but also experiment savvy engineers monitor.  
+But secondly, your partner team has deep domain knowledge. If they can start thinking with a data mindset, they XYZ. 
 
- One company has taken this to the extreme: Airbnb, with a [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a).  
+At Etsy, we’ve been working on a multi-pronged approach to education. The data engineering team developed an experiment hub, where they’ve gathered information about our various tools. Another analyst and I wrote a general guide to experiments at Etsy, covering XYZ, and also gave an “Edsy,” an internal talk, on it. I’m now experimenting with offering office hours for people to come with general questions about experimentation. We have a slack channel dedicated to experiment questions, which not only data analysts and engineers but also experiment savvy engineers monitor. And of course there will always be 
 
 *Develop consistency among the Analyst Team*
 
@@ -51,9 +51,8 @@ Lay out hypotheses ahead of time. Especially whether you will launch on neutral.
 Conclusion
 ======
 
-You’ll notice that the business section was much longer than the statistical one. While this is partly because I cover one of the statistical challenges in another post, this also reflects XYZ. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of his [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788) on James Damore’s Google manifesto. While he is talking about engineering, I think his points can be equally applied to data science: 
+You’ll notice that the business section was much longer than the statistical one. While this is partly because I cover one of the statistical challenges in another post, I also believe the importance of non-technical skills in a data science career is often overlooked. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of this [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788). While he is talking about engineering, I think his points can be equally applied to data science: 
   
-> People who haven’t done engineering, or people who have done just the basics, sometimes think that what engineering looks like is sitting at your computer and hyper-optimizing an inner loop, or cleaning up a class API…Engineering is not the art of building devices; it’s the art of fixing problems…Essentially, engineering is all about cooperation, collaboration, and empathy for both your colleagues and your customers.
+> People who haven’t done engineering, or people who have done just the basics, sometimes think that what engineering looks like is sitting at your computer and hyper-optimizing an inner loop, or cleaning up a class API … Engineering is not the art of building devices; it’s the art of fixing problems … Essentially, engineering is all about cooperation, collaboration, and empathy for both your colleagues and your customers.
 
-This can be why non-traditional backgrounds can be very successful in tech jobs – often people have learned this skill in their previous career. 
-
+1. I'm using "non-analyst" as a catch-all phrase for anyone who isn't in analytics (e.g. not a data scientist, business analyst, data analyst, etc.). 
