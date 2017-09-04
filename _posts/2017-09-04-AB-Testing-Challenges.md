@@ -12,7 +12,7 @@ Business Challenges
 
 At Etsy, the analysts work with partner teams, including marketing, seller services, retention and loyalty, and finance, among others. I’ve been working with search since I’ve joined and have worked with three different teams in that time. Right now I work with the ranking team (all engineers) and with the Search Experience team, a more traditional team with engineers (including a lead engineer), Product Managers (PMs), and designers. What we help them with can vary a lot: while I mainly work on experimentation, other analysts create dashboards in Looker, new tables to make data access easier, or a model for estimating lifetime value of a new customer.
 
-*No Feigning Surprise*
+*Don't Feign Surprise*
 
 Many Etsy engineers come from the [Recurse Center](https://www.recurse.com) (formerly known as Hacker School), a free, six or twelve week self-directed retreat for programmers. The Recurse Center has a set of social rules (along with a code of conduct) to make the environment productive and supportive for everyone. One of those is no “feigning surprise” when people admit they don’t know something. As they [put it](https://www.recurse.com/manual#sub-sec-social-rules): 
 
