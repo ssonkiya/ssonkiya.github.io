@@ -32,7 +32,7 @@ Understand your team: their data literacy, their motivations, how often do they 
 
 *Invest in Education Efforts*
 
-While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts<sup>1</sup> understand and make data-driven decisions. First, it can save you time. If the engineer knows they'll need to record the listings that featured a new badge in the variant **and** the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be powered, that's one less question they'll have to ask you.  
+While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts<sup>1</sup> understand and make data-driven decisions. First, it can save you time. If the engineer knows they'll need to record the listings that are eligible for a new badge in the variant **and** the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be powered, that's one less question they'll have to ask you.  
 
 But secondly, your partner team has deep domain knowledge. If they can start thinking with a data mindset, they XYZ. 
 
