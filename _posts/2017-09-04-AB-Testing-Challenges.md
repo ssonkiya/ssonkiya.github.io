@@ -55,8 +55,10 @@ Lay out hypotheses ahead of time. Especially whether you will launch on neutral.
 Conclusion
 ======
 
-You’ll notice that the business section was much longer than the statistical one. While this is partly because I cover one of the statistical challenges in another post, I also believe the importance of non-technical skills in a data science career is often overlooked. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of this [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788). While he is talking about engineering, I think his points can be equally applied to data science: 
+You probably noticed that the business section was much longer than the statistical one. While this is partly because I cover one of the statistical challenges in another post, I also believe the importance of non-technical skills in a data science career is often overlooked. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of this [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788). While he is talking about engineering, I think his points can be equally applied to data science: 
   
 > People who haven’t done engineering, or people who have done just the basics, sometimes think that what engineering looks like is sitting at your computer and hyper-optimizing an inner loop, or cleaning up a class API … Engineering is not the art of building devices; it’s the art of fixing problems … Essentially, engineering is all about cooperation, collaboration, and empathy for both your colleagues and your customers.
+
+I'll continue covering both business and statistical challenges in my next post, where I'll share what I've learned from reading papers on A/B testing in industry. 
 
 1. I'm using "non-analyst" as a catch-all phrase for anyone who isn't in analytics (e.g. not a data scientist, business analyst, data analyst, etc.). 
