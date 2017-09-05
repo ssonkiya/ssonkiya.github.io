@@ -1,4 +1,4 @@
-A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. While you can find the talk available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), I wanted to share in writing some of the points I covered. I’ve also added a few new points on business challenges that I didn’t have time to cover in the talk. 
+A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. While you can find the talk available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), I wanted to share in writing some of the points I covered, along with a few new new points on business challenges. 
 
 This post has two main sections: statistical challenges and business challenges. One of the statistical challenges I covered in my talk, developing a test for differences in Average Converting Browser Value between two groups, is going to be posted on Etsy’s engineering blog, [Code as Craft](https://codeascraft.com/archive/), so I've left that out of this post. 
 
@@ -10,7 +10,9 @@ Statistical Challenges
 Managing Business Challenges
 ======
 
-At Etsy, the analysts work with partner teams, including marketing, seller services, retention and loyalty, and finance, among others. I’ve been working with search since I’ve joined and have worked with three different teams in that time. Right now I work with the ranking team (all engineers) and with the Search Experience team, a more traditional team with engineers (including a lead engineer), Product Managers (PMs), and designers. What we help them with can vary a lot: while I mainly work on experimentation, other analysts create dashboards in Looker, new tables to make data access easier, or a model for estimating lifetime value of a new customer.
+At Etsy, each of the analysts works with a partner teams, including marketing, seller services, retention and loyalty, and finance, among others. What we help them with can vary a lot: while I mainly work on experimentation, other analysts create dashboards in Looker, new tables to make data access easier, or a model for estimating the lifetime value of a new customer.
+
+Even if their role isn’t as deeply embedded with partner teams as ours, all data scientists and analysts (or their managers) will have to work with non-analysts<sup>1</sup> sometimes. While I still have a long way to go, I wanted to share some advice and techniques I've found helpful.  
 
 *Don't Feign Surprise*
 
@@ -22,21 +24,23 @@ Many Etsy engineers come from the [Recurse Center](https://www.recurse.com) (for
  
 You also shouldn't make assumptions about what your audience knows. Even if you live p-values and confidence intervals day in and day out, they don’t. You should lean on the side of always defining terms, which will also help in the case people think they know what something means but they actually don’t (very common with p-values).
 
-*Understand your partner team*
+*Develop empathy*
 
-The microsoft experimentation platform team put it best [when they said](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf): "our job ... is to tell our clients that their new baby is ugly." As they discuss, teams build new features or products because they believe they'll be useful, but most experiments testing those features show they fail to have a positive impact. And as their quote captures, teams are often emotionally invested in their new feature. Not only have they spent a lot of time working on it, but often it was one of them that came up with the idea in the first place. There may also be financial investment, if a company has tied bonuses or performance reviews to experiment success. 
+The microsoft experimentation platform team put it best [when they said](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf): "our job ... is to tell our clients that their new baby is ugly." As they discuss, while teams build new features or products because they believe they'll be useful, most experiments testing those new features reveal they don't have a positive impact. Teams are often emotionally invested in their new feature: not only have they spent a lot of time working on it, but also often it was one of the team members who came up with the idea in the first place. There may also be financial investment if a company has tied bonuses or performance reviews to experiment success. 
 
 Even though I knew this intellectually, it took me time to develop empathy XYZ. 
+
+*Understand your partner team*
 
 Understand your team: their data literacy, their motivations, how often do they check experiments (likely answer: as often as they can) 
 
 *Invest in Education Efforts*
 
-While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts<sup>1</sup> understand and make data-driven decisions. First, it can save you time. If the engineer knows they'll need to record the listings that are eligible for a new badge in the variant **and** the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be powered, that's one less question they'll have to ask you.  
+While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts understand and make data-driven decisions. First, it will save you time. If an engineer knows they'll need to record the listings that are eligible for a new badge in the variant **and** the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be powered, that's one less question they'll have to ask you.  
 
 But secondly, your partner team has deep domain knowledge. If they can start thinking with a data mindset, they XYZ. 
 
-At Etsy, we’ve been working on a multi-pronged approach to education. The data engineering team developed an experiment hub, where they’ve gathered information about our various tools. Another analyst and I wrote a general guide to experiments at Etsy, covering XYZ, and also gave an “Edsy,” an internal talk, on it. I’m now experimenting with offering office hours for people to come with general questions about experimentation. We have a slack channel dedicated to experiment questions, which not only data analysts and engineers but also experiment savvy engineers monitor. And of course there will always be 
+At Etsy, we’ve been working on a multi-pronged approach to education. The data engineering team developed an experiment hub, where they’ve gathered documentation about our various tools. Another analyst and I wrote a general guide to experiments at Etsy, covering planning experiments to making launch decisions, and also gave an “Edsy,” an internal talk, on it. I’m now experimenting with offering office hours for people to come with general questions about experimentation. Finally, we have a slack channel dedicated to experiment questions, which not only data analysts and engineers but also experiment savvy engineers monitor. 
 
 *Develop consistency among the Analyst Team*
 
