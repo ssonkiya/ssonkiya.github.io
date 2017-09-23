@@ -1,16 +1,9 @@
-A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. While you can find the talk available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), I wanted to share in writing some of the points I covered, along with a few new new points on business challenges. 
-
-This post has two main sections: statistical challenges and business challenges. One of the statistical challenges I covered in my talk, developing a test for differences in Average Converting Browser Value between two groups, is going to be posted on Etsy’s engineering blog, [Code as Craft](https://codeascraft.com/archive/), so I've left that out of this post. 
-
-Statistical Challenges
-======
-
-*Browser vs Visit: Level of Analysis*
+A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. While you can find the talk available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), I wanted to share in writing some of the points I covered about managing business challenges, along with a few new ones. Additionally, one of the statistical challenges I covered in my talk, developing a test for differences in Average Converting Browser Value between groups, is going to be posted on Etsy’s engineering blog, [Code as Craft](https://codeascraft.com/archive/).
 
 Managing Business Challenges
 ======
 
-At Etsy, each of the analysts works with a partner teams, including marketing, seller services, retention and loyalty, and finance, among others. What we help them with can vary a lot: while I mainly work on experimentation, other analysts create dashboards in Looker, new tables to make data access easier, or a model for estimating the lifetime value of a new customer.
+At Etsy, each of the analysts works with a partner teams, including marketing, seller services, retention and loyalty, and finance, among others. What we help them with can vary a lot: while I mainly work on experimentation, other analysts create dashboards in Looker, new tables to make data access easier, or a model for estimating the lifetime value of a new customer. Since starting at Etsy nine months ago, I've worked in search, partnering three different teams. Right now I work with our Ranking team (all engineers) and with our Search Experience and Personalization team, a more traditional team with engineers (including an engineering manager and lead engineer), Product Managers (PMs), and designers. 
 
 Even if their role isn’t as deeply embedded with partner teams as ours, all data scientists and analysts (or their managers) will have to work with non-analysts<sup>1</sup> sometimes. While I still have a long way to go, I wanted to share some advice and techniques I've found helpful.  
 
@@ -28,7 +21,7 @@ You also shouldn't make assumptions about what your audience knows. Even if you 
 
 The microsoft experimentation platform team put it best [when they said](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf): "our job ... is to tell our clients that their new baby is ugly." As they discuss, while teams build new features or products because they believe they'll be useful, most experiments testing those new features reveal they don't have a positive impact. Teams are often emotionally invested in their new feature: not only have they spent a lot of time working on it, but also often it was one of the team members who came up with the idea in the first place. There may also be financial investment if a company has tied bonuses or performance reviews to experiment success. 
 
-Even though I knew this intellectually, it took me time to develop empathy XYZ. 
+Even though I knew this intellectually, it took me time to develop empathy, and it's still something I'm working on. 
 
 *Understand your partner team*
 
@@ -55,7 +48,7 @@ Lay out hypotheses ahead of time. Especially whether you will launch on neutral.
 Conclusion
 ======
 
-You probably noticed that the business section was much longer than the statistical one. While this is partly because I cover one of the statistical challenges in another post, I also believe the importance of non-technical skills in a data science career is often overlooked. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of this [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788). While he is talking about engineering, I think his points can be equally applied to data science: 
+Why devote a whole post and half a talk to business challenges instead of cutting edge deep learning papers? While basic technical skills are the table-stakes for a data science career, the importance of non-technical skills in a data science career is often overlooked. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of this [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788). While he is talking about engineering, his points can be equally applied to data science: 
   
 > People who haven’t done engineering, or people who have done just the basics, sometimes think that what engineering looks like is sitting at your computer and hyper-optimizing an inner loop, or cleaning up a class API … Engineering is not the art of building devices; it’s the art of fixing problems … Essentially, engineering is all about cooperation, collaboration, and empathy for both your colleagues and your customers.
 
