@@ -1,4 +1,4 @@
-A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. While you can find the talk available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), I wanted to share in writing some of the points I covered about managing business challenges, along with a few new ones. Additionally, one of the statistical challenges I covered in my talk, developing a test for differences in Average Converting Browser Value between groups, is going to be posted on Etsy’s engineering blog, [Code as Craft](https://codeascraft.com/archive/).
+A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. The talk is available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), and I wanted to share here some suggestions for managing business challenges that I didn't have time to cover. Additionally, one of the statistical challenges I covered in my talk, developing a test for differences in Average Converting Browser Value between groups, is going to be posted on Etsy’s engineering blog, [Code as Craft](https://codeascraft.com/archive/).
 
 Managing Business Challenges
 ======
@@ -21,17 +21,12 @@ You also shouldn't make assumptions about what your audience knows. Even if you 
 
 The microsoft experimentation platform team put it best [when they said](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf): "our job ... is to tell our clients that their new baby is ugly." As they discuss, while teams build new features or products because they believe they'll be useful, most experiments testing those new features reveal they don't have a positive impact. Teams are often emotionally invested in their new feature: not only have they spent a lot of time working on it, but also often it was one of the team members who came up with the idea in the first place. There may also be financial investment if a company has tied bonuses or performance reviews to experiment success. 
 
-Even though I knew this intellectually, it took me time to develop empathy, and it's still something I'm working on. It can be frustrating when you have to correct misinterpretations of seemingly "positive" results from peeking (see section below) or [slicing data in every possible way](http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html). It's useful to remember to take a step back and see that you have the same overarching goal: for your team do well and thus help the company. 
+Even though I knew this intellectually, it took me time to develop empathy, and it's still something I'm working on. It can be frustrating when you have to correct misinterpretations of seemingly "positive" results from peeking or [slicing data in every possible way](http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html). It's useful to remember to take a step back and see that you have the same overarching goal: for your team do well and thus help the company. 
 
-**Understand your partner team**
-
-Understand your team: their data literacy, their motivations, how often do they check experiments (likely answer: as often as they can) 
 
 **Invest in Education Efforts**
 
 While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts understand and make data-driven decisions. First, it will save you time. If an engineer knows they'll need to record the listings that are eligible for a new badge in the variant **and** the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be powered, that's one less question they'll have to ask you.  
-
-But secondly, your partner team has deep domain knowledge. If they can start thinking with a data mindset, they XYZ. 
 
 At Etsy, we’ve been working on a multi-pronged approach to education. The data engineering team developed an experiment hub, where they’ve gathered documentation about our various tools. Another analyst and I wrote a general guide to experiments at Etsy, covering planning experiments to making launch decisions, and also gave an “Edsy,” an internal talk, on it. I’m now experimenting with offering office hours for people to come with general questions about experimentation. Finally, we have a slack channel dedicated to experiment questions, which not only data analysts and engineers but also experiment savvy engineers monitor. 
 
@@ -44,8 +39,6 @@ Working with partner teams becomes much easier if you have some consistent stand
 - if one analyst says you have to run experiments for at least a week, even if you're powered before than, while others say four days is fine
 
 Working to develop consistency is also a great opportunity to learn for each other; for example, some analysts may not be as familiar with the problems of peeking and that's why they weren't as strict on not doing so. It can also help make the transition when a partner team has to change analysts much smoother.  
-
-**No Peeking**
 
 **Lay out Hypotheses**
 
