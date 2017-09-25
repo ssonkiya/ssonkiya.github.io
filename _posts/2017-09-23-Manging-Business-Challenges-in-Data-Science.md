@@ -7,7 +7,7 @@ At Etsy, each of the analysts works with a partner teams, including marketing, s
 
 Even if their role isn’t as deeply embedded with partner teams as ours, all data scientists and analysts (or their managers) will have to work with non-analysts<sup>1</sup> sometimes. While I still have a long way to go, I wanted to share some advice and techniques I've found helpful.  
 
-*Don't Feign Surprise*
+**Don't Feign Surprise**
 
 To be a successful partner, you need to make sure your team is comfortable asking you questions. One way to almost guarantee that they won't be is if you "feign surprise."
 
@@ -17,17 +17,17 @@ Many Etsy engineers come from the [Recurse Center](https://www.recurse.com) (for
  
 You also shouldn't make assumptions about what your audience knows. Even if you live p-values and confidence intervals day in and day out, they don’t. You should lean on the side of always defining terms, which will also help in the case people think they know what something means but they actually don’t (very common with p-values).
 
-*Develop empathy*
+**Develop empathy**
 
 The microsoft experimentation platform team put it best [when they said](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf): "our job ... is to tell our clients that their new baby is ugly." As they discuss, while teams build new features or products because they believe they'll be useful, most experiments testing those new features reveal they don't have a positive impact. Teams are often emotionally invested in their new feature: not only have they spent a lot of time working on it, but also often it was one of the team members who came up with the idea in the first place. There may also be financial investment if a company has tied bonuses or performance reviews to experiment success. 
 
 Even though I knew this intellectually, it took me time to develop empathy, and it's still something I'm working on. It can be frustrating when you have to correct misinterpretations of seemingly "positive" results from peeking (see section below) or [slicing data in every possible way](http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html). It's useful to remember to take a step back and see that you have the same overarching goal: for your team do well and thus help the company. 
 
-*Understand your partner team*
+**Understand your partner team**
 
 Understand your team: their data literacy, their motivations, how often do they check experiments (likely answer: as often as they can) 
 
-*Invest in Education Efforts*
+**Invest in Education Efforts**
 
 While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts understand and make data-driven decisions. First, it will save you time. If an engineer knows they'll need to record the listings that are eligible for a new badge in the variant **and** the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be powered, that's one less question they'll have to ask you.  
 
@@ -35,13 +35,19 @@ But secondly, your partner team has deep domain knowledge. If they can start thi
 
 At Etsy, we’ve been working on a multi-pronged approach to education. The data engineering team developed an experiment hub, where they’ve gathered documentation about our various tools. Another analyst and I wrote a general guide to experiments at Etsy, covering planning experiments to making launch decisions, and also gave an “Edsy,” an internal talk, on it. I’m now experimenting with offering office hours for people to come with general questions about experimentation. Finally, we have a slack channel dedicated to experiment questions, which not only data analysts and engineers but also experiment savvy engineers monitor. 
 
-*Develop consistency among the Analyst Team*
+**Develop consistency among the Analyst Team**
 
-Consistency among your analyst team is important. Something we’re working on here. Problem if teams think you’re being stricter than others, or if people are calculating incremental revenue/GMS differently. If one team says you have to run experiments for a week, even if you’re powered before then, while others say 4 days is fine, that’s an issue. Also can mean learning from each other. Finally can help when you switch analysts for a team; example, when I had to step in, team was like “what do you mean you can’t do app and web experiments in one go?” I hadn’t even thought that was possible with our system. 
+Working with partner teams becomes much easier if you have some consistent standards and practices within the analyst team. For examples, here are some differences that can cause problems: 
 
-*No Peeking*
+- if your team thinks you're stricter than other analysts in judging experiment results 
+- if analysts are calculating incremental revenue from experiment launches differently 
+- if one analyst says you have to run experiments for at least a week, even if you're powered before than, while others say four days is fine
 
-*Lay out Hypotheses*
+Working to develop consistency is also a great opportunity to learn for each other; for example, some analysts may not be as familiar with the problems of peeking and that's why they weren't as strict on not doing so. It can also help make the transition when a partner team has to change analysts much smoother.  
+
+**No Peeking**
+
+**Lay out Hypotheses**
 
 Lay out hypotheses ahead of time, especially about whether you will launch on neutral. People often think they don't need to have specific hypotheses beyond "we'll launch if it's better" because they think results will be really clear. But you’ll be surprised as the sheer combination of results that are possible (e.g. search clicks went down, but mean search purchase went up, and conversion is neutral, but add to cart is slightly down, etc.). Picking one or two key metrics for launch and a few other metrics for monitoring will also help you from having a multiple comparisons problem, where you're [testing so many metrics one of them will be significant](https://en.wikipedia.org/wiki/Multiple_comparisons_problem), even if there really is no change. 
 
