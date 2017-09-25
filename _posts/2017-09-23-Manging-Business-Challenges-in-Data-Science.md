@@ -23,7 +23,6 @@ The microsoft experimentation platform team put it best [when they said](http://
 
 Even though I knew this intellectually, it took me time to develop empathy, and it's still something I'm working on. It can be frustrating when you have to correct misinterpretations of seemingly "positive" results from peeking or [slicing data in every possible way](http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html). It's useful to remember to take a step back and see that you have the same overarching goal: for your team do well and thus help the company. 
 
-
 **Invest in Education Efforts**
 
 While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts understand and make data-driven decisions. First, it will save you time. If an engineer knows they'll need to record the listings that are eligible for a new badge in the variant **and** the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be powered, that's one less question they'll have to ask you.  
@@ -40,7 +39,7 @@ Working with partner teams becomes much easier if you have some consistent stand
 
 Working to develop consistency is also a great opportunity to learn for each other; for example, some analysts may not be as familiar with the problems of peeking and that's why they weren't as strict on not doing so. It can also help make the transition when a partner team has to change analysts much smoother.  
 
-**Lay out Hypotheses**
+**Lay out Hypotheses Before A/B Tests**
 
 Lay out hypotheses ahead of time, especially about whether you will launch on neutral. People often think they don't need to have specific hypotheses beyond "we'll launch if it's better" because they think results will be really clear. But you’ll be surprised as the sheer combination of results that are possible (e.g. search clicks went down, but mean search purchase went up, and conversion is neutral, but add to cart is slightly down, etc.). Picking one or two key metrics for launch and a few other metrics for monitoring will also help you from having a multiple comparisons problem, where you're [testing so many metrics one of them will be significant](https://en.wikipedia.org/wiki/Multiple_comparisons_problem), even if there really is no change. 
 
@@ -51,6 +50,6 @@ Why devote a whole post and half a talk to business challenges instead of cuttin
   
 > People who haven’t done engineering, or people who have done just the basics, sometimes think that what engineering looks like is sitting at your computer and hyper-optimizing an inner loop, or cleaning up a class API … Engineering is not the art of building devices; it’s the art of fixing problems … Essentially, engineering is all about cooperation, collaboration, and empathy for both your colleagues and your customers.
 
-I'll continue covering both business and statistical challenges in my next post, where I'll share what I've learned from reading papers on A/B testing in industry. 
+In my next post, I'll continue sharing what I've learned about business and statistical data science challenges from reading papers on A/B testing in industry. 
 
 1. I'm using "non-analyst" as a catch-all phrase for anyone who isn't in analytics (e.g. not a data scientist, business analyst, data analyst, etc.). 
