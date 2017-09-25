@@ -21,7 +21,9 @@ You also shouldn't make assumptions about what your audience knows. Even if you 
 
 The microsoft experimentation platform team put it best [when they said](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf): "our job ... is to tell our clients that their new baby is ugly." As they discuss, while teams build new features or products because they believe they'll be useful, most experiments testing those new features reveal they don't have a positive impact. Teams are often emotionally invested in their new feature: not only have they spent a lot of time working on it, but also often it was one of the team members who came up with the idea in the first place. There may also be financial investment if a company has tied bonuses or performance reviews to experiment success. 
 
-Even though I knew this intellectually, it took me time to develop empathy, and it's still something I'm working on. 
+Even though I knew this intellectually, it took me time to develop empathy, and it's still something I'm working on. It can be frustrating when you have to correct misinterpretations of seemingly "positive" results from peeking (see section below) or [slicing data in every possible way](http://www.slate.com/articles/
+health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_
+give_spurious_results.html). It's useful to remember to take a step back and see that you have the same overarching goal: for your team do well and thus help the company. 
 
 *Understand your partner team*
 
@@ -43,7 +45,7 @@ Consistency among your analyst team is important. Something we’re working on h
 
 *Lay out Hypotheses*
 
-Lay out hypotheses ahead of time. Especially whether you will launch on neutral. No one thinks they need to do that because they think results will be really clear. Also, you’ll be surprised as the sheer combination of results that are possible (e.g. search clicks went down, but mean search purchase went up, and conversion is neutral, but add to cart is slightly down, etc.). 
+Lay out hypotheses ahead of time, especially about whether you will launch on neutral. People often think they don't need to have specific hypotheses beyond "we'll launch if it's better" because they think results will be really clear. But you’ll be surprised as the sheer combination of results that are possible (e.g. search clicks went down, but mean search purchase went up, and conversion is neutral, but add to cart is slightly down, etc.). Picking one or two key metrics for launch and a few other metrics for monitoring will also help you from having a multiple comparisons problem, where you're [testing so many metrics one of them will be significant](https://en.wikipedia.org/wiki/Multiple_comparisons_problem), even if there really is no change. 
 
 Conclusion
 ======
