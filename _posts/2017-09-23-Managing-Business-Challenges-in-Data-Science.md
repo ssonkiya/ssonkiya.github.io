@@ -9,7 +9,10 @@ Even if their role isn’t as deeply embedded with partner teams as ours is, all
 
 **Don't Feign Surprise**
 
-To be a successful partner, you need to make sure your team is comfortable asking you questions. One way to almost guarantee that they won't be is to "feign surprise."
+To be a successful partner, you need to make sure your team is comfortable asking you questions. One way to almost guarantee that they won't be is to "feign surprise." 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;no feigning surprise&quot; (from the wonderful <a href="https://twitter.com/recurse">@recurse</a> manual: <a href="https://t.co/Zk7ZQZqSbL">https://t.co/Zk7ZQZqSbL</a>) <a href="https://t.co/ZPc07LlFle">pic.twitter.com/ZPc07LlFle</a></p>&mdash; ⚡Julia Evans⚡ (@b0rk) <a href="https://twitter.com/b0rk/status/846864384731365376">March 28, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Many Etsy engineers come from the [Recurse Center](https://www.recurse.com) (formerly known as Hacker School), a free six or twelve week self-directed retreat for programmers. The Recurse Center has a set of social rules (along with a code of conduct) to make the environment productive and supportive for everyone. One of those is no “feigning surprise” when people admit they don’t know something. As they [put it](https://www.recurse.com/manual#sub-sec-social-rules): 
 
