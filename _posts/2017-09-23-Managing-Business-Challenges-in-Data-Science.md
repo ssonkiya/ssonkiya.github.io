@@ -27,7 +27,7 @@ Even though I knew this intellectually, it took me time to develop empathy, and 
 
 While every company can't be Airbnb and have its own [Data University](https://medium.com/airbnb-engineering/how-airbnb-democratizes-data-science-with-data-university-3eccc71e073a), we should all be thinking about how we can help non-analysts understand and make data-driven decisions. First, it will save you time. If an engineer knows they'll need to record the listings that are eligible for a new badge in the variant *and* the control, so you can compare clickthrough rates, or the product manager knows how to use experimentcalculator.com and discovers their experiment would take 150 days to be appropriately powered, that's one less question they'll have to ask you.  
 
-At Etsy, we’ve been working on a multi-pronged approach to education. The data engineering team developed an experiment hub, where they’ve gathered documentation about our various tools. Another analyst and I wrote a general guide to experiments at Etsy, and also gave an “Edsy,” an internal talk, on it. I’m now experimenting with offering office hours for people to come with general questions about experimentation. Finally, we have a Slack channel dedicated to experiment questions, monitored not only by data analysts but also by experiment-savvy engineers.
+At Etsy, we’ve been working on a multi-pronged approach to education. The data engineering team developed an experiment hub, where they’ve gathered documentation about our various tools. Evan D'Agostini, another analyst, and I wrote a general guide to experiments at Etsy, and also gave an “Edsy,” an internal talk, on it. I’m now experimenting with offering office hours for people to come with general questions about experimentation. Finally, we have a Slack channel dedicated to experiment questions, monitored not only by data analysts but also by experiment-savvy engineers.
 
 **Develop consistency among the Analyst Team**
 
@@ -46,7 +46,7 @@ Lay out hypotheses ahead of time, especially about whether you will launch on a 
 Conclusion
 ======
 
-Why devote a whole post and half a talk to business challenges, instead of cutting edge deep learning papers?
+Why devote a whole post and half a talk to business challenges instead of, say, cutting edge deep learning papers or the shiny new language for handling Big Data<sup>TM</sup>?
 
 While basic technical skills are the table stakes for a data science career, the importance of non-technical skills in a data science career is often overlooked. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of this [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788). While he's talking about engineering, his points can be equally applied to data science: 
   
