@@ -1,11 +1,17 @@
-A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. The talk is available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), and I wanted to share some suggestions for managing business challenges that I didn't have time to cover. Additionally, one of the statistical challenges I covered in my talk, developing a test for differences in Average Converting Browser Value between groups, is going to be posted on Etsy’s engineering blog, [Code as Craft](https://codeascraft.com/archive/).
+A few weeks ago, I [wrote about](https://robinsones.github.io/Giving-Your-First-Data-Science-Talk/) my experience giving my first data science talk. If you're interested, the ful talk is available [online](https://www.youtube.com/watch?v=SF-ryGgLOgQ), as well as the [slides](tiny.cc/abslides). In this post, I wanted to share some suggestions for managing business challenges that I didn't have time to cover in my talk. 
 
-Managing Business Challenges
+### Why Business Challenges? 
+
+Why devote a whole post and half a talk to business challenges instead of, say, cutting edge deep learning papers or the shiny new language for handling Big Data<sup>TM</sup>?
+
+While basic technical skills are the table stakes for a data science career, the importance of non-technical skills in a data science career is often overlooked. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of this [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788). While he's talking about engineering, his points can be equally applied to data science: 
+  
+> People who haven’t done engineering, or people who have done just the basics, sometimes think that what engineering looks like is sitting at your computer and hyper-optimizing an inner loop, or cleaning up a class API... Engineering is not the art of building devices; it’s the art of fixing problems... Essentially, engineering is all about cooperation, collaboration, and empathy for both your colleagues and your customers.
+
+At Etsy, each of the analysts works with a partner team, including marketing, seller services, retention and loyalty, and finance. What we help them with can vary a lot. I mainly help design and analyze experiments for search, while other analysts create dashboards in Looker, new tables to make data access easier, or models for estimating the lifetime value of a new customer. While we may be especially deeply embedded with partner teams, all data scientists and analysts (or their managers) will have to work with non-analysts<sup>1</sup> sometimes. While I still have a long way to go, I wanted to share some advice and techniques I've found helpful.
+
+Strategies for Managing Business Challenges
 ======
-
-At Etsy, each of the analysts works with a partner team, including marketing, seller services, retention and loyalty, and finance. What we help them with can vary a lot. I mainly help design and analyze experiments, while other analysts create dashboards in Looker, new tables to make data access easier, or models for estimating the lifetime value of a new customer. Since starting at Etsy nine months ago, I've worked in search, partnering with three different teams. Right now I work with our Ranking team (all engineers) and with our Search Experience and Personalization team, a more traditional team that includes engineers (including an engineering manager and lead engineer), Product Managers (PMs), and designers. 
-
-Even if their role isn’t as deeply embedded with partner teams as ours is, all data scientists and analysts (or their managers) will have to work with non-analysts<sup>1</sup> sometimes. While I still have a long way to go, I wanted to share some advice and techniques I've found helpful.
 
 **Don't Feign Surprise**
 
@@ -46,15 +52,9 @@ Working to develop consistency is also a great opportunity to learn for each oth
 
 Lay out hypotheses ahead of time, especially about whether you will launch on a neutral result (when it's inconclusive whether your metric went up or down). People often think they don't need to have specific hypotheses beyond "we'll launch if it's better," because they think results will be really clear. But you’ll be surprised at the sheer combination of results that are possible (e.g. search clicks went down, but mean search purchase went up, and conversion is neutral, but add to cart is slightly down, etc.). Picking one or two key metrics for launch and a few other metrics for monitoring will also help you from having a multiple comparisons problem, where you're [testing so many metrics one of them will be significant](https://en.wikipedia.org/wiki/Multiple_comparisons_problem), even if there really is no change. 
 
-Conclusion
+Next Time
 ======
 
-Why devote a whole post and half a talk to business challenges instead of, say, cutting edge deep learning papers or the shiny new language for handling Big Data<sup>TM</sup>?
-
-While basic technical skills are the table stakes for a data science career, the importance of non-technical skills in a data science career is often overlooked. I think Yonatan Zunger, a former senior Google engineer, covers this very well in the second section of this [post]( https://medium.com/@yonatanzunger/so-about-this-googlers-manifesto-1e3773ed1788). While he's talking about engineering, his points can be equally applied to data science: 
-  
-> People who haven’t done engineering, or people who have done just the basics, sometimes think that what engineering looks like is sitting at your computer and hyper-optimizing an inner loop, or cleaning up a class API... Engineering is not the art of building devices; it’s the art of fixing problems... Essentially, engineering is all about cooperation, collaboration, and empathy for both your colleagues and your customers.
-
-In my next post, I'll continue sharing what I've learned about business and statistical data science challenges from reading papers on A/B testing in industry. 
+In my next post, I'll continue sharing what I've learned about business and statistical data science challenges from reading papers on A/B testing in industry. I’m also working with another Evan D’Agostini on a post for Etsy’s engineering blog, Code as Craft, on one of the statistical challenges I covered in my talk, developing a test for differences in Average Converting Browser Value between groups. 
 
 1. I'm using "non-analyst" as a catch-all phrase for anyone who isn't in analytics (e.g. not a data scientist, business analyst, data analyst, etc.). 
