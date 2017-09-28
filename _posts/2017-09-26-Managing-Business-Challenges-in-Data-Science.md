@@ -47,7 +47,7 @@ Working with partner teams becomes much easier if you have some consistent stand
 
 - If your team thinks you're stricter than other analysts in judging experiment results 
 - If analysts are calculating incremental revenue from experiment launches differently 
-- If one analyst says you have to run experiments for at least a week, even if you're powered before than, while others say four days is fine
+- If one analyst says you have to run experiments for at least a week, even if you're powered before then, while others say four days is fine
 
 Working to develop consistency is also a great opportunity to learn for each other. For example, some analysts may not be as familiar with the problems of peeking, which may be why they weren't as strict on not doing so. That kind of information-sharing can also help make a smoother transition when a partner team has to change analysts. 
 
