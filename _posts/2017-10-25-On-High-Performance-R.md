@@ -13,6 +13,22 @@ We analysts encourage everyone to favor browser metrics over visit metrics. One 
 
 Therefore, I set out to simulate hundreds of null A/B Tests using our own data. I wanted to take all the visits who saw a certain page, like search, assign them randomly to A or B, and use a proportion test for the conversion rate (percentage of visits that bought). Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05, our false positive rate, was actually around 5% or if it was inflated, as we expected. 
 
+## Performance Optimization
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed, and so you shouldn't prematurely worry about optimizing for performance but about making sure your code is clear. This holds true for the majority of my code, which I only need to run once. In this case, though, the point was to run the same code hundreds of times. 
+
+## Asking for Help 
+
+I am very fortunate to have a data scientist brother who will jump in to help out even when not directly asked:  
+
+![center](https://github.com/robinsones/robinsones.github.io/blob/master/images/Dave_optimization_tweet.png)
+
+I've also gotten to know many other people in the R community through RLadies, conferences, or twitter, some of whom offered help as well. But even if you're new to R and don't know anyone, there are people who will jump in and help you too. RStudio recently launched a new [community website](https://community.rstudio.com/) where you can ask quesitons ranging from a specific issue that you need to debug to why you should use RMarkdown.  
+
+Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or --should try to share that through public work. 
 ## Lessons Learned
 
 #### You may not need big data tools
@@ -23,10 +39,12 @@ But even if the data you start with is large, you may be able to make it smaller
 
 #### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
-Here was my original code for:
-1. Pulling a table down from SQL that has all the visits that had a search in the past week, including whether they converted or not, and their browser id
-2. Randomly assigning on the **browser level** a label of 0 or 1
-3. Counting up the number of total visits and converting visits for each label. 
+Here was my original code that:
+
+1. Pulled a table down from SQL that has all the visits that had a search in the past week, including whether they converted or not, and their browser id
+2. Randomly assigned on the **browser level** a label of 0 or 1
+3. Counted up the number of total visits and converting visits for each label. 
+4. Ran a prop test comparing the two groups. 
 
 ``` sql
 SELECT * FROM erobinson.simulate_fp_search
@@ -192,16 +210,9 @@ false_positive_rate <- sum(pvals < .05)/length(pvals)*100
 
 Here, we first create two matrixes, A and B. Their columns are each one simulation, and the rows are each one combination of visits and conversion (e.g. one is for browsers with 1 visit and 0 conversion, another for 2 visits and 1 conversion, etc). We've used the binomial distribution again to simulate splitting n, the number of browsers with a combination of visits and conversions, into A and B.
 
-We create four vectors of length 1000, one entry for each simulation. Two are for the total number of visits in A or B and two are for the the number of converted visits in A or B. These calculations work as following: 
-- if the first entry in A and B represents the number of browsers with 5 visits and 1 conversions in A and B, respectively, we just multiply each of those by 5 to get the number of visits and by 1 to get the number of conversion. So if it was 2 in A and 3 in B, that means A had 10 visits and 2 conversion while B had 15 visits and 3 conversions. We do this for every row and then add up the column to get the total number of visits and total number of conversions for that simulation in A and in B. This operation is repeated for all 1000 columns (simulations). 
+We create four vectors of length 1000, one entry for each simulation. Two are for the total number of visits in A or B and two are for the the number of converted visits in A or B. For example, if the first entry in A and B represents the number of browsers with 5 visits and 1 conversions in A and B, respectively, we just multiply each of those by 5 to get the number of visits and by 1 to get the number of conversion. So if it was 2 in A and 3 in B, that means A had 10 visits and 2 conversion while B had 15 visits and 3 conversions. We do this for every row and then add up the column to get the total number of visits and total number of conversions for that simulation in A and in B. This operation is repeated for all 1000 columns (simulations). 
 
 Our last step is to use the vectorized prop test to get a 1000 p-values and then calculate what percentage of them are less than .05
 
 ### Take Home Lesson
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed, and so you shouldn't prematurely worry about optimizing for performance but about making sure your code is clear. This holds true for the majority of my code, which I only need to run once. In this case, though, the point was to run the same code hundreds of times. 
-
 
