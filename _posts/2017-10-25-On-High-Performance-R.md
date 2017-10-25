@@ -37,7 +37,7 @@ In my tweet, I mentioned some packages I'd been trying, including foreach and do
 
 But even if the data you start with is large, you may be able to make it smaller by summarizing or eliminating extra columns. In the next section, you'll see how I compressed my data into 3 numeric columns and less than a thousand rows. 
 
-#### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
+### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
 Here was my original code that:
 
@@ -214,6 +214,6 @@ We create four vectors of length 1000, one entry for each simulation. Two are fo
 
 Our last step is to use the vectorized prop test to get a 1000 p-values and then calculate what percentage of them are less than .05
 
-### Next time
+## Next time
 
 As promised in [my last post](https://robinsones.github.io/Managing-Business-Challenges-in-Data-Science/), I'll be returning soon to the topic of A/B Testing, sharing what I've learned from reading papers. 
