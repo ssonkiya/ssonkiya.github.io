@@ -15,6 +15,12 @@ Therefore, I set out to simulate hundreds of null A/B Tests using our own data. 
 
 ## Lessons Learned
 
+#### You may not need big data tools
+
+In my tweet, I mentioned some packages I'd been trying, including foreach and doparallel, packages for parallel processing. Some folks replying also suggested sparklyr (integrates spark and R) and Rcpp (integrates R and C++). I thought I needed to use these because I was dealing with big data - 10+ million rows with some text columns! 
+
+But even if the data you start with is large, you may be able to make it smaller by summarizing or eliminating extra columns. In the next section, you'll see how I compressed my data into 3 numeric columns and less than a thousand rows. 
+
 #### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
 Here was my original code for:
@@ -196,3 +202,4 @@ Our last step is to use the vectorized prop test to get a 1000 p-values and then
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+If my original code had only needed to be run once, it would have been fine. For a lot of code writing, the bottleneck is thinking speed, not computational speed. You first step should not be worrying about optimizing performance but about making sure your code is clear. 
