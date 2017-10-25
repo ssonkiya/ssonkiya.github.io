@@ -5,7 +5,7 @@ A few weeks ago I put a call out to Rstats twitter:
 
 I had a working, short script that took 30 seconds to run. But while this may be fine if you only need to run it once, but I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to code, and I knew I needed to get some help.  
 
-## The Problem 
+## The problem 
 
 At Etsy I work a lot on our A/B Testing. When assigning browsers randomly to experimental groups, we do so based on their browser id (cookie) or device id for apps. But when we analyze our data, we can use two different methods: visits and browser level. Visit-level means we break up browsers into chunks of behavior that don't have more than 30 minutes of inactivity between events. For more details, see more talk on [A/B Testing](tiny.cc/abtalk) (starting at 17:30).
 
@@ -13,14 +13,14 @@ We analysts encourage everyone to favor browser metrics over visit metrics. One 
 
 Therefore, I set out to simulate hundreds of null A/B Tests using our own data. I wanted to take all the visits who saw a certain page, like search, assign them randomly to A or B, and use a proportion test for the conversion rate (percentage of visits that bought). Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05, our false positive rate, was actually around 5% or if it was inflated, as we expected. 
 
-## Performance Optimization
+## Performance optimization
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed, and so you shouldn't prematurely worry about optimizing for performance but about making sure your code is clear. This holds true for the majority of my code, which I only need to run once. In this case, though, the point was to run the same code hundreds of times. w
 
-## Asking for Help 
+## Asking for help 
 
 I am very fortunate to have a data scientist brother who will jump in to help out even when not directly asked:  
 
@@ -29,7 +29,7 @@ I am very fortunate to have a data scientist brother who will jump in to help ou
 I've also gotten to know many other people in the R community through RLadies, conferences, or twitter, some of whom offered help as well. But even if you're new to R and don't know anyone, there are people who will jump in and help you too. RStudio recently launched a new [community website](https://community.rstudio.com/) where you can ask quesitons ranging from a specific issue that you need to debug to why you should use RMarkdown. There's also a [slack community](https://medium.com/@kierisi/join-the-r-for-data-science-online-learning-community-842527222ab3), organized by [Jesse Maegan](https://twitter.com/kierisi), that brings people wanting to learn R together with mentors to work through Garrett Grolemund and Hadley Wickham's [R for Data Science](http://r4ds.had.co.nz/) book. Jesse has been writing a great series of blog posts reflecting on [lessons of each week](https://medium.com/@kierisi/latest), and she'll also be doing another round.  
 Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or having a formal education in programming or statistics--should try to share that through public work. I hope the lessons shared here on optimizing performance in R can help others make their R code better. 
 
-## Lessons Learned on Performance in R
+## Lessons learned on performance in R
 
 #### You may not need big data tools
 
@@ -114,7 +114,7 @@ simulate_p_values_visit_result <- replicate(3000, simulate_p_value_visits())
 
 While switching the dplyr to data.table could probably speed it up even more, right now it's running pretty quickly. 
 
-### Eliminate Redundancy 
+### Eliminate redundancy 
 
 But we can then recognize that our table currently has a lot of redudancy: we have many browsers that have 1 visits and 0 conversions, 2 visits and 0 conversion, etc. Therefore, we can make our code faster by: 
 1. Transform our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count_of_counts".
@@ -189,7 +189,7 @@ simulated_pvals <- count_of_counts %>%
 
 Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in count_of_counts. For each of them, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test, creating a new variable that is the p-value. 
 
-### Use Matrix Operations
+### Use matrix operations
 
 But wait, there's more! The issue with the previous version is memory: we're creating that intermediate product that has hundreds of thousands of rows. Instead, we can use matrix operations, which are faster and less memory-taxing than R. We don't get to use tidyverse code, but sometimes sacrifices must be made. 
 
@@ -214,5 +214,6 @@ We create four vectors of length 1000, one entry for each simulation. Two are fo
 
 Our last step is to use the vectorized prop test to get a 1000 p-values and then calculate what percentage of them are less than .05
 
-### Take Home Lesson
+### Next time
 
+As promised in [my last post](https://robinsones.github.io/Managing-Business-Challenges-in-Data-Science/), I'll be returning soon to the topic of A/B Testing, sharing what I've learned from reading papers. 
