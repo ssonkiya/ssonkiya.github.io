@@ -3,15 +3,15 @@ A few weeks ago I put a call out to Rstats twitter:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> twitter - who loves helping to make (short) code run as fast as possible? Playing w/ foreach, doparallel, data.table but know little</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/915632978524540928?ref_src=twsrc%5Etfw">October 4, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I had a working, short script that took 30 seconds to run. But while this may be fine if you only need to run it once, but I needed to run it hundreds of time for simulations. 
+I had a working, short script that took 30 seconds to run. But while this may be fine if you only need to run it once, but I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to code, and I knew I needed to get some help.  
 
 ## The Problem 
 
-I work on experimentation at Etsy. We assign browsers to experiments based on their browser id (cookie) or device id for apps. We analyze our data in two different ways though: visits and browser level. Visit level means we break up browsers into chunks of behavior not interrupted by more than 30 minutes of inactivity. For more details, see more talk starting at XX time.
+At Etsy I work a lot on our A/B Testing. When assigning browsers randomly to experimental groups, we do so based on their browser id (cookie) or device id for apps. But when we analyze our data, we can use two different methods: visits and browser level. Visit-level means we break up browsers into chunks of behavior that don't have more than 30 minutes of inactivity between events. For more details, see more talk on [A/B Testing](tiny.cc/abtalk) (starting at 17:30).
 
-We'd encourage everyone to favor browser metrics over visit metrics. One reason is that visits are not independent, as visits can come from the same browser or person. This violates the iid assumption of the tests we use, which inflates our false positive rate. We'd never actually tested this with our own browsers, however, and this theoretical concept was not always convincing to our partner teams. 
+We analysts encourage everyone to favor browser metrics over visit metrics. One reason is that visits are not independent, as multiple visits can come from the same browser or person. This violates the independence assumption of the tests we use, which should inflate our false positive rate. We'd never actually tested this with our own browsers, however, and this theoretical concept was not always convincing to our partner teams. 
 
-Therefore, I set out to simulate hundreds of null A/B Tests using our own data. I would take all the visits who saw a certain page, like search, assign them randomly to A or B, and use a proportion test for the conversion rate (percentage of visits that bought). Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05 was actually around 5% or was inflated. 
+Therefore, I set out to simulate hundreds of null A/B Tests using our own data. I wanted to take all the visits who saw a certain page, like search, assign them randomly to A or B, and use a proportion test for the conversion rate (percentage of visits that bought). Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05, our false positive rate, was actually around 5% or if it was inflated, as we expected. 
 
 ## Lessons Learned
 
@@ -202,4 +202,6 @@ Our last step is to use the vectorized prop test to get a 1000 p-values and then
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If my original code had only needed to be run once, it would have been fine. For a lot of code writing, the bottleneck is thinking speed, not computational speed. You first step should not be worrying about optimizing performance but about making sure your code is clear. 
+At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed, and so you shouldn't prematurely worry about optimizing for performance but about making sure your code is clear. This holds true for the majority of my code, which I only need to run once. In this case, though, the point was to run the same code hundreds of times. 
+
+
