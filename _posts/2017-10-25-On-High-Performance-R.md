@@ -18,7 +18,7 @@ Therefore, I set out to simulate hundreds of null A/B Tests using our own data. 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed, and so you shouldn't prematurely worry about optimizing for performance but about making sure your code is clear. This holds true for the majority of my code, which I only need to run once. In this case, though, the point was to run the same code hundreds of times. 
+At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed, and so you shouldn't prematurely worry about optimizing for performance but about making sure your code is clear. This holds true for the majority of my code, which I only need to run once. In this case, though, the point was to run the same code hundreds of times. w
 
 ## Asking for Help 
 
@@ -26,14 +26,14 @@ I am very fortunate to have a data scientist brother who will jump in to help ou
 
 ![center](https://github.com/robinsones/robinsones.github.io/blob/master/images/Dave_optimization_tweet.png)
 
-I've also gotten to know many other people in the R community through RLadies, conferences, or twitter, some of whom offered help as well. But even if you're new to R and don't know anyone, there are people who will jump in and help you too. RStudio recently launched a new [community website](https://community.rstudio.com/) where you can ask quesitons ranging from a specific issue that you need to debug to why you should use RMarkdown.  
+I've also gotten to know many other people in the R community through RLadies, conferences, or twitter, some of whom offered help as well. But even if you're new to R and don't know anyone, there are people who will jump in and help you too. RStudio recently launched a new [community website](https://community.rstudio.com/) where you can ask quesitons ranging from a specific issue that you need to debug to why you should use RMarkdown. There's also a [slack community](https://medium.com/@kierisi/join-the-r-for-data-science-online-learning-community-842527222ab3), organized by [Jesse Maegan](https://twitter.com/kierisi), that brings people wanting to learn R together with mentors to work through Garrett Grolemund and Hadley Wickham's [R for Data Science](http://r4ds.had.co.nz/) book. Jesse has been writing a great series of blog posts reflecting on [lessons of each week](https://medium.com/@kierisi/latest), and she'll also be doing another round.  
+Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or having a formal education in programming or statistics--should try to share that through public work. I hope the lessons shared here on optimizing performance in R can help others make their R code better. 
 
-Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or --should try to share that through public work. 
-## Lessons Learned
+## Lessons Learned on Performance in R
 
 #### You may not need big data tools
 
-In my tweet, I mentioned some packages I'd been trying, including foreach and doparallel, packages for parallel processing. Some folks replying also suggested sparklyr (integrates spark and R) and Rcpp (integrates R and C++). I thought I needed to use these because I was dealing with big data - 10+ million rows with some text columns! 
+In my tweet, I mentioned some packages I'd been trying, including foreach and doparallel, packages for parallel processing. Some folks replying also suggested sparklyr (integrates spark and R) and Rcpp (integrates R and C++). I thought I needed to use these because I was dealing with big data (for R) - 10+ million rows with some text columns! 
 
 But even if the data you start with is large, you may be able to make it smaller by summarizing or eliminating extra columns. In the next section, you'll see how I compressed my data into 3 numeric columns and less than a thousand rows. 
 
