@@ -22,7 +22,7 @@ At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/R
 
 ## Asking for help 
 
-I am very fortunate to have a data scientist brother who will jump in to help out even when not directly asked:  
+I am very fortunate to have a data scientist brother who will jump in to help out even when not directly asked. A lot of the code improvements following come from him.   
 
 ![center](https://github.com/robinsones/robinsones.github.io/blob/master/images/Dave_optimization_tweet.png)
 
