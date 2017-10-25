@@ -3,15 +3,19 @@ A few weeks ago I put a call out to Rstats twitter:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> twitter - who loves helping to make (short) code run as fast as possible? Playing w/ foreach, doparallel, data.table but know little</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/915632978524540928?ref_src=twsrc%5Etfw">October 4, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I had an working, short script that took 30 seconds to run. But while this may be fine if you only need to run it once, but I needed to run it hundreds of time for simulations. 
+I had a working, short script that took 30 seconds to run. But while this may be fine if you only need to run it once, but I needed to run it hundreds of time for simulations. 
 
 ## The Problem 
 
 I work on experimentation at Etsy. We assign browsers to experiments based on their browser id (cookie) or device id for apps. We analyze our data in two different ways though: visits and browser level. Visit level means we break up browsers into chunks of behavior not interrupted by more than 30 minutes of inactivity. For more details, see more talk starting at XX time.
 
+We'd encourage everyone to favor browser metrics over visit metrics. One reason is that visits are not independent, as visits can come from the same browser or person. This violates the iid assumption of the tests we use, which inflates our false positive rate. We'd never actually tested this with our own browsers, however, and this theoretical concept was not always convincing to our partner teams. 
+
+Therefore, I set out to simulate hundreds of null A/B Tests using our own data. I would take all the visits who saw a certain page, like search, assign them randomly to A or B, and use a proportion test for the conversion rate (percentage of visits that bought). Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05 was actually around 5% or was inflated. 
+
 ## Lessons Learned
 
-#### Try to do everything (grouping and counting) you can in SQL
+#### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
 Here was my original code for:
 1. Pulling a table down from SQL that has all the visits that had a search in the past week, including whether they converted or not, and their browser id
@@ -64,11 +68,11 @@ We're able to refactor and make it faster by realizing a few things:
 
 Here's what the new code looks like: 
 
-```sql
+{% highlight sql %}
 SELECT count(*) as total_visits, sum(converted) as converted 
 FROM erobinson.simulate_fp_search
 GROUP BY browser_id 
-```
+{% endhighlight %}
 
 {% highlight r %}
 simulate_p_value_visits <- function() {
@@ -86,17 +90,19 @@ simulate_p_values_visit_result <- replicate(3000, simulate_p_value_visits())
 
 While switching the dplyr to data.table could probably speed it up even more, right now it's running pretty quickly. 
 
+### Eliminate Redundancy 
+
 But we can then recognize that our table currently has a lot of redudancy: we have many browsers that have 1 visits and 0 conversions, 2 visits and 0 conversion, etc. Therefore, we can make our code faster by: 
 1. Transform our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. 
 2. Use the binomial distribution to simulate splitting browsers into A and B groups. 
-3. As before, summarize the number of visitis and conversions in each group and apply our proportion test.
+3. As before, summarize the number of visits and conversions in each group and apply our proportion test.
 
 {% highlight r %}
 count_of_counts <- count_converted_by_browser %>%
   count(total, converted)
 
 simulate_p_value <- function() {
-  # put about half (with binomial sampling) of each group
+  # put about half (with binomial sampling) of each group
   result <- count_of_counts %>%
     mutate(A = rbinom(n(), n, .5),
            B = n - A) %>%
@@ -111,8 +117,11 @@ simulate_p_value <- function() {
 sim_pvals <- replicate(1000, simulate_p_value())
 {% endhighlight %}
 
+### Vectorize
 
-This speeds it up a lot, but we can get even faster by vectorizing the prop test. 
+While the previous code is pretty fast, we can get it even faster by vectorizing the prop test. If you're not familiar with vectorization in R and why it's faster, check out Noam Ross's [excellent blog post](http://www.noamross.net/blog/2014/4/16/vectorization-in-r--why.html). 
+
+Here is the new code using a vectorized proportion test (courtsey of David Robinson's [splittestr package](https://github.com/dgrtwo/splittestr). 
 
 {% highlight r %}
 vectorized_prop_test <- function(a, b, c, d) {
@@ -148,6 +157,8 @@ simulated_pvals <- count_of_counts %>%
 
 Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in count_of_counts. For each of them, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test, creating a new variable that is the p-value. 
 
+### Use Matrix Operations
+
 But wait, there's more! The issue with the previous version is memory: we're creating that intermediate product that has hundreds of thousands of rows. Instead, we can use matrix operations, which are faster and less memory-taxing than R. We don't get to use tidyverse code, but sometimes sacrifices must be made. 
 
 {% highlight r %}
@@ -165,3 +176,4 @@ converted_B <- colSums(B * count_of_counts$converted)
 pvals <- vectorized_prop_test(converted_A, total_A - converted_A,
                               converted_B, total_B - converted_B)
 {% endhighlight %}
+
