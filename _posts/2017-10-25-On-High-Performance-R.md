@@ -26,14 +26,15 @@ I am very fortunate to have a data scientist brother who will jump in to help ou
 
 ![center](https://github.com/robinsones/robinsones.github.io/blob/master/images/Dave_optimization_tweet.png)
 
-I've also gotten to know many other people in the R community through RLadies, conferences, or twitter, some of whom offered help as well. But even if you're new to R and don't know anyone, there are people who will jump in and help you too. RStudio recently launched a new [community website](https://community.rstudio.com/) where you can ask quesitons ranging from a specific issue that you need to debug to why you should use RMarkdown. There's also a [slack community](https://medium.com/@kierisi/join-the-r-for-data-science-online-learning-community-842527222ab3), organized by [Jesse Maegan](https://twitter.com/kierisi), that brings people wanting to learn R together with mentors to work through Garrett Grolemund and Hadley Wickham's [R for Data Science](http://r4ds.had.co.nz/) book. Jesse has been writing a great series of blog posts reflecting on [lessons of each week](https://medium.com/@kierisi/latest), and she'll also be doing another round.  
-Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or having a formal education in programming or statistics--should try to share that through public work. I hope the lessons shared here on optimizing performance in R can help others make their R code better. 
+I've also gotten to know many other people in the R community through RLadies, conferences, and twitter, some of whom offered help as well. But even if you're new to R and don't know anyone, there are people who will jump in and help you too. RStudio recently launched a new [community website](https://community.rstudio.com/) where you can ask quesitons ranging from a specific issue that you need to debug to [why you should use RMarkdown](https://community.rstudio.com/t/convince-me-to-start-using-r-markdown/1636). There's also a [slack community](https://medium.com/@kierisi/join-the-r-for-data-science-online-learning-community-842527222ab3), organized by [Jesse Maegan](https://twitter.com/kierisi), that brings people wanting to learn R together with mentors to work through Garrett Grolemund and Hadley Wickham's [R for Data Science](http://r4ds.had.co.nz/) book. Jesse has been writing a great series of blog posts reflecting on some [lessons from each week](https://medium.com/@kierisi/latest), and she'll also be doing another round.  
+
+Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or having a formal education in programming or statistics--should try to share that through public work. I hope the lessons below on optimizing performance in R can help others make their R code better. 
 
 ## Lessons learned on performance in R
 
 #### You may not need big data tools
 
-In my tweet, I mentioned some packages I'd been trying, including foreach and doparallel, packages for parallel processing. Some folks replying also suggested sparklyr (integrates spark and R) and Rcpp (integrates R and C++). I thought I needed to use these because I was dealing with big data (for R) - 10+ million rows with some text columns! 
+In my tweet, I mentioned some packages I'd been trying, including foreach and doparallel, packages for parallel processing. Some folks replying also suggested sparklyr (which integrates spark and R) and Rcpp (which integrates R and C++). I thought I needed to use these because I was dealing with big data (for R) - 10+ million rows with some text columns! 
 
 But even if the data you start with is large, you may be able to make it smaller by summarizing or eliminating extra columns. In the next section, you'll see how I compressed my data into 3 numeric columns and less than a thousand rows. 
 
@@ -41,8 +42,8 @@ But even if the data you start with is large, you may be able to make it smaller
 
 Here was my original code that:
 
-1. Pulled a table down from SQL that has all the visits that had a search in the past week, including whether they converted or not, and their browser id
-2. Randomly assigned on the **browser level** a label of 0 or 1
+1. Pulled a table down from SQL that had all the visits that had a search in the past week, including whether they converted or not, and their browser id.
+2. Randomly assigned on the **browser level** a label of 0 or 1.
 3. Counted up the number of total visits and converting visits for each label. 
 4. Ran a prop test comparing the two groups. 
 
@@ -73,21 +74,19 @@ successes <-  dat_w_labels %>%
 res <- prop.test(successes, failures + successes)
 ```
 
-This table was over 10 million rows, and I was doing many operations:
-1. Getting the number of distinct browser_ids
-2. Making a new table that had every browser_id and a label for them 
+The table I started with was over 10 million rows, and I was doing many operations:
+1. Getting the number of distinct browser ids
+2. Making a new table that had every browser id and their label
 3. Merging the new table with the original search visits table
-4. Grouping that new table by whether the visit converted or not and it's label, counting the number of each type
+4. Grouping that new table by whether the visit converted or not and its label, counting the number of each type
 5. Extracting the number of conversions and non-conversions 
 6. Doing a prop test
 
-The last three steps are fast, but the first three are very long. 
-
-We're able to refactor and make it faster by realizing a few things: 
-1. We don't need the big text columns visit_id and browser_id
-2. In SQL, we can group by browser_id so we have a row with 1) the number of visis by a browser and 2) the number of visits that converted. With that, we'll have a smaller table of only two numeric columns. 
+The last three steps are fast, but the first three are very long. We're able to refactor and make it faster by realizing a few things: 
+1. We don't need the big text columns visit id and browser id
+2. In SQL, we can group by browser id so each row has 1) the number of visis for a browser and 2) the number of visits that converted for that browser. With that, we'll have a smaller table of only two numeric columns. 
 3. We can then label each row with 0 or 1 randomly, assigning treatment on the browser level. 
-4. Next, we sum up the total_visits column and the converted column, grouping by label. 
+4. Next, we sum up the total visits column and the converted column, grouping by label. 
 5. Finally, we run a prop.test
 
 Here's what the new code looks like: 
@@ -116,10 +115,10 @@ While switching the dplyr to data.table could probably speed it up even more, ri
 
 ### Eliminate redundancy 
 
-But we can then recognize that our table currently has a lot of redudancy: we have many browsers that have 1 visits and 0 conversions, 2 visits and 0 conversion, etc. Therefore, we can make our code faster by: 
-1. Transform our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count_of_counts".
-2. Use the binomial distribution to simulate splitting browsers into A and B groups. 
-3. As before, summarize the number of visits and conversions in each group and apply our proportion test.
+But we can then recognize that our table currently has a lot of redudancy: we have many browsers that have 1 visit and 0 conversions, 2 visits and 0 conversions, etc. Therefore, we can make our code faster by: 
+1. Transforming our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count of counts".
+2. Using the binomial distribution to simulate splitting browsers into A and B groups. 
+3. As before, summarizing the number of visits and conversions in each group and apply our proportion test.
 
 ``` sql
 with counts as (
@@ -153,7 +152,7 @@ sim_pvals <- replicate(1000, simulate_p_value())
 
 While the previous code is pretty fast, we can get it even faster by vectorizing the prop test. If you're not familiar with vectorization in R and why it's faster, check out Noam Ross's [excellent blog post](http://www.noamross.net/blog/2014/4/16/vectorization-in-r--why.html). 
 
-Here is the new code using a vectorized proportion test (courtsey of David Robinson's [splittestr package](https://github.com/dgrtwo/splittestr). 
+Here is the new code using a vectorized proportion test (courtsey of David Robinson's [splittestr package](https://github.com/dgrtwo/splittestr)). 
 
 ``` r
 vectorized_prop_test <- function(a, b, c, d) {
@@ -187,7 +186,7 @@ simulated_pvals <- count_of_counts %>%
   mutate(pvalue = vectorized_prop_test(converted_A, total_A - converted_A, converted_B, total_B - converted_B))
 ```
 
-Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in count_of_counts. For each of them, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test, creating a new variable that is the p-value. 
+Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in "count of counts." For each of them, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test, creating a new variable that is the p-value. 
 
 ### Use matrix operations
 
@@ -208,7 +207,7 @@ pvals <- vectorized_prop_test(converted_A, total_A - converted_A,
 false_positive_rate <- sum(pvals < .05)/length(pvals)*100                         
 ```
 
-Here, we first create two matrixes, A and B. Their columns are each one simulation, and the rows are each one combination of visits and conversion (e.g. one is for browsers with 1 visit and 0 conversion, another for 2 visits and 1 conversion, etc). We've used the binomial distribution again to simulate splitting n, the number of browsers with a combination of visits and conversions, into A and B.
+Here, we first create two matrixes, A and B. Each column represents one simulation, and each row a unique combination of visits and conversion (e.g. one row is for browsers with 1 visit and 0 conversions, another for 2 visits and 1 conversion, etc). We've used the binomial distribution again to simulate splitting n, the number of browsers with a combination of visits and conversions, into A and B.
 
 We create four vectors of length 1000, one entry for each simulation. Two are for the total number of visits in A or B and two are for the the number of converted visits in A or B. For example, if the first entry in A and B represents the number of browsers with 5 visits and 1 conversions in A and B, respectively, we just multiply each of those by 5 to get the number of visits and by 1 to get the number of conversion. So if it was 2 in A and 3 in B, that means A had 10 visits and 2 conversion while B had 15 visits and 3 conversions. We do this for every row and then add up the column to get the total number of visits and total number of conversions for that simulation in A and in B. This operation is repeated for all 1000 columns (simulations). 
 
