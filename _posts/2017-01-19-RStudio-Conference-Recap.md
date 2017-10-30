@@ -20,7 +20,7 @@ One person I was especially excited to meet was Julia Silge, who works with [my 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hspter">@hspter</a> <a href="https://twitter.com/robinson_es">@robinson_es</a> <a href="https://twitter.com/jaredlander">@jaredlander</a> A delight to meet you all in person, and <a href="https://twitter.com/drob">@drob</a> now for a GRAND TOTAL TWO TIMES.</p>&mdash; Julia Silge (@juliasilge) <a href="https://twitter.com/juliasilge/status/820493101303271429">January 15, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Julia only started using R about a year and a half ago, but she already has a great and active blog, a popular package, and a new career as a Data Scientist. While her strong previous scientific training (include an Astronomy PhD) certainly helped her, she's a great example of how you can transition into data science later in your career without necessarily having a statistics or computer science degree.
+Julia only started using R about a year and a half ago, but she already has a great and active blog, a popular package, and a new career as a Data Scientist. While her strong previous scientific training (including an Astronomy PhD) certainly helped her, she's a great example of how you can transition into data science later in your career without necessarily having a statistics or computer science degree.
 
 ## Training Days
 
