@@ -32,7 +32,7 @@ Part of why I wrote this post is I believe those who are privileged--whether by 
 
 ## Lessons learned on performance in R
 
-#### You may not need big data tools
+### You may not need big data tools
 
 In my tweet, I mentioned some packages I'd been trying, including foreach and doparallel, packages for parallel processing. Some folks replying also suggested sparklyr (which integrates spark and R) and Rcpp (which integrates R and C++). I thought I needed to use these because I was dealing with big data (for R) - 10+ million rows with some text columns! 
 
