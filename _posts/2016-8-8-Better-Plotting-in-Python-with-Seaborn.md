@@ -31,15 +31,15 @@ If you want to change either the background or the colors of all your graphs, yo
 - `sns.set_style` takes one of five arguments: `white`, `dark`, `whitegrid`, `darkgrid`, and `ticks`. These are the five options for the background of your plot; the default one is darkgrid. Play around and see what you like best!
 
 - `sns.set_palette` will change the color palette. Use `sns.palplot` to print out a set of colors before you change your default colors to them. For example, try `sns.palplot(sns.light_palette("green"))`. If you decide you like those colors, run `sns.set_palette(sns.light_palette("green"))` to change your graphs. Check out an extensive set of possible color palettes [here](https://stanford.edu/~mwaskom/software/seaborn/tutorial/color_palettes.html). This page also gives a great tip on how you can divide color palettes into three different categories, and which one is appropriate for which type of data: 
-  - **Qualitative color palettes**, where you want to distinguish between distinct data that doesn't have an ordering. These color palettes are just a variety of different colors. 
+- **Qualitative color palettes**, where you want to distinguish between distinct data that doesn't have an ordering. These color palettes are just a variety of different colors. 
 
 ![](http://robinsones.github.io/images/qualitative_color_palette.png)
 
-  - **Sequential color palettes**, where your data range goes from relatively uninteresting or low values to relatively interesting or high values. These color palettes go from light to dark or dark to light in one color or similar colors. 
+- **Sequential color palettes**, where your data range goes from relatively uninteresting or low values to relatively interesting or high values. These color palettes go from light to dark or dark to light in one color or similar colors. 
 
 ![](http://robinsones.github.io/images/sequential_color_palette.png)
 
-  - **Diverging color palettes**, where the interesting points are on either end and you want to under-emphasize the middle points. These color palettes are dark at the end and light in the middle, with a different color for each side. 
+- **Diverging color palettes**, where the interesting points are on either end and you want to under-emphasize the middle points. These color palettes are dark at the end and light in the middle, with a different color for each side. 
 
 ![](http://robinsones.github.io/images/divergent_color_palette.png)
 
