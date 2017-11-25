@@ -3,9 +3,9 @@ About two months ago I put a call out to Rstats twitter:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> twitter - who loves helping to make (short) code run as fast as possible? Playing w/ foreach, doparallel, data.table but know little</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/915632978524540928?ref_src=twsrc%5Etfw">October 4, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I had a working, short script that took 30 seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to code, and I knew I needed to get some help.  
+I had a working, short script that took XYZ seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to code, and I knew I needed to get some help.  
 
-This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run from XYZ time to XYZ time. I hope some of the lessons learned can help others optimize their code performance when needed. The first three are helpful for any languages, and the final two for R especially: 
+This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run to XYZ time. I hope some of the lessons learned can help others optimize their code performance when needed. The first three are helpful for any languages, and the final two for R especially: 
 * You might not need big data tools
 * Using SQL to summarize data when possible
 * Eliminate redundancy in your data
