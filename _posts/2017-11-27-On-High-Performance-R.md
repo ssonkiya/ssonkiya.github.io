@@ -54,6 +54,12 @@ Here was my original code that:
 3. Counted up the number of total visits and converting visits for each label. 
 4. Ran a prop test comparing the two groups. 
 
+If you want to follow along, please run this R code to simulate a dataset: 
+
+```r
+SIMULATE erobinson.simulate_fp_search
+```
+
 ``` sql
 SELECT * FROM erobinson.simulate_fp_search
 ```
@@ -104,6 +110,16 @@ FROM erobinson.simulate_fp_search
 GROUP BY browser_id 
 ```
 
+Again, to follow along, here's that sql code in R: 
+
+```r
+library(dplyr)
+search_visits <- erobinson.simulate_fp_search %>% 
+  group_by(browser_id) %>%
+  mutate(total_visits = n(), converted = sum(converted)) %>%
+  select(total_visits, converted)
+```
+
 ``` r
 simulate_p_value_visits <- function() {
   results <- search_visits %>%
@@ -136,6 +152,14 @@ with counts as (
   SELECT count(*) as n, total_visits, converted
   FROM browsers_summarized
   GROUP BY total_visits, converted
+```
+
+To follow along: 
+
+```r
+count_of_counts <- search_visits %>%
+  group_by(total_visits, converted) %>%
+  mutate(n = n(), total_visits, converted)
 ```
 
 ``` r
