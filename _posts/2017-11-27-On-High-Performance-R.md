@@ -50,7 +50,7 @@ But even if the data you start with is large, you may be able to make it smaller
 If you want to follow along, please run this R code to simulate a dataset: 
 
 ```r
-SIMULATE erobinson.simulate_fp_search
+MAKE erobinson.simulate_fp_search
 ```
 
 Here was my original code that:
@@ -167,8 +167,7 @@ To follow along, run the R code to create `count_of_counts`.
 
 ```r
 count_of_counts <- search_visits %>%
-  group_by(total_visits, converted) %>%
-  mutate(n = n(), total_visits, converted)
+  count(total_visits, converted)
 ```
 
 ``` r
