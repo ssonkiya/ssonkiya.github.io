@@ -5,13 +5,20 @@ A few weeks ago I put a call out to Rstats twitter:
 
 I had a working, short script that took 30 seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to code, and I knew I needed to get some help.  
 
+This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run from XYZ time to XYZ time. I hope some of the lessons learned can help others optimize their R code performance when needed. These include: 
+* You might not need big data tools
+* Using SQL to summarize data when possible
+* Eliminate redundancy in your data
+* Vectorize
+* Use matrix operations
+
 ## The problem 
 
 At Etsy I work a lot on our A/B Testing system. When assigning browsers randomly to experimental groups, we do so based on their browser id (cookie) or device id for apps. But when we analyze our data, we can use two different methods: visit and browser level. Visit-level means we break up browsers into chunks of behavior where there's not more than 30 minutes of inactivity between events. For more details, see my talk on [A/B Testing](tiny.cc/abtalk) (starting at 17:30).
 
 While we offer both, we analysts encourage everyone to favor browser metrics over visit metrics. One reason is that visits are not independent, as multiple visits can come from the same browser or person. This violates the independence assumption of the statistical tests we use to check for differences between groups. In theory, this should inflate our false positive rate, but we'd never actually tested this with our own browsers, and a theoretical concept was not always convincing to our partner teams. 
 
-I therefore set out to simulate hundreds of null A/B Tests using our own data. I wanted to take all the visits who saw a certain page, like search, assign them randomly to A or B, and use a proportion test to check for differences in the conversion rate of the two groups (percentage of visits that bought). Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05, our false positive rate, was actually around 5% or if it was inflated, as we expected. 
+I therefore set out to simulate hundreds of null A/B Tests using our own data. I wanted to take all the visits who saw a certain page, like search, assign them randomly to A or B, and use a proportion test to check for differences in the conversion rate of the two groups (percentage of visits that bought). Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05, our false positive rate, was actually around 5%, or if it was inflated, as we expected. 
 
 ## Performance optimization
 
