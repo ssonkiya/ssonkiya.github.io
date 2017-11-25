@@ -14,11 +14,11 @@ This post documents the iterative process of improving the performance of the fu
 
 ## The problem 
 
-At Etsy I work a lot on our A/B Testing system. When assigning browsers randomly to experimental groups, we do so based on their browser id (cookie) or device id for apps. But when we analyze our data, we can use two different methods: visit and browser level. Visit-level means we break up browsers into chunks of behavior where there's not more than 30 minutes of inactivity between events. For more details, see my talk on [A/B Testing](tiny.cc/abtalk) (starting at 17:30).
+At Etsy I work a lot on our A/B Testing system. When assigning browsers randomly to experimental groups, we do so based on their browser id (cookie) or device id for apps. But when we analyze our data, we can use two different methods: visit level (chunks of behavior) and browser level. For more details, see my talk on [A/B Testing](tiny.cc/abtalk) (starting at 17:30).
 
-While we offer both, we analysts encourage everyone to favor browser metrics over visit metrics. One reason is that visits are not independent, as multiple visits can come from the same browser or person. This violates the independence assumption of the statistical tests we use to check for differences between groups. In theory, this should inflate our false positive rate, but we'd never actually tested this with our own browsers, and a theoretical concept was not always convincing to our partner teams. 
+While we offer both, we analysts encourage everyone to favor browser metrics over visit metrics. One reason is that visits can come from the same browser or person, violating the independence assumption of the statistical tests we use. In theory, this should inflate our false positive rate, but we'd never actually tested this with our own browsers, and a theoretical concept was not always convincing to our partner teams. 
 
-I therefore set out to simulate hundreds of null A/B Tests using our own data. I wanted to take all the visits who saw a certain page, like search, assign them randomly to A or B, and use a proportion test to check for differences in the conversion rate of the two groups (percentage of visits that bought). Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05, our false positive rate, was actually around 5%, or if it was inflated, as we expected. 
+I therefore set out to simulate hundreds of null A/B Tests using our own data. Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05, our false positive rate, was actually around 5%, or if it was inflated, as we expected. 
 
 ## Performance optimization
 
