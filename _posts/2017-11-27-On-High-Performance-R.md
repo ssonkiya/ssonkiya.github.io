@@ -18,7 +18,7 @@ At Etsy I work a lot on our A/B Testing system. When assigning browsers randomly
 
 While we offer both, we analysts encourage everyone to favor browser metrics over visit metrics. One reason is that visits can come from the same browser or person, violating the independence assumption of the statistical tests we use. In theory, this should inflate our false positive rate, but we'd never actually tested this with our own browsers, and a theoretical concept was not always convincing to our partner teams. 
 
-I therefore set out to simulate hundreds of null A/B Tests using our own data. Looking at the p-values of hundreds of these tests, I would see if the percentage with p < .05, our false positive rate, was actually around 5%, or if it was inflated, as we expected. 
+I therefore set out to simulate hundreds of null A/B Tests using our own data. I wanted to see if the percentage with p < .05, our false positive rate, was actually around 5%, or if it was inflated, as we expected. 
 
 ## Performance optimization
 
