@@ -5,7 +5,7 @@ A few weeks ago I put a call out to Rstats twitter:
 
 I had a working, short script that took 30 seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to code, and I knew I needed to get some help.  
 
-This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run from XYZ time to XYZ time. I hope some of the lessons learned can help others optimize their code performance when needed. The first three are helpful for any languages, and the final two for R specifically: 
+This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run from XYZ time to XYZ time. I hope some of the lessons learned can help others optimize their code performance when needed. The first three are helpful for any languages, and the final two for R especially: 
 * You might not need big data tools
 * Using SQL to summarize data when possible
 * Eliminate redundancy in your data
@@ -47,18 +47,18 @@ But even if the data you start with is large, you may be able to make it smaller
 
 ### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
+If you want to follow along, please run this R code to simulate a dataset: 
+
+```r
+SIMULATE erobinson.simulate_fp_search
+```
+
 Here was my original code that:
 
 1. Pulled a table down from SQL that had all the visits that had a search in the past week, including whether they converted or not, and their browser id.
 2. Randomly assigned on the **browser level** a label of 0 or 1.
 3. Counted up the number of total visits and converting visits for each label. 
 4. Ran a prop test comparing the two groups. 
-
-If you want to follow along, please run this R code to simulate a dataset: 
-
-```r
-SIMULATE erobinson.simulate_fp_search
-```
 
 ``` sql
 SELECT * FROM erobinson.simulate_fp_search
@@ -120,6 +120,7 @@ search_visits <- erobinson.simulate_fp_search %>%
   select(total_visits, converted)
 ```
 
+I then created my simulation function and ran it 3000 times. 
 ``` r
 simulate_p_value_visits <- function() {
   results <- search_visits %>%
@@ -138,11 +139,15 @@ While switching the dplyr to data.table could probably speed it up even more, ri
 
 ### Eliminate redundancy 
 
-But we can then recognize that our table currently has a lot of redudancy: we have many browsers that have 1 visit and 0 conversions, 2 visits and 0 conversions, etc. Therefore, we can make our code faster by: 
+But we can then recognize that our table currently has a lot of redudancy: we have many browsers that have 1 visit and 0 conversions, 2 visits and 0 conversions, etc. 
+
+ANALOGY. 
+
+Therefore, we can make our code faster by: 
 1. Transforming our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count of counts".
 2. Using the binomial distribution to simulate splitting browsers into A and B groups. 
 3. As before, summarizing the number of visits and conversions in each group and apply our proportion test.
-
+  
 ``` sql
 with counts as (
   SELECT count(*) as total_visits, sum(converted) as converted 
@@ -154,7 +159,7 @@ with counts as (
   GROUP BY total_visits, converted
 ```
 
-To follow along: 
+To follow along, run the R code to create `count_of_counts`.  
 
 ```r
 count_of_counts <- search_visits %>%
@@ -217,7 +222,7 @@ simulated_pvals <- count_of_counts %>%
   mutate(pvalue = vectorized_prop_test(converted_A, total_A - converted_A, converted_B, total_B - converted_B))
 ```
 
-Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in "count of counts." For each of them, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test, creating a new variable that is the p-value. 
+Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in "count of counts." For each trial, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test, creating a new variable that is the p-value. 
 
 ### Use matrix operations
 
