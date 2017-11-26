@@ -184,7 +184,7 @@ Because the [bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_dis
 
 ``` r
 library(dplyr) 
-'
+
 simulate_p_value <- function() {
   # put about half (with binomial sampling) in each group
   result <- count_of_counts %>%
