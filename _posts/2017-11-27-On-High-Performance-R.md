@@ -148,7 +148,7 @@ Therefore, we can make our code faster by:
 
 VISUALIZATION
 
-Because the [bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) was just a special case of the binomial [distribution](https://en.wikipedia.org/wiki/Binomial_distribution) where n = 1, we're doing the *same* process as before, but we only need to do many fewer computations!  
+Because the [bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) is just a special case of the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution) where n = 1, we're doing the *same* process as before, but we only need to do many fewer computations!  
   
 ``` sql
 with counts as (
