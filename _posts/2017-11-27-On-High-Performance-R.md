@@ -51,13 +51,12 @@ MAKE erobinson.simulate_fp_search (needs browser_id, converted, and a visit id)
 Here was my original code that:
 
 1. Pulled a table down from SQL that had all the visits that had a search in the past week, including whether they converted or not, and their browser id.
-2. Randomly assigned on the **browser level** a label of 0 or 1.
-3. Counted up the number of total visits and converting visits for each label. 
-4. Ran a prop test comparing the two groups. 
 
 ``` sql
 SELECT * FROM erobinson.simulate_fp_search
 ```
+
+2. Randomly assigned on the **browser level** a label of 0 or 1.
 
 ``` r
 N <- nrow(distinct(search_visits, browser_id)
@@ -70,7 +69,11 @@ browsers <- as.data.table(browsers)
 browsers <- setkey(browsers, browser_id)
 dat_w_labels <- merge(search_visits, browsers, all.x=TRUE)
 dat_w_labels <- dat_w_labels[, .(.N), by = .(ab_variant, converted)] %>% arrange(ab_variant)
+```
 
+3. Counted up the number of total visits and converting visits for each label. 
+
+```r
 failures <- dat_w_labels %>%
   filter(converted == 0) %>% 
   pull(N)
@@ -78,7 +81,11 @@ failures <- dat_w_labels %>%
 successes <-  dat_w_labels %>%
   filter(converted == 1) %>% 
   pull(N)
+```
 
+4. Ran a prop test comparing the two groups. 
+
+```r
 res <- prop.test(successes, failures + successes)
 ```
 
@@ -233,26 +240,30 @@ Crossing is the tidyr version of mutate: it creates a tibble from all the combin
 
 But wait, there's more! The issue with the previous version is memory: we're creating that intermediate product that has hundreds of thousands of rows. Instead, we can use matrix operations, which are faster and less memory-taxing than R. We don't get to use tidyverse code, but sometimes sacrifices must be made. 
 
+Here, we first create two matrixes, A and B. Each column represents one simulation, and each row a unique combination of visits and conversion (e.g. one row is for browsers with 1 visit and 0 conversions, another for 2 visits and 1 conversion, etc). We've used the binomial distribution again to simulate splitting n, the number of browsers with a certain combination of visits and conversions, into A and B.
+
 ``` r
 A <- replicate(1000, rbinom(nrow(count_of_counts), count_of_counts$n, .5))
 B <- count_of_counts$n - A
+```
 
+We create four vectors of length 1000, one entry for each simulation. Two are for the total number of visits in A or B and two are for the the number of converted visits in A or B. For example, if the first entry in A and B represents the number of browsers with 5 visits and 1 conversions in A and B, respectively, we just multiply each of those by 5 to get the number of visits and by 1 to get the number of conversions. So if it was 2 in A and 3 in B, that means A had 10 visits and 2 conversion while B had 15 visits and 3 conversions. We do this for every row and then add up the column to get the total number of visits and total number of conversions for that simulation in A and in B. This operation is repeated for all 1000 columns (simulations).
+
+```r
 total_A <- colSums(A * count_of_counts$total)
 total_B <- colSums(B * count_of_counts$total)
 converted_A <- colSums(A * count_of_counts$converted)
 converted_B <- colSums(B * count_of_counts$converted)
+```
 
+Our last step is to use the vectorized prop test to get a 1000 p-values and then calculate what percentage of them are less than .05
+
+```r
 pvals <- vectorized_prop_test(converted_A, total_A - converted_A,
                               converted_B, total_B - converted_B)
                               
 false_positive_rate <- sum(pvals < .05)/length(pvals)*100                         
 ```
-
-Here, we first create two matrixes, A and B. Each column represents one simulation, and each row a unique combination of visits and conversion (e.g. one row is for browsers with 1 visit and 0 conversions, another for 2 visits and 1 conversion, etc). We've used the binomial distribution again to simulate splitting n, the number of browsers with a certain combination of visits and conversions, into A and B.
-
-We create four vectors of length 1000, one entry for each simulation. Two are for the total number of visits in A or B and two are for the the number of converted visits in A or B. For example, if the first entry in A and B represents the number of browsers with 5 visits and 1 conversions in A and B, respectively, we just multiply each of those by 5 to get the number of visits and by 1 to get the number of conversions. So if it was 2 in A and 3 in B, that means A had 10 visits and 2 conversion while B had 15 visits and 3 conversions. We do this for every row and then add up the column to get the total number of visits and total number of conversions for that simulation in A and in B. This operation is repeated for all 1000 columns (simulations). 
-
-Our last step is to use the vectorized prop test to get a 1000 p-values and then calculate what percentage of them are less than .05
 
 ## Next time
 
