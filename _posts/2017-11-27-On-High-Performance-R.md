@@ -45,6 +45,8 @@ But even if the data you start with is large, you may be able to make it smaller
 If you want to follow along, please run this R code to simulate a dataset: 
 
 ```r
+library(dplyr)
+
 MAKE erobinson.simulate_fp_search (needs browser_id, converted, and a visit id) 
 ```
 
@@ -59,6 +61,9 @@ SELECT * FROM erobinson.simulate_fp_search
 2. Randomly assigned on the **browser level** a label of 0 or 1.
 
 ``` r
+library(data.table)
+library(dplyr) 
+
 N <- nrow(distinct(search_visits, browser_id)
 
 browsers <- search_visits %>%
@@ -116,6 +121,7 @@ Again, to follow along, here's that sql code in R:
 
 ```r
 library(dplyr)
+
 search_visits <- erobinson.simulate_fp_search %>% 
   group_by(browser_id) %>%
   mutate(total_visits = n(), converted = sum(converted)) %>%
@@ -126,6 +132,8 @@ search_visits <- erobinson.simulate_fp_search %>%
 I then created my simulation function and ran it 3000 times. 
 
 ``` r
+library(dplyr)
+
 simulate_p_value_visits <- function() {
   results <- search_visits %>%
     # group_by here is really a mutate and group_by
@@ -176,6 +184,8 @@ Because the [bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_dis
 3. As before, summarizing the number of visits and conversions in each group and apply our proportion test.
 
 ``` r
+library(dplyr) 
+'
 simulate_p_value <- function() {
   # put about half (with binomial sampling) in each group
   result <- count_of_counts %>%
@@ -201,22 +211,10 @@ While the previous code is pretty fast, we can get it even faster by vectorizing
 Here is the new code using a vectorized proportion test (courtsey of David Robinson's [splittestr package](https://github.com/dgrtwo/splittestr)). 
 
 ``` r
-vectorized_prop_test <- function(a, b, c, d) {
-  n1 <- a + b
-  n2 <- c + d
-  n <- n1 + n2
-  p <- (a + c) / n
-  E <- cbind(p * n1, (1 - p) * n1, p * n2, (1 - p) * n2)
-
-  x <- cbind(a, b, c, d)
-
-  DELTA <- a / n1 - c / n2
-  YATES <- pmin(.5, abs(DELTA) / sum(1 / n1 + 1 / n2))
-
-  STATISTIC <- rowSums((abs(x - E) - YATES)^2 / E)
-  PVAL <- pchisq(STATISTIC, 1, lower.tail = FALSE)
-  PVAL
-}
+library(devtools)
+install_github("dgrtwo/splittestr")
+library(splittestr)
+library(dplyr)
 
 count_of_counts <- count_converted_by_browser %>%
   count(total, converted)
@@ -259,6 +257,10 @@ converted_B <- colSums(B * count_of_counts$converted)
 Our last step is to use the vectorized prop test to get a 1000 p-values and then calculate what percentage of them are less than .05
 
 ```r
+library(devtools)
+install_github("dgrtwo/splittestr")
+library(splittestr)
+
 pvals <- vectorized_prop_test(converted_A, total_A - converted_A,
                               converted_B, total_B - converted_B)
                               
