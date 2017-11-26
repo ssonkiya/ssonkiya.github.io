@@ -130,6 +130,7 @@ simulate_p_value_visits <- function() {
 
 simulate_p_values_visit_result <- replicate(3000, simulate_p_value_visits())
 
+false_positive_rate <- sum(simulate_p_values_visit_result < .05)/length(simulate_p_values_visit_result)*100  
 ```
 
 While switching the dplyr to data.table could probably speed it up even more, right now it's running pretty quickly. 
@@ -140,13 +141,9 @@ But we can then recognize that our table currently has a lot of redudancy: we ha
 
 Therefore, we can make our code faster by: 
 1. Transforming our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count of counts".
-2. Using the binomial distribution to simulate splitting browsers into A and B groups. 
-3. As before, summarizing the number of visits and conversions in each group and apply our proportion test.
 
 ![](https://github.com/robinsones/robinsones.github.io/blob/performance_post/images/performance_post_visualization.png)
 
-Because the [bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) is just a special case of the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution) where n = 1, we're doing the *same* process as before, but we only need to do many fewer computations!  
-  
 ``` sql
 with counts as (
   SELECT count(*) as total_visits, sum(converted) as converted 
@@ -165,6 +162,12 @@ count_of_counts <- search_visits %>%
   count(total_visits, converted)
 ```
 
+2. Using the binomial distribution to simulate splitting browsers into A and B groups. 
+
+Because the [bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) is just a special case of the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution) where n = 1, we're doing the *same* process as before, but we only need to do many fewer computations!  
+
+3. As before, summarizing the number of visits and conversions in each group and apply our proportion test.
+
 ``` r
 simulate_p_value <- function() {
   # put about half (with binomial sampling) in each group
@@ -181,7 +184,7 @@ simulate_p_value <- function() {
 
 sim_pvals <- replicate(1000, simulate_p_value())
 
-sum(sim_pvals > .05)
+false_positive_rate <- sum(sim_pvals < .05)/length(sim_pvals)*100  
 ```
 
 ### Vectorize
@@ -221,7 +224,7 @@ simulated_pvals <- count_of_counts %>%
             converted_B = sum(converted * B)) %>%
   mutate(pvalue = vectorized_prop_test(converted_A, total_A - converted_A, converted_B, total_B - converted_B))
   
-SHOW THE TEST?
+false_positive_rate <- sum(simulated_pvals$pvals < .05)/length(simulated_pvals$pvals)*100  
 ```
 
 Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in "count of counts." For each trial, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test to create a new variable that is the p-value. 
