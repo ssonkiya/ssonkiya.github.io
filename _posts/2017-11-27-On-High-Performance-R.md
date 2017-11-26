@@ -253,7 +253,7 @@ converted_A <- colSums(A * count_of_counts$converted)
 converted_B <- colSums(B * count_of_counts$converted)
 ```
 
-Our last step is to use the vectorized prop test to get a 1000 p-values and then calculate what percentage of them are less than .05
+Our last step is to use the vectorized prop test to get a 1000 p-values and then calculate what percentage of them are less than .05.
 
 ```r
 library(devtools)
