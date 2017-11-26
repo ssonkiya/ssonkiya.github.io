@@ -30,6 +30,9 @@ Can talk to organizers after, they're friendly, introduce yourself and thank the
 
 If you're nervous about going somewhere where you don't know anyone, can bring a friend, but don't just stick with them. 
 
+### Twitter
+Rstats community on twitter friendly. Can announce going to conference. Can ask questions. Can be way to break ice at conference (personal brand developer post). I met people like Jenny Bryan at RStudio I had only followed on twitter, but helped me "know" her a bit. 
+
 ### Following up
 - if they respond and helped you with something - follow up! For example, if you were looking for a job, let them know when you found one and thank them. 
 - if you were introduced to them or have a connecton and haven't heard back - give them a few weeks and follow up. 
@@ -62,6 +65,7 @@ Things that I've gotten to do based on public talks and blog
 - Saw other people inspired by my talk write their own (share tweet about her blog post) 
 
 Building a personal brand https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217
-
-
-
+- it's for developers, but I think applies equally to data science. 
+- disagree on blogging "light" but agree with this: Finally, try and remember that all your posts don’t have to be too technical. Even if you are a complete beginner, you will always have 1 day, 1 week or 1 month’s more experience than someone else. Someone will find value in what you have to say. 
+- It can be worthwhile I think not just using it to have a presence and way of contact but to add value. Takes more time, but I think that time can also be learning time in this field. 
+- It’s also a great way to break the ice and say a virtual “hello” before bumping into someone at an in-person conference or meet-up.
