@@ -1,6 +1,6 @@
 
 ### Try to find a connection
-Connection can be something you share - maybe you both went to same school or same bootcamp. Or maybe they have some kind of hobby you share that they've talked about? 
+Connection can be something you share - maybe you both went to same school or same bootcamp. Or maybe they have some kind of hobby you share that they've talked about? Or even a previous career if their background is also political science, for example. 
 
 Can also be a person who connects you. For example, recently Julia Silge, a data scientist at StackOverflow, connected me to Lukas X, a data scientist at booking.com. We had a great conversation. And I introduced him to Sarah Manning, our experimentation engineer. Note: double opt-in intro (hat tip Lara Hogan, Julia did, I did, but good reminder important practice). 
 
@@ -13,20 +13,33 @@ Also about what you're interested in talking about (Trey Causey). Don't just ask
 
 Mark Meloon (tell them you like their work, combine that with request, usually doesn't get that).  
 
-### Offering value
+### Offer value
 
-Mark Meloon. 
+Mark Meloon - don't just be taking. Don't ask for referral right away. If they can do it and they know you're searching and they want to, they'll do it. 
 
-Adam Grant - accomplishing things leads to network. 
-
-### Following up
-- if they respond and helped you with something - follow up! For example, if you were looking for a job, let them know when you found one and thank them. 
-
-
-Read great post by Trey Causey on sending a cold email. Go ahead, I'll wait: https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d. Shows specifically how to revise an email. 
+Adam Grant - accomplishing things leads to network. Henning - don't worry about knowing people, be worth knowing.  
 
 [Adam Grant article](https://www.nytimes.com/2017/08/24/opinion/sunday/networking-connections-business.html?_r=0)
 * "Accomplishing great things helps you develop a network". Have a public body of work. Go read [Dave's blog post](http://varianceexplained.org/r/start-blog/) on why you should start a blog and also the how. . Medium is a great way to get started easily, also can get you wider visibility, but Jekyll too. Having code on github is good, but data scientists also need communication skills. Plus just more likely people will read that than 1000s of lines of barely commented code. 
+
+### Meeting people in person
+
+Stick around after the meetup, their might be an after-event (e.g. (New York Open Statistical Programming meetup)[https://www.meetup.com/nyhackr/] invites everyone to the bar after the meetup) but also it will be less crowded as people leave right away but other stay around and hang out. 
+
+Can talk to organizers after, they're friendly, introduce yourself and thank them. 
+
+If you're nervous about going somewhere where you don't know anyone, can bring a friend, but don't just stick with them. 
+
+### Following up
+- if they respond and helped you with something - follow up! For example, if you were looking for a job, let them know when you found one and thank them. 
+- if you were introduced to them or have a connecton and haven't heard back - give them a few weeks and follow up. 
+- if cold introduction, use your judgment maybe not. 
+
+Don't take non-responses personally. People are busy, sometimes email slips through. Don't know what is happening in their personal life. 
+
+Read great post by Trey Causey on sending a cold email. Go ahead, I'll wait: https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d. Shows specifically how to revise an email. 
+
+Adam Grant
 * "But it’s remarkably hard to engage with those people unless you’ve already put something valuable out into the world. That’s what piques the curiosity of advisers and sponsors. Achievements show you have something to give, not just something to take."
 *  "Do something interesting, and instead of having to push your way in, you’ll get pulled in. The network comes to you."
 *  "It shouldn’t be about promoting yourself, but about promoting your ideas." - my take, it can also be about helping other people. For example, writing my first data science talk. 
@@ -48,7 +61,7 @@ Things that I've gotten to do based on public talks and blog
 - RStudio Conference (had an example talk to link them to) 
 - Saw other people inspired by my talk write their own (share tweet about her blog post) 
 
-
+Building a personal brand https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217
 
 
 
