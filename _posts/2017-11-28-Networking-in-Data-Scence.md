@@ -2,7 +2,7 @@
 ### Try to find a connection
 Connection can be something you share - maybe you both went to same school or same bootcamp. Or maybe they have some kind of hobby you share that they've talked about? Or even a previous career if their background is also political science, for example. 
 
-Can also be a person who connects you. For example, recently Julia Silge, a data scientist at StackOverflow, connected me to Lukas X, a data scientist at booking.com. We had a great conversation. And I introduced him to Sarah Manning, our experimentation engineer. Note: double opt-in intro (hat tip Lara Hogan, Julia did, I did, but good reminder important practice). 
+Can also be a person you know who connects you. Ask for suggestions from them, but don't demand. Don't talk to someone just to get an intro to someone else. For example, recently Julia Silge, a data scientist at StackOverflow, connected me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up. We had a great conversation. And I introduced him to Sarah Manning, manager of our analytics engineering team. Note: double opt-in intro (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728), Julia did, I did, but good reminder important practice). 
 
 So can try to find people who can connect you (maybe alumni office or career center) or acquantice. 
 
@@ -24,14 +24,14 @@ Adam Grant - accomplishing things leads to network. Henning - don't worry about 
 
 ### Meeting people in person
 
-Stick around after the meetup, their might be an after-event (e.g. (New York Open Statistical Programming meetup)[https://www.meetup.com/nyhackr/] invites everyone to the bar after the meetup) but also it will be less crowded as people leave right away but other stay around and hang out. 
+Stick around after the meetup, there might be an after-event (e.g. (New York Open Statistical Programming meetup)[https://www.meetup.com/nyhackr/] invites everyone to the bar after the meetup) but also it will be less crowded as people leave right away but other stay around and hang out. 
 
 Can talk to organizers after, they're friendly, introduce yourself and thank them. 
 
 If you're nervous about going somewhere where you don't know anyone, can bring a friend, but don't just stick with them. 
 
 ### Twitter
-Rstats community on twitter friendly. Can announce going to conference. Can ask questions. Can be way to break ice at conference (personal brand developer post). I met people like Jenny Bryan at RStudio I had only followed on twitter, but helped me "know" her a bit. 
+Rstats community on twitter friendly. Can announce going to conference. Can ask questions. Can be way to break ice at conference (personal brand developer post). I met people like Jenny Bryan at RStudio I had only followed on twitter, but helped me "know" her a bit. Personal brand article. You'll often find Hadley Wickham answering questions (although I think it's more polite to use #rstats than to @ him directly, but I often see him answering questions directed to him). 
 
 ### Following up
 - if they respond and helped you with something - follow up! For example, if you were looking for a job, let them know when you found one and thank them. 
