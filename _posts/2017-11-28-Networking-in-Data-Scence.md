@@ -1,5 +1,11 @@
 
 
+### In-person meet-ups/conferences
+
+### Emails/LinkedIn with connection
+
+### Cold LinkedIn/email messages
+
 Read great post by Trey Causey on sending a cold email. Go ahead, I'll wait: https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d. Shows specifically how to revise an email. 
 
 [Adam Grant article](https://www.nytimes.com/2017/08/24/opinion/sunday/networking-connections-business.html?_r=0)
