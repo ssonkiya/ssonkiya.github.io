@@ -3,7 +3,7 @@ About two months ago I put a call out to Rstats twitter:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> twitter - who loves helping to make (short) code run as fast as possible? Playing w/ foreach, doparallel, data.table but know little</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/915632978524540928?ref_src=twsrc%5Etfw">October 4, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I had a working, short script that took XYZ seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to code, and I knew I needed to get some help.  
+I had a working, short script that took XYZ seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to go, and I knew I needed to get some help.  
 
 This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run to XYZ time. I hope some of the lessons learned can help others optimize their code performance when needed. The first three are helpful for any languages, and the final two for R especially. 
 
@@ -20,7 +20,7 @@ I therefore set out to simulate hundreds of null A/B Tests using our own data. I
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed, and so you shouldn't prematurely worry about optimizing for performance but rather about making sure your code is clear. This holds true for the majority of my code, which I only need to run once. In this case, though, the point was to run the same code hundreds of times, so I need to start worrying about performance. 
+At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed. Therefore, he advised that you shouldn't prematurely worry about optimizing for performance but rather about making sure your code is clear. In this case, though, the point was to run the same code hundreds of times, so I needed to start worrying about performance. 
 
 ## Asking for help 
 
@@ -32,20 +32,20 @@ I've also gotten to know many other people in the R community through RLadies, c
 
 Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or having a formal education in programming or statistics--should try to share that through public work. 
 
-## Lessons learned on performance in R
+## Lessons learned on performance
 
 ### You may not need big data tools
 
 In my tweet, I mentioned some packages I'd been trying, including foreach and doparallel, packages for parallel processing. Some folks replying also suggested sparklyr (which integrates spark and R) and Rcpp (which integrates R and C++). I thought I needed to use these because I was dealing with big data (for R) - 10+ million rows with some text columns! 
 
-But even if the data you start with is large, you may be able to make it smaller by summarizing or eliminating extra columns. In the next section, you'll see how I compressed my data into 3 numeric columns and less than a thousand rows. 
+But even if the data you start with is large, you may be able to make it smaller by eliminating extra columns or summarizing the data. In the next section, you'll see how I compressed my data into 3 numeric columns and less than a thousand rows. 
 
 ### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
 If you want to follow along, please run this R code to simulate a dataset: 
 
 ```r
-MAKE erobinson.simulate_fp_search
+MAKE erobinson.simulate_fp_search (needs browser_id, converted, and a visit id) 
 ```
 
 Here was my original code that:
@@ -113,9 +113,11 @@ search_visits <- erobinson.simulate_fp_search %>%
   group_by(browser_id) %>%
   mutate(total_visits = n(), converted = sum(converted)) %>%
   select(total_visits, converted)
+  DO COUNT INSTEAD?
 ```
 
 I then created my simulation function and ran it 3000 times. 
+
 ``` r
 simulate_p_value_visits <- function() {
   results <- search_visits %>%
@@ -178,6 +180,8 @@ simulate_p_value <- function() {
 }
 
 sim_pvals <- replicate(1000, simulate_p_value())
+
+sum(sim_pvals > .05)
 ```
 
 ### Vectorize
@@ -216,9 +220,11 @@ simulated_pvals <- count_of_counts %>%
             converted_A = sum(converted * A),
             converted_B = sum(converted * B)) %>%
   mutate(pvalue = vectorized_prop_test(converted_A, total_A - converted_A, converted_B, total_B - converted_B))
+  
+SHOW THE TEST?
 ```
 
-Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in "count of counts." For each trial, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test, creating a new variable that is the p-value. 
+Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in "count of counts." For each trial, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test to create a new variable that is the p-value. 
 
 ### Use matrix operations
 
