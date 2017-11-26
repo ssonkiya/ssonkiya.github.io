@@ -13,6 +13,8 @@ Also about what you're interested in talking about (Trey Causey). Don't just ask
 
 Mark Meloon (tell them you like their work, combine that with request, usually doesn't get that).  
 
+On this - look up their work. Show that you've done their research. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Show you've read their work and ask follow-up questions. 
+
 ### Offer value
 
 Mark Meloon - don't just be taking. Don't ask for referral right away. If they can do it and they know you're searching and they want to, they'll do it. 
