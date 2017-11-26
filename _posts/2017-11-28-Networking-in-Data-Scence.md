@@ -1,10 +1,27 @@
 
+### Try to find a connection
+Connection can be something you share - maybe you both went to same school or same bootcamp. Or maybe they have some kind of hobby you share that they've talked about? 
 
-### In-person meet-ups/conferences
+Can also be a person who connects you. For example, recently Julia Silge, a data scientist at StackOverflow, connected me to Lukas X, a data scientist at booking.com. We had a great conversation. And I introduced him to Sarah Manning, our experimentation engineer. Note: double opt-in intro (hat tip Lara Hogan, Julia did, I did, but good reminder important practice). 
 
-### Emails/LinkedIn with connection
+So can try to find people who can connect you (maybe alumni office or career center) or acquantice. 
 
-### Cold LinkedIn/email messages
+### Get specific
+In-person - don't just say "I love you work!" Over email - make sure you mention their work. Both cases, get more specific - how has it helped you, which blog post or package, etc. Avoids awkward exchange - You: "I love your work" Them: "Great, thank you." Both: awkward silence ... Help them help you by giving a conversation topic. 
+
+Also about what you're interested in talking about (Trey Causey). Don't just ask to "pick their brain" or if they "have time for a quick chat." 
+
+Mark Meloon (tell them you like their work, combine that with request, usually doesn't get that).  
+
+### Offering value
+
+Mark Meloon. 
+
+Adam Grant - accomplishing things leads to network. 
+
+### Following up
+- if they respond and helped you with something - follow up! For example, if you were looking for a job, let them know when you found one and thank them. 
+
 
 Read great post by Trey Causey on sending a cold email. Go ahead, I'll wait: https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d. Shows specifically how to revise an email. 
 
