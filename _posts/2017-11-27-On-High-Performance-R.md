@@ -5,7 +5,7 @@ About two months ago I put a call out to Rstats twitter:
 
 I had a working, short script that took XYZ seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to go, and I knew I needed to get some help.  
 
-This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run to XYZ time. I hope some of the lessons learned can help others optimize their code performance when needed. The first three are helpful for any languages, and the final two for R especially. 
+This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run to XYZ time.
 
 ## The problem 
 
@@ -15,13 +15,6 @@ While we offer both, we analysts encourage everyone to favor browser metrics ove
 
 I therefore set out to simulate hundreds of null A/B Tests using our own data. I wanted to see if the percentage with p < .05, our false positive rate, was actually around 5%, or if it was inflated, as we expected. 
 
-## Performance optimization
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed. Therefore, he advised that you shouldn't prematurely worry about optimizing for performance but rather about making sure your code is clear. In this case, though, the point was to run the same code hundreds of times, so I needed to start worrying about performance. 
-
 ## Asking for help 
 
 I am very fortunate to have a data scientist brother who will jump in to help out even when not directly asked. A lot of the code improvements following come from him.   
@@ -30,7 +23,7 @@ I am very fortunate to have a data scientist brother who will jump in to help ou
 
 I've also gotten to know many other people in the R community through RLadies, conferences, and twitter, some of whom offered help as well. But even if you're new to R and don't know anyone, there are people who will jump in and help you too. RStudio recently launched a new [community website](https://community.rstudio.com/) where you can ask quesitons ranging from a specific issue that you need to debug to [why you should use RMarkdown](https://community.rstudio.com/t/convince-me-to-start-using-r-markdown/1636). There's also a [slack community](https://medium.com/@kierisi/join-the-r-for-data-science-online-learning-community-842527222ab3), organized by [Jesse Maegan](https://twitter.com/kierisi), that brings people wanting to learn R together with mentors to work through Garrett Grolemund and Hadley Wickham's [R for Data Science](http://r4ds.had.co.nz/) book. Jesse has been writing a great series of blog posts reflecting on some [lessons from each week](https://medium.com/@kierisi/latest), and she'll also be doing another round.  
 
-Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or having a formal education in programming or statistics--should try to share that through public work. 
+Part of why I wrote this post is I believe those who are privileged--whether by having a data science job, getting to go to conferences, or having a formal education in programming or statistics--should try to share that through public work. I hope some of the lessons learned can help others optimize their code performance when needed. The first three are helpful for any language and the final two for R especially. 
 
 ## Lessons learned on performance
 
@@ -266,6 +259,11 @@ pvals <- vectorized_prop_test(converted_A, total_A - converted_A,
 false_positive_rate <- sum(pvals < .05)/length(pvals)*100                         
 ```
 
-## Next time
+## Conclusion
 
-As promised in [my last post](https://robinsones.github.io/Managing-Business-Challenges-in-Data-Science/), I'll be returning soon to the topic of A/B Testing, sharing what I've learned from reading papers. 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One rule of thumb for maximizing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> performance is that the way you&#39;d do something once is rarely the best way to do it 1000X</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/915987148515377152?ref_src=twsrc%5Etfw">October 5, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+At RStudio::Conf 2017, Hadley Wickham [discussed](https://robinsones.github.io/RStudio-Conference-Tips-and-Tricks/) how the bottleneck in writing code is usually thinking speed, not computational speed. Therefore, he advised that you shouldn't prematurely worry about optimizing for performance but rather about making sure your code is clear. In this case, though, the point was to run the same code hundreds of times, so I needed to start worrying about performance. Through the process, I learned a lot about how R works "under the hood" and how to conceptualize problems a different way. 
+
+Next time, I'll be returning soon to the topic of A/B Testing, sharing what I've learned from reading industry papers. 
