@@ -126,7 +126,6 @@ search_visits <- erobinson.simulate_fp_search %>%
   group_by(browser_id) %>%
   mutate(total_visits = n(), converted = sum(converted)) %>%
   select(total_visits, converted)
-  DO COUNT INSTEAD?
 ```
 
 I then created my simulation function and ran it 3000 times. 
