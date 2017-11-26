@@ -143,7 +143,7 @@ Therefore, we can make our code faster by:
 2. Using the binomial distribution to simulate splitting browsers into A and B groups. 
 3. As before, summarizing the number of visits and conversions in each group and apply our proportion test.
 
-VISUALIZATION
+![](https://github.com/robinsones/robinsones.github.io/blob/performance_post/images/performance_post_visualization.png)
 
 Because the [bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) is just a special case of the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution) where n = 1, we're doing the *same* process as before, but we only need to do many fewer computations!  
   
