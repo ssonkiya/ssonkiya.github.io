@@ -35,15 +35,15 @@ But even if the data you start with is large, you may be able to make it smaller
 
 ### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
-If you want to follow along, please run this R code to simulate a dataset (it will take a minute): 
+If you want to follow along, please run this R code to simulate a dataset (this is smaller than my dataset, so if you time the later code yours will not match mine): 
 
 ```r
-initial_bis <- sprintf("%s%s%s", stringi::stri_rand_strings(8000000, 5, '[A-Z]'),
-      stringi::stri_rand_strings(8000000, 4, '[0-9]'), stringi::stri_rand_strings(8000000, 1, '[A-Z]'))
-bi <- sample(initial_bis, size = 10000000, replace = TRUE)
-c <- rbinom(10000000, 1, 0.2)
-vi <- sprintf("%s%s%s", stringi::stri_rand_strings(10000000, 5, '[A-Z]'),
-      stringi::stri_rand_strings(10000000, 4, '[0-9]'), stringi::stri_rand_strings(10000000, 1, '[A-Z]'))
+initial_bis <- sprintf("%s%s%s", stringi::stri_rand_strings(800000, 5, '[A-Z]'),
+      stringi::stri_rand_strings(800000, 4, '[0-9]'), stringi::stri_rand_strings(800000, 1, '[A-Z]'))
+bi <- sample(initial_bis, size = 1000000, replace = TRUE)
+c <- rbinom(1000000, 1, 0.2)
+vi <- sprintf("%s%s%s", stringi::stri_rand_strings(1000000, 5, '[A-Z]'),
+      stringi::stri_rand_strings(1000000, 4, '[0-9]'), stringi::stri_rand_strings(1000000, 1, '[A-Z]'))
 bi_name <- "browser_id"
 c_name <- "converted"
 vi_name <- "visit_id"
@@ -124,7 +124,7 @@ Again, to follow along, here's that sql code in R:
 ```r
 library(dplyr)
 
-search_visits <- erobinson.simulate_fp_search %>% 
+search_visits <- search_visits %>% 
   group_by(browser_id) %>%
   mutate(total_visits = n(), converted = sum(converted)) %>%
   select(total_visits, converted)
