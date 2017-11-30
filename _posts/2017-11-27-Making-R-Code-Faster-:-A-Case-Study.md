@@ -111,7 +111,7 @@ The last three steps are fast, but the first three are very long. This isn't eve
 4. Next, we sum up the total visits column and the converted column, grouping by label. 
 5. Finally, we run a prop.test
 
-Here's what the sql new code looks like, which only takes 23 seconds to run: 
+Here's what the sql new code looks like: 
 
 ``` sql
 SELECT count(*) as total_visits, sum(converted) as converted 
