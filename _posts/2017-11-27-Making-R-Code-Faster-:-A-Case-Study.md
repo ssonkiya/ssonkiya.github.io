@@ -149,7 +149,7 @@ simulate_p_values_visit_result <- replicate(1000, simulate_p_value_visits())
 false_positive_rate <- sum(simulate_p_values_visit_result < .05)/length(simulate_p_values_visit_result)*100  
 ```
 
-While switching the dplyr to data.table could probably speed it up even more, right now we're down to X seconds runtime for a 1000 iterations. 
+While switching the dplyr to data.table could probably speed it up even more, right now we're down to about 14 minutes runtime for a 1000 iterations. 
 
 ### Eliminate redundancy 
 
