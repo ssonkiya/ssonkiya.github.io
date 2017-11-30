@@ -5,7 +5,7 @@ About two months ago I put a call out to Rstats twitter:
 
 I had a working, short script that took 3 1/2 minutes to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to go, and I knew I needed to get some help.  
 
-This post documents the iterative process of improving the performance of the function, culminating in a runtime of **.64 seconds for 10,000 iterations, a speed-up of more than 2000x**.
+This post documents the iterative process of improving the performance of the function, culminating in a runtime of **.64 seconds for 10,000 iterations, a speed-up of more than 100,000x**.
 
 ## The problem 
 
