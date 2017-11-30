@@ -5,7 +5,7 @@ About two months ago I put a call out to Rstats twitter:
 
 I had a working, short script that took XYZ seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to go, and I knew I needed to get some help.  
 
-This post documents the iterative process of improving the performance of the function, reducing the time one iteration takes to run to XYZ time.
+This post documents the iterative process of improving the performance of the function, moving from **one iteration running in XYZ time to 10,000 running in XYZ time**.
 
 ## The problem 
 
