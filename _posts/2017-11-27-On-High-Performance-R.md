@@ -66,7 +66,7 @@ SELECT * FROM erobinson.simulate_fp_search
 library(data.table)
 library(dplyr) 
 
-N <- nrow(distinct(search_visits, browser_id)
+N <- nrow(distinct(search_visits, browser_id))
 
 browsers <- search_visits %>%
   distinct(browser_id) %>%
