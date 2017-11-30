@@ -3,9 +3,9 @@ About two months ago I put a call out to Rstats twitter:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> twitter - who loves helping to make (short) code run as fast as possible? Playing w/ foreach, doparallel, data.table but know little</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/915632978524540928?ref_src=twsrc%5Etfw">October 4, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I had a working, short script that took XYZ seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to go, and I knew I needed to get some help.  
+I had a working, short script that took 3 1/2 minutes (215 seconds) seconds to run. While this may be fine if you only need to run it once, I needed to run it hundreds of time for simulations. My first attempt to do so ended about four hours after I started the code, with 400 simulations left to go, and I knew I needed to get some help.  
 
-This post documents the iterative process of improving the performance of the function, reducing the time it takes **10,000 iterations to run to XYZ time**.
+This post documents the iterative process of improving the performance of the function, reducing the time it takes for **10,000 iterations to run to XYZ seconds**.
 
 ## The problem 
 
@@ -111,7 +111,7 @@ The last three steps are fast, but the first three are very long. This isn't eve
 4. Next, we sum up the total visits column and the converted column, grouping by label. 
 5. Finally, we run a prop.test
 
-Here's what the sql new code looks like, which only takes X seconds to run: 
+Here's what the sql new code looks like, which only takes 23 seconds to run: 
 
 ``` sql
 SELECT count(*) as total_visits, sum(converted) as converted 
@@ -149,7 +149,7 @@ simulate_p_values_visit_result <- replicate(1000, simulate_p_value_visits())
 false_positive_rate <- sum(simulate_p_values_visit_result < .05)/length(simulate_p_values_visit_result)*100  
 ```
 
-While switching the dplyr to data.table could probably speed it up even more, right now we're down to a X seconds runtime. 
+While switching the dplyr to data.table could probably speed it up even more, right now we're down to X seconds runtime for a 1000 iterations. 
 
 ### Eliminate redundancy 
 
@@ -157,7 +157,6 @@ But we can then recognize that our table currently has a lot of redudancy: we ha
 
 Therefore, we can make our code faster by: 
 1. Transforming our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count of counts".
-
 ![](https://github.com/robinsones/robinsones.github.io/blob/performance_post/images/performance_post_visualization.png)
 
 ``` sql
