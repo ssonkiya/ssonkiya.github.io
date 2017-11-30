@@ -54,7 +54,7 @@ names(search_visits) <- c(bi_name, c_name, vi_name)
 
 Here was my original code that:
 
-1. Pulled a table down from SQL that had all the visits that had a search in the past week, including whether they converted or not, and their browser id.
+1. Pulled a table down from SQL that had all the visits that had a search in the previous X days, including whether they converted or not, and their browser id.
 
 ``` sql
 SELECT * FROM erobinson.simulate_fp_search
