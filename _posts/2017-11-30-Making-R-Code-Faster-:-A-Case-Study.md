@@ -157,7 +157,8 @@ But we can then recognize that our table currently has a lot of redudancy: we ha
 
 Therefore, we can make our code faster by: 
 - Transforming our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count of counts".
-![](https://github.com/robinsones/robinsones.github.io/blob/performance_post/images/performance_post_visualization.png)
+
+![](http://robinsones.github.io/images/performance_post_visualization.png)
 
 ``` sql
 with counts as (
