@@ -38,9 +38,20 @@ But even if the data you start with is large, you may be able to make it smaller
 If you want to follow along, please run this R code to simulate a dataset: 
 
 ```r
-library(dplyr)
+initial_bis <- sprintf("%s%s%s", stringi::stri_rand_strings(15000, 5, '[A-Z]'),
+      stringi::stri_rand_strings(15000, 4, '[0-9]'), stringi::stri_rand_strings(15000, 1, '[A-Z]'))
+# we want some browsers repeated
+bi <- sample(initial_bis, size = 20000, replace = TRUE)
+c <- rbinom(20000, 1, 0.2)
+vi <- sprintf("%s%s%s", stringi::stri_rand_strings(20000, 5, '[A-Z]'),
+      stringi::stri_rand_strings(20000, 4, '[0-9]'), stringi::stri_rand_strings(20000, 1, '[A-Z]'))
+bi_name <- "browser_id"
+c_name <- "converted"
+vi_name <- "visit_id"
 
-MAKE erobinson.simulate_fp_search (needs browser_id, converted, and a visit id) 
+search_visits <- data.frame(bi, c, vi)
+names(search_visits) <- c(bi_name, c_name, vi_name)
+
 ```
 
 Here was my original code that:
