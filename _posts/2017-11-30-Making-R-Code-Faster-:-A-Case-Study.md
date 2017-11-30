@@ -54,13 +54,13 @@ names(search_visits) <- c(bi_name, c_name, vi_name)
 
 Here was my original code that:
 
-1. Pulled a table down from SQL that had all the visits that had a search in the previous X days, including whether they converted or not, and their browser id.
+- Pulled a table down from SQL that had all the visits that had a search in the previous X days, including whether they converted or not, and their browser id.
 
 ``` sql
 SELECT * FROM erobinson.simulate_fp_search
 ```
 
-2. Randomly assigned on the **browser level** a label of 0 or 1.
+- Randomly assigned on the **browser level** a label of 0 or 1.
 
 ``` r
 library(data.table)
@@ -78,7 +78,7 @@ dat_w_labels <- merge(search_visits, browsers, all.x=TRUE)
 dat_w_labels <- dat_w_labels[, .(.N), by = .(ab_variant, converted)] %>% arrange(ab_variant)
 ```
 
-3. Counted up the number of total visits and converting visits for each label. 
+- Counted up the number of total visits and converting visits for each label. 
 
 ```r
 failures <- dat_w_labels %>%
@@ -90,7 +90,7 @@ successes <-  dat_w_labels %>%
   pull(N)
 ```
 
-4. Ran a prop test comparing the two groups. 
+- Ran a prop test comparing the two groups. 
 
 ```r
 res <- prop.test(successes, failures + successes)
@@ -156,7 +156,7 @@ While switching the dplyr to data.table could probably speed it up even more, ri
 But we can then recognize that our table currently has a lot of redudancy: we have many browsers that have 1 visit and 0 conversions, 2 visits and 0 conversions, etc.  
 
 Therefore, we can make our code faster by: 
-1. Transforming our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count of counts".
+- Transforming our table so each row is a unique combination of visits & conversions, with a column that is the number of browsers with that combination. We can do this in SQL and output the table as "count of counts".
 ![](https://github.com/robinsones/robinsones.github.io/blob/performance_post/images/performance_post_visualization.png)
 
 ``` sql
@@ -177,11 +177,11 @@ count_of_counts <- search_visits %>%
   count(total_visits, converted)
 ```
 
-2. Using the binomial distribution to simulate splitting browsers into A and B groups. 
+- Using the binomial distribution to simulate splitting browsers into A and B groups. 
 
 Because the [bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) is just a special case of the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution) where n = 1, we're doing the *same* process as before, but we do many fewer computations!  
 
-3. As before, summarizing the number of visits and conversions in each group and apply our proportion test.
+- As before, summarizing the number of visits and conversions in each group and apply our proportion test.
 
 ``` r
 library(dplyr) 
