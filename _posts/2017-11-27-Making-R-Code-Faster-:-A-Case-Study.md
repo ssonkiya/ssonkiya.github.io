@@ -215,16 +215,14 @@ library(devtools)
 install_github("dgrtwo/splittestr")
 library(splittestr)
 library(dplyr)
-
-count_of_counts <- count_converted_by_browser %>%
-  count(total, converted)
+library(tidyr)
 
 simulated_pvals <- count_of_counts %>%
   crossing(trial = 1:1000) %>%
   mutate(A = rbinom(n(), n, .5), B = n - A) %>%
   group_by(trial) %>%
-  summarize(total_A = sum(total * A),
-            total_B = sum(total * B),
+  summarize(total_A = sum(total_visits * A),
+            total_B = sum(total_visits * B),
             converted_A = sum(converted * A),
             converted_B = sum(converted * B)) %>%
   mutate(pvalue = vectorized_prop_test(converted_A, total_A - converted_A, converted_B, total_B - converted_B))
