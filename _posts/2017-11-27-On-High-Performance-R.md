@@ -104,14 +104,14 @@ The table I started with was over 10 million rows, and I was doing many operatio
 5. Extracting the number of conversions and non-conversions 
 6. Doing a prop test
 
-The last three steps are fast, but the first three are very long. We're able to refactor and make it faster by realizing a few things: 
+The last three steps are fast, but the first three are very long. This isn't even including the initial 5 minutes (!) it takes to load the sql table in the first place. We're able to refactor and make it faster by realizing a few things: 
 1. We don't need the big text columns visit id and browser id
 2. In SQL, we can group by browser id so each row has 1) the number of visis for a browser and 2) the number of visits that converted for that browser. With that, we'll have a smaller table of only two numeric columns. 
 3. We can then label each row with 0 or 1 randomly, assigning treatment on the browser level. 
 4. Next, we sum up the total visits column and the converted column, grouping by label. 
 5. Finally, we run a prop.test
 
-Here's what the new code looks like: 
+Here's what the sql new code looks like, which only takes X seconds to run: 
 
 ``` sql
 SELECT count(*) as total_visits, sum(converted) as converted 
@@ -130,7 +130,7 @@ search_visits <- search_visits %>%
   select(total_visits, converted)
 ```
 
-I then created my simulation function and ran it 3000 times. 
+I then created my simulation function and ran it 1000 times. 
 
 ``` r
 library(dplyr)
@@ -149,7 +149,7 @@ simulate_p_values_visit_result <- replicate(1000, simulate_p_value_visits())
 false_positive_rate <- sum(simulate_p_values_visit_result < .05)/length(simulate_p_values_visit_result)*100  
 ```
 
-While switching the dplyr to data.table could probably speed it up even more, right now it's running pretty quickly. 
+While switching the dplyr to data.table could probably speed it up even more, right now we're down to a X seconds runtime. 
 
 ### Eliminate redundancy 
 
