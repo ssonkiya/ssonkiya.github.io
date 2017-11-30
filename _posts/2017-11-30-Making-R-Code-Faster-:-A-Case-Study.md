@@ -9,7 +9,7 @@ This post documents the iterative process of improving the performance of the fu
 
 ## The problem 
 
-At Etsy I work a lot on our A/B Testing system. When assigning browsers randomly to experimental groups, we do so based on their browser id (cookie) or device id for apps. But when we analyze our data, we can use two different methods: visit level (chunks of behavior) and browser level. For more details, see my talk on [A/B Testing](tiny.cc/abtalk) (starting at 17:30).
+At Etsy I work a lot on our A/B Testing system. When assigning browsers randomly to experimental groups, we do so based on their browser id (cookie) or device id for apps. But when we analyze our data, we can use two different methods: visit level (chunks of behavior) and browser level. For more details, see my talk on [A/B Testing](https://www.youtube.com/watch?v=SF-ryGgLOgQ&feature=youtu.be) (starting at 17:30).
 
 While we offer both, we analysts encourage everyone to favor browser metrics over visit metrics. One reason is that visits can come from the same browser or person, violating the independence assumption of the statistical tests we use. In theory, this should inflate our false positive rate, but we'd never actually tested this with our own browsers, and a theoretical concept was not always convincing to our partner teams. 
 
