@@ -144,7 +144,7 @@ simulate_p_value_visits <- function() {
   prop.test(results$converted, results$total_visits)$p.value
 }
 
-simulate_p_values_visit_result <- replicate(3000, simulate_p_value_visits())
+simulate_p_values_visit_result <- replicate(1000, simulate_p_value_visits())
 
 false_positive_rate <- sum(simulate_p_values_visit_result < .05)/length(simulate_p_values_visit_result)*100  
 ```
