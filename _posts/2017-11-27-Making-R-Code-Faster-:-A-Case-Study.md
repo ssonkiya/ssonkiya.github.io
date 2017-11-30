@@ -227,7 +227,7 @@ simulated_pvals <- count_of_counts %>%
             converted_B = sum(converted * B)) %>%
   mutate(pvalue = vectorized_prop_test(converted_A, total_A - converted_A, converted_B, total_B - converted_B)$p.value)
   
-false_positive_rate <- sum(simulated_pvals$pvals < .05)/length(simulated_pvals$pvals)*100  
+false_positive_rate <- sum(simulated_pvals$pvalue < .05)/length(simulated_pvals$pvalue)*100  
 ```
 
 Crossing is the tidyr version of mutate: it creates a tibble from all the combinations of the supplied vectors. In this case, that means we'll have a 1000x the number of rows in "count of counts." For each trial, we'll simulate putting half of the browsers in A and half in B. Then we can get the total number of visits and converted visits for each trial and use our vectorized prop test to create a new variable that is the p-value. 
