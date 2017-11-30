@@ -191,8 +191,8 @@ simulate_p_value <- function() {
   result <- count_of_counts %>%
     mutate(A = rbinom(n(), n, .5),
            B = n - A) %>%
-    summarize(total_A = sum(total * A),
-              total_B = sum(total * B),
+    summarize(total_A = sum(total_visits * A),
+              total_B = sum(total_visits * B),
               converted_A = sum(converted * A),
               converted_B = sum(converted * B))
 
