@@ -166,7 +166,7 @@ with counts as (
   GROUP BY browser_id
 )
   SELECT count(*) as n, total_visits, converted
-  FROM browsers_summarized
+  FROM counts
   GROUP BY total_visits, converted
 ```
 
