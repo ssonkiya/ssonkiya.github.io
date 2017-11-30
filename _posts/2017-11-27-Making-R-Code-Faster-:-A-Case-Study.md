@@ -225,7 +225,7 @@ simulated_pvals <- count_of_counts %>%
             total_B = sum(total_visits * B),
             converted_A = sum(converted * A),
             converted_B = sum(converted * B)) %>%
-  mutate(pvalue = vectorized_prop_test(converted_A, total_A - converted_A, converted_B, total_B - converted_B))
+  mutate(pvalue = vectorized_prop_test(converted_A, total_A - converted_A, converted_B, total_B - converted_B)$p.value)
   
 false_positive_rate <- sum(simulated_pvals$pvals < .05)/length(simulated_pvals$pvals)*100  
 ```
