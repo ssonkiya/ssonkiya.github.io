@@ -35,7 +35,7 @@ But even if the data you start with is large, you may be able to make it smaller
 
 ### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
-If you want to follow along, please run this R code to simulate a dataset (this is smaller than my dataset, so if you time the later code yours will not match mine): 
+If you want to follow along, please run this R code to simulate a dataset (this is smaller than my dataset, so if you time the later code your times will not match mine): 
 
 ```r
 initial_bis <- sprintf("%s%s%s", stringi::stri_rand_strings(800000, 5, '[A-Z]'),
