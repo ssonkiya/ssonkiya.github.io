@@ -42,6 +42,8 @@ Rstats community on twitter friendly. Can announce going to conference. Can ask 
 
 Don't take non-responses personally. People are busy, sometimes email slips through. Don't know what is happening in their personal life. 
 
+### Posts
+
 Read great post by Trey Causey on sending a cold email. Go ahead, I'll wait: https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d. Shows specifically how to revise an email. 
 
 Adam Grant
@@ -60,14 +62,20 @@ Most of the messages I get are like the above, where someone asks me out of the 
 Which is too bad because that’s really the way to do it. People who are familiar with my content and compliment me on it stand a much better chance of me helping them. They are in a great position to tack on an “I’d love to learn a little more about the work you do at (company). Can I ask you a few questions?” to their message."
 - " If you are going to reach out to experienced data scientists, don’t make your first message all about you and what you want. Make it about them (mostly). Comment on something they’ve posted. Point them to a helpful resource. Offer to share their content. Maybe ask them something about their profile."
 
+[Mentoring post](https://www.cbsnews.com/news/stop-asking-people-to-mentor-you/)
+
+Asking a virtual stranger to mentor you probably isn't going to get you far. "The strongest relationships spring out of a real and often earned connection felt by both sides." Studies, she writes, "show that mentors select proteges based on performance and potential." Given this, "I believe we have sent the wrong message to young women. We need to stop telling them, 'Get a mentor and you will excel.' Instead, we need to tell them, 'Excel and you will get a mentor.'
+### My benefits
 Things that I've gotten to do based on public talks and blog
 - West Point talk (show photo) 
 - Robert Chang (shared his work, he reached out to me, had read my stuff too)
 - RStudio Conference (had an example talk to link them to) 
 - Saw other people inspired by my talk write their own (share tweet about her blog post) 
 
+### Branding
 Building a personal brand https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217
 - it's for developers, but I think applies equally to data science. 
 - disagree on blogging "light" but agree with this: Finally, try and remember that all your posts don’t have to be too technical. Even if you are a complete beginner, you will always have 1 day, 1 week or 1 month’s more experience than someone else. Someone will find value in what you have to say. 
 - It can be worthwhile I think not just using it to have a presence and way of contact but to add value. Takes more time, but I think that time can also be learning time in this field. 
 - It’s also a great way to break the ice and say a virtual “hello” before bumping into someone at an in-person conference or meet-up.
+
