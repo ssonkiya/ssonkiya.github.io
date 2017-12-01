@@ -31,7 +31,7 @@ Part of why I wrote this post is I believe those who are privileged--whether by 
 
 In my tweet, I mentioned some packages I'd been trying, including foreach and doparallel, packages for parallel processing. Some folks replying also suggested sparklyr (which integrates spark and R) and Rcpp (which integrates R and C++). I thought I needed to use these because I was dealing with big data (for R) - 10+ million rows with some text columns! 
 
-But even if the data you start with is large, you may be able to make it smaller by eliminating extra columns or summarizing the data. In the next section, you'll see how I compressed my data into 3 numeric columns and less than a thousand rows. 
+But even if the data you start with is large, you may be able to make it smaller by eliminating extra columns or summarizing the data. In the next section, you'll see how I compressed my data into 3 numeric columns and fewer than a thousand rows. 
 
 ### Try to do everything (grouping and counting) you can in SQL and eliminate unnecessary information
 
@@ -106,7 +106,7 @@ The table I started with was over 10 million rows, and I was doing many operatio
 
 The last three steps are fast, but the first three are very long. This isn't even including the initial 5 minutes (!) it takes to load the sql table in the first place. We're able to refactor and make it faster by realizing a few things: 
 1. We don't need the big text columns visit id and browser id
-2. In SQL, we can group by browser id so each row has 1) the number of visis for a browser and 2) the number of visits that converted for that browser. With that, we'll have a smaller table of only two numeric columns. 
+2. In SQL, we can group by browser id so each row has 1) the number of visits for a browser and 2) the number of visits that converted for that browser. With that, we'll have a smaller table of only two numeric columns. 
 3. We can then label each row with 0 or 1 randomly, assigning treatment on the browser level. 
 4. Next, we sum up the total visits column and the converted column, grouping by label. 
 5. Finally, we run a prop.test
