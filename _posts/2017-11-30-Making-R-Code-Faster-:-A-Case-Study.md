@@ -268,7 +268,7 @@ false_positive_rate <- sum(pvals < .05)/length(pvals)*100
 
 ### Final Tally
 
-Here's the final comparison of performance:
+Here's the final comparison of performance (calculated using the great [tictoc package](http://collectivemedia.github.io/tictoc/)):
 
 | Attempt            | SQL table runtime | 1 iteration runtime | 1000 iterations runtime | 10000 iterations runtime |
 |--------------------|-------------------|---------------------|-------------------------|--------------------------|
