@@ -1,3 +1,6 @@
+No matter how long you've been in the work world (or even before you've entered it), you've probably heard about the importance of networking. Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, having a ...
+
+Almost every day on linkedin I get a request from someone I don't know with no message. Usually it's someone with the title data scientist, "talent acquisition," or blah. 
 
 ### Try to find a connection
 Connection can be something you share - maybe you both went to same school or same bootcamp. Or maybe they have some kind of hobby you share that they've talked about? Or even a previous career if their background is also political science, for example. 
