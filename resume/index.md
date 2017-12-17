@@ -4,4 +4,4 @@ title: Resume
 tags: [resume]
 comments: false
 ---
-[My resume](/files/erobinson_resume.pdf)
+[My resume](/files/resume.pdf)
