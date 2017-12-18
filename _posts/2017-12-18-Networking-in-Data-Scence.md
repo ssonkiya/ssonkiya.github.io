@@ -27,6 +27,7 @@ Adam Grant - accomplishing things leads to network. Henning - don't worry about 
 [Adam Grant article](https://www.nytimes.com/2017/08/24/opinion/sunday/networking-connections-business.html?_r=0)
 * "Accomplishing great things helps you develop a network". Have a public body of work. Go read [Dave's blog post](http://varianceexplained.org/r/start-blog/) on why you should start a blog and also the how. . Medium is a great way to get started easily, also can get you wider visibility, but Jekyll too. Having code on github is good, but data scientists also need communication skills. Plus just more likely people will read that than 1000s of lines of barely commented code. 
 
+Don't ask if you can ping them with questions as you're learning. That's best served by online resources like datacamp, stack overflow, twitter, etc.
 ### Meeting people in person
 
 Stick around after the meetup, there might be an after-event (e.g. (New York Open Statistical Programming meetup)[https://www.meetup.com/nyhackr/] invites everyone to the bar after the meetup) but also it will be less crowded as people leave right away but other stay around and hang out. 
