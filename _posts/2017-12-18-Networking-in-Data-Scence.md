@@ -14,14 +14,24 @@ Trey Causey wrote a great [post](https://medium.com/@treycausey/do-you-have-time
 
 ### Offer value
 
-True networking is about making connection, not about getting something. Don't ask for a referral in your first message to a person. If they can do it and you have a good conversation where you mention you're looking, they'll probably offer. 
+True networking is about building a relationship, not about getting something immediately. Don't ask for a referral in your first message to a person. If they can do it and you have a good conversation where you mention you're looking, they'll probably offer. 
 
-Adam Grant - accomplishing things leads to network. Henning - don't worry about knowing people, be worth knowing.  
+*  "It shouldn’t be about promoting yourself, but about promoting your ideas." - my take, it can also be about helping other people. For example, writing my first data science talk. 
 
-[Adam Grant article](https://www.nytimes.com/2017/08/24/opinion/sunday/networking-connections-business.html?_r=0)
-* "Accomplishing great things helps you develop a network". Have a public body of work. Go read [Dave's blog post](http://varianceexplained.org/r/start-blog/) on why you should start a blog and also the how. . Medium is a great way to get started easily, also can get you wider visibility, but Jekyll too. Having code on github is good, but data scientists also need communication skills. Plus just more likely people will read that than 1000s of lines of barely commented code. 
+While people sometimes think you need a network to accomplish great things, it actually mostly goes the other way. Adam Grant wrote about this in a [recent article](https://www.nytimes.com/2017/08/24/opinion/sunday/networking-connections-business.html?_r=0)
 
-Don't ask if you can ping them with questions as you're learning. That's best served by online resources like datacamp, stack overflow, twitter, etc.
+> My students often believe that if they simply meet more important people, their work will improve. But it’s remarkably hard to engage with those people unless you’ve already put something valuable out into the world. That’s what piques the curiosity of advisers and sponsors. Achievements show you have something to give, not just something to take.
+
+> Sure, you can fire off cold emails to people you respect — they’re just a click away — but you’ll be lucky if 2 percent even reply. The best way to attract a mentor is to create something worthy of the mentor’s attention. Do something interesting, and instead of having to push your way in, you’ll get pulled in. The network comes to you.
+
+In sum, [don't worry about who you know, but be worth knowing.](https://static1.squarespace.com/static/50d63bc4e4b0e383f5b2a05a/t/5655fa1de4b0f60cdb986ad5/1448475165543/Job+market+advice+for+PhDs+November2015-2.pdf). 
+
+Have a public body of work. Go read [Dave's blog post](http://varianceexplained.org/r/start-blog/) on why you should start a blog and also the how. . Medium is a great way to get started easily, also can get you wider visibility, but Jekyll too. Having code on github is good, but data scientists also need communication skills. Plus just more likely people will read that than 1000s of lines of barely commented code. 
+
+Build your personal brand. http://www.fast.ai/2017/12/18/personal-brand/.
+
+- It can be worthwhile I think not just using it to have a presence and way of contact but to add value. Takes more time, but I think that time can also be learning time in this field. 
+
 
 ### Share what you like about their work
 
@@ -85,12 +95,5 @@ Things that I've gotten to do based on public talks and blog
 - Robert Chang (shared his work, he reached out to me, had read my stuff too)
 - RStudio Conference (had an example talk to link them to) 
 - Saw other people inspired by my talk write their own (share tweet about her blog post) 
-
-### Branding
-Building a personal brand https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217
-- it's for developers, but I think applies equally to data science. 
-- disagree on blogging "light" but agree with this: Finally, try and remember that all your posts don’t have to be too technical. Even if you are a complete beginner, you will always have 1 day, 1 week or 1 month’s more experience than someone else. Someone will find value in what you have to say. 
-- It can be worthwhile I think not just using it to have a presence and way of contact but to add value. Takes more time, but I think that time can also be learning time in this field. 
-- It’s also a great way to break the ice and say a virtual “hello” before bumping into someone at an in-person conference or meet-up.
 
 [1] Never talk to someone just to get an introduction to someone else. 
