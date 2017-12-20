@@ -2,21 +2,35 @@ No matter how long you've been in the work world (or even before you've entered 
 
 Almost every day on linkedin I get a request from someone I don't know with no message. Usually it's someone with the title data scientist, "talent acquisition," or blah. 
 
-### Try to find a connection
-Connection can be something you share - maybe you both went to same school or same bootcamp. Or maybe they have some kind of hobby you share that they've talked about? Or even a previous career if their background is also political science, for example. 
+### Find a connection
 
-Can also be a person you know who connects you. Ask for suggestions from them, but don't demand. Don't talk to someone just to get an intro to someone else. For example, recently Julia Silge, a data scientist at StackOverflow, connected me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up. We had a great conversation. And I introduced him to Sarah Manning, manager of our analytics engineering team. Note: double opt-in intro (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728), Julia did, I did, but good reminder important practice). 
+Try to find if you have something in common with the other person. Maybe you both went to same school or same bootcamp. Do you have a similar educational background or career, especially one that is not traditional?  It doesn't have to be career-related; maybe you both have the same a non-tech hobby or spent time living abroad in the same country. Check with your school or bootcamp's career center to see if there is someone at a company you're interested in. 
 
-So can try to find people who can connect you (maybe alumni office or career center) or acquantice. 
+A connection can also be a mutual acquaintice. If you have a good conversion with someone, you can ask them (not demand) if they know anyone else in the same field.<sup>1</sup> For example, recently Julia Silge, a data scientist I know at StackOverflow, connected me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up, and we had a great conversation. I then introduced him to Sarah Manning, the manager of our analytics engineering team, as she had talked to some of his colleagues at a conference. Note: when doing introductions, always do a double opt-in introduction (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728).
 
 ### Get specific
-In-person - don't just say "I love you work!" Over email - make sure you mention their work. Both cases, get more specific - how has it helped you, which blog post or package, etc. Avoids awkward exchange - You: "I love your work" Them: "Great, thank you." Both: awkward silence ... Help them help you by giving a conversation topic. 
+
+Trey Causey wrote a really great [post](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d) called "Do you have time for a quick chat?" on sending a cold email. Go ahead and read it, I'll wait. He does a really nice job breaking down how to write a great request email and set up a meeting for success. A key point: have an agenda of what you want to discuss and share it with them. If you just ask to "pick their brain," it comes off as you wanting the person to drop everything just so you can assail them with any question you can think of. 
+
+
+### Mention their work
+
+A friend who's well-known in the R community shared how many of his first conversations at meetups or conferences go: 
+
+> Them: "I love your work!"
+> My friend: "Great, thank you."
+> Both: awkward silence ...
+
+Whether it's over email or in-person, tell the other person which part of their work helped you and how. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "Thank you so much for sharing data science work on twitter! The other day you tweeted a cheatsheet for lubridate, and I shared it with my coworkers right away. I really like how you include screenshots when linking to blog posts, so I can get a quick preview." Help them help you to by coming up with a good conversation topic. 
+
+Over email, it's even more important to show you're familiar with their work. [Mark Meloon](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) describes this well:
+
+> The truly baffling thing is that the messages I get fall into two categories: those thanking me for my posts on job hunting and those who want to get something from me. Very, very rarely do I get messages that combine both of these elements. Which is too bad because that’s really the way to do it. People who are familiar with my content and compliment me on it stand a much better chance of me helping them. They are in a great position to tack on an “I’d love to learn a little more about the work you do at (company). Can I ask you a few questions?” to their message.
+
+And if you don't know anything about their work, and they do have a public presence (either github, a blog, or twitter), why are you reaching out? Just like when applying for a job, you should do some research. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Show them you've read their work and ask follow-up questions. 
 
 Also about what you're interested in talking about (Trey Causey). Don't just ask to "pick their brain" or if they "have time for a quick chat." 
 
-Mark Meloon (tell them you like their work, combine that with request, usually doesn't get that).  
-
-On this - look up their work. Show that you've done their research. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Show you've read their work and ask follow-up questions. 
 
 ### Offer value
 
@@ -69,7 +83,9 @@ Which is too bad because that’s really the way to do it. People who are famili
 [Mentoring post](https://www.cbsnews.com/news/stop-asking-people-to-mentor-you/)
 
 Asking a virtual stranger to mentor you probably isn't going to get you far. "The strongest relationships spring out of a real and often earned connection felt by both sides." Studies, she writes, "show that mentors select proteges based on performance and potential." Given this, "I believe we have sent the wrong message to young women. We need to stop telling them, 'Get a mentor and you will excel.' Instead, we need to tell them, 'Excel and you will get a mentor.'
+
 ### My benefits
+
 Things that I've gotten to do based on public talks and blog
 - West Point talk (show photo) 
 - Robert Chang (shared his work, he reached out to me, had read my stuff too)
@@ -83,3 +99,4 @@ Building a personal brand https://medium.freecodecamp.org/building-your-personal
 - It can be worthwhile I think not just using it to have a presence and way of contact but to add value. Takes more time, but I think that time can also be learning time in this field. 
 - It’s also a great way to break the ice and say a virtual “hello” before bumping into someone at an in-person conference or meet-up.
 
+[1] Never talk to someone just to get an introduction to someone else. 
