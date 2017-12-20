@@ -10,31 +10,11 @@ A connection can also be a mutual acquaintice. If you have a good conversion wit
 
 ### Get specific
 
-Trey Causey wrote a really great [post](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d) called "Do you have time for a quick chat?" on sending a cold email. Go ahead and read it, I'll wait. He does a really nice job breaking down how to write a great request email and set up a meeting for success. A key point: have an agenda of what you want to discuss and share it with them. If you just ask to "pick their brain," it comes off as you wanting the person to drop everything just so you can assail them with any question you can think of. 
-
-
-### Mention their work
-
-A friend who's well-known in the R community shared how many of his first conversations at meetups or conferences go: 
-
-> Them: "I love your work!"
-> My friend: "Great, thank you."
-> Both: awkward silence ...
-
-Whether it's over email or in-person, tell the other person which part of their work helped you and how. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "Thank you so much for sharing data science work on twitter! The other day you tweeted a cheatsheet for lubridate, and I shared it with my coworkers right away. I really like how you include screenshots when linking to blog posts, so I can get a quick preview." Help them help you to by coming up with a good conversation topic. 
-
-Over email, it's even more important to show you're familiar with their work. [Mark Meloon](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) describes this well:
-
-> The truly baffling thing is that the messages I get fall into two categories: those thanking me for my posts on job hunting and those who want to get something from me. Very, very rarely do I get messages that combine both of these elements. Which is too bad because that’s really the way to do it. People who are familiar with my content and compliment me on it stand a much better chance of me helping them. They are in a great position to tack on an “I’d love to learn a little more about the work you do at (company). Can I ask you a few questions?” to their message.
-
-And if you don't know anything about their work, and they do have a public presence (either github, a blog, or twitter), why are you reaching out? Just like when applying for a job, you should do some research. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Show them you've read their work and ask follow-up questions. 
-
-Also about what you're interested in talking about (Trey Causey). Don't just ask to "pick their brain" or if they "have time for a quick chat." 
-
+Trey Causey wrote a great [post](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d) called "Do you have time for a quick chat?" on sending a cold email. Go ahead and read it, I'll wait. He does a really nice job breaking down how to write a great request email and set up a meeting for success. A key point: have an agenda of what you want to discuss and share it with them. If you just ask to "pick their brain," it comes off as you wanting the person to [drop everything just so you can assail them](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) with any question you can think of, potentially for hours. 
 
 ### Offer value
 
-Mark Meloon - don't just be taking. Don't ask for referral right away. If they can do it and they know you're searching and they want to, they'll do it. 
+True networking is about making connection, not about getting something. Don't ask for a referral in your first message to a person. If they can do it and you have a good conversation where you mention you're looking, they'll probably offer. 
 
 Adam Grant - accomplishing things leads to network. Henning - don't worry about knowing people, be worth knowing.  
 
@@ -42,27 +22,41 @@ Adam Grant - accomplishing things leads to network. Henning - don't worry about 
 * "Accomplishing great things helps you develop a network". Have a public body of work. Go read [Dave's blog post](http://varianceexplained.org/r/start-blog/) on why you should start a blog and also the how. . Medium is a great way to get started easily, also can get you wider visibility, but Jekyll too. Having code on github is good, but data scientists also need communication skills. Plus just more likely people will read that than 1000s of lines of barely commented code. 
 
 Don't ask if you can ping them with questions as you're learning. That's best served by online resources like datacamp, stack overflow, twitter, etc.
-### Meeting people in person
 
-Stick around after the meetup, there might be an after-event (e.g. (New York Open Statistical Programming meetup)[https://www.meetup.com/nyhackr/] invites everyone to the bar after the meetup) but also it will be less crowded as people leave right away but other stay around and hang out. 
+### Share what you like about their work
 
-Can talk to organizers after, they're friendly, introduce yourself and thank them. 
+A friend who's well-known in the R community shared how many of his first conversations at meetups or conferences go: 
 
-If you're nervous about going somewhere where you don't know anyone, can bring a friend, but don't just stick with them. 
+> Them: "I love your work!"
+> My friend: "Great, thank you."
+> Both: awkward silence ...
 
-### Twitter
-Rstats community on twitter friendly. Can announce going to conference. Can ask questions. Can be way to break ice at conference (personal brand developer post). I met people like Jenny Bryan at RStudio I had only followed on twitter, but helped me "know" her a bit. Personal brand article. You'll often find Hadley Wickham answering questions (although I think it's more polite to use #rstats than to @ him directly, but I often see him answering questions directed to him). 
+Whether it's over email or in-person, tell the other person **which part of their work** helped you and how. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "Thank you so much for sharing data science work on twitter! The other day you tweeted a cheatsheet for lubridate, and I shared it with my coworkers right away. I really like how you include screenshots when linking to blog posts, so I can get a quick preview." Help them help you to by coming up with a good conversation topic. 
+
+Over email, it's even more important to show you're familiar with their work. [Mark Meloon](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) describes this well:
+
+> The truly baffling thing is that the messages I get fall into two categories: those thanking me for my posts on job hunting and those who want to get something from me. Very, very rarely do I get messages that combine both of these elements. Which is too bad because that’s really the way to do it. People who are familiar with my content and compliment me on it stand a much better chance of me helping them. They are in a great position to tack on an “I’d love to learn a little more about the work you do at (company). Can I ask you a few questions?” to their message.
+
+And if you don't know anything about their work, and they do have a public presence (either github, a blog, or twitter), why are you reaching out? Just like when applying for a job, you should do some research. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Show them you've read their work and ask follow-up questions. 
+
+### Meeting people 
+
+#### In person
+Check out the meetups in your community. If you're in New York, I highly recommend the (New York Open Statistical Programming meetup)[https://www.meetup.com/nyhackr/]; if you're a woman, check out groups like [RLadies](https://rladies.org/), [Women who Code](https://www.womenwhocode.com/), and [PyLadies](http://www.pyladies.com/) who have chapters all over the world. Stick around after the meetup; there might be an after-event (the NY Open Statistical Programming meetup invites everyone to a bar after the meetup), but even if there isn't, some people will likely stick around and you can meet them when it's less crowded. You can also talk to the organizers; they're almost definitely friendly folks and can maybe introduce you to others who share your interests. If you're nervous about going somewhere where you don't know anyone, you can bring a friend, but don't just stick with them. 
+
+#### Online
+
+There's a great, friendly R community on twitter. You can announce going to conference, ask questions, and share your work. It can be way to break ice at conference. For example, I met Jenny Bryan last year at RStudio::conf; we'd never talked before, but I been following her on twitter which helped me "know" her a bit. You can even [say a "virtual" hello](https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217) if you know you'll both be at the same conference. You'll often find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions directed by him as well.  
 
 ### Following up
-- if they respond and helped you with something - follow up! For example, if you were looking for a job, let them know when you found one and thank them. 
-- if you were introduced to them or have a connecton and haven't heard back - give them a few weeks and follow up. 
-- if cold introduction, use your judgment maybe not. 
 
-Don't take non-responses personally. People are busy, sometimes email slips through. Don't know what is happening in their personal life. 
+If you have a good conversation with someone and they help you with something, follow up! For example, if you were looking for a job, let them know when you found one and thank them.  
+
+If you were introduced to someone or have a connection with them and haven't heard back, give them a week or two and follow up. Sometimes emails just fall through the cracks and they'll appreciate being reminded. If it's a cold email, use your judgment about whether to follow up. 
+
+Finally, don't take non-responses personally. People are busy, and you don't know what is happening in their personal life. 
 
 ### Posts
-
-Read great post by Trey Causey on sending a cold email. Go ahead, I'll wait: https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d. Shows specifically how to revise an email. 
 
 Adam Grant
 * "But it’s remarkably hard to engage with those people unless you’ve already put something valuable out into the world. That’s what piques the curiosity of advisers and sponsors. Achievements show you have something to give, not just something to take."
