@@ -1,4 +1,4 @@
-No matter how long you've been in the work world (or even before you've entered it), you've probably heard about the importance of networking. Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, having a ...
+Have you ever heard "it's all about who you know?" or probably heard about the importance of networking. Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, having a ...
 
 Almost every day on linkedin I get a request from someone I don't know with no message. Usually it's someone with the title data scientist, "talent acquisition," or blah. 
 
@@ -14,7 +14,10 @@ Trey Causey wrote a great [post](https://medium.com/@treycausey/do-you-have-time
 
 ### Offer value
 
-True networking is about building a relationship, not about getting something immediately. Don't ask for a referral in your first message to a person. If they can do it and you have a good conversation where you mention you're looking, they'll probably offer. 
+True networking is about building a relationship, not a one-sided demand where you just want to get something immediately. And the best way to build mutually fulfilling relationships is to have something of value to offer in return. 
+
+
+Don't ask for a referral in your first message to a person. If they can do it and you have a good conversation where you mention you're looking, they'll probably offer. 
 
 *  "It shouldn’t be about promoting yourself, but about promoting your ideas." - my take, it can also be about helping other people. For example, writing my first data science talk. 
 
@@ -32,13 +35,14 @@ Build your personal brand. http://www.fast.ai/2017/12/18/personal-brand/.
 
 - It can be worthwhile I think not just using it to have a presence and way of contact but to add value. Takes more time, but I think that time can also be learning time in this field. 
 
-
 ### Share what you like about their work
 
 A friend who's well-known in the R community shared how many of his first conversations at meetups or conferences go: 
 
 > Them: "I love your work!"
+
 > My friend: "Great, thank you."
+
 > Both: awkward silence ...
 
 Whether it's over email or in-person, tell the other person **which part of their work** helped you and how. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "Thank you so much for sharing data science work on twitter! The other day you tweeted a cheatsheet for lubridate, and I shared it with my coworkers right away. I really like how you include screenshots when linking to blog posts, so I can get a quick preview." Help them help you to by coming up with a good conversation topic. 
