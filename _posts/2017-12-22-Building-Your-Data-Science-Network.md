@@ -97,3 +97,17 @@ The main way I try to offer value is through these posts, and I'll be back to ta
 
 [1] Never talk to someone just to get an introduction to someone else. 
 
+#### Things to mention somewhere
+
+https://www.datahelpers.org/ - people want to help. Good resource for finding someone to reach out to. 
+
+Mikhail Popov great post on for those folks starting out - https://mpopov.com/blog/advice-for-grads-entering-industry-datasci. 
+
+People to follow in R (active tweeters): Hadley, David, Jenny, Mara, Maelle, 
+
+can use newsletters to keep up datacamp and rweekly and o'reilly media. 
+
+
+Potential stories: 
+- I'm an introvert, surprises people. introvert != shy but still not natural. really helps to think about promoting my work, not myself, and about helping people. 
+- twitter, also started out with few twitter followers. but twitter can first be a learning platform, rather than a self-promotion (learn what people are talking about, what is going on. 
