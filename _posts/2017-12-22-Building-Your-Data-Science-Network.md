@@ -8,7 +8,7 @@ Two important cavaets to start, both inspired by other posts on similar topics. 
 
 > Personal branding is no substitute for doing high-quality technical work; it’s just the means by which you can share this work with a broader audience.
 
-## How to Grow your Community Generally 
+## Growing your Community Generally 
 
 ### Attend meetups
 
@@ -19,7 +19,7 @@ If you're nervous about going somewhere where you don't know anyone, you can bri
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Love the Pacman Rule: When standing as a group of people, always leave room for 1 person to join your group. <a href="https://t.co/eBi0gT19yl">https://t.co/eBi0gT19yl</a>  Ht <a href="https://twitter.com/gnat?ref_src=twsrc%5Etfw">@gnat</a> <a href="https://t.co/ajvLt2H5bo">pic.twitter.com/ajvLt2H5bo</a></p>&mdash; LaurenceMillar (@LaurenceMillar) <a href="https://twitter.com/LaurenceMillar/status/931795364843200513?ref_src=twsrc%5Etfw">November 18, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If you're looking for a conversation topic, remember that at a meetup or conference, you'll generally have the first-order topic of "we are here because of R (or machine learning, python, etc)."But then there are some meatier second-order questions: why this meetup? what got you interested in R? I used $statistical_concept in ordinary conversation the other day, which is ridiculous! Have you ever done something like that?" (Thanks to my colleague Jake Voytko for this advice). 
+If you're looking for a conversation topic, remember that at a meetup or conference, you'll generally have the first-order topic of "we are here because of R (or machine learning, python, etc). But there are some meatier second-order questions you can dive into, like: why this meetup? what got you interested in R? Have you read any good articles lately blatently misusing statistics?" (Thanks to my colleague [Jake Voytko](https://twitter.com/jakevoytko) for these suggestions). People love to talk about themselves, and everyone is someone you can learn from. 
 
 ### Try out twitter
 
@@ -37,7 +37,7 @@ I got a lot of good responses, including one introducing me to the awesome [ggth
 
 You'll often even find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions directed by him as well.  
 
-## How to Reach Out to Specific People
+## Reaching Out to Specific People
 
 ### Share what you like about their work
 
