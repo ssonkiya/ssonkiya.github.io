@@ -1,21 +1,30 @@
-Have you ever heard "it's all about who you know?" or probably heard about the importance of networking. Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, having a ...
+Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, you've probably heard something along the lines of "it's all about who you know." So how does one go about building this all-important network? By sending out a unsolicited million linkedin with no messages to every person with the title "data science," making it a goal to hand out 20 business cards at a meetup once a week, or sending messages to prominent data scientists with the subject line "Can I pick you brain?"
 
-Almost every day on linkedin I get a request from someone I don't know with no message. Usually it's someone with the title data scientist, "talent acquisition," or blah. 
+**Absolutely not**.
 
-### Find a connection
+Building a network is not a numbers game, and it's not about looking to get the largest personal benefit with the least time invested. But unfortunately that's how some people approach it. I wrote this post to offer some suggestions for a better way. 
 
-Try to find if you have something in common with the other person. Maybe you both went to same school or same bootcamp. Do you have a similar educational background or career, especially one that is not traditional?  It doesn't have to be career-related; maybe you both have the same a non-tech hobby or spent time living abroad in the same country. Check with your school or bootcamp's career center to see if there is someone at a company you're interested in. 
+Two important cavaets to start, both inspired by other posts on similar topics. First, to quote [Trey Causey](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d): I am not without sin, and I'm also still figuring all this out. And second, for those of you who hate the very idea of networking and think your work should speak for yourself, I really like Rachel Thomas' take on this. She's writing about personal brand, but I think there's a lot of overlap there (as I discuss later): 
 
-A connection can also be a mutual acquaintice. If you have a good conversion with someone, you can ask them (not demand) if they know anyone else in the same field.<sup>1</sup> For example, recently Julia Silge, a data scientist I know at StackOverflow, connected me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up, and we had a great conversation. I then introduced him to Sarah Manning, the manager of our analytics engineering team, as she had talked to some of his colleagues at a conference. Note: when doing introductions, always do a double opt-in introduction (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728).
+> Personal branding is no substitute for doing high-quality technical work; it’s just the means by which you can share this work with a broader audience.
 
-### Get specific
+## How to Grow your Community Generally 
 
-Trey Causey wrote a great [post](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d) called "Do you have time for a quick chat?" on sending a cold email. Go ahead and read it, I'll wait. He does a really nice job breaking down how to write a great request email and set up a meeting for success. A key point: have an agenda of what you want to discuss and share it with them. If you just ask to "pick their brain," it comes off as you wanting the person to [drop everything just so you can assail them](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) with any question you can think of, potentially for hours. 
+### Attend meetups
+
+There are a lot of great data science communities. If you're in New York, I highly recommend the (New York Open Statistical Programming meetup)[https://www.meetup.com/nyhackr/]; if you're a woman, check out groups like [RLadies](https://rladies.org/), [Women who Code](https://www.womenwhocode.com/), and [PyLadies](http://www.pyladies.com/), all of which have chapters all over the world. Stick around after the meetup; there might be an after-event (the NY Open Statistical Programming meetup invites everyone to a bar after the meetup), but even if there isn't, some people will likely stay around and you can meet them when it's less crowded and you have a natural discussion topic (the talk you both just heard). You can also talk to the organizers; they're almost definitely friendly folks and can maybe introduce you to others who share your interests. If you're nervous about going somewhere where you don't know anyone, you can bring a friend, but don't just talk with them the entire time. 
+
+### Try out twitter
+
+There's a great, friendly R community on twitter. You can announce when you're going to conference, ask technical questions, and share your work. It can also be a way to break the ice when you finally meet someone in person. For example, I ran into Jenny Bryan last year at RStudio::conf; we'd never talked before, but I been following her on twitter which helped me "know" her a bit. You can even [say a "virtual" hello](https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217) beforehand if you know you'll both be at the same conference.
+
+On the technical question side, you can try out the rstats hashtag. Just the other week [I tweeted](https://twitter.com/robinson_es/status/943500138265399296) asking if anyone could advise on setting a global color palette for ggplot2. I got a lot of good responses, including one introducing me to the awesome [ggthemr package](https://github.com/cttobin/ggthemr). I then paid it forward by [tweeting](https://twitter.com/robinson_es/status/943549279595126785) about the discovery. You'll often even find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions directed by him as well.  
+
+## How to Reach Out to Specific People
 
 ### Offer value
 
 True networking is about building a relationship, not a one-sided demand where you just want to get something immediately. And the best way to build mutually fulfilling relationships is to have something of value to offer in return. 
-
 
 Don't ask for a referral in your first message to a person. If they can do it and you have a good conversation where you mention you're looking, they'll probably offer. 
 
@@ -53,14 +62,15 @@ Over email, it's even more important to show you're familiar with their work. [M
 
 And if you don't know anything about their work, and they do have a public presence (either github, a blog, or twitter), why are you reaching out? Just like when applying for a job, you should do some research. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Show them you've read their work and ask follow-up questions. 
 
-### Meeting people 
+### Find a connection
 
-#### In person
-Check out the meetups in your community. If you're in New York, I highly recommend the (New York Open Statistical Programming meetup)[https://www.meetup.com/nyhackr/]; if you're a woman, check out groups like [RLadies](https://rladies.org/), [Women who Code](https://www.womenwhocode.com/), and [PyLadies](http://www.pyladies.com/) who have chapters all over the world. Stick around after the meetup; there might be an after-event (the NY Open Statistical Programming meetup invites everyone to a bar after the meetup), but even if there isn't, some people will likely stick around and you can meet them when it's less crowded. You can also talk to the organizers; they're almost definitely friendly folks and can maybe introduce you to others who share your interests. If you're nervous about going somewhere where you don't know anyone, you can bring a friend, but don't just stick with them. 
+Try to find if you have something in common with the other person. Maybe you both went to same school or same bootcamp. Do you have a similar educational background or career, especially one that is not traditional?  It doesn't have to be career-related; maybe you both have the same a non-tech hobby or spent time living abroad in the same country. Check with your school or bootcamp's career center to see if there is someone at a company you're interested in. 
 
-#### Online
+A mutual acquaintice can also serve as a connection. If you have a good conversion with someone, you can ask them (not demand) if they know anyone else in the same field.<sup>1</sup> For example, recently Julia Silge, a data scientist I know at StackOverflow, asked if she could connect me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up, and we had a great conversation. I then introduced him to Sarah Manning, the manager of our analytics engineering team, as she had talked to some of his colleagues at a conference. Important Note: when doing introductions, always do a **double opt-in introduction** (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728) for this advice).
 
-There's a great, friendly R community on twitter. You can announce going to conference, ask questions, and share your work. It can be way to break ice at conference. For example, I met Jenny Bryan last year at RStudio::conf; we'd never talked before, but I been following her on twitter which helped me "know" her a bit. You can even [say a "virtual" hello](https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217) if you know you'll both be at the same conference. You'll often find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions directed by him as well.  
+### Get specific
+
+Trey Causey wrote a great [post](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d) called "Do you have time for a quick chat?" on sending a cold email. Go ahead and read it, I'll wait. He does a really nice job breaking down how to write a great request email and set up a meeting for success. A key point: have an agenda of what you want to discuss and share it with them. If you just ask to "pick their brain," it comes off as you wanting the person to [drop everything just so you can assail them](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) with any question you can think of, potentially for hours. 
 
 ### Following up
 
