@@ -12,7 +12,14 @@ Two important cavaets to start, both inspired by other posts on similar topics. 
 
 ### Attend meetups
 
-There are a lot of great data science communities. If you're in New York, I highly recommend the [New York Open Statistical Programming meetup](https://www.meetup.com/nyhackr/); if you're a woman, check out groups like [RLadies](https://rladies.org/), [Women who Code](https://www.womenwhocode.com/), and [PyLadies](http://www.pyladies.com/), all of which have chapters all over the world. Stick around after the meetup; there might be an after-event (the NY Open Statistical Programming meetup invites everyone to a bar after the meetup), but even if there isn't, some people will likely stay around and you can meet them when it's less crowded and you have a natural discussion topic (the talk you both just heard). You can also talk to the organizers; they're almost definitely friendly folks and can maybe introduce you to others who share your interests. If you're nervous about going somewhere where you don't know anyone, you can bring a friend, but don't just talk with them the entire time. 
+There are a lot of great data science communities. If you're in New York, I highly recommend the [New York Open Statistical Programming meetup](https://www.meetup.com/nyhackr/); if you're a woman, check out groups like [RLadies](https://rladies.org/), [Women who Code](https://www.womenwhocode.com/), and [PyLadies](http://www.pyladies.com/), all of which have chapters all over the world. Stick around after the meetup; there might be an after-event (the NY Open Statistical Programming meetup invites everyone to a bar after the meetup), but even if there isn't, some people will likely stay around and you can meet them when it's less crowded and you have a natural discussion topic (the talk you both just heard). You can also talk to the organizers; they're almost definitely friendly folks and can maybe introduce you to others who share your interests. 
+
+If you're nervous about going somewhere where you don't know anyone, you can bring a friend, but don't just talk with them the entire time. And if you go alone, look for groups following the pacman rule: 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Love the Pacman Rule: When standing as a group of people, always leave room for 1 person to join your group. <a href="https://t.co/eBi0gT19yl">https://t.co/eBi0gT19yl</a>  Ht <a href="https://twitter.com/gnat?ref_src=twsrc%5Etfw">@gnat</a> <a href="https://t.co/ajvLt2H5bo">pic.twitter.com/ajvLt2H5bo</a></p>&mdash; LaurenceMillar (@LaurenceMillar) <a href="https://twitter.com/LaurenceMillar/status/931795364843200513?ref_src=twsrc%5Etfw">November 18, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+If you're looking for a conversation topic, remember that at a meetup or conference, you'll generally have the first-order topic of "we are here because of R (or machine learning, python, etc)."But then there are some meatier second-order questions: why this meetup? what got you interested in R? I used $statistical_concept in ordinary conversation the other day, which is ridiculous! Have you ever done something like that?" (Thanks to my colleague Jake Voytko for this advice). 
 
 ### Try out twitter
 
@@ -42,7 +49,7 @@ A friend who's well-known in the R community shared how many of his first conver
 
 > Both: awkward silence ...
 
-Whether it's over email or in-person, tell the other person **which part of their work** helped you and how. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "Thank you so much for sharing data science work on twitter! The other day you tweeted a cheatsheet for lubridate, and I shared it with my coworkers right away. I really like how you include screenshots when linking to blog posts, so I can get a quick preview." Help them help you to by coming up with a good conversation topic. 
+Whether it's over email or in-person, tell the other person **which part of their work** helped you and how. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "I really enjoy reading the data science work you share on twitter! The other day you tweeted a cheatsheet for lubridate, and I shared it with my coworkers right away. I really like how you include screenshots when linking to blog posts, so I can get a quick preview." Help them help you to by coming up with a good conversation topic.  
 
 Over email, it's even more important to show you're familiar with their work. [Mark Meloon](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) describes this well:
 
@@ -66,7 +73,7 @@ So how do you become "worth knowing?" Build your personal brand. Rachel Thomas j
 
 ### Find a connection
 
-Try to find if you have something in common with the other person. Maybe you both went to same school or same bootcamp. Do you have a similar educational background or career, especially one that is not traditional?  It doesn't have to be career-related; maybe you both have the same a non-tech hobby or spent time living abroad in the same country. Check with your school or bootcamp's career center to see if there is someone at a company you're interested in. 
+To make it more likely you’ll get a response, try to find if you have something in common with the other person. Maybe you both went to same school or same bootcamp. Do you have a similar educational background or career, especially one that is not traditional?  It doesn't have to be career-related; maybe you both have the same a non-tech hobby or spent time living abroad in the same country. Check with your school or bootcamp's career center to see if there is someone at a company you're interested in. 
 
 A mutual acquaintice can also serve as a connection. If you have a good conversion with someone, you can ask them (not demand) if they know anyone else in the same field.<sup>1</sup> For example, recently Julia Silge, a data scientist I know at StackOverflow, asked if she could connect me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up, and we had a great conversation. I then introduced him to Sarah Manning, the manager of our analytics engineering team, as she had talked to some of his colleagues at a conference. Important Note: when doing introductions, always do a **double opt-in introduction** (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728) for this advice).
 
@@ -89,3 +96,4 @@ Fulfilling networking is, at its heart, about building great relationships and b
 The main way I try to offer value is through these posts, and I'll be back to tackling the [challenges of A/B Testing](https://www.youtube.com/watch?v=SF-ryGgLOgQ) soon. 
 
 [1] Never talk to someone just to get an introduction to someone else. 
+
