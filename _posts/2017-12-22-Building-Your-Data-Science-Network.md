@@ -4,7 +4,7 @@ Whether in applying for a job, getting a promotion, or establishing a reputation
 
 Building a network is not a numbers game, and it's not about looking to get the largest personal benefit with the least time invested. But unfortunately that's how some people approach it. I wrote this post to offer some suggestions for a better way. 
 
-Two important cavaets to start, both inspired by other posts on similar topics. First, to quote [Trey Causey](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d): I am not without sin, and I'm also still figuring all this out. And second, for those of you who hate the very idea of networking and think your work should speak for yourself, I really like Rachel Thomas' take on this. She's writing about personal brand, but I think there's a lot of overlap there (as I discuss later): 
+Two important cavaets to start, both inspired by other posts on similar topics. First, to quote [Trey Causey](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d): I am not without sin, and I'm also still figuring all this out. Second, for those of you who hate the very idea of networking and think your work should speak for yourself, I really like [Rachel Thomas']((http://www.fast.ai/2017/12/18/personal-brand/) take on this. She's writing about personal branding, but I think there's a lot of overlap there (as I discuss later): 
 
 > Personal branding is no substitute for doing high-quality technical work; it’s just the means by which you can share this work with a broader audience.
 
@@ -26,10 +26,6 @@ On the technical question side, you can try out the rstats hashtag. Just the oth
 
 True networking is about building a relationship, not a one-sided demand where you just want to get something immediately. And the best way to build mutually fulfilling relationships is to have something of value to offer in return. 
 
-Don't ask for a referral in your first message to a person. If they can do it and you have a good conversation where you mention you're looking, they'll probably offer. 
-
-*  "It shouldn’t be about promoting yourself, but about promoting your ideas." - my take, it can also be about helping other people. For example, writing my first data science talk. 
-
 While people sometimes think you need a network to accomplish great things, it actually mostly goes the other way. Adam Grant wrote about this in a [recent article](https://www.nytimes.com/2017/08/24/opinion/sunday/networking-connections-business.html?_r=0)
 
 > My students often believe that if they simply meet more important people, their work will improve. But it’s remarkably hard to engage with those people unless you’ve already put something valuable out into the world. That’s what piques the curiosity of advisers and sponsors. Achievements show you have something to give, not just something to take.
@@ -38,11 +34,7 @@ While people sometimes think you need a network to accomplish great things, it a
 
 In sum, [don't worry about who you know, but be worth knowing.](https://static1.squarespace.com/static/50d63bc4e4b0e383f5b2a05a/t/5655fa1de4b0f60cdb986ad5/1448475165543/Job+market+advice+for+PhDs+November2015-2.pdf). 
 
-Have a public body of work. Go read [Dave's blog post](http://varianceexplained.org/r/start-blog/) on why you should start a blog and also the how. . Medium is a great way to get started easily, also can get you wider visibility, but Jekyll too. Having code on github is good, but data scientists also need communication skills. Plus just more likely people will read that than 1000s of lines of barely commented code. 
-
-Build your personal brand. http://www.fast.ai/2017/12/18/personal-brand/.
-
-- It can be worthwhile I think not just using it to have a presence and way of contact but to add value. Takes more time, but I think that time can also be learning time in this field. 
+So how do you become "worth knowing?" Build your personal brand. Rachel Thomas just wrote a [fantastic post](http://www.fast.ai/2017/12/18/personal-brand/) on this, covering what a brand even means, how to get over the "ick" factor, and how to use twitter, public speaking, and blogging to do so. For more advice, check out [Dave Robinson's post](http://varianceexplained.org/r/start-blog/) and [Rachel Thomas' other post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045) on why you should make a blog and where to start. While having code on github is good, data scientists also need communication skills. Plus, it's just more likely people will read a post summarizing the main takeaways and methods rather than trying to parse thousands of lines of barely commented code. 
 
 ### Share what you like about their work
 
@@ -80,34 +72,10 @@ If you were introduced to someone or have a connection with them and haven't hea
 
 Finally, don't take non-responses personally. People are busy, and you don't know what is happening in their personal life. 
 
-### Posts
+## Conclusion
 
-Adam Grant
-* "But it’s remarkably hard to engage with those people unless you’ve already put something valuable out into the world. That’s what piques the curiosity of advisers and sponsors. Achievements show you have something to give, not just something to take."
-*  "Do something interesting, and instead of having to push your way in, you’ll get pulled in. The network comes to you."
-*  "It shouldn’t be about promoting yourself, but about promoting your ideas." - my take, it can also be about helping other people. For example, writing my first data science talk. 
 
-[Mark Meloon advice](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) on networking
-- "But most of the messages are all about “getting something”, not legitimate attempts to build any kind of relationship. 
 
-Most of the messages I get are like the above, where someone asks me out of the blue if we have any openings. Sometimes people will be as bold as to ask me if I could refer them"
--" But this individual made no attempt to try to establish any kind of relationship with me. I’m simply a tool to help him get what he wants."
-- "Every once in awhile, I get an open-ended request to get on a phone or Skype call so someone can “pick my brain”. No duration specified, no agenda. No specific questions. They want me to drop everything I’m doing and let them pepper me with every question they can think of."
-- "The truly baffling thing is that the messages I get fall into two categories: those thanking me for my posts on job hunting and those who want to get something from me. Very, very rarely do I get messages that combine both of these elements.
 
-Which is too bad because that’s really the way to do it. People who are familiar with my content and compliment me on it stand a much better chance of me helping them. They are in a great position to tack on an “I’d love to learn a little more about the work you do at (company). Can I ask you a few questions?” to their message."
-- " If you are going to reach out to experienced data scientists, don’t make your first message all about you and what you want. Make it about them (mostly). Comment on something they’ve posted. Point them to a helpful resource. Offer to share their content. Maybe ask them something about their profile."
-
-[Mentoring post](https://www.cbsnews.com/news/stop-asking-people-to-mentor-you/)
-
-Asking a virtual stranger to mentor you probably isn't going to get you far. "The strongest relationships spring out of a real and often earned connection felt by both sides." Studies, she writes, "show that mentors select proteges based on performance and potential." Given this, "I believe we have sent the wrong message to young women. We need to stop telling them, 'Get a mentor and you will excel.' Instead, we need to tell them, 'Excel and you will get a mentor.'
-
-### My benefits
-
-Things that I've gotten to do based on public talks and blog
-- West Point talk (show photo) 
-- Robert Chang (shared his work, he reached out to me, had read my stuff too)
-- RStudio Conference (had an example talk to link them to) 
-- Saw other people inspired by my talk write their own (share tweet about her blog post) 
 
 [1] Never talk to someone just to get an introduction to someone else. 
