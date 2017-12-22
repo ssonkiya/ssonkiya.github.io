@@ -18,23 +18,19 @@ There are a lot of great data science communities. If you're in New York, I high
 
 There's a great, friendly R community on twitter. You can announce when you're going to conference, ask technical questions, and share your work. It can also be a way to break the ice when you finally meet someone in person. For example, I ran into Jenny Bryan last year at RStudio::conf; we'd never talked before, but I been following her on twitter which helped me "know" her a bit. You can even [say a "virtual" hello](https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217) beforehand if you know you'll both be at the same conference.
 
-On the technical question side, you can try out the rstats hashtag. Just the other week [I tweeted](https://twitter.com/robinson_es/status/943500138265399296) asking if anyone could advise on setting a global color palette for ggplot2. I got a lot of good responses, including one introducing me to the awesome [ggthemr package](https://github.com/cttobin/ggthemr). I then paid it forward by [tweeting](https://twitter.com/robinson_es/status/943549279595126785) about the discovery. You'll often even find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions directed by him as well.  
+On the technical question side, you can try out the rstats hashtag. Just the other week [I tweeted] asking if anyone could advise on setting a global color palette for ggplot2: 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> twitter: is there a way to globally set the color scale for ggplot2? theme_set() seems to work only for background.</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/943500138265399296?ref_src=twsrc%5Etfw">December 20, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I got a lot of good responses, including one introducing me to the awesome [ggthemr package](https://github.com/cttobin/ggthemr). I then paid it forward by tweeting about the discover:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">TIL how to set a global color palette for ggplot2 with ggthemr! Thank you <a href="https://twitter.com/czeildi?ref_src=twsrc%5Etfw">@czeildi</a> for the great post <a href="https://t.co/svW7A9szTA">https://t.co/svW7A9szTA</a> <a href="https://t.co/bZjfm3IZFg">pic.twitter.com/bZjfm3IZFg</a></p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/943549279595126785?ref_src=twsrc%5Etfw">December 20, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+You'll often even find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions directed by him as well.  
 
 ## How to Reach Out to Specific People
-
-### Offer value
-
-True networking is about building a relationship, not a one-sided demand where you just want to get something immediately. And the best way to build mutually fulfilling relationships is to have something of value to offer in return. 
-
-While people sometimes think you need a network to accomplish great things, it actually mostly goes the other way. Adam Grant wrote about this in a [recent article](https://www.nytimes.com/2017/08/24/opinion/sunday/networking-connections-business.html?_r=0)
-
-> My students often believe that if they simply meet more important people, their work will improve. But it’s remarkably hard to engage with those people unless you’ve already put something valuable out into the world. That’s what piques the curiosity of advisers and sponsors. Achievements show you have something to give, not just something to take.
-
-> Sure, you can fire off cold emails to people you respect — they’re just a click away — but you’ll be lucky if 2 percent even reply. The best way to attract a mentor is to create something worthy of the mentor’s attention. Do something interesting, and instead of having to push your way in, you’ll get pulled in. The network comes to you.
-
-In sum, [don't worry about who you know, but be worth knowing.](https://static1.squarespace.com/static/50d63bc4e4b0e383f5b2a05a/t/5655fa1de4b0f60cdb986ad5/1448475165543/Job+market+advice+for+PhDs+November2015-2.pdf). 
-
-So how do you become "worth knowing?" Build your personal brand. Rachel Thomas just wrote a [fantastic post](http://www.fast.ai/2017/12/18/personal-brand/) on this, covering what a brand even means, how to get over the "ick" factor, and how to use twitter, public speaking, and blogging to do so. For more advice, check out [Dave Robinson's post](http://varianceexplained.org/r/start-blog/) and [Rachel Thomas' other post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045) on why you should make a blog and where to start. While having code on github is good, data scientists also need communication skills. Plus, it's just more likely people will read a post summarizing the main takeaways and methods rather than trying to parse thousands of lines of barely commented code. 
 
 ### Share what you like about their work
 
@@ -53,6 +49,20 @@ Over email, it's even more important to show you're familiar with their work. [M
 > The truly baffling thing is that the messages I get fall into two categories: those thanking me for my posts on job hunting and those who want to get something from me. Very, very rarely do I get messages that combine both of these elements. Which is too bad because that’s really the way to do it. People who are familiar with my content and compliment me on it stand a much better chance of me helping them. They are in a great position to tack on an “I’d love to learn a little more about the work you do at (company). Can I ask you a few questions?” to their message.
 
 And if you don't know anything about their work, and they do have a public presence (either github, a blog, or twitter), why are you reaching out? Just like when applying for a job, you should do some research. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Show them you've read their work and ask follow-up questions. 
+
+### Offer value
+
+True networking is about building a relationship, not a one-sided demand where you just want to get something immediately. And the best way to build mutually fulfilling relationships is to have something of value to offer in return. 
+
+While people sometimes think you need a network to accomplish great things, it actually mostly goes the other way. Adam Grant wrote about this in a [recent article](https://www.nytimes.com/2017/08/24/opinion/sunday/networking-connections-business.html?_r=0)
+
+> My students often believe that if they simply meet more important people, their work will improve. But it’s remarkably hard to engage with those people unless you’ve already put something valuable out into the world. That’s what piques the curiosity of advisers and sponsors. Achievements show you have something to give, not just something to take.
+
+> Sure, you can fire off cold emails to people you respect — they’re just a click away — but you’ll be lucky if 2 percent even reply. The best way to attract a mentor is to create something worthy of the mentor’s attention. Do something interesting, and instead of having to push your way in, you’ll get pulled in. The network comes to you.
+
+In sum, [don't worry about who you know, but be worth knowing.](https://static1.squarespace.com/static/50d63bc4e4b0e383f5b2a05a/t/5655fa1de4b0f60cdb986ad5/1448475165543/Job+market+advice+for+PhDs+November2015-2.pdf). 
+
+So how do you become "worth knowing?" Build your personal brand. Rachel Thomas just wrote a [fantastic post](http://www.fast.ai/2017/12/18/personal-brand/) on this, covering what a brand even means, how to get over the "ick" factor, and how to use twitter, public speaking, and blogging to do so. For more advice, check out [Dave Robinson's post](http://varianceexplained.org/r/start-blog/) and [Rachel Thomas' other post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045) on why you should make a blog and where to start. While having code on github is good, data scientists also need communication skills. Plus, it's just more likely people will read a post summarizing the main takeaways and methods rather than trying to parse thousands of lines of barely commented code. 
 
 ### Find a connection
 
@@ -74,8 +84,8 @@ Finally, don't take non-responses personally. People are busy, and you don't kno
 
 ## Conclusion
 
+Fulfilling networking is, at its heart, about building great relationships and becoming part of a community. As I've discussed in [previous posts](https://robinsones.github.io/Making-R-Code-Faster-A-Case-Study/), part of the reason I choose to program in R is because I've found an incredibly supportive community. People (even us strong introverts!) are social, and we generally have more fun and are more productive when we can lean on each other for help. 
 
-
-
+The main way I try to offer value is through these posts, and I'll be back to tackling the [challenges of A/B Testing](https://www.youtube.com/watch?v=SF-ryGgLOgQ) soon. 
 
 [1] Never talk to someone just to get an introduction to someone else. 
