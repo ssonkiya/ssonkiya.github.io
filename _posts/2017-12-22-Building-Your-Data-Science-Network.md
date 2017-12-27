@@ -1,4 +1,4 @@
-Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, you've probably heard something along the lines of "it's all about who you know." So how does one go about building this all-important network: By sending out a million unsolicited linkedin requests with no messages to every person with the title "data scientist;" making it a goal to hand out 20 business cards at a meetup once a week; or sending messages to prominent data scientists with the subject line "Can I pick you brain?"
+Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, you've probably heard something along the lines of "it's all about who you know." So how does one go about building this all-important network: By sending out a million unsolicited linkedin requests with no message to every person with the title "data scientist;" making it a goal to hand out 20 business cards at a meetup once a week; or sending emails to prominent data scientists with the subject line "Can I pick you brain?"
 
 **Absolutely not**.
 
