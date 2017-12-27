@@ -105,8 +105,9 @@ Mikhail Popov great post on for those folks starting out - https://mpopov.com/bl
 
 People to follow in R (active tweeters): Hadley, David, Jenny, Mara, Maelle, 
 
-can use newsletters to keep up datacamp and rweekly and o'reilly media. 
+can use newsletters to keep up datacamp and rweekly and o'reilly media.
 
+live tweet talks
 
 Potential stories: 
 - I'm an introvert, surprises people. introvert != shy but still not natural. really helps to think about promoting my work, not myself, and about helping people. 
