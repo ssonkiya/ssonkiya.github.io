@@ -15,7 +15,7 @@ If you're looking for a conversation topic, remember that at a meetup or confere
 
 ### Try out Twitter
 
-There's a great, friendly R community on twitter. You can announce when you're going to a conference, ask technical questions, and share your work. It can also be a way to break the ice when you finally meet someone in person. For example, I ran into Jenny Bryan last year at RStudio::conf; we'd never talked before, but I been following her on twitter which helped me "know" her a bit. You can even [say a "virtual" hello](https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217) (as written about by Rick West, along with some excellent insights on building a personal brand) beforehand if you know you'll both be at the same conference. [Discuss creepiness here? Or, how not to be a creeper?.. I think it could be funny: A virtual hello is friendly.   Virtual “You’re going to be at Rstatsny what hotel are you staying in, where are you eating, are you bringing Chairman Meow (#adorbs), are you going to wear the same pink sweater you wore last year, because it is so #fetch” is an invitation to a restraining order.  ]
+There's a great, friendly R community on twitter. You can announce when you're going to a conference, ask technical questions, and share your work. It can also be a way to break the ice when you finally meet someone in person. For example, I ran into Jenny Bryan last year at RStudio::conf; we'd never talked before, but I been following her on twitter which helped me "know" her a bit. You can even [say a "virtual" hello](https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217) (as written about by Rick West, along with some excellent insights on building a personal brand) beforehand if you know you'll both be at the same conference. [Discuss creepiness here? Or, how not to be a creeper?.. I think it could be funny: A virtual hello is friendly. Virtual “You’re going to be at Rstatsny what hotel are you staying in, where are you eating, are you bringing Chairman Meow (#adorbs), are you going to wear the same pink sweater you wore last year, because it is so #fetch” is an invitation to a restraining order.  ]
 
 On the technical question side, you can try out the rstats hashtag. Just the other week [I tweeted] asking if anyone could advise on setting a global color palette for ggplot2: 
 
@@ -27,9 +27,9 @@ I got a lot of good responses, including one introducing me to the awesome [ggth
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">TIL how to set a global color palette for ggplot2 with ggthemr! Thank you <a href="https://twitter.com/czeildi?ref_src=twsrc%5Etfw">@czeildi</a> for the great post <a href="https://t.co/svW7A9szTA">https://t.co/svW7A9szTA</a> <a href="https://t.co/bZjfm3IZFg">pic.twitter.com/bZjfm3IZFg</a></p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/943549279595126785?ref_src=twsrc%5Etfw">December 20, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-You'll often even find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions directed to him as well.  
+You'll often even find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions specifically directed to him as well.  
 
-Twitter is confusing! It's totally okay to spend a while just injesting content.
+Twitter is confusing! It's totally okay to spend a while just injesting content. Some great people to follow on twitter include Hadley Wickham (@hadleywickham), Jesse Maegan (@kierisi), David Robinson (@drob), Jenny Bryan (@jennybryan), Mara Averick (@dataandme), and Maelle Salmon (@ma_salmon). 
 
 Lots of greate twitter tips from Rachel Thomas post. 
 
@@ -139,8 +139,6 @@ The main way I try to offer value is through these posts, and I'll be back to ta
 https://www.datahelpers.org/ - people want to help. Good resource for finding someone to reach out to. 
 
 Mikhail Popov great post on for those folks starting out - https://mpopov.com/blog/advice-for-grads-entering-industry-datasci. 
-
-Some great people to follow on twitter include Hadley Wickham (@hadleywickham), Jesse Maegan (@kierisi), David Robinson (@drob), Jenny Bryan (@jennybryan), Mara Averick (@dataandme), and Maelle Salmon (@ma_salmon). 
 
 can use newsletters to keep up datacamp and rweekly and o'reilly media.
 
