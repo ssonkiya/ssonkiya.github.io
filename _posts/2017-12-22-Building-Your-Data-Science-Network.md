@@ -1,12 +1,4 @@
-Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, you've probably heard something along the lines of "it's all about who you know." So how does one go about building this all-important network: By sending out a million unsolicited linkedin requests with no message to every person with the title "data scientist;" making it a goal to hand out 20 business cards at a meetup once a week; or sending emails to prominent data scientists with the subject line "Can I pick you brain?"
-
-**Absolutely not**.
-
-Building a network is not a numbers game, and it's not about looking to get the largest personal benefit from the least time invested. But, unfortunately, that's how some people approach it. I wrote this post to offer some suggestions for a better way.
-
-Two important caveats to start, both inspired by other posts on similar topics. First, to quote [Trey Causey](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d): "I am not without sin, and I'm also still figuring all this out." Second, for those of you who hate the very idea of networking and think your work should speak for yourself, I really like [Rachel Thomas'](http://www.fast.ai/2017/12/18/personal-brand/) take on this. She's writing about personal branding, but I think there's a lot of overlap there (as I discuss later): 
-
-> Personal branding is no substitute for doing high-quality technical work; it’s just the means by which you can share this work with a broader audience.
+# Part 1
 
 ## Growing your Community Generally 
 
@@ -37,6 +29,40 @@ I got a lot of good responses, including one introducing me to the awesome [ggth
 
 You'll often even find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions directed to him as well.  
 
+Twitter is confusing! It's totally okay to spend a while just injesting content.
+
+Lots of greate twitter tips from Rachel Thomas post. 
+
+### Combining the two
+
+Serves as notes for myself, useful for other people.  
+
+It's become expected of me: 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Yay! And let the live tweeting begin! 🙌 (no pressure 😁)</p>&mdash; Daniela Vázquez (@d4tagirl) <a href="https://twitter.com/d4tagirl/status/940730957128175616?ref_src=twsrc%5Etfw">December 12, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+live tweet talks! Some tips: 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a> giving tips on live-tweeting a conference <a href="https://twitter.com/hashtag/rstatsnyc?src=hash&amp;ref_src=twsrc%5Etfw">#rstatsnyc</a> ✔️✔️✔️ <a href="https://t.co/VUx7aJy2D4">pic.twitter.com/VUx7aJy2D4</a></p>&mdash; Emily Zabor (@zabormetrics) <a href="https://twitter.com/zabormetrics/status/855518845779496961?ref_src=twsrc%5Etfw">April 21, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Next Time
+
+So you've started to meet people and understand data science world more generally. But then you read a really cool post by XYZ and you'd love to follow up with them. How do you reach out to specific people? 
+
+# Part 2
+
+Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, you've probably heard something along the lines of "it's all about who you know." So how does one go about building this all-important network: By sending out a million unsolicited linkedin requests with no message to every person with the title "data scientist;" making it a goal to hand out 20 business cards at a meetup once a week; or sending emails to prominent data scientists with the subject line "Can I pick you brain?"
+
+**Absolutely not**.
+
+Building a network is not a numbers game, and it's not about looking to get the largest personal benefit from the least time invested. But, unfortunately, that's how some people approach it. I wrote this post to offer some suggestions for a better way.
+
+Two important caveats to start, both inspired by other posts on similar topics. First, to quote [Trey Causey](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d): "I am not without sin, and I'm also still figuring all this out." Second, for those of you who hate the very idea of networking and think your work should speak for yourself, I really like [Rachel Thomas'](http://www.fast.ai/2017/12/18/personal-brand/) take on this. She's writing about personal branding, but I think there's a lot of overlap there (as I discuss later): 
+
+> Personal branding is no substitute for doing high-quality technical work; it’s just the means by which you can share this work with a broader audience.
+
 ## Reaching Out to Specific People
 
 ### Share what you like about their work
@@ -49,13 +75,18 @@ A friend who's well-known in the R community shared how many of his first conver
 
 > Both: awkward silence ...
 
-Whether it's over email or in-person, tell the other person **which part of their work** helped you and how. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "I really enjoy reading the data science work you share on twitter! I work with a lot of dates, and when you tweeted a cheatsheet for lubridate it really helped." Help them help you to by coming up with a good conversation topic, and involving yourself can avoid awkward fangirling.
+Whether it's over email or in-person, tell the other person **which part of their work** helped you and **end with a question**. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "I really enjoy reading the data science work you share on twitter! I work with a lot of dates, and when you tweeted a cheatsheet for lubridate it really helped. Do you have a favorite cheatsheet?" Help them help you to by coming up with a good conversation topic, and talking about yourself a bit can avoid awkward fangirling.
 
 Over email, it's even more important to show you're familiar with their work. [Mark Meloon](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) describes this well:
 
 > The truly baffling thing is that the messages I get fall into two categories: those thanking me for my posts on job hunting and those who want to get something from me. Very, very rarely do I get messages that combine both of these elements. Which is too bad because that’s really the way to do it. People who are familiar with my content and compliment me on it stand a much better chance of me helping them. They are in a great position to tack on an “I’d love to learn a little more about the work you do at (company). Can I ask you a few questions?” to their message.
 
 And if you don't know anything about their work, and they do have a public presence (either github, a blog, or twitter), why are you reaching out? Just like when applying for a job, you should do some research. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Show them you've read their work and ask follow-up questions. 
+
+A lot of points about applying for a job apply: do your research, don't be late, follow-up. 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">3 Don&#39;t hop on a screening call without knowing who you&#39;re talking to first. Spend the 5-10 minutes that it takes to Google them and find something they&#39;ve done that&#39;s interesting and relevant to you. Yes, it&#39;s more work. Do you want the job or not?</p>&mdash; Kieran Snyder (@KieranSnyder) <a href="https://twitter.com/KieranSnyder/status/948614223537426432?ref_src=twsrc%5Etfw">January 3, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Offer value
 
@@ -76,6 +107,12 @@ So how do you become "worth knowing?" Build your personal brand. Rachel Thomas j
 To make it more likely you’ll get a response, try to find if you have something in common with the other person. Maybe you both went to same school or same bootcamp. Do you have a similar educational background or career, especially one that is not traditional?  It doesn't have to be career-related; maybe you both have the same a non-tech hobby or spent time living abroad in the same country. Check with your school or bootcamp's career center to see if there is someone at a company you're interested in. 
 
 A mutual acquaintance can also serve as a connection. If you have a good conversion with someone, you can ask them (not demand) if they know anyone else in the same field.<sup>1</sup> For example, recently Julia Silge, a data scientist I know at StackOverflow, asked if she could connect me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up, and we had a great conversation. I then introduced him to Sarah Manning, the manager of our analytics engineering team, as she had talked to some of his colleagues at a conference. Important note: when doing introductions, always do a **double opt-in introduction**, where you ask both people if they're interested in being introduced to the other (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728) for this advice).
+
+### Know their weight class
+
+Reaching out to Hadley Wickham or Jenny Bryan very different from reaching out to me. They're busier, more well known. May not have time to respond. They're at the scale where better to make a public post and share broadly, especially if questions are more generally, like "how do I get into data science?" See Jessee Magen's post. 
+
+If you do want to start talking to those people or get them to know your work, the value add is really, really critical here. 
 
 ### Get specific
 
@@ -103,12 +140,13 @@ https://www.datahelpers.org/ - people want to help. Good resource for finding so
 
 Mikhail Popov great post on for those folks starting out - https://mpopov.com/blog/advice-for-grads-entering-industry-datasci. 
 
-People to follow in R (active tweeters): Hadley, David, Jenny, Mara, Maelle, 
+Some great people to follow on twitter include Hadley Wickham (@hadleywickham), Jesse Maegan (@kierisi), David Robinson (@drob), Jenny Bryan (@jennybryan), Mara Averick (@dataandme), and Maelle Salmon (@ma_salmon). 
 
 can use newsletters to keep up datacamp and rweekly and o'reilly media.
 
-live tweet talks
-
 Potential stories: 
-- I'm an introvert, surprises people. introvert != shy but still not natural. really helps to think about promoting my work, not myself, and about helping people. 
+- I'm an introvert. This generally surprises people. Introversion doesn't equal shyness, but rather about getting your [energy from being alone](https://shazzbaa.deviantart.com/art/Hi-I-am-an-Introvert-391255742
+) rather than socializing. But this is all still not natural to me. What really has helped is to think about it as promoting my work, not myself, and about helping other people. 
+
+
 - twitter, also started out with few twitter followers. but twitter can first be a learning platform, rather than a self-promotion (learn what people are talking about, what is going on. 
