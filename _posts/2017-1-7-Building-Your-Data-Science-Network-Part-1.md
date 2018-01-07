@@ -1,11 +1,11 @@
 # Part 1
 
-I'm an introvert. This generally surprises people. Introversion doesn't equal shyness, but rather about getting your [energy from being alone](https://shazzbaa.deviantart.com/art/Hi-I-am-an-Introvert-391255742
-) rather than socializing. But this is all still not natural to me. What really has helped is to think about it as promoting my work, not myself, and about helping other people. 
+In college, I held multiple student government leadership positions, participated actively in class, and could talk people's ear off on the right subject. Now as an adult, I speak at meetups and conferences, am part of the NYC RLadies board, and actively meet new people on twitter. 
 
-Growing your Community Generally 
+I'm also a strong introvert. This usually surprises people. One reason is that many people equate being an introvert with being shy, which is not the case; introversion is about getting your [energy from being alone](https://shazzbaa.deviantart.com/art/Hi-I-am-an-Introvert-391255742) rather than socializing. But although I'm not shy, being so active is still not natural to me. What really has helped is to think about it as promoting my work, not myself, and about helping other people. 
 
-This is a two-part post. If you'd like to learn about reaching out to specific people, check out the [second part](LINK!). 
+This is a two-part post on networking in data science. This first part is focused on growing your Community generally. 
+If you'd like to learn about reaching out to specific people, check out the [second part](LINK!). 
 
 ### Attend Meetups
 
@@ -54,7 +54,9 @@ I like it because it serves as notes for myself, it's a way to share key points 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a> giving tips on live-tweeting a conference <a href="https://twitter.com/hashtag/rstatsnyc?src=hash&amp;ref_src=twsrc%5Etfw">#rstatsnyc</a> ✔️✔️✔️ <a href="https://t.co/VUx7aJy2D4">pic.twitter.com/VUx7aJy2D4</a></p>&mdash; Emily Zabor (@zabormetrics) <a href="https://twitter.com/zabormetrics/status/855518845779496961?ref_src=twsrc%5Etfw">April 21, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[1] A virtual, public (i.e. not a private message), brief hello is friendly. Virtual “You’re going to be at NY R conference, what hotel are you staying in, where are you eating, are you going to wear the same pink sweater you wore last year, because it is so #fetch” is not. Harassment and stalking are serious and common problems. Keep messages to people you don't know professional; don't be this person: 
+I'll end this first post with a similar promise to my brother's: if you live tweet a talk or share a great data science research, let me know with a tweet and I'll retweet. Let's continue building a friendly, supportive community together.
+
+[1] A virtual, public (i.e. not a private message), brief hello is friendly. Virtual “I see you're going to be at the NY R conference, what hotel are you staying in, where are you eating, are you going to wear the same pink sweater you wore last year, because it is so #fetch” is not. Harassment and stalking are serious and common problems. Keep messages to people you don't know professional; don't be this person: 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Sometimes I get these creepy messages from fellow nerds (who I don’t know) who essentially say you fill this girlfriend shaped hole I have since you know computers and are “pretty”, you all realize that’s creepy af right? So why do it.</p>&mdash; jessie frazelle (@jessfraz) <a href="https://twitter.com/jessfraz/status/949263339271720960?ref_src=twsrc%5Etfw">January 5, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
