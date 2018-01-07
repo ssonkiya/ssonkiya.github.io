@@ -52,7 +52,7 @@ Jesse Maegan, who started the [R for Data Science Online Learning Community](htt
 
 Trey Causey wrote a great [post](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d) called "Do you have time for a quick chat?" on sending a cold email. Go ahead and read it- I'll wait. He does a really nice job breaking down how to write a great request email and set up a meeting for success. A key point: have an agenda of what you want to discuss and share it with them. If you just ask to "pick their brain," it comes off as you wanting the person to [drop everything just so you can assail them](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) with any question you can think of, potentially for hours. 
 
-### Following up
+### Follow up
 
 If you have a good conversation with someone and they help you with something, follow up! For example, if you were looking for a job, let them know when you found one and thank them. 
 
