@@ -45,14 +45,12 @@ Finally, if you're posting about your first blog post, you've got one prominent 
 
 ### Combining the two
 
-Serves as notes for myself, useful for other people.  
-
-It's become expected of me: 
+One of my favorite things to do is live tweet talks. It's gotten to the point where it's become expected: 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Yay! And let the live tweeting begin! 🙌 (no pressure 😁)</p>&mdash; Daniela Vázquez (@d4tagirl) <a href="https://twitter.com/d4tagirl/status/940730957128175616?ref_src=twsrc%5Etfw">December 12, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-live tweet talks! Some tips: 
+I like it because it serves as notes for myself, it's a way to share key points with people who couldn't attend the talk, and it gets the speaker some more visibility. If you'd like to try it, some tips from a live-tweeter master, @drob: 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a> giving tips on live-tweeting a conference <a href="https://twitter.com/hashtag/rstatsnyc?src=hash&amp;ref_src=twsrc%5Etfw">#rstatsnyc</a> ✔️✔️✔️ <a href="https://t.co/VUx7aJy2D4">pic.twitter.com/VUx7aJy2D4</a></p>&mdash; Emily Zabor (@zabormetrics) <a href="https://twitter.com/zabormetrics/status/855518845779496961?ref_src=twsrc%5Etfw">April 21, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
