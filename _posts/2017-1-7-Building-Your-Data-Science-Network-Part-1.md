@@ -5,7 +5,7 @@ I'm an introvert. This generally surprises people. Introversion doesn't equal sh
 
 Growing your Community Generally 
 
-Talk about second part: So you've started to meet people and understand data science world more generally. But then you read a really cool post by  someone and you'd love to follow up with them. How do you reach out to specific people? 
+This is a two-part post. If you'd like to learn about reaching out to specific people, check out the [second part](LINK!). 
 
 ### Attend Meetups
 
