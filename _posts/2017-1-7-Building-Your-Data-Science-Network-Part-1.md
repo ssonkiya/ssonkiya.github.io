@@ -1,5 +1,3 @@
-# Part 1
-
 In college, I held multiple student government leadership positions, participated actively in class, and could talk people's ear off on the right subject. Now as an adult, I speak at meetups and conferences, am part of the NYC RLadies board, and actively meet new people on twitter. 
 
 I'm also a strong introvert. This usually surprises people. One reason is that many people equate being an introvert with being shy, which is not the case; introversion is about getting your [energy from being alone](https://shazzbaa.deviantart.com/art/Hi-I-am-an-Introvert-391255742) rather than socializing. But although I'm not shy, being so active is still not natural to me. What really has helped is to think about it as promoting my work, not myself, and about helping other people. 
