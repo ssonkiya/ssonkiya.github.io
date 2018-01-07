@@ -11,11 +11,15 @@ If you're nervous about going somewhere where you don't know anyone, you can bri
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Love the Pacman Rule: When standing as a group of people, always leave room for 1 person to join your group. <a href="https://t.co/eBi0gT19yl">https://t.co/eBi0gT19yl</a>  Ht <a href="https://twitter.com/gnat?ref_src=twsrc%5Etfw">@gnat</a> <a href="https://t.co/ajvLt2H5bo">pic.twitter.com/ajvLt2H5bo</a></p>&mdash; LaurenceMillar (@LaurenceMillar) <a href="https://twitter.com/LaurenceMillar/status/931795364843200513?ref_src=twsrc%5Etfw">November 18, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If you're looking for a conversation topic, remember that at a meetup or conference, you'll generally have the first-order topic of "we are here because of R (or machine learning, python, etc). But there are some meatier second-order questions you can dive into, like: Why this meetup? What got you interested in R? Have you read any good articles lately blatantly misusing statistics?"(Thanks to my colleague [Jake Voytko](https://twitter.com/jakevoytko) for these suggestions). People love to talk about themselves, and everyone is someone you can learn from. 
+If you're looking for a conversation topic, remember that at a meetup or conference, you'll generally have the first-order topic of "we are here because of R (or machine learning, python, etc)." But there are some meatier second-order questions you can dive into, like: Why this meetup? What got you interested in R? What are your favorite learning resources?"(Thanks to my colleague [Jake Voytko](https://twitter.com/jakevoytko) for these suggestions). People love to talk about themselves, and everyone is someone you can learn from. Don't try to meet as many people as possible or make sure you talk to the most important or well-known person in the room; if you have one enjoyable conversation at the meetup with someone new, I would call that a success. 
 
 ### Try out Twitter
 
-There's a great, friendly R community on twitter. You can announce when you're going to a conference, ask technical questions, and share your work. It can also be a way to break the ice when you finally meet someone in person. For example, I ran into Jenny Bryan last year at RStudio::conf; we'd never talked before, but I been following her on twitter which helped me "know" her a bit. You can even [say a "virtual" hello](https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217) (as written about by Rick West, along with some excellent insights on building a personal brand) beforehand if you know you'll both be at the same conference. [Discuss creepiness here? Or, how not to be a creeper?.. I think it could be funny: A virtual hello is friendly. Virtual “You’re going to be at Rstatsny what hotel are you staying in, where are you eating, are you bringing Chairman Meow (#adorbs), are you going to wear the same pink sweater you wore last year, because it is so #fetch” is an invitation to a restraining order.  ]
+Getting started with twitter can be intimidating. How do I untangle these nested threads of replies, when should I use a hashtag, and how do I even get any followers? When I first started, I just followed people and didn't tweet anything myself. I felt a bit ashamed about that - shouldn't I be adding value and interacting? But I now think that's actually a great way to start out. You can just use twitter as learning platform to get a picture of what people are talking about and find some interesting blog posts. My main advice to my past self would be to put a profile picture up - don't be an egg!  
+
+There's a great, friendly R community on there. Some good people to follow include Hadley Wickham (@hadleywickham), Jesse Maegan (@kierisi), David Robinson (@drob), Jenny Bryan (@jennybryan), Mara Averick (@dataandme), and Maelle Salmon (@ma_salmon). Check out Rachel Thomas' [section on getting started with twitter](http://www.fast.ai/2017/12/18/personal-brand/) for more good advice. 
+
+When you are ready to start tweeting, there's a lot of things you can talk about. You can announce when you're going to a conference, ask technical questions, and share your work. It can also be a way to break the ice when you finally meet someone in person. For example, I ran into Jenny Bryan last year at RStudio::conf; we'd never talked before, but I been following her on twitter which helped me "know" her a bit. You can even [say a "virtual" hello](https://medium.freecodecamp.org/building-your-personal-brand-as-a-new-web-developer-f6d4150fd217) (as written about by Rick West, along with some excellent insights on building a personal brand) beforehand if they've said they'll be speaking or attending a conference you'll be at.<sup>1</sup>
 
 On the technical question side, you can try out the rstats hashtag. Just the other week [I tweeted] asking if anyone could advise on setting a global color palette for ggplot2: 
 
@@ -29,9 +33,10 @@ I got a lot of good responses, including one introducing me to the awesome [ggth
 
 You'll often even find Hadley Wickham answering questions on twitter; I think it's more polite to use the rstats hashtag rather than to @ him directly, but he usually answers questions specifically directed to him as well.  
 
-Twitter is confusing! It's totally okay to spend a while just injesting content. Some great people to follow on twitter include Hadley Wickham (@hadleywickham), Jesse Maegan (@kierisi), David Robinson (@drob), Jenny Bryan (@jennybryan), Mara Averick (@dataandme), and Maelle Salmon (@ma_salmon). 
+And if you're posting about your first blog post, you've got one prominent tweeter with you - @drob. He will read and [retweet your first few posts](http://varianceexplained.org/r/start-blog/):   
 
-Lots of greate twitter tips from Rachel Thomas post. 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Excellent <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> post from <a href="https://twitter.com/raymserrato?ref_src=twsrc%5Etfw">@raymserrato</a> of words used to describe elections: from rvest scraping to <a href="https://twitter.com/hashtag/tidyverse?src=hash&amp;ref_src=twsrc%5Etfw">#tidyverse</a> cleaning to <a href="https://twitter.com/hashtag/tidytext?src=hash&amp;ref_src=twsrc%5Etfw">#tidytext</a> analysis! <a href="https://t.co/jxecRhbQuw">https://t.co/jxecRhbQuw</a> <a href="https://twitter.com/hashtag/datablog?src=hash&amp;ref_src=twsrc%5Etfw">#datablog</a> <a href="https://t.co/UNW7lPW7AX">pic.twitter.com/UNW7lPW7AX</a></p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/949091986409062400?ref_src=twsrc%5Etfw">January 5, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Combining the two
 
@@ -49,7 +54,12 @@ live tweet talks! Some tips:
 
 ### Next Time
 
-So you've started to meet people and understand data science world more generally. But then you read a really cool post by XYZ and you'd love to follow up with them. How do you reach out to specific people? 
+So you've started to meet people and understand data science world more generally. But then you read a really cool post by  and you'd love to follow up with them. How do you reach out to specific people? 
+
+[1] A virtual, public (i.e. not a private message), brief hello is friendly. Virtual “You’re going to be at NY R conference, what hotel are you staying in, where are you eating, are you going to wear the same pink sweater you wore last year, because it is so #fetch” is not. Harassment and stalking are serious and common problems. Keep messages to people you don't know professional; don't be this person: 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Sometimes I get these creepy messages from fellow nerds (who I don’t know) who essentially say you fill this girlfriend shaped hole I have since you know computers and are “pretty”, you all realize that’s creepy af right? So why do it.</p>&mdash; jessie frazelle (@jessfraz) <a href="https://twitter.com/jessfraz/status/949263339271720960?ref_src=twsrc%5Etfw">January 5, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Part 2
 
@@ -145,6 +155,3 @@ can use newsletters to keep up datacamp and rweekly and o'reilly media.
 Potential stories: 
 - I'm an introvert. This generally surprises people. Introversion doesn't equal shyness, but rather about getting your [energy from being alone](https://shazzbaa.deviantart.com/art/Hi-I-am-an-Introvert-391255742
 ) rather than socializing. But this is all still not natural to me. What really has helped is to think about it as promoting my work, not myself, and about helping other people. 
-
-
-- twitter, also started out with few twitter followers. but twitter can first be a learning platform, rather than a self-promotion (learn what people are talking about, what is going on. 
