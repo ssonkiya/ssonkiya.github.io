@@ -1,9 +1,8 @@
-In college, I held multiple student government leadership positions, participated actively in class, and could talk people's ear off on the right subject. Now as an adult, I speak at meetups and conferences, am part of the NYC RLadies board, and actively meet new people on twitter. 
+So you've heard you're supposed to network. That's the key in getting a job or establishing a reputation in your broader field, right? If the thought of networking makes you cringe, you're not alone. Many people equate networking to sending out millions of unsolicited linkedin requests with no message, hading out 20 business cards at a meetup once a week, or sending emails to prominent data scientists with the subject line "Can I pick you brain?" That's not very appealing, and it turns out not very effective either. 
 
-I'm also a strong introvert. This usually surprises people. One reason is that many people equate being an introvert with being shy, which is not the case; introversion is about getting your [energy from being alone](https://shazzbaa.deviantart.com/art/Hi-I-am-an-Introvert-391255742) rather than socializing. But although I'm not shy, being so active is still not natural to me. What really has helped is to think about it as promoting my work, not myself, and about helping other people. 
+Building a network is not a numbers game, and it's not about looking to get the largest personal benefit from the least time invested. Fulfilling networking is, at its heart, about building great relationships and becoming part of a community. As I've discussed in [previous posts](https://robinsones.github.io/Making-R-Code-Faster-A-Case-Study/), part of the reason I choose to program in R is because I've found an incredibly supportive community. People (even us strong introverts!) are social, and we generally have more fun and are more productive when we can lean on each other for help.
 
-This is a two-part post on networking in data science. This first part is focused on growing your Community generally. 
-If you'd like to learn about reaching out to specific people, check out the [second part](LINK!). 
+So how do you become part of this community? I've written this two part post to try to share some strategies that have worked for me. This first part is focused on growing your community generally. If you'd like to learn about reaching out to specific people, check out the [second part](LINK!). 
 
 ### Attend Meetups
 
