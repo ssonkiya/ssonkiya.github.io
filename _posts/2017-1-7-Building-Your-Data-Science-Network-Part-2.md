@@ -1,17 +1,8 @@
-
-# Part 2
-
-Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, you've probably heard something along the lines of "it's all about who you know." So how does one go about building this all-important network: By sending out a million unsolicited linkedin requests with no message to every person with the title "data scientist;" making it a goal to hand out 20 business cards at a meetup once a week; or sending emails to prominent data scientists with the subject line "Can I pick you brain?"
-
-**Absolutely not**.
-
-Building a network is not a numbers game, and it's not about looking to get the largest personal benefit from the least time invested. But, unfortunately, that's how some people approach it. I wrote this post to offer some suggestions for a better way.
+In [part one](LINK) of this post, I covered how to start becoming involved in the data science community and meet people in general. But what if you read a really cool post by someone and want to follow up with them? How can you most effectively reach out to specific people? 
 
 Two important caveats to start, both inspired by other posts on similar topics. First, to quote [Trey Causey](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d): "I am not without sin, and I'm also still figuring all this out." Second, for those of you who hate the very idea of networking and think your work should speak for yourself, I really like [Rachel Thomas'](http://www.fast.ai/2017/12/18/personal-brand/) take on this. She's writing about personal branding, but I think there's a lot of overlap there (as I discuss later): 
 
 > Personal branding is no substitute for doing high-quality technical work; it’s just the means by which you can share this work with a broader audience.
-
-## Reaching Out to Specific People
 
 ### Share what you like about their work
 
@@ -76,3 +67,11 @@ Fulfilling networking is, at its heart, about building great relationships and b
 The main way I try to help others in the community is through these posts, and I'll be back to tackling the [challenges of A/B Testing](https://www.youtube.com/watch?v=SF-ryGgLOgQ) soon. 
 
 [1] Never talk to someone just to get an introduction to someone else; this goes back to the "not using people" principle. 
+
+## Extra
+
+Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, you've probably heard something along the lines of "it's all about who you know." So how does one go about building this all-important network: By sending out a million unsolicited linkedin requests with no message to every person with the title "data scientist;" making it a goal to hand out 20 business cards at a meetup once a week; or sending emails to prominent data scientists with the subject line "Can I pick you brain?"
+
+**Absolutely not**.
+
+Building a network is not a numbers game, and it's not about looking to get the largest personal benefit from the least time invested. But, unfortunately, that's how some people approach it. I wrote this post to offer some suggestions for a better way.
