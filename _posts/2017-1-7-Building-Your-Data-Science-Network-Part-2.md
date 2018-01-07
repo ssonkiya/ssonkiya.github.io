@@ -1,4 +1,4 @@
-In [part one](LINK) of this post, I covered how to start becoming involved in the data science community and meet people in general. But what if you read a really cool post by someone and want to follow up with them? How can you most effectively reach out to specific people? 
+In [part one](LINK) of this post, I covered how to start becoming involved in the data science community and meet people in general. But what if you read a really cool post by someone and want to follow up with them? This post offers some thoughts on how you can most effectively reach out to specific people. 
 
 Two important caveats to start, both inspired by other posts on similar topics. First, to quote [Trey Causey](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d): "I am not without sin, and I'm also still figuring all this out." Second, for those of you who hate the very idea of networking and think your work should speak for yourself, I really like [Rachel Thomas'](http://www.fast.ai/2017/12/18/personal-brand/) take on this. She's writing about personal branding, but I think there's a lot of overlap there (as I discuss later): 
 
@@ -42,11 +42,11 @@ To make it more likely you’ll get a response, try to find if you have somethin
 
 A mutual acquaintance can also serve as a connection. If you have a good conversion with someone, you can ask them (not demand) if they know anyone else in the same field you could talk to.<sup>1</sup> For example, recently [Julia Silge](https://twitter.com/juliasilge), a data scientist I know at StackOverflow, asked if she could connect me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up, and we had a great conversation. I then introduced him to Sarah Manning, the manager of our analytics engineering team, as she had talked to some of his colleagues at a conference. When doing introductions like this, always do a **double opt-in introduction**, where you ask both people if they're interested in being introduced to the other (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728) for this advice).
 
-### Understand their status
+### Understand their position
 
-Reaching out to Hadley Wickham or Jenny Bryan for personal advice is very different than reaching out to me. They're busier, more well known, and may not have time to respond. They're at the point where it's more helpful for them to make a public post or reply on twitter so their thoughts can be shared broadly, especially for more general questions, like "how do I get into data science?" 
+Reaching out to Wes McKinney (python pandas creator) or Andrew Ng for personal advice is very different than reaching out to me. They're busier, more well known, get a lot of people reaching out, and may not have time to respond. They're at the point where if they do give advice, it's more helpful for them to make a public post or reply on twitter so their thoughts can be shared broadly, especially for more general questions, like "how do I get into data science?" 
 
-Jesse Maegan, who started the [R for Data Science Online Learning Community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82), recently discussed this. She would get twitter DMs (direct, private messages) asking for advice on figuring out how to continue learning data science. She loved getting these messages and would give tailored, individual responses to each, but the volume eventually grew so much she couldn't keep up. So instead she wrote this [great post](https://medium.com/@kierisi/data-science-and-r-how-do-i-start-7a87426e103e) on good resources for beginners and some thoughts on learning how to learn so she could scale up her impact.  
+Jesse Maegan, who started the [R for Data Science Online Learning Community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82), recently discussed this. She would get twitter DMs (direct, private messages) asking for advice on figuring out how to continue learning data science. She loved getting these messages and would give tailored, individual responses to each, but the volume eventually grew so much she couldn't keep up. So instead she wrote this [great post](https://medium.com/@kierisi/data-science-and-r-how-do-i-start-7a87426e103e) with good resources for beginners and some thoughts on learning how to learn so she could scale up her impact.  
 
 ### Get specific
 
@@ -62,16 +62,8 @@ Finally, don't take non-responses personally. People are busy, and you don't kno
 
 ## Conclusion
 
-Fulfilling networking is, at its heart, about building great relationships and becoming part of a community. As I've discussed in [previous posts](https://robinsones.github.io/Making-R-Code-Faster-A-Case-Study/), part of the reason I choose to program in R is because I've found an incredibly supportive community. People (even us strong introverts!) are social, and we generally have more fun and are more productive when we can lean on each other for help. And others want to help; just look at how many have signed up to help answer questions and mentor data science newcomers at [data helpers](https://www.datahelpers.org/) (this is a greater resource for finding someone to reach out to).  
+Remember that others want to help; just look at how many have signed up to help answer questions and mentor data science newcomers at [data helpers](https://www.datahelpers.org/) (this is a greater resource for finding someone to reach out to). And the person who's most helpful to you is probably not the most famous data scientist. You'll likely learn more by talking with peers facing the same issues, [teaching beginners](https://twitter.com/sarahmei/status/929225969881161728) to force a deeper understanding of core topics, or asking someone who recently accomplished your goal (e.g. giving your first talk).   
 
 The main way I try to help others in the community is through these posts, and I'll be back to tackling the [challenges of A/B Testing](https://www.youtube.com/watch?v=SF-ryGgLOgQ) soon. 
 
 [1] Never talk to someone just to get an introduction to someone else; this goes back to the "not using people" principle. 
-
-## Extra
-
-Whether in applying for a job, getting a promotion, or establishing a reputation in your broader field, you've probably heard something along the lines of "it's all about who you know." So how does one go about building this all-important network: By sending out a million unsolicited linkedin requests with no message to every person with the title "data scientist;" making it a goal to hand out 20 business cards at a meetup once a week; or sending emails to prominent data scientists with the subject line "Can I pick you brain?"
-
-**Absolutely not**.
-
-Building a network is not a numbers game, and it's not about looking to get the largest personal benefit from the least time invested. But, unfortunately, that's how some people approach it. I wrote this post to offer some suggestions for a better way.
