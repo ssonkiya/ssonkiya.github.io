@@ -41,9 +41,9 @@ While people sometimes think you need a network to accomplish great things, it a
 
 > Sure, you can fire off cold emails to people you respect — they’re just a click away — but you’ll be lucky if 2 percent even reply. The best way to attract a mentor is to create something worthy of the mentor’s attention. Do something interesting, and instead of having to push your way in, you’ll get pulled in. The network comes to you.
 
-In sum, [don't worry about who you know, but be worth knowing.](https://static1.squarespace.com/static/50d63bc4e4b0e383f5b2a05a/t/5655fa1de4b0f60cdb986ad5/1448475165543/Job+market+advice+for+PhDs+November2015-2.pdf). But how do you become "worth knowing?" 
+In sum, [don't worry about who you know, but be worth knowing](https://static1.squarespace.com/static/50d63bc4e4b0e383f5b2a05a/t/5655fa1de4b0f60cdb986ad5/1448475165543/Job+market+advice+for+PhDs+November2015-2.pdf). But how do you become "worth knowing?" 
 
-Build your personal brand. Rachel Thomas just wrote a [fantastic post](http://www.fast.ai/2017/12/18/personal-brand/) on this, covering what a brand even means, how to get over the "ick" factor, and how to use twitter, public speaking, and blogging to do so. For more advice, check out [Dave Robinson's post](http://varianceexplained.org/r/start-blog/) and [Rachel Thomas' other post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045) on why you should make a blog and where to start. While having projects on github is good, data scientists also need communication skills. Plus, it's just more likely people will read a post summarizing the main takeaways and methods of a project rather than trying to parse thousands of lines of barely commented code. 
+One way is to build your personal brand. Rachel Thomas just wrote a [fantastic post](http://www.fast.ai/2017/12/18/personal-brand/) on this, covering what a personal brand even is, how to get over the "ick" factor, and how to use twitter, public speaking, and blogging to build one. For more advice, check out [Dave Robinson's post](http://varianceexplained.org/r/start-blog/) and [Rachel Thomas' other post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045) on why you should make a blog and where to start. While having projects on github is good, data scientists also need communication skills. Plus, it's just more likely people will read a post summarizing the main takeaways and methods of a project rather than trying to parse thousands of lines of barely commented code. 
 
 ### Find a connection
 
@@ -51,11 +51,11 @@ To make it more likely you’ll get a response, try to find if you have somethin
 
 A mutual acquaintance can also serve as a connection. If you have a good conversion with someone, you can ask them (not demand) if they know anyone else in the same field you could talk to.<sup>1</sup> For example, recently [Julia Silge](https://twitter.com/juliasilge), a data scientist I know at StackOverflow, asked if she could connect me to [Lukas Vermeer](https://lukasvermeer.github.io), a data scientist at booking.com. He was interested in talking to people about their company's experimentation set-up, and we had a great conversation. I then introduced him to Sarah Manning, the manager of our analytics engineering team, as she had talked to some of his colleagues at a conference. When doing introductions like this, always do a **double opt-in introduction**, where you ask both people if they're interested in being introduced to the other (hat tip [Lara Hogan](https://twitter.com/lara_hogan/status/893953892404297728) for this advice).
 
-### Know their weight class
+### Understand their status
 
-Reaching out to Hadley Wickham or Jenny Bryan very different from reaching out to me. They're busier, more well known. May not have time to respond. They're at the scale where better to make a public post and share broadly, especially if questions are more generally, like "how do I get into data science?" See Jesse Maegan's post. https://medium.com/@kierisi/data-science-and-r-how-do-i-start-7a87426e103e
+Reaching out to Hadley Wickham or Jenny Bryan for personal advice is very different than reaching out to me. They're busier, more well known, and may not have time to respond. They're at the point where it's more helpful for them to make a public post or reply on twitter so their thoughts can be shared broadly, especially for more general questions, like "how do I get into data science?" 
 
-If you do want to start talking to those people or get them to know your work, the value add is really, really critical here. 
+Jesse Maegan, who started the [R for Data Science Online Learning Community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82), recently discussed this. She would get twitter DMs (direct, private messages) asking for advice on figuring out how to continue learning data science. She loved getting these messages and would give tailored, individual responses to each, but the volume eventually grew so much she couldn't keep up. So instead she wrote this [great post](https://medium.com/@kierisi/data-science-and-r-how-do-i-start-7a87426e103e) on good resources for beginners and some thoughts on learning how to learn so she could scale up her impact.  
 
 ### Get specific
 
