@@ -14,7 +14,7 @@ A friend who's well-known in the R community shared how many of his first conver
 
 > Both: awkward silence ...
 
-Whether it's over email or in-person, tell the other person **which part of their work** helped you and **end with a question**. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "I really enjoy reading the data science work you share on twitter! I work with a lot of dates, and when you tweeted a cheatsheet for lubridate it really helped. Do you have a favorite cheatsheet?" Help them help you to by coming up with a good conversation topic, and talking about yourself a bit can avoid awkward fangirling.
+Whether it's over email or in-person, tell the other person **which part of their work** helped you and **end with a question**. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "I really enjoy reading the data science work you share on twitter! I work with a lot of dates, and when you tweeted a cheat sheet for lubridate it really helped. Do you have a favorite cheat sheet?" Help them help you to by coming up with a good conversation topic, and talking about yourself a bit can avoid awkward fangirling.
 
 Over email, it's even more important to show you're familiar with their work. [Mark Meloon](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) describes this well:
 
