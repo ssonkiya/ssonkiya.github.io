@@ -44,7 +44,7 @@ A mutual acquaintance can also serve as a connection. If you have a good convers
 
 ### Understand their position
 
-Reaching out to Wes McKinney (python pandas creator) or Andrew Ng for personal advice is very different than reaching out to me. They're busier, more well known, get a lot of people reaching out, and may not have time to respond. They're at the point where if they do give advice, it's more helpful for them to make a public post or reply on twitter so their thoughts can be shared broadly, especially for more general questions, like "how do I get into data science?" 
+Reaching out to Wes McKinney (Python pandas creator) or Andrew Ng for personal advice is very different than reaching out to me. They're busier, more well known, get a lot of people reaching out, and may not have time to respond. They're at the point where if they do give advice, it's more helpful for them to make a public post or reply on twitter so their thoughts can be shared broadly, especially for more general questions, like "how do I get into data science?" 
 
 Jesse Maegan, who started the [R for Data Science Online Learning Community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82), recently discussed this. She would get twitter DMs (direct, private messages) asking for advice on figuring out how to continue learning data science. She loved getting these messages and would give tailored, individual responses to each, but the volume eventually grew so much she couldn't keep up. So instead she wrote this [great post](https://medium.com/@kierisi/data-science-and-r-how-do-i-start-7a87426e103e) with good resources for beginners and some thoughts on learning how to learn so she could scale up her impact.  
 
