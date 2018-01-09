@@ -2,7 +2,7 @@ So you've heard you're supposed to network. That's the key in getting a job or e
 
 Building a network is not a numbers game, and it's not about looking to get the largest personal benefit from the least time invested. Fulfilling networking is, at its heart, about building great relationships and becoming part of a community. As I've discussed in [previous posts](https://robinsones.github.io/Making-R-Code-Faster-A-Case-Study/), part of the reason I choose to program in R is because I've found an incredibly supportive community. People (even us strong introverts!) are social, and we generally have more fun and are more productive when we can lean on each other for help. 
 
-So how do you become part of this community? I've written this two part post to try to share some strategies that have worked for me. This first part is focused on growing your community generally. If you'd like to learn about reaching out to specific people, check out the [second part](LINK!). 
+So how do you become part of this community? I've written this two part post to try to share some strategies that have worked for me. This first part is focused on growing your community generally. If you'd like to learn about reaching out to specific people, check out the [second part](https://robinsones.github.io/Building-Your-Data-Science-Network-Part-2/). 
 
 ### Attend Meetups
 
@@ -54,7 +54,7 @@ I like it because it serves as notes for myself, it's a way to share key points 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a> giving tips on live-tweeting a conference <a href="https://twitter.com/hashtag/rstatsnyc?src=hash&amp;ref_src=twsrc%5Etfw">#rstatsnyc</a> ✔️✔️✔️ <a href="https://t.co/VUx7aJy2D4">pic.twitter.com/VUx7aJy2D4</a></p>&mdash; Emily Zabor (@zabormetrics) <a href="https://twitter.com/zabormetrics/status/855518845779496961?ref_src=twsrc%5Etfw">April 21, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I'll end this first post with a similar promise to Dave's: if you live tweet a talk or share a great data science research, let me know with a tweet and I'll retweet. Let's continue building a friendly, supportive community together.
+I'll end this first part with a similar promise to Dave's: if you live tweet a talk or share a great data science research, let me know with a tweet and I'll retweet. Let's continue building a friendly, supportive community together.
 
 [1] A virtual, public (i.e. not a private message), brief hello is friendly. A virtual “I see you're going to be at the NY R conference, what hotel are you staying in, where are you eating, will you be wearing the same black dress as last year, because you looked really hot” is not. Harassment and stalking are serious and common problems. Keep messages professional; don't be this person:
 
