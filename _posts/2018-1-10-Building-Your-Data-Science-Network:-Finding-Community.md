@@ -59,7 +59,7 @@ I like it because it serves as notes for myself, it's a way to share key points 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a> giving tips on live-tweeting a conference <a href="https://twitter.com/hashtag/rstatsnyc?src=hash&amp;ref_src=twsrc%5Etfw">#rstatsnyc</a> ✔️✔️✔️ <a href="https://t.co/VUx7aJy2D4">pic.twitter.com/VUx7aJy2D4</a></p>&mdash; Emily Zabor (@zabormetrics) <a href="https://twitter.com/zabormetrics/status/855518845779496961?ref_src=twsrc%5Etfw">April 21, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I'll end this first part with a similar promise to Dave's: if you live tweet a talk or share a great data science research, let me know with a tweet and I'll retweet. Let's continue building a friendly, supportive community together.
+I'll end this first part with a similar promise to Dave's: if you live tweet a talk or share a great data science resource on Twitter, let me know with a tweet and I'll retweet. Let's continue building a friendly, supportive community together.
 
 [1] A virtual, public (i.e. not a private message), brief hello is friendly. A virtual “I see you're going to be at the NY R conference, what hotel are you staying in, where are you eating, will you be wearing the same black dress as last year, because you looked really hot” is not. Harassment and stalking are serious and common problems. Keep messages professional; don't be this person:
 
