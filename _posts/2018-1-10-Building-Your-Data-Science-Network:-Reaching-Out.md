@@ -6,15 +6,12 @@ Two important caveats to start, both inspired by other posts on similar topics. 
 
 ### Share what you like about their work
 
-A friend who's well-known in the R community shared how many of his first conversations at meetups or conferences go: 
+Hilary Parker shared this advice after talking with someone prominent in the data science community: 
 
-> Them: "I love your work!"
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">of when you used their stuff. Makes it much easier to start an actual conversation. The former usually just makes the person feel awkward.</p>&mdash; Hilary Parker (@hspter) <a href="https://twitter.com/hspter/status/871822174662905857?ref_src=twsrc%5Etfw">June 5, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-> My friend: "Great, thank you."
-
-> Both: awkward silence ...
-
-Whether it's over email or in-person, tell the other person **which part of their work** helped you and **end with a question**. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "Thanks for sharing so much data science work on Twitter! I work with a lot of dates, and when you tweeted a cheat sheet for lubridate it really helped. Do you have a favorite cheat sheet?" Help them help you to by coming up with a good conversation topic. Talking about yourself a bit can also help avoid awkward fangirling.
+By coming up with a good conversation topic, you help them help you. For example, if you run into [Mara Averick](https://twitter.com/dataandme) at Rstudio::conf, you could say, "Thanks for sharing so much data science work on Twitter! I work with a lot of dates, and when you tweeted a cheat sheet for lubridate it really helped. Do you have a favorite cheat sheet?" Talking about yourself a bit can also help avoid awkward fangirling, and ending with a question keeps the conversation open. 
 
 Over email, it's even more important to show you're familiar with their work. [Mark Meloon](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) describes this well:
 
