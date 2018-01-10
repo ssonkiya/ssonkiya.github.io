@@ -70,7 +70,7 @@ Finally, don't take non-responses personally. People are busy, and you don't kno
 
 ## Conclusion
 
-Remember that others want to help; just look at how many have signed up to help answer questions and mentor data science newcomers at [data helpers](https://www.datahelpers.org/) (this is a greater resource for finding someone to reach out to). And the person who's most helpful to you is probably not the most famous data scientist. You'll likely learn more by talking with peers facing the same issues, [teaching beginners](https://twitter.com/sarahmei/status/929225969881161728) to force a deeper understanding of core topics, or asking someone who recently accomplished your goal (e.g. giving your first talk).   
+Remember that others want to help; just look at how many have signed up to help answer questions and mentor data science newcomers at [data helpers](https://www.datahelpers.org/) (this is a great resource for finding someone to reach out to). And the person who's most helpful to you is probably not the most famous data scientist. You'll likely learn more by talking with peers facing the same issues, [teaching beginners](https://twitter.com/sarahmei/status/929225969881161728) to force a deeper understanding of core topics, or asking someone who recently accomplished your goal (e.g. giving your first talk).   
 
 The main way I try to help others in the community is through these posts, and I'll be back to tackling the [challenges of A/B Testing](https://www.youtube.com/watch?v=SF-ryGgLOgQ) soon. 
 
