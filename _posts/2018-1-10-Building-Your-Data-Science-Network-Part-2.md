@@ -22,8 +22,9 @@ Over email, it's even more important to show you're familiar with their work. [M
 
 And if you don't know anything about their work, and they do have a public presence (either github, a blog, or Twitter), why are you reaching out? Show them you've read their work and ask follow-up questions. If they have a post on what they think of the [data science job market](http://treycausey.com/data_science_interviews.html), don't message them "what can you tell me about the data science job market?" Just like when applying for a job, you should do some research:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">3 Don&#39;t hop on a screening call without knowing who you&#39;re talking to first. Spend the 5-10 minutes that it takes to Google them and find something they&#39;ve done that&#39;s interesting and relevant to you. Yes, it&#39;s more work. Do you want the job or not?</p>&mdash; Kieran Snyder (@KieranSnyder) <a href="https://twitter.com/KieranSnyder/status/948614223537426432?ref_src=twsrc%5Etfw">January 3, 2018</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">3 Don&#39;t hop on a screening call without knowing who you&#39;re talking to first. Spend the 5-10 minutes that it takes to Google them and find something they&#39;ve done that&#39;s interesting and relevant to you. Yes, it&#39;s more work. Do you want the job or not?</p>&mdash; Kieran Snyder (@KieranSnyder) <a href="https://twitter.com/KieranSnyder/status/948614223537426432?ref_src=twsrc%5Etfw">January 3, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ### Offer value
 
