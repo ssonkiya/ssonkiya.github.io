@@ -57,7 +57,11 @@ Jesse Maegan, who started the [R for Data Science Online Learning Community](htt
 
 ### Get specific
 
-Trey Causey wrote a great [post](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d) called "Do you have time for a quick chat?" on sending a cold email. Go ahead and read it- I'll wait. He does a really nice job breaking down how to write a great request email and set up a meeting for success. A key point: have an agenda of what you want to discuss and share it with them. If you just ask to "pick their brain," it comes off as you wanting the person to [drop everything just so you can assail them](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) with any question you can think of, potentially for hours. 
+Trey Causey wrote a great [post](https://medium.com/@treycausey/do-you-have-time-for-a-quick-chat-c3f7e46de89d) called "Do you have time for a quick chat?" on sending a cold email. He does a really nice job breaking down how to write a great request email and set up a meeting for success:
+
+![center](http://robinsones.github.io/images/Trey_post_screenshot.png)
+
+A key point: have an agenda of what you want to discuss and share it with them. If you just ask to "pick their brain," it comes off as you wanting the person to [drop everything just so you can assail them](http://www.markmeloon.com/climbing-relationship-ladder-get-data-science-job/) with any question you can think of, potentially for hours. Check out his whole post for what makes the above example email effective. 
 
 ### Follow up
 
