@@ -21,3 +21,12 @@ Caitlin Hudon has a great twitter thread on this. https://twitter.com/beeonaposy
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Below are examples of &quot;good guys in tech&quot; and things they have done that have helped my career. I hope others can follow their example.</p>&mdash; Caitlin Hudon👩🏼‍💻 (@beeonaposy) <a href="https://twitter.com/beeonaposy/status/895799250055024640?ref_src=twsrc%5Etfw">August 11, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Some examples of mine: 
+- RStudio conference, with money - gave me diversity scholarship for conference 2017. Enabled me to go to conference and training days. 
+- Hilary Parker recommending me to speak at Data Day Texas. Was my first conference talk. 
+- Jared Lander having me give my first data science talk at his meetup. He was very enthusiastic, insistent, champion of me. He believed I could do it before I did. 
+- Dave Robinson, for everything. Especially helping boost my data science profile. His international women day tweets. got lots of follwers for all of us. 
+
+And some encouragement: 
+- Hadley Wickham encouraging me to submit my talk to RStudio conference 2018
+- Jim Hester citing me as one of the contributors to the glue documentation. 
