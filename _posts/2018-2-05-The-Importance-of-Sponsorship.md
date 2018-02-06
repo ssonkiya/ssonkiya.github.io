@@ -27,7 +27,6 @@ Some examples of mine:
 - Jared Lander having me give my first data science talk at his meetup. He was very enthusiastic, insistent, champion of me. He believed I could do it before I did. Got to talk at west point, which was awesome. 
 - Dave Robinson, for everything. Especially helping boost my data science profile. His international women day tweets. got lots of follwers for all of us. 
 
-
 And some encouragement: 
 - Hadley Wickham encouraging me to submit my talk to RStudio conference 2018
 - Jim Hester citing me as one of the contributors to the glue documentation.
@@ -37,6 +36,9 @@ And some encouragement:
 Care about diversity. This one is about how men can be an ally to women and non-binary people. Worth reading whole thing: https://codeascraft.com/2016/10/19/being-an-effective-ally-to-women-and-non-binary-people/. Important post below: 
 
 Screenshot. 
+
+What if I'm a man and I'm worried with #metoo? Read this: https://www.linkedin.com/pulse/men-afraid-mentor-women-heres-what-we-can-do-adam-grant/. Some key points - hold yourself accountable for parity, if you won't go to dinner alone with a woman, don't do it with a man. And ask a woman what she's comfortable with. But there is plenty of sponsorship you can do in public situations. 
+
 
 
 
