@@ -24,9 +24,20 @@ Caitlin Hudon has a great twitter thread on this. https://twitter.com/beeonaposy
 Some examples of mine: 
 - RStudio conference, with money - gave me diversity scholarship for conference 2017. Enabled me to go to conference and training days. 
 - Hilary Parker recommending me to speak at Data Day Texas. Was my first conference talk. 
-- Jared Lander having me give my first data science talk at his meetup. He was very enthusiastic, insistent, champion of me. He believed I could do it before I did. 
+- Jared Lander having me give my first data science talk at his meetup. He was very enthusiastic, insistent, champion of me. He believed I could do it before I did. Got to talk at west point, which was awesome. 
 - Dave Robinson, for everything. Especially helping boost my data science profile. His international women day tweets. got lots of follwers for all of us. 
+
 
 And some encouragement: 
 - Hadley Wickham encouraging me to submit my talk to RStudio conference 2018
-- Jim Hester citing me as one of the contributors to the glue documentation. 
+- Jim Hester citing me as one of the contributors to the glue documentation.
+
+## Diversity and sponsorship
+
+Care about diversity. This one is about how men can be an ally to women and non-binary people. Worth reading whole thing: https://codeascraft.com/2016/10/19/being-an-effective-ally-to-women-and-non-binary-people/. Important post below: 
+
+Screenshot. 
+
+
+
+
