@@ -2,7 +2,7 @@ In my [last post](https://robinsones.github.io/Building-Your-Data-Science-Networ
 
 ## What is sponsorship? 
 
-When people discuss what they're seeking from a more senior person in their field, they usually talk about "mentorship." Generally, mentorship is about offering advice, helping someone adjust to their new job, or giving feedback on work. Sponsoship, on the other hand, is all about action. Sponsorship is going to bat from someone by giving them opportunities, advocating for their promotion, introducing them to important people, or making sure they get assigned to projects that can help them grow.  
+When people discuss what they're seeking from a more senior person in their field, they usually talk about "mentorship." Generally, mentorship involves offering advice, helping someone adjust to their new job, or giving feedback on their work. Sponsoship, on the other hand, is all about giving people opportunities, whether by funding them, advocating for their promotion, introducing them to important people, or making sure they get assigned to projects that can help them grow.  
   
 A lot of articles about sponsorship and mentorship are about getting one at your company. And that can be really important if you work at a larger organization and want to stay in your company for many years rising through the ranks. But nowadays people often change companies every few years, especially in tech. And the tech community has enough small subpockets that you can start building a positive reputation in the larger field which will stay with you through multiple companies. 
 
@@ -51,6 +51,8 @@ What if I'm a man and I'm worried with #metoo? Read this: https://www.linkedin.c
 - Women are overmentored and undersponsored https://hbr.org/2010/08/women-are-over-mentored-but-un
 
   - Women have as many if not more mentors, but men's mentors more likely to be senior. Men correlation between mentor and promotion, women not
+  
+  https://www.fastcompany.com/3050430/why-women-need-career-sponsors-more-than-mentors - sponsors make people more satisfied, definition of sponsor vs mentor
 
 
 
