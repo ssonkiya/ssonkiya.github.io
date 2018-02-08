@@ -55,4 +55,8 @@ What if I'm a man and I'm worried with #metoo? Read this: https://www.linkedin.c
   https://www.fastcompany.com/3050430/why-women-need-career-sponsors-more-than-mentors - sponsors make people more satisfied, definition of sponsor vs mentor
 
 
+http://larahogan.me/blog/what-sponsorship-looks-like/ - people often need opportunity and visibility, not advice. You can sponsor people without them knowing it. Help people get the experience and demonstrate skill they need to advance by giving them opportunities. 
 
+Use the influence you have, even if it may not be formal.
+
+Lara gives some good advice that's mostly applicable to sponsoring colleagues. 
