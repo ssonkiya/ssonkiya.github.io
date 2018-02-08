@@ -60,3 +60,6 @@ http://larahogan.me/blog/what-sponsorship-looks-like/ - people often need opport
 Use the influence you have, even if it may not be formal.
 
 Lara gives some good advice that's mostly applicable to sponsoring colleagues. 
+
+
+https://www.deconstructconf.com/speak - some conferences are explicitly for or encouraging to new speakers, especitlaly those from underrepesneted backgrounds
