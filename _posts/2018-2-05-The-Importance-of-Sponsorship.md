@@ -2,17 +2,19 @@ In my [last post](https://robinsones.github.io/Building-Your-Data-Science-Networ
 
 ## What is sponsorship? 
 
-When people discuss what they're seeking from a more senior person in their field, they usually talk about "mentorship." Generally, mentorship involves offering advice, helping someone adjust to their new job, or giving feedback on their work. Sponsoship, on the other hand, is all about giving people opportunities, whether by funding them, advocating for their promotion, introducing them to important people, or making sure they get assigned to projects that can help them grow.  
+When people discuss what they're seeking from a more senior person in their field, they usually talk about "mentorship." Generally, mentoring involves offering advice, helping someone adjust to their new job, or giving feedback on their work. Sponsoship, on the other hand, is all about giving people opportunities, whether by funding them, advocating for their promotion, introducing them to important people, or making sure they get assigned to projects that can help them grow.  
   
-A lot of articles about sponsorship and mentorship are about getting one at your company. And that can be really important if you work at a larger organization and want to stay in your company for many years rising through the ranks. But nowadays people often change companies every few years, especially in tech. And the tech community has enough small subpockets that you can start building a positive reputation in the larger field which will stay with you through multiple companies. 
+A lot of articles about sponsorship and mentorship are about the finding one at your company. And that is important if you work at a larger organization and want to stay in your company for many years rising through the ranks. But nowadays people often change companies every few years, especially in tech. And the tech community has enough small subpockets that you can start building a positive reputation and sponsors in the larger field who will stay with you through multiple companies. 
 
 ## How do you find a sponsor? 
 
-Build a relationship naturally - don't just go "will you be my sponsor?" Don't ask over email to someone you've met, and don't ask in your few meetings. Lots of my advice in the post on reaching out applies. If someone sponsors you, they need to be confident you will do a good job, because you're representing them. For example, if someone recommends you as a speaker and you never respond to the organizer or you don't prepare and give a bad talk, that reflects poorly on the sponsor. 
+Just like other relationships, looking for a sponsor can be very awkward if you force it. Don't just cold-email someone or go up to a famous stranger at a meetup and ask, "will you be my sponsor?" In my [previous post]([https://robinsones.github.io/Building-Your-Data-Science-Network-Reaching-Out/]), I discussed how offering value and building a mutually fulfilling relationship is the best way to network. 
 
-The best way to show someone you're up to the task is by having previous examples of successful work. It doesn't have to be evidence of you doing the exact same thing; otherwise, how could you ever get your first opportunity. Mikhil Popov's wrote a [great post](https://mpopov.com/blog/advice-for-grads-entering-industry-datasci) on how to deal with this kind of catch-22: needing experience as a data scientist to get a job as a datas scientist. He doesn't your experience doesn't need to be at a job with the title "data scientist;" you can show you can do the work by sharing an end-to-end data project (gathering, cleaning, modeling, and visualizing) on real data and explaining it. 
+This applies doubly to sponsorship. If someone sponsors you, they need to be confident you will do a good job, because you're representing them. For example, if someone recommends you as a speaker for a conference and you never respond to the organizer or you give a clearly unprepared talk, that reflects poorly on the sponsor. 
 
-So in this case, if you've never done a full talk before, start with a lightning talk. Many meetups have them and encourage first-time speakers to apply. Or write a blog post. Get to know people by being an active member of the meetup, asking good questions, and being respectful. 
+So how can you show someone you're up for the task? One of the best ways is to have public examples of your previous successful work. It doesn't have to be evidence of you doing the exact same thing; otherwise, how could you ever get your first opportunity? [Mikhil Popov's](https://mpopov.com/) wrote a [great post](https://mpopov.com/blog/advice-for-grads-entering-industry-datasci) on how to deal with this kind of catch-22, specifically needing experience as a data scientist to get a job as a data scientist. He said that your experience doesn't need to be at a job with the title "data scientist;" what experience really stands for is showing you can do the work by sharing an end-to-end data project (gathering, cleaning, modeling, and visualizing) on real data and explaining it. 
+
+For example, if you've never done a full talk before, start with a lightning talk. Many meetups have them and encourage first-time speakers to apply. Or [write a blog post](http://varianceexplained.org/r/start-blog/) about a cool analysis you did. 
 
 ## How can you be a sponsor? 
 
@@ -30,9 +32,6 @@ Some examples of how I have been sponsored in my career:
 - I attended my first data science conference, RStudio::conf 2017, thanks to a diversity scholarship that allowed me to go to conference and training days for free and included a small travel budget. 
 - I gave my first data science talk because Jared Lander asked me when, not if, I wanted to speak at his meetup. He believed I could do it before I did, and was a very enthusiastic champion of me. The talk was recorded, and thanks to it being seenb y XYZ at west point, I went in September to give a talk there, which was awesome. 
 - I gave my first conference talk at Data Day Texas two weeks ago because Hilary Parker and other invited speakers recommended me.  
-
-
-
 
 - Dave Robinson, for everything. Especially helping boost my data science profile. His international women day tweets. got lots of follwers for all of us. 
 
