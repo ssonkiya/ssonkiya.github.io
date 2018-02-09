@@ -28,16 +28,27 @@ Caitlin Hudon has a great twitter thread on this. https://twitter.com/beeonaposy
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Below are examples of &quot;good guys in tech&quot; and things they have done that have helped my career. I hope others can follow their example.</p>&mdash; Caitlin Hudon👩🏼‍💻 (@beeonaposy) <a href="https://twitter.com/beeonaposy/status/895799250055024640?ref_src=twsrc%5Etfw">August 11, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Some examples of how I have been sponsored in my career: 
+## My sponsorship
+
+Some examples of how my sponsors have accelerated my career: 
 - I attended my first data science conference, RStudio::conf 2017, thanks to a diversity scholarship that allowed me to go to conference and training days for free and included a small travel budget. 
-- I gave my first data science talk because Jared Lander asked me when, not if, I wanted to speak at his meetup. He believed I could do it before I did, and was a very enthusiastic champion of me. The talk was recorded, and thanks to it being seenb y XYZ at west point, I went in September to give a talk there, which was awesome. 
+- I gave my first data science talk because Jared Lander asked me when, not if, I wanted to speak at his meetup. He believed I could do it before I did, and was a very enthusiastic champion of me. The talk was recorded and was seen by the Director of the Data Science Center at West Point, who invited me to give a talk there last September (it was awesome). 
 - I gave my first conference talk at Data Day Texas two weeks ago because Hilary Parker and other invited speakers recommended me.  
 
-- Dave Robinson, for everything. Especially helping boost my data science profile. His international women day tweets. got lots of follwers for all of us. 
+And actions that don't rise to the level of sponsorship also can make a big impact. Specifically, I want to thank Hadley Wickham, for encouraging me to submit my talk to RStudio conference 2018: 
 
-And some encouragement: 
-- Hadley Wickham encouraging me to submit my talk to RStudio conference 2018
-- Jim Hester citing me as one of the contributors to the glue documentation.
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You should submit it to rstudio::conf!</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/900828594703880198?ref_src=twsrc%5Etfw">August 24, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+And Jim Hester citing me as one of the contributors to the glue documentation.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Want to give a belated shoutout to <a href="https://twitter.com/jimhester_?ref_src=twsrc%5Etfw">@jimhester_</a> and the tidyverse team for providing a really nice experience to a OS newbie:<br><br>A month ago, I was trying to use a new function in glue and getting an error it didn’t exist. Colleague was pinging me about same error. 1/</p>&mdash; Emily Robinson (@robinson_es) <a href="https://twitter.com/robinson_es/status/930814430362984448?ref_src=twsrc%5Etfw">November 15, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Finally, I am incredibly lucky to have my amazing brother Dave Robinson. He has been my most encouraging data science sponsor and is a tireless advocate for women in data science in general. His tweets on international women's day got all of us mentioned a lot more followers: 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Five amazing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> data scientists to follow if you&#39;re not already:<a href="https://twitter.com/juliasilge?ref_src=twsrc%5Etfw">@juliasilge</a> <a href="https://twitter.com/JennyBryan?ref_src=twsrc%5Etfw">@JennyBryan</a> <a href="https://twitter.com/hspter?ref_src=twsrc%5Etfw">@hspter</a> <a href="https://twitter.com/ma_salmon?ref_src=twsrc%5Etfw">@ma_salmon</a> <a href="https://twitter.com/robinson_es?ref_src=twsrc%5Etfw">@robinson_es</a> <a href="https://twitter.com/hashtag/IWD2017?src=hash&amp;ref_src=twsrc%5Etfw">#IWD2017</a> <a href="https://t.co/OWqi0PzyWM">pic.twitter.com/OWqi0PzyWM</a></p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/839564664321282048?ref_src=twsrc%5Etfw">March 8, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Diversity and sponsorship
 
@@ -53,12 +64,10 @@ What if I'm a man and I'm worried with #metoo? Read this: https://www.linkedin.c
   
   https://www.fastcompany.com/3050430/why-women-need-career-sponsors-more-than-mentors - sponsors make people more satisfied, definition of sponsor vs mentor
 
-
 http://larahogan.me/blog/what-sponsorship-looks-like/ - people often need opportunity and visibility, not advice. You can sponsor people without them knowing it. Help people get the experience and demonstrate skill they need to advance by giving them opportunities. 
 
 Use the influence you have, even if it may not be formal.
 
 Lara gives some good advice that's mostly applicable to sponsoring colleagues. 
-
 
 https://www.deconstructconf.com/speak - some conferences are explicitly for or encouraging to new speakers, especitlaly those from underrepesneted backgrounds
