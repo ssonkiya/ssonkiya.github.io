@@ -16,19 +16,15 @@ So how can you show someone you're up for the task? One of the best ways is to h
 
 ## Diversity and sponsorship
 
+Sponsorship is important for everyone, but some groups are disproportionality likely to recieve it. Research has found that women specifically are [overmentored and undersponsored](https://hbr.org/2010/08/women-are-over-mentored-but-un) and that men's mentors are more likely to be senior. Mentorship is great, but often people [need opportunity and visibility](http://larahogan.me/blog/what-sponsorship-looks-like/), not more advice. 
+
 Care about diversity. This one is about how men can be an ally to women and non-binary people. Worth reading whole thing: https://codeascraft.com/2016/10/19/being-an-effective-ally-to-women-and-non-binary-people/. Important post below: 
 
-Screenshot. 
+![](http://robinsones.github.io/images/ally_sponsorship.png)
 
 What if I'm a man and I'm worried with #metoo? Read this: https://www.linkedin.com/pulse/men-afraid-mentor-women-heres-what-we-can-do-adam-grant/. Some key points - hold yourself accountable for parity, if you won't go to dinner alone with a woman, don't do it with a man. And ask a woman what she's comfortable with. But there is plenty of sponsorship you can do in public situations. 
-
-- Women are overmentored and undersponsored https://hbr.org/2010/08/women-are-over-mentored-but-un
-
-  - Women have as many if not more mentors, but men's mentors more likely to be senior. Men correlation between mentor and promotion, women not
   
-  https://www.fastcompany.com/3050430/why-women-need-career-sponsors-more-than-mentors - sponsors make people more satisfied, definition of sponsor vs mentor
-
-http://larahogan.me/blog/what-sponsorship-looks-like/ - people often need opportunity and visibility, not advice. You can sponsor people without them knowing it. Help people get the experience and demonstrate skill they need to advance by giving them opportunities. 
+You can sponsor people without them knowing it. Help people get the experience and demonstrate skill they need to advance by giving them opportunities. 
 
 Use the influence you have, even if it may not be formal.
 
