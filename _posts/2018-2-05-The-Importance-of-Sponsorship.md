@@ -21,18 +21,10 @@ Sponsorship is important for everyone, but some groups are disproportionality le
 If you're a man and want to be an ally to women and non-binary people, my colleagues at Etsy have written a [great guide](https://codeascraft.com/2016/10/19/being-an-effective-ally-to-women-and-non-binary-people/). It's worthwhile to read the whole thing, but here's an excerpt about some concrete things you can do<sup>1</sup>: 
 
 ![](http://robinsones.github.io/images/ally_sponsorship.png)
- 
-But sponsorship you can do in public situations. 
-  
-You can sponsor people without them knowing it. Help people get the experience and demonstrate skill they need to advance by giving them opportunities. 
-
-Use the influence you have, even if it may not be formal.
-
-Lara gives some good advice that's mostly applicable to sponsoring colleagues. 
-
+   
 ## My experience
 
-XYZ. Some examples of how my sponsors have accelerated my career: 
+My career has been greatly accelerated by sponsorship. Some examples: 
 - I got my foot in the door for my first data science job because **Hilary Parker** introduced me to her former colleague at Etsy, who referred me. 
 - I attended my first data science conference, RStudio::conf 2017, thanks to a diversity scholarship from **RStudio** that allowed me to go to conference and training days for free and included a small travel budget. 
 - I gave my first data science talk because **Jared Lander** asked me when, not if, I wanted to speak at his meetup. He believed I could do it before I did and has been a very enthusiastic champion. The talk [was recorded](https://www.youtube.com/watch?v=SF-ryGgLOgQ) and was seen by the Director of the Data Science Center at West Point, who invited me to give a talk there last September (it was awesome). 
@@ -69,4 +61,4 @@ Caitlin Hudon has a great twitter thread on how "good guys in tech" have helped 
 
 I'm learning to be careful predicting what my next posts will be, but I do have a couple ideas I'm drafting, including an introduction to A/B Testing for data scientists and analysts. 
 
-[1] What if you're reluctant to closely mentor women because you're worried about being accused of sexual harassment or the appearance of impropriety? Read [this article](https://www.linkedin.com/pulse/men-afraid-mentor-women-heres-what-we-can-do-adam-grant/) from Adam Grant. One key point is hold yourself accountable for parity: if you won't go to dinner alone with a woman, don't do it with a man.
+[1] What if you're reluctant to closely mentor women because you're worried about being accused of sexual harassment or the appearance of impropriety? Read [this article](https://www.linkedin.com/pulse/men-afraid-mentor-women-heres-what-we-can-do-adam-grant/) from Adam Grant. One key point is hold yourself accountable for parity: if you won't go to dinner alone with a woman, don't do it with a man. But much of sponsorship is usually done in a public situation and you can sponsor people without them being aware, such as by raising their name positively in management meetings. 
