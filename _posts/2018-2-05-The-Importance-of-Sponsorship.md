@@ -25,10 +25,10 @@ If you're a man and want to be an ally to women and non-binary people, my collea
 ## My experience
 
 My career has been greatly accelerated by sponsorship. Some examples: 
-- I got my foot in the door for my first data science job because **Hilary Parker** introduced me to her former colleague at Etsy, who referred me. 
-- I attended my first data science conference, RStudio::conf 2017, thanks to a diversity scholarship from **RStudio** that allowed me to go to conference and training days for free and included a small travel budget. 
-- I gave my first data science talk because **Jared Lander** asked me when, not if, I wanted to speak at his meetup. He believed I could do it before I did and has been a very enthusiastic champion. The talk [was recorded](https://www.youtube.com/watch?v=SF-ryGgLOgQ) and was seen by the Director of the Data Science Center at West Point, who invited me to give a talk there last September (it was awesome). 
-- I gave my first data science conference talk at Data Day Texas two weeks ago because **Hilary Parker** and other invited speakers recommended me.  
+- I got my foot in the door for my **first data science job** because **Hilary Parker** introduced me to her former colleague at Etsy, who referred me. 
+- I attended my **first data science conference**, RStudio::conf 2017, thanks to a diversity scholarship from **RStudio** that allowed me to go to conference and training days for free and included a small travel budget. 
+- I gave my **first data science talk** because **Jared Lander** asked me when, not if, I wanted to speak at his meetup. He believed I could do it before I did and has been a very enthusiastic champion. The talk [was recorded](https://www.youtube.com/watch?v=SF-ryGgLOgQ) and was seen by the Director of the Data Science Center at West Point, who invited me to give a talk there last September (it was awesome). 
+- I gave my **first data science conference talk** at Data Day Texas two weeks ago because **Hilary Parker** and other invited speakers recommended me.  
 
 Actions that may not rise to the level of sponsorship can also make a big impact. Specifically, I want to thank **Hadley Wickham**, for encouraging me to submit my talk to RStudio::conf 2018: 
 
