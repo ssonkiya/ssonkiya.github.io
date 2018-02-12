@@ -55,12 +55,12 @@ Finally, I am incredibly lucky to have my amazing brother **Dave Robinson**. He 
 
 ## How can you be a sponsor? 
 
-XYZ. If you're a seasoned speaker, think about recommending others for opportunities, especially when you can't go yourself, like Julia Evans recently did:
+The best way to thank those who have helped you is to "pay it forward." When you start to get more influence and opportunities, it becomes your responsibility to help pull others up behind you. If you're a seasoned speaker, think about recommending others for opportunities, especially when you can't go yourself, like Julia Evans recently did:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I get email about a lot of speaking opportunities. if you&#39;re looking to give more talks (especially if you&#39;re from a marginalized group), reply to this with a link to a video of a talk you&#39;re proud of!</p>&mdash; 🔎Julia Evans🔍 (@b0rk) <a href="https://twitter.com/b0rk/status/960884397644898305?ref_src=twsrc%5Etfw">February 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Caitlin Hudon has a great twitter thread on this. https://twitter.com/beeonaposy/status/895799250055024640. Some examples she give: colleagues praising her work in front of her boss, sharing their salary information, asking about parental leave policy, and promoting work of women. Latter can even be just tweeting. Asking what you can do better. Support women-focused group, offering time, training materials, meeting spaces, etc. 
+Caitlin Hudon has a great twitter thread on how "good guys in tech" have helped her career. Some examples she gives including colleagues praising her work in front of her boss, sharing their salary information, and promoting the work of women, including by something as seemingly small as tweeting about it. When she started RLadies Austin, she had men reaching out to offer their time, training materials, meeting spaces, and promorting the meetup. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Below are examples of &quot;good guys in tech&quot; and things they have done that have helped my career. I hope others can follow their example.</p>&mdash; Caitlin Hudon👩🏼‍💻 (@beeonaposy) <a href="https://twitter.com/beeonaposy/status/895799250055024640?ref_src=twsrc%5Etfw">August 11, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
