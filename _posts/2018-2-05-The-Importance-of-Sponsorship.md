@@ -16,13 +16,13 @@ So how can you show someone you're up for the task? One of the best ways is to h
 
 ## Diversity and sponsorship
 
-Sponsorship is important for everyone, but some groups are disproportionality likely to recieve it. Research has found that women specifically are [overmentored and undersponsored](https://hbr.org/2010/08/women-are-over-mentored-but-un) and that men's mentors are more likely to be senior. Mentorship is great, but often people [need opportunity and visibility](http://larahogan.me/blog/what-sponsorship-looks-like/), not more advice. 
+Sponsorship is important for everyone, but some groups are disproportionality less likely to recieve it. For example, research has found that women are [overmentored and undersponsored](https://hbr.org/2010/08/women-are-over-mentored-but-un) and that men's mentors are more likely to be senior. Mentorship is great, but often people [need opportunity and visibility](http://larahogan.me/blog/what-sponsorship-looks-like/), not more advice. 
 
-Care about diversity. This one is about how men can be an ally to women and non-binary people. Worth reading whole thing: https://codeascraft.com/2016/10/19/being-an-effective-ally-to-women-and-non-binary-people/. Important post below: 
+If you're a man and want to be an ally to women and non-binary people, my colleagues at Etsy have written a [great guide](https://codeascraft.com/2016/10/19/being-an-effective-ally-to-women-and-non-binary-people/). It's worthwhile to read the whole thing, but here's an excerpt about some concrete things you can do<sup>1</sup>: 
 
 ![](http://robinsones.github.io/images/ally_sponsorship.png)
-
-What if I'm a man and I'm worried with #metoo? Read this: https://www.linkedin.com/pulse/men-afraid-mentor-women-heres-what-we-can-do-adam-grant/. Some key points - hold yourself accountable for parity, if you won't go to dinner alone with a woman, don't do it with a man. And ask a woman what she's comfortable with. But there is plenty of sponsorship you can do in public situations. 
+ 
+But sponsorship you can do in public situations. 
   
 You can sponsor people without them knowing it. Help people get the experience and demonstrate skill they need to advance by giving them opportunities. 
 
@@ -68,3 +68,5 @@ Caitlin Hudon has a great twitter thread on how "good guys in tech" have helped 
 ## Conclusion 
 
 I'm learning to be careful predicting what my next posts will be, but I do have a couple ideas I'm drafting, including an introduction to A/B Testing for data scientists and analysts. 
+
+[1] What if you're reluctant to closely mentor women because you're worried about being accused of sexual harassment or the appearance of impropriety? Read [this article](https://www.linkedin.com/pulse/men-afraid-mentor-women-heres-what-we-can-do-adam-grant/) from Adam Grant. One key point is hold yourself accountable for parity: if you won't go to dinner alone with a woman, don't do it with a man.
