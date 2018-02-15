@@ -59,7 +59,7 @@ Finally, I am incredibly lucky to have my amazing brother **Dave Robinson**. He 
 
 ## Next Time 
 
-I'm learning to be cautious predicting what my next posts will be, but I do have a couple ideas I'm drafting, including an introduction to A/B Testing for data scientists and analysts and how to prioritize and one on how to prioritize and respond to the many ad-hoc requests you can get as a data scientist partnering with business teams.  
+I'm learning to be cautious predicting what my next posts will be, but I do have a couple ideas I'm drafting, including an introduction to A/B Testing for data scientists and analysts and how to prioritize and respond to the many ad-hoc requests you can get as a data scientist partnering with business teams.  
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Can you please blog about this</p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/963973448149106690?ref_src=twsrc%5Etfw">February 15, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
