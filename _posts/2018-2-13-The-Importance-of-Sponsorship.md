@@ -57,7 +57,7 @@ Finally, I am incredibly lucky to have my amazing brother **Dave Robinson**. He 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Five amazing <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> data scientists to follow if you&#39;re not already:<a href="https://twitter.com/juliasilge?ref_src=twsrc%5Etfw">@juliasilge</a> <a href="https://twitter.com/JennyBryan?ref_src=twsrc%5Etfw">@JennyBryan</a> <a href="https://twitter.com/hspter?ref_src=twsrc%5Etfw">@hspter</a> <a href="https://twitter.com/ma_salmon?ref_src=twsrc%5Etfw">@ma_salmon</a> <a href="https://twitter.com/robinson_es?ref_src=twsrc%5Etfw">@robinson_es</a> <a href="https://twitter.com/hashtag/IWD2017?src=hash&amp;ref_src=twsrc%5Etfw">#IWD2017</a> <a href="https://t.co/OWqi0PzyWM">pic.twitter.com/OWqi0PzyWM</a></p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/839564664321282048?ref_src=twsrc%5Etfw">March 8, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## Conclusion 
+## Next Time 
 
 I'm learning to be cautious predicting what my next posts will be, but I do have a couple ideas I'm drafting, including an introduction to A/B Testing for data scientists and analysts. 
 
