@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hooked on Data"
 title_separator          : "-"
 name                     : "Emily Robinson"
-description              : "Data Analyst"
+description              : "Data Scientist"
 url                      : "https://robinsones.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -67,7 +67,7 @@ author:
   avatar           : https://avatars.githubusercontent.com/robinsones
   bio              : "Data Scientist"
   location         : "New York"
-  email            : erobinson@etsy.com
+  email            : emily@datacamp.com
   uri              :
   bitbucket        :
   codepen          :
