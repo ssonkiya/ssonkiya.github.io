@@ -1,0 +1,43 @@
+Following Dave Robinson’s sage advice to write a blog post when you find yourself giving the same advice three times, I’ve written this post to collect my thoughts and recommendations for people interested in apply to tech jobs in the US. 
+
+A disclaimer: I have not worked as a recruiter or career coach. This knowledge comes from leadership courses in college, studying Organizational Behavior (including negotiations and women in tech) in graduate school, and my own career. I don’t claim to know everything; if you think there’s something another tip or a caveat I should add, send me a note on twitter! 
+
+## Application
+
+* Clean up social media profiles. Check your privacy settings on facebook or any other social media you use to make sure . While many online job applications now have places for twitter handles, don't include yours unless you use it mainly in a professional manner (e.g. tweeting about data science resources). 
+
+### Resume
+* **Keep your resume to one page**: you don’t have to list everything you’re ever done. Try making a master resume which has all of your work history and then pull what’s most relevant for each job. If you’re running out of room and have a summary or objective statement, you can leave it off as those are much less common now. If you're coming from academia, you can leave off your publications unless it's a research position in a very academic group. 
+* **Don’t include a picture**: while this is common in some countries in Europe, it is not appropriate for applying to US jobs. 
+* **Tailor your resume to the position**: bigger companies often have automated resume-screening systems that check for keywords. Look in the job description to find those words. For example, does it say leadership instead of management? Does it say NLP or natural language processing? Change your words to match theirs. 
+* **Start your bullets with verb**: Write "analyzed 300 papers" instead of "I analyzed 300 papers." 
+* **Quantify your accomplishments**: instead of saying "built a churn model," XYZ. 
+
+### Network
+* **Use Linkedin**: If you don't know anyone at the company you're interested in, check for second connections. If you're close with the person who bridges you, ask them if they could introduce you. 
+* **Check out meetups and conferences**: 
+* This is why it's important to bulid your network before you need. 
+
+## Interviewing: 
+* **Never name a salary number**: don't tell them either your current salary or your expectation for this one. To give yourself a ballpark of what the offer might be, you can look at the H1BC data, Glassdoor, and payscale. And talk to friends! Knowledge is power. Alice Goldfuss has a good thread about this:
+
+https://twitter.com/alicegoldfuss/status/991827947949514752
+
+* **Google your interviewers**: while you shouldn't stalk them,  find out more about their professional accomplishments. I was impressed when a candidate I was interviewing referenced a presentation I had given.
+* **Have questions ready**: . If they don't leave any time for questions at the end, that's a bad sign! Interviewing is a two-way matching process: you're evaluating them as much as they're evaluating you. Julia Evans has a list of [what questions she asks in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/). If you're interviewing at a start-up, this twitter thread for startup questions (LINK). 
+
+## Offer stage
+* **Always negotiate**: even if the offer is more than you expected or it would be a big increase from your current job, you should negotiate. Tech companies *expect* you to negotiate. You can almost always get at least another $5k or a 5% increase. It's not selfish to negotiate for more salary. You can also probably get more stock options (see below) and a signing bonus.  
+
+But you can also negotiate for other things depending on your priorities. For example, maybe you want to be able to work from home one day a week. Maybe you want them to cover the cost of two conferences a year. If it's a smaller company, you can ask for a different job title. 
+
+How much you can negotiate for depends on your position and the company. A non-profit will probably have less room on salary. 
+There's lots of great resources online to learn more about how to negotiate well; this HBR article and this XYZ are good places to start. 
+
+It is *very*, *very*, *very* rare for a company to pull an offer because you negotiated. If they do, you do not want to work there. 
+
+* RSUs vs stock options. Most tech companies will offer you some form of stock. These will generally vest over a four year period with a one year cliff; in english, that means that you will get your first options after a year and then more every three months for three more years. For example, at Etsy I recieved X dollars of Restricted Stock Units (RSUs) vesting over four years. This was translated into Y units of stock that in total were worth X dollars. Because Etsy's stock price more than doubled since I started there (from $12 to $28), the Y/4 units I received after a year were worth a lot more. When you leave a company, you get to keep all the stock you're earned up to that point. 
+
+If the company isn't public, you'll generally get options to buy the stock at a certain price. This price, known as the strike price, will be in your contract. Options at a private company are a bit like a lottery ticket - if your company turns into another Google/Amazon/Facebook, they could be worth hundreds of thousands of dollar if you were a very early employee. On the other hand, if your company goes public but the stock never goes above your strike price, they're worthless. And if you leave a company before it's sold or goes public, you'll either have to buy your options or give them up. 
+
+
