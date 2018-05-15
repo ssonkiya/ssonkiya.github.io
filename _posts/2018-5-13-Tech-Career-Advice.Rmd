@@ -1,4 +1,4 @@
-Following Dave Robinson’s sage advice to write a blog post when you find yourself giving the same advice three times, I’ve written this post to collect my thoughts and recommendations for people interested in apply to tech jobs in the US. 
+Following Dave Robinson’s sage advice to [write a blog post](https://twitter.com/drob/status/928447584712253440) when you find yourself giving the same advice three times, I’ve written this post to collect my thoughts and recommendations for people interested in apply to tech jobs in the US. 
 
 A disclaimer: I have not worked as a recruiter or career coach. This knowledge comes from leadership courses in college, studying Organizational Behavior (including negotiations and women in tech) in graduate school, and my own career. I don’t claim to know everything; if you think there’s something another tip or a caveat I should add, send me a note on twitter! 
 
@@ -10,33 +10,41 @@ A disclaimer: I have not worked as a recruiter or career coach. This knowledge c
 * **Keep your resume to one page**: you don’t have to list everything you’re ever done. Try making a master resume which has all of your work history and then pull what’s most relevant for each job. If you’re running out of room and have a summary or objective statement, you can leave it off as those are much less common now. If you're coming from academia, you can leave off your publications unless it's a research position in a very academic group. 
 * **Don’t include a picture**: while this is common in some countries in Europe, it is not appropriate for applying to US jobs. 
 * **Tailor your resume to the position**: bigger companies often have automated resume-screening systems that check for keywords. Look in the job description to find those words. For example, does it say leadership instead of management? Does it say NLP or natural language processing? Change your words to match theirs. 
-* **Start your bullets with verb**: Write "analyzed 300 papers" instead of "I analyzed 300 papers." 
-* **Quantify your accomplishments**: instead of saying "built a churn model," XYZ. 
+* **Start your bullets with a verb**: Write "analyzed 300 papers" instead of "I analyzed 300 papers." 
+* **Quantify your accomplishments where possible**: instead of saying "ran experiments on our ranking algorithm", write "ran more than 60 experiments that lead to 2.3 million in additional revenue."
 
 ### Network
-* **Use Linkedin**: If you don't know anyone at the company you're interested in, check for second connections. If you're close with the person who bridges you, ask them if they could introduce you. 
-* **Check out meetups and conferences**: 
+* **Use Linkedin**: check if you know anyone at the company you're interested in. If you don't know anyone, check for second connections. If you're close with the person who bridges you, ask them if they could introduce you. 
+* **Check out meetups and conferences**: hiring managers may come to a meetup or conference for the express purpose of finding new hires. 
 * This is why it's important to bulid your network before you need. 
 
 ## Interviewing: 
-* **Never name a salary number**: don't tell them either your current salary or your expectation for this one. To give yourself a ballpark of what the offer might be, you can look at the H1BC data, Glassdoor, and payscale. And talk to friends! Knowledge is power. Alice Goldfuss has a good thread about this:
+* **Never name a salary number**: don't tell them either your current salary or your expectation for this one. In some states, including New York and California, it is also now illegal for an employer to ask you your current salary. If you name a number, you risk them giving you a lower offer than they would have otherwise. Their offer to you should not depend on your current salary, it should be your worth in the market and the salary of your peers! 
 
-https://twitter.com/alicegoldfuss/status/991827947949514752
+To give yourself a ballpark of what the offer might be, you can look at the [H1B visa data](http://h1bdata.info/index.php), [Glassdoor](https://www.glassdoor.com/), and [paysa](https://www.paysa.com/salaries/). And talk to friends! Knowledge is power. Some friendly folks will also do a salary information exchange: 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">while I&#39;m on it, my DMs are always open if you want to send me your salary. especially if you work in data, work in Toronto, or work in a &quot;technical&quot; role with 0-3 years of experience. if you&#39;re an URM, I&#39;ll tell you mine too. knowledge is power 💪</p>&mdash; Sharla Gelfand (@sharlagelfand) <a href="https://twitter.com/sharlagelfand/status/985599731601723393?ref_src=twsrc%5Etfw">April 15, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * **Google your interviewers**: while you shouldn't stalk them,  find out more about their professional accomplishments. I was impressed when a candidate I was interviewing referenced a presentation I had given.
 * **Have questions ready**: . If they don't leave any time for questions at the end, that's a bad sign! Interviewing is a two-way matching process: you're evaluating them as much as they're evaluating you. Julia Evans has a list of [what questions she asks in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/). If you're interviewing at a start-up, this twitter thread for startup questions (LINK). 
 
 ## Offer stage
-* **Always negotiate**: even if the offer is more than you expected or it would be a big increase from your current job, you should negotiate. Tech companies *expect* you to negotiate. You can almost always get at least another $5k or a 5% increase. It's not selfish to negotiate for more salary. You can also probably get more stock options (see below) and a signing bonus.  
+* **Always negotiate**: even if the offer is more than you expected or it would be a big increase from your current job, you should negotiate. Tech companies **expect** you to negotiate. You can almost always get at least another $5k or a 5% increase and very likely more depending on the company and original offer. It's not selfish to negotiate for more salary. You also can ask for more stock options and a signing bonus.  
 
-But you can also negotiate for other things depending on your priorities. For example, maybe you want to be able to work from home one day a week. Maybe you want them to cover the cost of two conferences a year. If it's a smaller company, you can ask for a different job title. 
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Other thoughts: it&#39;s not about the salary you make now. It&#39;s about the salaries of your peers at the new place. It may be a large bump for you now, but once you&#39;re hired you&#39;ll be doing the same work for less pay.</p>&mdash; bletchley punk (@alicegoldfuss) <a href="https://twitter.com/alicegoldfuss/status/991829556267958272?ref_src=twsrc%5Etfw">May 2, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-How much you can negotiate for depends on your position and the company. A non-profit will probably have less room on salary. 
-There's lots of great resources online to learn more about how to negotiate well; this HBR article and this XYZ are good places to start. 
+
+But you can also negotiate for other benefits. For example, maybe you want to be able to work from home one day a week. Maybe you want them to cover the cost of two conferences a year. If it's a smaller company, you can ask for a different job title. 
+
+How much you can negotiate for depends on your bargaining position and the company. A non-profit will probably have less room on salary. If you have another offer or you're fairly happy with your current position, you have a strong alternative. If you have a rare skill that they recruited you for, it's going to be harder for them to find someone else. 
+
+There's lots of great resources online to learn more about how to negotiate well; this HBR article with [15 rules for negotiating an offer](https://hbr.org/2014/04/15-rules-for-negotiating-a-job-offer) and this one with [advice for women](https://hbr.org/2014/06/why-women-dont-negotiate-their-job-offers) are good places to start. 
 
 It is *very*, *very*, *very* rare for a company to pull an offer because you negotiated. If they do, you do not want to work there. 
 
-* RSUs vs stock options. Most tech companies will offer you some form of stock. These will generally vest over a four year period with a one year cliff; in english, that means that you will get your first options after a year and then more every three months for three more years. For example, at Etsy I recieved X dollars of Restricted Stock Units (RSUs) vesting over four years. This was translated into Y units of stock that in total were worth X dollars. Because Etsy's stock price more than doubled since I started there (from $12 to $28), the Y/4 units I received after a year were worth a lot more. When you leave a company, you get to keep all the stock you're earned up to that point. 
+* RSUs vs stock options. Most tech companies will offer you some form of stock. These will generally vest over a four year period with a one year cliff; in english, that means that you will get your first options after a year and then more every three months for three more years. For example, at Etsy I recieved X dollars of Restricted Stock Units (RSUs) vesting over four years. This was translated into Y units of stock that in total were worth X dollars. Because Etsy's stock price more than doubled since I started there (from $12 to $28), the Y/4 units I received after a year were worth a lot more then the dollar amount in my offer. When you leave a company, you get to keep all the stock you're earned up to that point. 
 
 If the company isn't public, you'll generally get options to buy the stock at a certain price. This price, known as the strike price, will be in your contract. Options at a private company are a bit like a lottery ticket - if your company turns into another Google/Amazon/Facebook, they could be worth hundreds of thousands of dollar if you were a very early employee. On the other hand, if your company goes public but the stock never goes above your strike price, they're worthless. And if you leave a company before it's sold or goes public, you'll either have to buy your options or give them up. 
 
