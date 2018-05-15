@@ -6,12 +6,14 @@ A disclaimer: I have never worked as a recruiter or career coach. This knowledge
 
 * Clean up your social media profiles. Check your privacy settings on facebook or any other social media you use to make sure you've limited what's available publicly. While many online job applications now have places for twitter handles, don't include yours unless you use it mainly in a professional manner (e.g. tweeting about data science resources). 
 
-### Resume
+### Resume and Cover Letter
 * **Keep your resume to one page**: you don’t have to list everything you’re ever done. Try making a master resume which has all of your work history and then pull what’s most relevant for each job. If you’re running out of room and have a summary or objective statement, you can leave it off as those are much less common now. If you're coming from academia, you can leave off your publications unless it's a research position in a very academic group. 
+* **Proofread**: having typos in your resume can be the quickest way to have your application eliminated. Use spellcheck and have a friend or two check it over. 
 * **Don’t include a picture**: while this is common in some countries in Europe, it is not appropriate for applying to US jobs. 
 * **Tailor your resume to the position**: bigger companies often have automated resume-screening systems that check for keywords. Look in the job description to find those words. For example, does it say leadership instead of management? Does it say NLP or natural language processing? Change your words to match theirs. 
 * **Start your bullets with a verb**: Write "analyzed 300 papers" instead of "I analyzed 300 papers." 
 * **Quantify your accomplishments where possible**: instead of saying "ran experiments on our ranking algorithm", write "ran more than 60 experiments that lead to 2.3 million in additional revenue."
+* **Write a cover letter**: if there is a place to submit a cover letter, do so. Some companies will eliminate candidates if they haven't written one. Just like your resume, you can have a master cover letter that you pull paragraphs from. Tailor at least the first and closing paragraph to the company and make sure you get their name correct! Try to find the hiring manager's name (see [here](https://www.themuse.com/advice/the-3-rules-of-addressing-your-cover-letter)) so you can address the letter to them instead of a "Dear Hiring Manager." If you want more guidance on writing a good letter, this list of [31 tips](https://www.themuse.com/advice/how-to-write-a-cover-letter-31-tips-you-need-to-know) is a great place to start.
 
 ### Network
 * **Use LinkedIn**: check if you know anyone at the company you're interested in. If you don't know anyone, check for second connections. If you're close with the person who bridges you, ask them if they could introduce you. 
