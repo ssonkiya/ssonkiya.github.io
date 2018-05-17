@@ -2,6 +2,12 @@ Following Dave Robinson’s sage tweet to [write a blog post](https://twitter.co
 
 A disclaimer: I have never worked as a recruiter or career coach. This knowledge comes from mainly from studying Organizational Behavior (including negotiations and women in tech) in graduate school and my own career. This advice is not going to fit every single situation. The people who will benefit the most from this post are probably those who are applying for their first data science job and/or are in or recently out of school. If there’s another tip or a caveat I should add, send me a note on twitter! 
 
+# Jump to:
+1. [Application](#application)
+2. [Interviewing](#interviewing)
+3. [Offer Stage](#offer-stage)
+4. [Leaving your job](#leaving-your-job)
+ 
 ## Application
 ### Online Presence 
 Take stock of your online presence. Check your privacy settings on facebook or any other social media you use to make sure you've limited what's available publicly. While many online job applications now have places for twitter handles, don't include yours unless you use it mainly in a professional manner (e.g. tweeting about data science resources). 
