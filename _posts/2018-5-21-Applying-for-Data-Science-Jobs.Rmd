@@ -12,7 +12,6 @@ A disclaimer: I have never worked as a recruiter or career coach. This knowledge
     1. [Initial response](#initial-response)
     2. [Juggling multiple options](#juggling-multiple-options)
     3. [Negotiating](#negotiating)
-4. [Leaving Your Job](#leaving-your-job)
  
 ## Application
 ### Online Presence 
@@ -74,11 +73,6 @@ I highly recommend reading more about how to negotiate well; this HBR article wi
 It is *very*, *very*, *very* rare for a company to pull an offer because you negotiated. If they do, you do not want to work there. 
 
 One caveat: if you're negotiating and you get everything you ask for, the company expects you to accept! You of course don't have to, but you shouldn't be stringing along a company you're not serious about. And knowing you'll accept also allows you to say the magic words, "If we can get to X, Y, and Z, I would be thrilled to accept the offer." 
-
-## Leaving your job
-* **Tell your manager first**: your manager needs to be the first person to tell. Unless it was a toxic work environment, emphasize how much you're learned and enjoyed working there and how this new job offers something your current one couldn't (e.g. experience at a small startup vs. a multinational corporation... or vice versa). Hopefully, they'll understand and be excited for you. They may also make a counter-offer by offering a bonus or change in your responsibilities to get you to stay. There are different views on whether you should accept this counter-offer; on the one hand, outside offers give you one of the strongest negotiating positions for receiving a raise, but on the other hand, they may signal to your manager you're not committed to your job (research has found this especially true [for women](https://hbr.org/2014/06/why-women-dont-negotiate-their-job-offers)). If you're nervous about the conversation, check out [this article](https://www.themuse.com/advice/the-almost-painfree-guide-to-having-the-i-quit-conversation-with-your-boss) for more guidance. 
-* **Meet with your closest colleagues one-on-one**: if you've worked extensively with someone, they'll probably appreciate you telling them in person instead of finding about by email. For example, when I left Etsy, I met individually with the other two search analysts and the search engineering partners. This is also a nice way to set a basis for continuing your relationship after you leave. 
-* **Make a to-do list and share with your manager**: create a list of current projects and figure out which ones you can wrap up and which ones you'll have to pass on. Work with your manager to figure out who can take on which project and what you should do to make the handoff easiest. Having it on a shared google document lets them check everything is on track without having to ping you. 
 
 ## Conclusion
 Job hunting is stressful, especially if you're working full-time and/or looking to change industries. I hope this post has given you a good starting point for understanding the hiring process in data science, what mistakes to avoid, and what strategies you can leverage in the process. As I said at the start, feedback and additions to this post are very welcome! Thank you to Ilana Mauskopf and Michael Berkowitz for their additions to this post.
