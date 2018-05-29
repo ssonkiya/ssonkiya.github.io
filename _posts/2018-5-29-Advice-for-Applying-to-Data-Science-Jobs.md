@@ -55,6 +55,11 @@ Check out my previous posts about [finding community](http://hookedondata.org/Bu
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">while I&#39;m on it, my DMs are always open if you want to send me your salary. especially if you work in data, work in Toronto, or work in a &quot;technical&quot; role with 0-3 years of experience. if you&#39;re an URM, I&#39;ll tell you mine too. knowledge is power 💪</p>&mdash; Sharla Gelfand (@sharlagelfand) <a href="https://twitter.com/sharlagelfand/status/985599731601723393?ref_src=twsrc%5Etfw">April 15, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+* **Handle rejection gratefully**: you will almost inevitably get rejected from jobs, maybe dozens of them. Data science is a competitive field, and this is a very normal process that everyone goes through. It's okay to take a little time to wallow. But don't lash out in public or to the hiring manager. It won't help the situation, but it will hurt your professional reputation.
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">one of the things that should go without saying, but here we are, is that it&#39;s important to handle rejection gracefully. data science positions can be highly competitive. having a public meltdown and/or sending the hiring manager nasty/demanding emails is... bad.</p>&mdash; Jesse Maegan (@kierisi) <a href="https://twitter.com/kierisi/status/1001465251647369219?ref_src=twsrc%5Etfw">May 29, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Offer Stage
 ### Initial response
 For the initial offer, you may get a phone call, an email with the details, or an email asking for time to go over the offer by phone. In all cases, make sure you express your excitement and gratitude for the opportunity. Don't accept right away: get the full offer in writing, say you need to review it, and ask if you can reconnect in a few days. This sets the stage for negotiating and gives you time if you're considering other offers. If you need more information (e.g. starting date possibilities, health insurance information), you should ask for it before your second conversation so you can have the full picture. 
@@ -85,4 +90,4 @@ One caveat: if you're negotiating and you get everything you ask for, the compan
 ## Conclusion
 Job hunting is stressful, especially if you're working full-time and/or looking to change industries. I hope this post has given you a good starting point for understanding the hiring process in data science, what mistakes to avoid, and what strategies you can leverage in the process. If you're still looking more, this is an [incredibly comprehensive guide](https://towardsdatascience.com/the-two-sides-of-getting-a-job-as-a-data-scientist-a4571acc58bc) from [Favio Vazquez](https://towardsdatascience.com/@faviovazquez), which includes his own thoughts and dozens of links to resources.
 
-As I said at the start, feedback and additions to this post are very welcome! Thank you to Ilana Mauskopf, Dana Levin-Robinson, and Michael Berkowitz for their additions to this post.
+As I said at the start, feedback and additions to this post are very welcome! Thank you to Ilana Mauskopf, Dana Levin-Robinson, Jesse Maegan, and Michael Berkowitz for their additions to this post.
