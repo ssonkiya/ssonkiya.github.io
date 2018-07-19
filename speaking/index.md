@@ -9,7 +9,7 @@ I regularly give talks on A/B Testing, working in R, joining the Data Science co
 
 ## Upcoming Talks
 
-October 2018, Noreast'R Conference. 
+October 2018, Noreast'R Conference. Building an A/B Testing System at DataCamp. 
 
 ## Previous Talks 
 
@@ -26,5 +26,3 @@ October 2017, West Point Academy. A/B Testing in the Wild.
 September 2017, Demystifying Data Science by Metis. [A/B Testing in the Wild](https://www.youtube.com/watch?v=hlYFksjjgXg)
 
 July 2017, New York Open Statistical Programming Meetup. [A/B Testing in the Wild](https://www.youtube.com/watch?v=SF-ryGgLOgQ)
-
-
