@@ -9,22 +9,28 @@ I regularly give talks on A/B Testing, working in R, joining the Data Science co
 
 ## Upcoming Talks
 
-October 2018, Noreast'R Conference. Building an A/B Testing System at DataCamp. 
+October 2018, Noreast'R Conference. Building DataCamp's A/B Testing System. 
 
 ## Previous Talks 
 
-May & July 2018, Metis Data Science Bootcamp. Joining the Data Science Community.  
+### Joining the Data Science Community
 
-April 2018, New York R Conference. The Lesser Known Stars of the Tidyverse. 
+May & July 2018, Metis Data Science Bootcamp. [Slides](https://www.slideshare.net/secret/7pZVPaDTHMH8aP).
 
-April 2018, Women in Analytics, Facebook. The Lesser Known Stars of the Tidyverse. 
+### The Lesser Known Stars of the Tidyverse.
 
-January 2018, RStudio Conferece. [The Lesser Known Stars of the Tidyverse](https://www.rstudio.com/resources/videos/the-lesser-known-stars-of-the-tidyverse/). 
+April 2018, New York R Conference. [Slides](https://www.slideshare.net/secret/sMVjYvcd7yh16z), Recording coming soon. 
 
-January 2018, Data Day Texas Conference. The Lesser Known Stars of the Tidyverse. 
+April 2018, Women in Analytics, Facebook. The Lesser Known Stars of the Tidyverse. [Slides](https://www.slideshare.net/secret/AcaLNF6VSwtkrT), [Code](https://github.com/robinsones/wia_talk/blob/master/wia_talk.Rmd). 
 
-October 2017, West Point Academy. A/B Testing in the Wild. 
+February 2018, RStudio Conferece. [Recording](https://www.rstudio.com/resources/videos/the-lesser-known-stars-of-the-tidyverse/), [Slides](https://www.slideshare.net/EmilyRobinson52/the-lesser-known-stars-of-the-tidyverse). 
 
-September 2017, Demystifying Data Science by Metis. [A/B Testing in the Wild](https://www.youtube.com/watch?v=hlYFksjjgXg)
+January 2018, Data Day Texas Conference. [Slides](https://github.com/robinsones/Data-Day-Talk/blob/master/Data_day_presentation.pdf), [Code](https://github.com/robinsones/Data-Day-Talk/blob/master/data_day_script_accompanying.md). 
 
-July 2017, New York Open Statistical Programming Meetup. [A/B Testing in the Wild](https://www.youtube.com/watch?v=SF-ryGgLOgQ)
+###  A/B Testing in the Wild
+
+October 2017, West Point Academy. [Slides](https://github.com/robinsones/AB-Testing-Slides/blob/master/AB%20Testing%20in%20the%20Wild.pdf)
+
+September 2017, Demystifying Data Science by Metis. [Recording](https://www.youtube.com/watch?v=hlYFksjjgXg), [Slide](https://www.slideshare.net/secret/DBLR67WhEK2qWd).
+
+July 2017, New York Open Statistical Programming Meetup. [Recording](https://www.youtube.com/watch?v=SF-ryGgLOgQ), [Slides](https://github.com/robinsones/AB-Testing-Slides/blob/master/AB%20Testing%20in%20the%20Wild.pdf). 
