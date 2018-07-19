@@ -13,6 +13,8 @@ October 2018, Noreast'R Conference. Building an A/B Testing System at DataCamp.
 
 ## Previous Talks 
 
+May & July 2018, Metis Data Science Bootcamp. Joining the Data Science Community.  
+
 April 2018, New York R Conference. The Lesser Known Stars of the Tidyverse. 
 
 April 2018, Women in Analytics, Facebook. The Lesser Known Stars of the Tidyverse. 
