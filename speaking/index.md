@@ -31,6 +31,6 @@ January 2018, Data Day Texas Conference. [Slides](https://github.com/robinsones/
 
 October 2017, West Point Academy. [Slides](https://github.com/robinsones/AB-Testing-Slides/blob/master/AB%20Testing%20in%20the%20Wild.pdf)
 
-September 2017, Demystifying Data Science by Metis. [Recording](https://www.youtube.com/watch?v=hlYFksjjgXg), [Slide](https://www.slideshare.net/secret/DBLR67WhEK2qWd).
+September 2017, Demystifying Data Science by Metis. [Recording](https://www.youtube.com/watch?v=hlYFksjjgXg), [Slides](https://www.slideshare.net/secret/DBLR67WhEK2qWd).
 
 July 2017, New York Open Statistical Programming Meetup. [Recording](https://www.youtube.com/watch?v=SF-ryGgLOgQ), [Slides](https://github.com/robinsones/AB-Testing-Slides/blob/master/AB%20Testing%20in%20the%20Wild.pdf). 
