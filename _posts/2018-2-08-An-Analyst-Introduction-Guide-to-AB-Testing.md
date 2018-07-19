@@ -38,3 +38,6 @@ When I started at Etsy, I read a lot of papers and blog posts on A/B Testing. Wh
 - [Controlled Experiments on the Web: Survey and Practical Guide](https://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf): an essential guide to best practices, some of which are covered in my rules above. 
 - [Seven Rules of Thumb for Web Site Experiments](https://www.exp-platform.com/Documents/2014%20experimentersRulesOfThumb.pdf): while the details can be complicated, the seven rules are clear: it's easy to increase clicks on a feature but not for the whole page, be critical of your "too good to be true" results, 
 
+### Next Time 
+
+I've been working at DataCamp for about four months now. One of the main reasons they hired me was to build out their experimentation system. It's a whole different set of challenges and mindset. I'll be giving a talk on it in October at the [Noreast'R conference](http://noreastrconf.com/). 
