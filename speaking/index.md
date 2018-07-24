@@ -9,7 +9,10 @@ I regularly give talks on A/B Testing, working in R, joining the Data Science co
 
 ## Upcoming Talks
 
-October 2018, Noreast'R Conference. Building DataCamp's A/B Testing System. 
+### Building an A/B Testing System. 
+November 2018, DC R Conference. 
+
+October 2018, Noreast'R Conference. 
 
 ## Previous Talks 
 
