@@ -4,7 +4,7 @@ And yet sometimes I would spend a majority of my time working on experiments, ev
 
 ### Basic A/B Testing Rules
 
-1) **Have one key metric for your experiment** (e.g. click through rate, conversion rate, etc). You can monitor more metrics to make sure you don’t accidentally tank them, but you should have one as a goal. Revenue is probably the **wrong** metric to pick. It is likely a very skewed distribution which makes traditional statistics tests behave poorly. See my discussion in [my A/B testing talk](https://www.youtube.com/watch?v=SF-ryGgLOgQ) (around the 23 minute mark). 
+1) **Have one key metric for your experiment** (e.g. click through rate, conversion rate, etc). You can (and should!) monitor more metrics to make sure you don’t accidentally tank them, but you should have one as a goal. Revenue is probably the **wrong** metric to pick. It is likely a very skewed distribution which makes traditional statistics tests behave poorly. See my discussion in [my A/B testing talk](https://www.youtube.com/watch?v=SF-ryGgLOgQ) (around the 23 minute mark). 
 
 2) **Use that key metric do a power calculation**. You'll input what the current rate of that metric is, how many visitors you get daily, what type of change you’re aiming to get (1% increase? 5%?), the percentage of people you’ll be allocating to your new version (e.g. are you doing 50/50 or 75/25 split), desired level of power (usually 80%) and the significance threshold (usually .05), and you can get how long you need to run this experiment for. If you’re doing a proportion metric, [experimentcalculator.com](experimentcalculator.com) is good for this. 
   
@@ -25,6 +25,8 @@ And yet sometimes I would spend a majority of my time working on experiments, ev
 9) **Be careful of launching things just because they "don't hurt"**. There may actually be a negative change that's too small to detect.  
 
 10) **Have a data scientist/analyst involed in the whole process.** As Sir R. A. Fisher once said “To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of.” If a team tries to bring you in a data scientist launched an experiment, they may find the data doesn't exist to measure their key metric, the test is severely underpowered, or there's a design flaw that means you can't draw any conclusions. 
+
+11) **Only include people in your analysis who could have been affected by the change**. https://onedrive.live.com/view.aspx?resid=8612090E610871E4!287400&ithint=file%2cdocx&app=Word&authkey=!AOW7nw7IZ4STtgk. 
 
 ### Resources
 
