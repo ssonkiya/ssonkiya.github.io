@@ -2,7 +2,9 @@ When I was working at Etsy, I benefited from a very robust A/B testing system. E
 
 And yet sometimes I would spend a majority of my time working on experiments, even though I tried to never be working on more than 3 or 4 at once. How could that take so long when so much was already done for me? The concept of A/B Testing seems pretty simple. A classic example is you change the color of a button and measuring if the click-rate changes. Assuming your assignment of visitors and data collection is working, all you need to do is run a proportion test, right? And if you already have the proportion test calculated, why is a data scientist even needed? Maybe you need one if you want to do some fancy techniques like multi-armed bandits, but how can classic, frequentist A/B Testing be a challenge? 
 
-Unfortunately, ["generating numbers is easy; generating numbers you should trust is hard!"](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf). There's many ways A/B Testing can go wrong, but most of them won't cause a bug. They'll just give you a false sense of confidence in the impact of your changes and mean you won't see benefit to your business. Exacerbated because people think it's so simple. 
+Unfortunately, while ["generating numbers is easy, generating numbers you should trust is hard."](http://notes.stephenholiday.com/Five-Puzzling-Outcomes.pdf) And in those many ways A/B Testing can go wrong, a lot of the time you may not even realize there's a problem. You'll be getting numbers and results that seem plausible (and often more positive)
+
+This post outlines some recommended best practices for A/B Testing. I've found that a lot of analysts and data scientists struggle with A/B testing, especially those not trained heavily in statistics or who are trying to start their company's A/B testing system. While A/B testing isn't simple, these 12 guidelines will help you guard against some common mistakes and set you up for success. 
 
 ### 12 Guidelines for A/B Testing
 
@@ -38,4 +40,4 @@ Unfortunately, ["generating numbers is easy; generating numbers you should trust
 
 ### Next Time
 
-While some of these things were learned in my statistics classes or experience at Etsy and DataCamp, others were learned from the great set of A/B Testing resources available online. In a future post, I'll share a list of some of my favorite papers, blog posts, and talks with short summaries of what I took away and suggested audience level. 
+While I learned some of these guidelines from my statistics classes and experiences at Etsy and DataCamp, others I learned from the great set of A/B Testing resources available online. In a future post, I'll share a list of some of my favorite papers, blog posts, and talks with short summaries of what I took away. 
