@@ -20,7 +20,7 @@ October 2018, Noreast'R Conference.
 
 May & July 2018, Metis Data Science Bootcamp. [Slides](https://www.slideshare.net/secret/7pZVPaDTHMH8aP).
 
-### The Lesser Known Stars of the Tidyverse.
+### The Lesser Known Stars of the Tidyverse
 
 April 2018, New York R Conference. [Recording](https://www.youtube.com/watch?v=ax4LXQ5t38k), [Slides](https://www.slideshare.net/secret/sMVjYvcd7yh16z).
 
@@ -32,7 +32,7 @@ January 2018, Data Day Texas Conference. [Slides](https://github.com/robinsones/
 
 ###  A/B Testing in the Wild
 
-October 2017, West Point Academy. [Slides](https://github.com/robinsones/AB-Testing-Slides/blob/master/AB%20Testing%20in%20the%20Wild.pdf)
+October 2017, West Point Academy. [Slides](https://github.com/robinsones/AB-Testing-Slides/blob/master/AB%20Testing%20in%20the%20Wild.pdf).
 
 September 2017, Demystifying Data Science by Metis. [Recording](https://www.youtube.com/watch?v=hlYFksjjgXg), [Slides](https://www.slideshare.net/secret/DBLR67WhEK2qWd).
 
