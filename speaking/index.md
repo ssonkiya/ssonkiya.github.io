@@ -22,7 +22,7 @@ May & July 2018, Metis Data Science Bootcamp. [Slides](https://www.slideshare.ne
 
 ### The Lesser Known Stars of the Tidyverse.
 
-April 2018, New York R Conference. [Slides](https://www.slideshare.net/secret/sMVjYvcd7yh16z), Recording coming soon. 
+April 2018, New York R Conference. [Recording](https://www.youtube.com/watch?v=ax4LXQ5t38k), [Slides](https://www.slideshare.net/secret/sMVjYvcd7yh16z).
 
 April 2018, Women in Analytics, Facebook. The Lesser Known Stars of the Tidyverse. [Slides](https://www.slideshare.net/secret/AcaLNF6VSwtkrT), [Code](https://github.com/robinsones/wia_talk/blob/master/wia_talk.Rmd). 
 
