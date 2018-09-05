@@ -9,10 +9,14 @@ I regularly give talks on A/B Testing, working in R, joining the Data Science co
 
 ## Upcoming Talks
 
-### Building an A/B Testing System
-November 2018, DC R Conference. 
+### Building an A/B Testing Analytics System
+November 2018, [DC R Conference](https://www.rstats.ai/speakers/). 
 
-October 2018, Noreast'R Conference. 
+October 2018, [Nor'eastR Conference](https://noreastrconf.com/schedule/). 
+
+### 10 Guidelines for A/B Testing
+
+October 2018, [PyData NYC](https://pydata.org/nyc2018/). 
 
 ## Previous Talks 
 
