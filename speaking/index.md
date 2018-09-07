@@ -15,6 +15,7 @@ November 2018, [DC R Conference](https://www.rstats.ai/speakers/).
 October 2018, [Nor'eastR Conference](https://noreastrconf.com/schedule/). 
 
 ### 10 Guidelines for A/B Testing
+March 2019, [CXL Live](https://conversionxl.com/live/). 
 
 October 2018, [PyData NYC](https://pydata.org/nyc2018/). 
 
