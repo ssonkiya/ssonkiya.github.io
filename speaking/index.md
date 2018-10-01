@@ -10,6 +10,8 @@ I regularly give talks on A/B Testing, working in R, joining the Data Science co
 ## Upcoming Talks
 
 ### Building an A/B Testing Analytics System
+January 2019, [Rstudio::conf](http://www.cvent.com/events/rstudio-conf-austin/event-summary-dd6d75526f3c4554b67c4de32aeffb47.aspx). 
+
 November 2018, [DC R Conference](https://www.rstats.ai/speakers/). 
 
 October 2018, [Nor'eastR Conference](https://noreastrconf.com/schedule/). 
@@ -31,7 +33,7 @@ April 2018, New York R Conference. [Recording](https://www.youtube.com/watch?v=a
 
 April 2018, Women in Analytics, Facebook. The Lesser Known Stars of the Tidyverse. [Slides](https://www.slideshare.net/secret/AcaLNF6VSwtkrT), [Code](https://github.com/robinsones/wia_talk/blob/master/wia_talk.Rmd). 
 
-February 2018, RStudio Conferece. [Recording](https://www.rstudio.com/resources/videos/the-lesser-known-stars-of-the-tidyverse/), [Slides](https://www.slideshare.net/EmilyRobinson52/the-lesser-known-stars-of-the-tidyverse). 
+February 2018, RStudio::conf. [Recording](https://www.rstudio.com/resources/videos/the-lesser-known-stars-of-the-tidyverse/), [Slides](https://www.slideshare.net/EmilyRobinson52/the-lesser-known-stars-of-the-tidyverse). 
 
 January 2018, Data Day Texas Conference. [Slides](https://github.com/robinsones/Data-Day-Talk/blob/master/Data_day_presentation.pdf), [Code](https://github.com/robinsones/Data-Day-Talk/blob/master/data_day_script_accompanying.md). 
 
