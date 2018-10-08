@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: double
 title: About Me
 tags: [about]
 comments: false
