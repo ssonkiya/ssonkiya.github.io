@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hooked on Data"
+title                    : ""
 title_separator          : "-"
-name                     : "Emily Robinson"
-description              : "Data Scientist at DataCamp"
-url                      : "https://robinsones.github.io"
+name                     : "Katie Aszklar"
+description              : "data storyteller"
+url                      : "https://kaszklar.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -37,7 +37,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : robinson_es
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -52,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google"
+  provider               : 
   google:
-    tracking_id          : UA-80069806-1
+    tracking_id          : 
 
 # Google AdSense
 google_ad_client         :
@@ -63,11 +63,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Emily Robinson"
-  avatar           : https://avatars.githubusercontent.com/robinsones
-  bio              : "Data Scientist"
-  location         : "New York"
-  email            : emily@datacamp.com
+  name             : "Katie Aszklar"
+  avatar           : https://avatars.githubusercontent.com/kaszklar
+  bio              : "Data Storyteller"
+  location         : "New York City"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -75,12 +75,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : robinsones
+  github           : kaszklar
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : robinsones
+  linkedin         : katieaszklar
   pinterest        :
   soundcloud       :
   stackoverflow    : 
