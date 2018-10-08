@@ -1,9 +1,3 @@
----
-layout: post
-title: Osca-regression
-permalink: /oscar-nods/
----
-
 The second project at Metis focused on web scraping and regression, and came with the suggestion to work with movie data. I suppose I'm more motivated by prestige than money because I had a :bulb: moment - could I predict the oscars? 
 
 I had heard that studios will release their oscar contenders later in the calendar year, in order to stay fresh in the minds of the Academy. This makes sense, since nomination season begins in January, with the big shin-dig going down in late February. **I wondered, how does release day impact oscar nominations?**
