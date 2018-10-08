@@ -1,3 +1,8 @@
+---
+title: Osca-Regression
+permalink: osca-regression
+---
+
 The second project at Metis focused on web scraping and regression, and came with the suggestion to work with movie data. I suppose I'm more motivated by prestige than money because I had a :bulb: moment - could I predict the oscars? 
 
 I had heard that studios will release their oscar contenders later in the calendar year, in order to stay fresh in the minds of the Academy. This makes sense, since nomination season begins in January, with the big shin-dig going down in late February. **I wondered, how does release day impact oscar nominations?**
@@ -14,7 +19,7 @@ This isn't that new to most of us - we know that there are typically a lot of fi
 
 This tells us that there is definitely something to this whole later-in-the-year idea... Even though we can see films released earlier in the year have a decent shot at _one_ nomination, **a later release day is helpful in getting _more than one_ nomination.**
 
-### Predicting Nominations
+## Predicting Nominations
 
 Before modeling and attempting to predict the number of nominations, there were a few things I had to consider. The first is that most of the films in the dataset didn't receive any nominations at all - only 16% received one or more nod from the academy. Also, nominations follow a poisson, or count , distribution; for all those situations you can't have a negative number, or half of one.  These things will certainly make things difficult for a regression problem. 
 
@@ -36,6 +41,6 @@ However, I do think that it is important to take these findings with a grain of 
 
 ![preds vs actuals](/images/oscar_nods/ols.png)
 
-### The Takeaways
+## The Takeaways
 
 I do think that this sort of problem may be better suited to classification techniques, which I'm excited to get into in our next module. Following that, we begin studying NLP, which I think would be a great way to capture features such as sentiment from media buzz and critic reviews - this may be able to better predict how much recognition a film may receive, since it's hard to capture such a visual art form with numbers alone.

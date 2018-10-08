@@ -8,7 +8,7 @@ permalink: Google-Big-Query-For-Newbs
 
 Up until my final project at Metis I had always downloaded csv's and then, if they were sizable, used them to build out my own tables and database to work with. However, for this final passion project, I really wanted to explore the Global Fishing Watch data. After requesting access, I learned that it was exclusively available on Google Big Query - needless to say I was intimidated! GBQ, as I'll now refer to it, is just one member of an entire host of cloud computing services. In order to work with the data that I wanted, I needed to navigate that world - a process that was painstaking at times. I've written this blog post to assist other fledgling data scientists.
 
-### Part I: Downloading Results 
+## Part I: Downloading Results 
 In GBQ, once you have access to some tables, it isn't hard to figure out how to query them. What I struggled with was downloading the results to play with!
 
 ![too big](/images/gbq/too-big.png)
@@ -34,13 +34,13 @@ After creating a project, you will need to create a "dataset" in that project be
 
 Now, you can copy complete tables or queries into _your_ dataset, then download (it will, however, come in chunks). This is how I first approached the issue, but later moved on to importing my queries directly into a jupyter notebook. 
 
-### Part II: Jupyter Notebook
+## Part II: Jupyter Notebook
 If you're like me and you do most of your work in notebooks, there is a way to import your queries directly into a dataframe using a few libraries. As I work in python, this section will be a bit specific to that language.
 Before we even open jupyter though, we will need to make sure google knows that we are authorized. This process also took me quite a while, and I suspect that there may be a more elegant way to do this. Generally speaking, you will need to 
 * create and download credentials and then 
 * authenticate yourself in your notebook.
   
-#### Credentials
+### Credentials
 Do do this, you will need to create a service account. It allows you to grant access to many people and set permission levels (even if that person is just yourself :stuck_out_tongue: ) You can do this on the [service account key page](https://console.cloud.google.com/apis/credentials/serviceaccountkey). The instructions below come from [here](https://cloud.google.com/docs/authentication/production).
 
 1. Go to the Create service account key page in the GCP Console.
@@ -51,7 +51,7 @@ Do do this, you will need to create a service account. It allows you to grant ac
 
 Now save that file & don't lose it! If you aren't familiar with using keys, this is a unique identifier for _you_ so it is best kept private. Often times these types of files cannot be downloaded again. This one is particular to your google account _and_ your specific dataset.
 
-#### Notebooks
+### Notebooks
 You can do this process on your local machine or any cloud instance. I suggest working in the cloud because you _won't_ be warned if your query can't be fully stored in local memory... you will just recieve a subset of your query.
 
 You will need to install the following libraries: 

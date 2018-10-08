@@ -1,3 +1,8 @@
+---
+title: Who Bikes in NYC?
+permalink: Who-Bikes-In-NYC
+---
+
 The 6th largest bike share system in the world, CitiBike has fit into the fabric of this city seamlessly, and is now as quintessentially "New York" a sight as the classic yellow cab. I have been a long time user, even quitting MTA entirely at a point, so I was really looking forward to digging into the Citibike dataset and learning a bit more about geographical analysis.
 
 One immediate thing that stood out to me was the imbalance between "customers," who have purchased a 3 or 7 day pass, and annual "subscribers." I would imagine that distinction falls heavily between tourists vs locals, and I was surprised that so few users were tourists, since this city sees approx 60 million visitors a year, while only 8.5 million people call it home. If you ask me, the **BEST** way to see this city is by bike, so I imagine that a lot of tourists are missing out on an amazing New York City experience, while Citibike is missing out on a lot of potential _customers_. 
@@ -6,7 +11,7 @@ One immediate thing that stood out to me was the imbalance between "customers," 
 
 So, who are these customers, and which stations do they frequent? Perhaps the data can inform Citibike on how to appeal to this type of user.
  
-### Popular Stations
+## Popular Stations
 
 Below are the most popular stations for **subscribers**;
 
@@ -28,13 +33,13 @@ The top customer stations are also no surprise - They are concentrated heavily a
 
 Hopefully these differences mean that I can build a reasonably good classification model to distinguish between trips taken by customers and trips taken by subscribers.
 
-### The Data
+## The Data
 
 The data is primarily "trip" data; one observation is one trip within the system. Each trip includes start station information (station id, name, latitude ,longitude) end station information, bike id, uesr type, and an optional birthyear and gender.  Approx only 5% of my target _customers_ gave gender, and only 17% gave birthyear. 
 
 Station information (such as number of open docks, number of bikes, and total docks at a station) is provided separately in the form of a current snap shot of the system, so there is no historical data. 
 
-### The Model
+## The Model
 
 The first thing that I did was assign each station a neighborhood, since this sort of information may be useful in distinguishing customers from subscribers. I did this by pulling [geojson information](https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas/cpf4-rkhq) from NYC Open Data. Unfortunately, I ended up losing the entire east side of Manhattan, with little time to trouble shoot. Luckily, I found geojson.io, a site that lets you create your own geojson files by drawing points and polygons in browser. I found myself back in business, albeit with a more simplified neighborhood breakdown. 
 
@@ -50,7 +55,7 @@ The extreme difference in average trip duration and average speed between the tw
 
 (Note that duration is in seconds, and distance is the euclidean distance between two points.)
 
-### How Can Citibike Appeal More to Tourists?
+## How Can Citibike Appeal More to Tourists?
 
 The data tells us that "customers," or tourists, are sticking to a few obvious areas. In order to increase sales to this group, Citibke should expand the stations near quintessential landmarks, or add more stations. I would like to look into the status of these customer-centric station over time and see if they are ever completely full - perhaps they would be good candidates for the "bike valets" that the company employs to manage bike overflow at popular stations during popular times. My other piece of advice, partially self-motivated but also data-driven if you look closely at the map, would be to increase stations along scenic areas such as western facing shoreline. There are very few stations along the Hudson River Greenway downtown - which is the perfect place to catch a sunset ride.
 
