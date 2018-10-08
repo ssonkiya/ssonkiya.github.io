@@ -1,8 +1,3 @@
----
-layout: post
-title: Who Bikes in NYC?
----
-
 The 6th largest bike share system in the world, CitiBike has fit into the fabric of this city seamlessly, and is now as quintessentially "New York" a sight as the classic yellow cab. I have been a long time user, even quitting MTA entirely at a point, so I was really looking forward to digging into the Citibike dataset and learning a bit more about geographical analysis.
 
 One immediate thing that stood out to me was the imbalance between "customers," who have purchased a 3 or 7 day pass, and annual "subscribers." I would imagine that distinction falls heavily between tourists vs locals, and I was surprised that so few users were tourists, since this city sees approx 60 million visitors a year, while only 8.5 million people call it home. If you ask me, the **BEST** way to see this city is by bike, so I imagine that a lot of tourists are missing out on an amazing New York City experience, while Citibike is missing out on a lot of potential _customers_. 

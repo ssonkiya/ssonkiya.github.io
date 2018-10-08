@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Google Big Query For Newbs (By a Newb)
-permalink: /bq-newbs/
+permalink: Google-Big-Query-For-Newbs
 ---
 
 > BigQuery is a RESTful web service that enables interactive analysis of massively large datasets working in conjunction with Google Storage.  
