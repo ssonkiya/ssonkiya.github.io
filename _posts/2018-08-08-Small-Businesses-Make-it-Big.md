@@ -17,7 +17,7 @@ I used the NY Times API to query their website to filter for the kind of article
 Unfortunately, and also kind of surprisingly, it was incredibly difficult to get a large number of articles. NYT doesn't publish many articles with that tag, and in total I parsed about 8,000 articles. Of all of these, there were articles that thought might have been for entrepreneurs, were too expansive in the topics covered. If the articles deviated from the topics at hand, I took them out. This finally lead me to work with about 5,500 articles. 
 Take a look at the article distribution by year below:
 
-PICTUER
+![too big](/images/NLP/article_dist.png)
 
 
 I felt this problem plagued me throughout the project. I had many more articles in the recent years, than from back then.
@@ -34,13 +34,13 @@ The topic delination seemed to be pretty nice, besides what I call the General_B
 I didn't want to classify each document to a topic by using something like max topic weight. Instead I looked at the mean percent of topic each article talked about, grouped by year.
 
 
-TABLEAU PICTURE
+![too big](/images/NLP/tableau_topic_percent.png)
 
 
 What this means, is that in 2015-2018, on average ~30% of articles were about gen_business, and 16% of the articles were related to the silicon_valley topic etc. So you can see an overview of how topics changed over time. However, since some topcis can be pretty difficult to examine here, let's look at them seperately.
 
 
-FEMALE ENTREPRENEURSHIP PICTURE
+![too big](/images/NLP/female_entrepreneurship.png)
 
 
 
@@ -48,14 +48,16 @@ This was a topic I didn't even think about being a seperate topic until the NMF 
 
 To check the legitmacy of my chart, I did some research, and looked into the articles from that time. Lo and behold, this is when Carter became President. As a proponet of female entrepreneurship, he signed an execution order to expand women's business enterprises. Thus the small business administration was providing resources to help women small business owners. And this was written about!
 
-HEALTH INSURANCE
+![too big](/images/NLP/health_insurance.png)
 
 Similar to health insurance, I wanted to check why there was a spike between 1991 and 1994. And after some research, I found out that it was because there was talk to pass universal health care. And as such, there was a bunch of commotion around the issue.
 
-SOCIAL MEDIA
+
+![too big](/images/NLP/social_media.png)
 
 
-RIDE SHARING
+![too big](/images/NLP/ride_sharing.png)
+
 
 
 These charts make a lot of sense, they about look like what they should.
@@ -66,7 +68,7 @@ I also wanted to look at general sentiment over time. Using Vader sentiment anal
 I tried plotting sentiment over the years, but there was just too much noises, and I didn't get back meaningful information. Basically looks cyclical.
 
 
-FIVE YEAR SENTIMENT GRAPH
+![too big](/images/NLP/general_sent.png)
 
 
 
