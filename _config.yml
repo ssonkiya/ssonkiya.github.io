@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Posts"
 title_separator          : "-"
 name                     : "Shreshth Sonkiya"
-description              : "data storyteller"
+description              : ""
 url                      : "https://ssonkiya.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
