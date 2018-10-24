@@ -1,7 +1,95 @@
 ---
-title: Google Big Query For Newbs (By a Newb)
-permalink: Google-Big-Query-For-Newbs
+title: When Small Businesses Make it Big
+permalink: Small-Businesses-Make-it-Bit
 ---
+
+
+
+Project Fletcher "Blog Post"
+
+
+Project Flether is Metis students' last project before the final project. This was also a project we received the most time for so far. This project was NLP focused and thus we needed to obtain text data.
+
+I decided to analyze new york times articles related to small business from 1970 to the present. Why 1970, well because the articles before only seemed to be avialable in some pdf.
+
+I used the NY Times API to query their website to filter for the kind of articles. I keywords I specified were "Entrepreneurship", "Small Business", and "Venture Capitalism." I figured this capture the essense of small business.
+
+Unfortunately, and also kind of surprisingly, it was incredibly difficult to get a large number of articles. NYT doesn't publish many articles with that tag, and in total I parsed about 8,000 articles. Of all of these, there were articles that thought might have been for entrepreneurs, were too expansive in the topics covered. If the articles deviated from the topics at hand, I took them out. This finally lead me to work with about 5,500 articles. 
+Take a look at the article distribution by year below:
+
+PICTUER
+
+
+I felt this problem plagued me throughout the project. I had many more articles in the recent years, than from back then.
+
+I cleaned by articles with tokenization, and the general preprocessing. I used TFIDF with a max_df of 0.4. This is just the hyperparameter that seemed to best parse out different topics for me. Running an NMF yieled me these topics:
+
+
+
+
+
+
+The topic delination seemed to be pretty nice, besides what I call the General_Business topic. This seems to be the catch all topic, if they didn't fit into the other topics.
+
+I didn't want to classify each document to a topic by using something like max topic weight. Instead I looked at the mean percent of topic each article talked about, grouped by year.
+
+
+TABLEAU PICTURE
+
+
+What this means, is that in 2015-2018, on average ~30% of articles were about gen_business, and 16% of the articles were related to the silicon_valley topic etc. So you can see an overview of how topics changed over time. However, since some topcis can be pretty difficult to examine here, let's look at them seperately.
+
+
+FEMALE ENTREPRENEURSHIP PICTURE
+
+
+
+This was a topic I didn't even think about being a seperate topic until the NMF model presented it to me. I figured the topic would have an upwards trend, just since there has been a lot of push to get minorities(race & gender) have equal opportunities in the work force, I figured small businesses could have also been affected. To my chagrin, it almost seemed like a downward slope. There was a spike in 1977! Why would have this been...
+
+To check the legitmacy of my chart, I did some research, and looked into the articles from that time. Lo and behold, this is when Carter became President. As a proponet of female entrepreneurship, he signed an execution order to expand women's business enterprises. Thus the small business administration was providing resources to help women small business owners. And this was written about!
+
+HEALTH INSURANCE
+
+Similar to health insurance, I wanted to check why there was a spike between 1991 and 1994. And after some research, I found out that it was because there was talk to pass universal health care. And as such, there was a bunch of commotion around the issue.
+
+SOCIAL MEDIA
+
+
+RIDE SHARING
+
+
+These charts make a lot of sense, they about look like what they should.
+
+
+I also wanted to look at general sentiment over time. Using Vader sentiment analysis, I analyzed each article. Overall, I noticed that most of the articles had positive senitment. As a matter of fact, there were twice as many articles that were tagged with a positive sentiment, than either netual or negative articles.
+
+I tried plotting sentiment over the years, but there was just too much noises, and I didn't get back meaningful information. Basically looks cyclical.
+
+
+FIVE YEAR SENTIMENT GRAPH
+
+
+
+
+So I didn't really uncover any major secrets, but it was really cool how my data was about to illuminate all these stories, when all I give it were articles. Next steps would to be decompose the general business topic even further.
+
+
+
+Feedback:
+Next steps would to be try to decompose the general_business topic. You can try to do these two ways:
+
+1) Run a topic analysis on only the general_businss topic articles. See what you get.
+2) Instead of classifying articles to gen_bus, classify them to the second most highest topic. See what you get then. 
+
+The t-SNE really does suggest that there is more separation.
+
+
+
+
+
+
+
+
 
 > BigQuery is a RESTful web service that enables interactive analysis of massively large datasets working in conjunction with Google Storage.  
 -[Wikipedia](https://en.wikipedia.org/wiki/BigQuery)
