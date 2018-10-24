@@ -8,5 +8,5 @@ comments: false
 
 Shreshth graduated from University of Pennsylvania with degrees in Economics and Systems Engineering.
 
-Currently in NYC! :city:
+Currently in NYC! :cityscape:
 
