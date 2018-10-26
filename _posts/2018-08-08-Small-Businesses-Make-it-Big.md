@@ -3,52 +3,51 @@ title: When Small Businesses Make it Big
 permalink: Small-Businesses-Make-it-Big
 ---
 
-For my unsupervised NLP project, I decided to take a look at small business and entrepreneurship articles to see if I could identify trends and changes in them over time.
-
-With a relatively easy to use API, and access to a multitude of articles across decades, New York Times was my newpaper of choice for the project.
-
-I filtered for articles that matched on keywords of "Entrepreneurship", "Small Business", and "Venture Capitalism" since I they yielded the most results and seemed to encapsulate small businesss.
+For my unsupervised Natural Language Processing (NLP) project, I decided to take a look at trends in small business topics over a span of almost 50 years, through the lens of New York Times.
 
 
-Unfortunately, and also, kind of surprisingly, it was incredibly difficult to get a large number of articles. NYT doesn't publish many articles with those tags, and in total I parsed about 8,000 articles from 1970 to current. Of all of these, there were articles that, though might have been for entrepreneurs, were briefings and overviews about what was going on in the world. Since global news was definitely not what I was looking for, and was going to dirty my topic modelling, I threw them out. This finally lead me to work with about 5,500 articles. 
+With a relatively easy to use API, and access to a multitude of articles across decades, New York Times was the obvious newspaper of choice for the project. I filtered for articles that matched on keywords of "Entrepreneurship", "Small Business", and "Venture Capitalism," casting a net wide enough for multiple matches, yet still constraining only to articles that would encapsulate the idea of small business and entrepreneurship.
 
 
-This is what the article distribution by year looked like:
+Unfortunately, and also, kind of surprisingly, it was incredibly difficult to match on a very large number of articles - in total I parsed about 8,000 articles from 1970 to current. Of these, there were articles that, though might have been written for entrepreneurs, were briefings and overviews of global events. Since macro related topics were out of scope for the project, I further cleaned my corpus my dropping articles of such content. This finally led to a working clean corpus of about 5,500 articles.
+
+Article distribution by year looked as the below. There were definitely more articles published with entrepreneurship tags in the 2000s compared to before then.
 
 ![too big](/images/NLP/article_dist.png)
 
+I preprocessed the NYT corpus using standard NLP methods (NLTK tokenization, cleaning data for punctuation, numbers, and stop words, and TF-IDF with max_df of 0.4).
 
-I felt this unequal distribution plagued me throughout the project. I had many more articles in the recent years, than from back then.
-
-I cleaned by articles with tokenization, and the general preprocessing. I used TFIDF with a max_df of 0.4. This is just the hyperparameter that seemed to best parse out different topics for me. 
-Running an NMF yielded me these topics:
+Running an NMF model yielded the following topics:
 
 ![too big](/images/NLP/topic_modelling.png)
 
 
-The topic delination seemed to be pretty nice, disregarding what I called the general_business topic. This seems to be the catch all topic, since the words definitely didn't describe a topic as strongly as the other groups.
+The topic delineation looked fantastic, and topics were generally easy to identify from the associated words. There was a general catch all topic which I called the general_business topic, suggesting further delineation between topics could have been possible.
 
 
-I didn't want to classify each document to a topic by using something like max topic weight. Instead I looked at the mean percent of topic each article talked about, grouped by year.
+I didn't want to classify each newspaper article to a specific topic, which is often done by using max topic weight.
+Instead I looked at the mean percent of topic each article talked about. When grouped in years, this allowed years with a smaller number of articles to still have a decent spread of topics.
 
-
+An overview of mean percent topic change over time is below.
 ![too big](/images/NLP/tableau_topic_percent.png)
 
 
-What this means, is that in 2015-2018, on average ~30% of articles were about gen_business, and 16% of the articles were related to the silicon_valley topic etc. So you can see an overview of how topics changed over time. However, since some topcis can be pretty difficult to examine here, I decided to look at them sepereately as well.
+This says that in 2015-2018, on average ~30% of articles were about general business, and 16% of the articles were related to the Silicon Valley topic, etc. 
 
 
+Since, some topics can be pretty difficult to examine here, I decided to look at them separately as well.
 
 ![too big](/images/NLP/female_entrepreneurship.png)
 
+Female entrepreneurship as a topic didn't cross my mind (unfortunately) until I was presented with it via the NMF modelling (wonders of unsupervised learning!). And even then, I assumed that it would be an upward trending topic.
+To my chagrin, the graph has an almost downward trending chart. Why was there such a spike in 1977?
 
-Female entrepreneurship was a topic I didn't even think about until the NMF model presented it to me. And still, I figured the topic would have an upward trend. To my chagrin, it almost seemed like a downward slope. There was a spike in 1977! Why would have this been?
 
-To check the legitmacy of my model, I did some research, and looked into the articles from that time. Lo and behold, this is when Carter became President. As a proponet of female entrepreneurship, he signed an executive order to expand women's business enterprises. Thus the small business administration was providing resources to help women small business owners. And there were plenty of articles on this topic!
+To check the legitimacy of my model, I did some research, and looked into the articles from that time. Lo and behold, this is when Jimmy Carter became president. As a large proponent of female entrepreneurship, he signed an executive order to support the expansion of women lead enterprises. Though the executive order was signed in 1979, work towards that goal was well under way by 1977.
 
 ![too big](/images/NLP/health_insurance.png)
 
-Here too the chart looked interesting. I wanted to check out why there was a spike between 1991 and 1994. And after some research, I found out that it was because there was talk to pass universal health care. And as such, there was a bunch of commotion around the issue.
+I found the above graph to be interesting as well. I wasn't sure why there was a spike between 1991 and 1994. After some research, I found out that it was because there was talk to pass universal health care. And as such, there was a bunch of commotion around the issue.
 
 
 ![too big](/images/NLP/social_media.png)
@@ -56,24 +55,20 @@ Here too the chart looked interesting. I wanted to check out why there was a spi
 
 ![too big](/images/NLP/ride_sharing.png)
 
+These charts generally made sense, and looked within expectations.
 
-These charts generally make sense, and generally look like what I would expect.
 
+Lastly, I wanted to take a look at general sentiment. Using polarity weights from vaderSentiment, I classified each article to generally have positive, negative or neutral sentiment. Overall, I noticed that most of the articles were classified to be positive. As a matter of fact, there were twice as many articles that were classified to be positive, then either negative or neutral.
 
-I also wanted to look at general sentiment over time. Using Vader sentiment analysis, I analyzed each article. Overall, I noticed that most of the articles had positive senitment. As a matter of fact, there were twice as many articles that were tagged with a positive sentiment, than either netual or negative articles.
-
-I tried plotting sentiment over the years, but there was just too much noises, and I didn't get back meaningful information. Basically looks cyclical.
-
+> Expanded upon the sentiment analysis [here](https://ssonkiya.github.io/Small-Businesses-Sentiment-Analysis)
 
 ![too big](/images/NLP/general_sent.png)
 
 
-
-So I didn't really uncover any major secrets, but it was really cool how my data was about to illuminate all these stories, when all I gave it were a bunch of articles! 
-
-
-Next steps would to be decompose the general business topic even further. This could be by running a topic analysis on only the articles classified with the general_business topic or to classify articles by the second highest topic probability.
+Though I didn't really uncover any major secrets, I was amazed at how well NLP was able to illuminate such interesting stories given just a corpus of newspaper articles.
 
 
-The t-SNE really does suggest that there is more separation.
+Next steps would to be decompose the general business topic even further. This could be by running a topic analysis on only the articles classified with that topic or to classify articles by the second highest topic probability.
+
+
 
