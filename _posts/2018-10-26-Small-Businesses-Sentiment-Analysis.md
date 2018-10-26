@@ -16,22 +16,22 @@ As mentioned in my previous post, the majority of my articles contained positive
 
 The sentiment data frame aggregated by day looked like the following:
 
-![too big](/NLP_sentiment_analysis/code0.png)
+![too big](/images/NLP_sentiment_analysis/code0.png)
 
 Below I pull in stock data and combine with sentiment data:
 
-![too big](/NLP_sentiment_analysis/code1.png)
+![too big](/images/NLP_sentiment_analysis/code1.png)
 
 
 Next, I calculated zscores to scale my data for comparison.
 
-![too big](/NLP_sentiment_analysis/code2.png)
+![too big](/images/NLP_sentiment_analysis/code2.png)
 
 
 Looking at the time series plot below, generally the sentiment data looks noisy. You can definitely see the sentiment fell around late 2008, along with the stock prices, which is what we would expect. Yet if sentiment had significant predictive power, we would expect to see a fall in sentiment preceding a fall in market prices. However, it is interesting to note that sentiment does rise more quickly than the stock market prices coming out of the financial crisis.
 
 
-![too big](/NLP_sentiment_analysis/graph.png)
+![too big](/images/NLP_sentiment_analysis/graph.png)
 
 
 I considered filtering to articles with only strong distinct sentiments (articles closer to neutral would be dropped), but that was going to drop almost two-thirds of my data.
